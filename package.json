@@ -24,7 +24,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "better-sqlite3": "^13.0.3",
     "mapshaper": "^0.7.56",
-    "vite": "^5.4.8",
+    "vite": "^6.0.0",
     "vitest": "^2.1.1"
   }
 }
