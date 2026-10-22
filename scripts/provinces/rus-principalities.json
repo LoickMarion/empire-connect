@@ -1,0 +1,165 @@
+{
+ "_comment": "Splits the source's \"Other Rus Principalities\" (1200 snapshot) into the principalities that held each province, and makes Tver an independent principality from the 1300 snapshot until Moscow annexed it in 1485. Same format as napoleonic-conquests.json; the until of each group is the year the old label ended, so the Mongol conquest dates stay as they were.",
+ "groups": [
+  {
+   "name": "Vladimir-Suzdal (Moscow)",
+   "until": 1236,
+   "timeline": [
+    [
+     1200,
+     "Principality of Vladimir-Suzdal"
+    ]
+   ],
+   "provinces": [
+    "Russia/Moscow"
+   ]
+  },
+  {
+   "name": "Vladimir-Suzdal (Tver)",
+   "until": 1239,
+   "timeline": [
+    [
+     1200,
+     "Principality of Vladimir-Suzdal"
+    ]
+   ],
+   "provinces": [
+    "Russia/Tver"
+   ]
+  },
+  {
+   "name": "Smolensk (Rzhev)",
+   "until": 1239,
+   "timeline": [
+    [
+     1200,
+     "Principality of Smolensk"
+    ]
+   ],
+   "provinces": [
+    "Russia/Rzhev"
+   ]
+  },
+  {
+   "name": "Chernigov",
+   "until": 1239,
+   "timeline": [
+    [
+     1200,
+     "Principality of Chernigov"
+    ]
+   ],
+   "provinces": [
+    "Russia/Kaluga",
+    "Russia/Tula",
+    "Russia/Bryansk",
+    "Russia/Kursk",
+    "Ukraine/Chernihiv"
+   ]
+  },
+  {
+   "name": "Polotsk",
+   "until": 1278,
+   "timeline": [
+    [
+     1200,
+     "Principality of Polotsk"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Polotsk",
+    "Belarus/Vitebsk",
+    "Belarus/Minsk"
+   ]
+  },
+  {
+   "name": "Smolensk",
+   "until": 1278,
+   "timeline": [
+    [
+     1200,
+     "Principality of Smolensk"
+    ]
+   ],
+   "provinces": [
+    "Russia/Smolensk",
+    "Belarus/Mogilev"
+   ]
+  },
+  {
+   "name": "Turov-Pinsk",
+   "until": 1278,
+   "timeline": [
+    [
+     1200,
+     "Principality of Turov"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Bobruisk",
+    "Belarus/Mozyr"
+   ]
+  },
+  {
+   "name": "Chernigov (Gomel)",
+   "until": 1278,
+   "timeline": [
+    [
+     1200,
+     "Principality of Chernigov"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Gomel"
+   ]
+  },
+  {
+   "name": "Navahrudak",
+   "until": 1278,
+   "timeline": [
+    [
+     1200,
+     "Principality of Turov"
+    ],
+    [
+     1240,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Novogrudok"
+   ]
+  },
+  {
+   "name": "Vilnius",
+   "until": 1278,
+   "timeline": [
+    [
+     1200,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Lithuania/Vilnius"
+   ]
+  },
+  {
+   "name": "Tver, independent until 1485",
+   "until": 1491,
+   "timeline": [
+    [
+     1300,
+     "Principality of Tver"
+    ],
+    [
+     1486,
+     "@1492"
+    ]
+   ],
+   "provinces": [
+    "Russia/Tver",
+    "Russia/Rzhev"
+   ]
+  }
+ ]
+}

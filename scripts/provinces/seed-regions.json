@@ -1,0 +1,9678 @@
+{
+ "Denmark": [
+  {
+   "region": "Nordjylland",
+   "city": "Aalborg",
+   "lat": 57.05,
+   "lon": 9.92
+  },
+  {
+   "region": "Midtjylland",
+   "city": "Aarhus",
+   "lat": 56.16,
+   "lon": 10.2
+  },
+  {
+   "region": "Ribe",
+   "city": "Ribe",
+   "lat": 55.33,
+   "lon": 8.76
+  },
+  {
+   "region": "Sønderjylland",
+   "city": "Haderslev",
+   "lat": 55.25,
+   "lon": 9.49
+  },
+  {
+   "region": "Fyn",
+   "city": "Odense",
+   "lat": 55.4,
+   "lon": 10.39
+  },
+  {
+   "region": "Sjælland",
+   "city": "Copenhagen",
+   "lat": 55.68,
+   "lon": 12.57
+  },
+  {
+   "region": "Lolland-Falster",
+   "city": "Nykøbing Falster",
+   "lat": 54.77,
+   "lon": 11.87
+  },
+  {
+   "region": "Bornholm",
+   "city": "Rønne",
+   "lat": 55.1,
+   "lon": 14.7
+  }
+ ],
+ "Norway": [
+  {
+   "region": "Oslo",
+   "city": "Oslo",
+   "lat": 59.91,
+   "lon": 10.75
+  },
+  {
+   "region": "Buskerud",
+   "city": "Drammen",
+   "lat": 59.74,
+   "lon": 10.2
+  },
+  {
+   "region": "Telemark",
+   "city": "Skien",
+   "lat": 59.21,
+   "lon": 9.61
+  },
+  {
+   "region": "Agder",
+   "city": "Kristiansand",
+   "lat": 58.15,
+   "lon": 8.0
+  },
+  {
+   "region": "Rogaland",
+   "city": "Stavanger",
+   "lat": 58.97,
+   "lon": 5.73
+  },
+  {
+   "region": "Hordaland",
+   "city": "Bergen",
+   "lat": 60.39,
+   "lon": 5.32
+  },
+  {
+   "region": "Sogn",
+   "city": "Førde",
+   "lat": 61.45,
+   "lon": 5.85
+  },
+  {
+   "region": "Møre",
+   "city": "Ålesund",
+   "lat": 62.47,
+   "lon": 6.15
+  },
+  {
+   "region": "Trøndelag",
+   "city": "Trondheim",
+   "lat": 63.43,
+   "lon": 10.4
+  },
+  {
+   "region": "Hedmark",
+   "city": "Hamar",
+   "lat": 60.79,
+   "lon": 11.07
+  },
+  {
+   "region": "Gudbrandsdalen",
+   "city": "Lillehammer",
+   "lat": 61.12,
+   "lon": 10.47
+  },
+  {
+   "region": "Helgeland",
+   "city": "Mo i Rana",
+   "lat": 66.31,
+   "lon": 14.14
+  },
+  {
+   "region": "Salten",
+   "city": "Bodø",
+   "lat": 67.28,
+   "lon": 14.4
+  },
+  {
+   "region": "Hålogaland",
+   "city": "Tromsø",
+   "lat": 69.65,
+   "lon": 18.96
+  },
+  {
+   "region": "Finnmark",
+   "city": "Alta",
+   "lat": 69.97,
+   "lon": 23.27
+  },
+  {
+   "region": "Svalbard",
+   "city": "Longyearbyen",
+   "lat": 78.22,
+   "lon": 15.65
+  }
+ ],
+ "Sweden": [
+  {
+   "region": "Skåne",
+   "city": "Malmö",
+   "lat": 55.6,
+   "lon": 13.0
+  },
+  {
+   "region": "Halland",
+   "city": "Halmstad",
+   "lat": 56.67,
+   "lon": 12.86
+  },
+  {
+   "region": "Blekinge",
+   "city": "Karlskrona",
+   "lat": 56.16,
+   "lon": 15.59
+  },
+  {
+   "region": "Småland",
+   "city": "Växjö",
+   "lat": 56.88,
+   "lon": 14.81
+  },
+  {
+   "region": "Kalmar",
+   "city": "Kalmar",
+   "lat": 56.66,
+   "lon": 16.36
+  },
+  {
+   "region": "Bohuslän",
+   "city": "Uddevalla",
+   "lat": 58.35,
+   "lon": 11.94
+  },
+  {
+   "region": "Göteborg",
+   "city": "Gothenburg",
+   "lat": 57.71,
+   "lon": 11.97
+  },
+  {
+   "region": "Västergötland",
+   "city": "Skara",
+   "lat": 58.39,
+   "lon": 13.44
+  },
+  {
+   "region": "Östergötland",
+   "city": "Linköping",
+   "lat": 58.41,
+   "lon": 15.62
+  },
+  {
+   "region": "Närke",
+   "city": "Örebro",
+   "lat": 59.27,
+   "lon": 15.21
+  },
+  {
+   "region": "Värmland",
+   "city": "Karlstad",
+   "lat": 59.38,
+   "lon": 13.5
+  },
+  {
+   "region": "Västmanland",
+   "city": "Västerås",
+   "lat": 59.61,
+   "lon": 16.55
+  },
+  {
+   "region": "Södermanland",
+   "city": "Nyköping",
+   "lat": 58.75,
+   "lon": 17.01
+  },
+  {
+   "region": "Stockholm",
+   "city": "Stockholm",
+   "lat": 59.33,
+   "lon": 18.07
+  },
+  {
+   "region": "Uppland",
+   "city": "Uppsala",
+   "lat": 59.86,
+   "lon": 17.64
+  },
+  {
+   "region": "Dalarna",
+   "city": "Falun",
+   "lat": 60.61,
+   "lon": 15.63
+  },
+  {
+   "region": "Gästrikland",
+   "city": "Gävle",
+   "lat": 60.67,
+   "lon": 17.14
+  },
+  {
+   "region": "Medelpad",
+   "city": "Sundsvall",
+   "lat": 62.39,
+   "lon": 17.31
+  },
+  {
+   "region": "Jämtland",
+   "city": "Östersund",
+   "lat": 63.18,
+   "lon": 14.64
+  },
+  {
+   "region": "Ångermanland",
+   "city": "Härnösand",
+   "lat": 62.63,
+   "lon": 17.94
+  },
+  {
+   "region": "Västerbotten",
+   "city": "Umeå",
+   "lat": 63.83,
+   "lon": 20.26
+  },
+  {
+   "region": "Norrbotten",
+   "city": "Luleå",
+   "lat": 65.58,
+   "lon": 22.15
+  },
+  {
+   "region": "Lappland",
+   "city": "Kiruna",
+   "lat": 67.86,
+   "lon": 20.23
+  },
+  {
+   "region": "Gotland",
+   "city": "Visby",
+   "lat": 57.64,
+   "lon": 18.3
+  }
+ ],
+ "Finland": [
+  {
+   "region": "Uusimaa",
+   "city": "Helsinki",
+   "lat": 60.17,
+   "lon": 24.94
+  },
+  {
+   "region": "Varsinais-Suomi",
+   "city": "Turku",
+   "lat": 60.45,
+   "lon": 22.27
+  },
+  {
+   "region": "Satakunta",
+   "city": "Pori",
+   "lat": 61.49,
+   "lon": 21.8
+  },
+  {
+   "region": "Pirkanmaa",
+   "city": "Tampere",
+   "lat": 61.5,
+   "lon": 23.76
+  },
+  {
+   "region": "Häme",
+   "city": "Hämeenlinna",
+   "lat": 61.0,
+   "lon": 24.46
+  },
+  {
+   "region": "Kymenlaakso",
+   "city": "Kotka",
+   "lat": 60.47,
+   "lon": 26.95
+  },
+  {
+   "region": "Etelä-Karjala",
+   "city": "Lappeenranta",
+   "lat": 61.06,
+   "lon": 28.19
+  },
+  {
+   "region": "Savo",
+   "city": "Kuopio",
+   "lat": 62.89,
+   "lon": 27.68
+  },
+  {
+   "region": "Pohjois-Karjala",
+   "city": "Joensuu",
+   "lat": 62.6,
+   "lon": 29.76
+  },
+  {
+   "region": "Keski-Suomi",
+   "city": "Jyväskylä",
+   "lat": 62.24,
+   "lon": 25.75
+  },
+  {
+   "region": "Pohjanmaa",
+   "city": "Vaasa",
+   "lat": 63.1,
+   "lon": 21.62
+  },
+  {
+   "region": "Kainuu",
+   "city": "Kajaani",
+   "lat": 64.22,
+   "lon": 27.73
+  },
+  {
+   "region": "Pohjois-Pohjanmaa",
+   "city": "Oulu",
+   "lat": 65.01,
+   "lon": 25.47
+  },
+  {
+   "region": "Lappi",
+   "city": "Rovaniemi",
+   "lat": 66.5,
+   "lon": 25.73
+  },
+  {
+   "region": "Pohjois-Lappi",
+   "city": "Ivalo",
+   "lat": 68.66,
+   "lon": 27.54
+  },
+  {
+   "region": "Åland",
+   "city": "Mariehamn",
+   "lat": 60.1,
+   "lon": 19.94
+  }
+ ],
+ "Iceland": [
+  {
+   "region": "Suðvesturland",
+   "city": "Reykjavík",
+   "lat": 64.15,
+   "lon": -21.94
+  },
+  {
+   "region": "Suðurland",
+   "city": "Selfoss",
+   "lat": 63.93,
+   "lon": -20.99
+  },
+  {
+   "region": "Vestfirðir",
+   "city": "Ísafjörður",
+   "lat": 66.07,
+   "lon": -23.12
+  },
+  {
+   "region": "Norðurland",
+   "city": "Akureyri",
+   "lat": 65.69,
+   "lon": -18.09
+  },
+  {
+   "region": "Austurland",
+   "city": "Egilsstaðir",
+   "lat": 65.26,
+   "lon": -14.4
+  }
+ ],
+ "Slovenia": [
+  {
+   "region": "Carniola",
+   "city": "Ljubljana",
+   "lat": 46.06,
+   "lon": 14.51
+  },
+  {
+   "region": "Lower Carniola",
+   "city": "Novo Mesto",
+   "lat": 45.8,
+   "lon": 15.17
+  },
+  {
+   "region": "Lower Styria",
+   "city": "Maribor",
+   "lat": 46.55,
+   "lon": 15.65
+  },
+  {
+   "region": "Gorizia",
+   "city": "Nova Gorica",
+   "lat": 45.96,
+   "lon": 13.65
+  },
+  {
+   "region": "Littoral",
+   "city": "Koper",
+   "lat": 45.55,
+   "lon": 13.73
+  }
+ ],
+ "Croatia": [
+  {
+   "region": "Zagreb",
+   "city": "Zagreb",
+   "lat": 45.81,
+   "lon": 15.98
+  },
+  {
+   "region": "Zagorje",
+   "city": "Varaždin",
+   "lat": 46.31,
+   "lon": 16.34
+  },
+  {
+   "region": "Slavonia",
+   "city": "Osijek",
+   "lat": 45.55,
+   "lon": 18.69
+  },
+  {
+   "region": "Banovina",
+   "city": "Sisak",
+   "lat": 45.49,
+   "lon": 16.37
+  },
+  {
+   "region": "Pokuplje",
+   "city": "Karlovac",
+   "lat": 45.49,
+   "lon": 15.55
+  },
+  {
+   "region": "Lika",
+   "city": "Gospić",
+   "lat": 44.55,
+   "lon": 15.37
+  },
+  {
+   "region": "Kvarner",
+   "city": "Rijeka",
+   "lat": 45.33,
+   "lon": 14.44
+  },
+  {
+   "region": "Istria",
+   "city": "Pula",
+   "lat": 44.87,
+   "lon": 13.85
+  },
+  {
+   "region": "Zadar",
+   "city": "Zadar",
+   "lat": 44.12,
+   "lon": 15.23
+  },
+  {
+   "region": "Dalmatia",
+   "city": "Split",
+   "lat": 43.51,
+   "lon": 16.44
+  },
+  {
+   "region": "Ragusa",
+   "city": "Dubrovnik",
+   "lat": 42.65,
+   "lon": 18.09
+  }
+ ],
+ "Bosnia and Herzegovina": [
+  {
+   "region": "Bosnia",
+   "city": "Sarajevo",
+   "lat": 43.86,
+   "lon": 18.41
+  },
+  {
+   "region": "Krajina",
+   "city": "Banja Luka",
+   "lat": 44.77,
+   "lon": 17.19
+  },
+  {
+   "region": "Bihać",
+   "city": "Bihać",
+   "lat": 44.81,
+   "lon": 15.87
+  },
+  {
+   "region": "Central Bosnia",
+   "city": "Zenica",
+   "lat": 44.2,
+   "lon": 17.91
+  },
+  {
+   "region": "Tuzla",
+   "city": "Tuzla",
+   "lat": 44.54,
+   "lon": 18.67
+  },
+  {
+   "region": "Herzegovina",
+   "city": "Mostar",
+   "lat": 43.34,
+   "lon": 17.81
+  },
+  {
+   "region": "Trebinje",
+   "city": "Trebinje",
+   "lat": 42.71,
+   "lon": 18.34
+  }
+ ],
+ "Republic of Serbia": [
+  {
+   "region": "Belgrade",
+   "city": "Belgrade",
+   "lat": 44.79,
+   "lon": 20.45
+  },
+  {
+   "region": "Bačka",
+   "city": "Novi Sad",
+   "lat": 45.25,
+   "lon": 19.84
+  },
+  {
+   "region": "Banat",
+   "city": "Zrenjanin",
+   "lat": 45.38,
+   "lon": 20.39
+  },
+  {
+   "region": "Srem",
+   "city": "Sremska Mitrovica",
+   "lat": 44.97,
+   "lon": 19.61
+  },
+  {
+   "region": "Mačva",
+   "city": "Šabac",
+   "lat": 44.76,
+   "lon": 19.69
+  },
+  {
+   "region": "Šumadija",
+   "city": "Kragujevac",
+   "lat": 44.01,
+   "lon": 20.91
+  },
+  {
+   "region": "Zlatibor",
+   "city": "Užice",
+   "lat": 43.86,
+   "lon": 19.85
+  },
+  {
+   "region": "Raška",
+   "city": "Novi Pazar",
+   "lat": 43.14,
+   "lon": 20.52
+  },
+  {
+   "region": "Kruševac",
+   "city": "Kruševac",
+   "lat": 43.58,
+   "lon": 21.33
+  },
+  {
+   "region": "Niš",
+   "city": "Niš",
+   "lat": 43.32,
+   "lon": 21.9
+  },
+  {
+   "region": "Timok",
+   "city": "Zaječar",
+   "lat": 43.9,
+   "lon": 22.26
+  },
+  {
+   "region": "Jablanica",
+   "city": "Leskovac",
+   "lat": 42.99,
+   "lon": 21.95
+  },
+  {
+   "region": "Pčinja",
+   "city": "Vranje",
+   "lat": 42.55,
+   "lon": 21.9
+  }
+ ],
+ "Kosovo": [
+  {
+   "region": "Kosovo",
+   "city": "Pristina",
+   "lat": 42.66,
+   "lon": 21.17
+  },
+  {
+   "region": "Prizren",
+   "city": "Prizren",
+   "lat": 42.21,
+   "lon": 20.74
+  },
+  {
+   "region": "Mitrovica",
+   "city": "Mitrovica",
+   "lat": 42.89,
+   "lon": 20.87
+  }
+ ],
+ "Montenegro": [
+  {
+   "region": "Zeta",
+   "city": "Podgorica",
+   "lat": 42.44,
+   "lon": 19.26
+  },
+  {
+   "region": "Boka",
+   "city": "Kotor",
+   "lat": 42.42,
+   "lon": 18.77
+  },
+  {
+   "region": "Nikšić",
+   "city": "Nikšić",
+   "lat": 42.77,
+   "lon": 18.94
+  },
+  {
+   "region": "Sandžak",
+   "city": "Bijelo Polje",
+   "lat": 43.04,
+   "lon": 19.75
+  }
+ ],
+ "North Macedonia": [
+  {
+   "region": "Skopje",
+   "city": "Skopje",
+   "lat": 41.99,
+   "lon": 21.43
+  },
+  {
+   "region": "Polog",
+   "city": "Tetovo",
+   "lat": 42.01,
+   "lon": 20.97
+  },
+  {
+   "region": "Pelagonia",
+   "city": "Bitola",
+   "lat": 41.03,
+   "lon": 21.34
+  },
+  {
+   "region": "Ohrid",
+   "city": "Ohrid",
+   "lat": 41.12,
+   "lon": 20.8
+  },
+  {
+   "region": "Ovče Pole",
+   "city": "Štip",
+   "lat": 41.74,
+   "lon": 22.19
+  }
+ ],
+ "Albania": [
+  {
+   "region": "Shkodër",
+   "city": "Shkodër",
+   "lat": 42.07,
+   "lon": 19.51
+  },
+  {
+   "region": "Kukës",
+   "city": "Kukës",
+   "lat": 42.08,
+   "lon": 20.42
+  },
+  {
+   "region": "Tirana",
+   "city": "Tirana",
+   "lat": 41.33,
+   "lon": 19.82
+  },
+  {
+   "region": "Elbasan",
+   "city": "Elbasan",
+   "lat": 41.11,
+   "lon": 20.08
+  },
+  {
+   "region": "Korçë",
+   "city": "Korçë",
+   "lat": 40.62,
+   "lon": 20.78
+  },
+  {
+   "region": "Vlorë",
+   "city": "Vlorë",
+   "lat": 40.47,
+   "lon": 19.49
+  },
+  {
+   "region": "Gjirokastër",
+   "city": "Gjirokastër",
+   "lat": 40.08,
+   "lon": 20.14
+  }
+ ],
+ "Bulgaria": [
+  {
+   "region": "Sofia",
+   "city": "Sofia",
+   "lat": 42.7,
+   "lon": 23.32
+  },
+  {
+   "region": "Vidin",
+   "city": "Vidin",
+   "lat": 43.99,
+   "lon": 22.88
+  },
+  {
+   "region": "Montana",
+   "city": "Montana",
+   "lat": 43.41,
+   "lon": 23.23
+  },
+  {
+   "region": "Pleven",
+   "city": "Pleven",
+   "lat": 43.42,
+   "lon": 24.62
+  },
+  {
+   "region": "Tarnovo",
+   "city": "Veliko Tarnovo",
+   "lat": 43.08,
+   "lon": 25.63
+  },
+  {
+   "region": "Ruse",
+   "city": "Ruse",
+   "lat": 43.85,
+   "lon": 25.95
+  },
+  {
+   "region": "Shumen",
+   "city": "Shumen",
+   "lat": 43.27,
+   "lon": 26.93
+  },
+  {
+   "region": "Dobruja",
+   "city": "Dobrich",
+   "lat": 43.57,
+   "lon": 27.83
+  },
+  {
+   "region": "Varna",
+   "city": "Varna",
+   "lat": 43.21,
+   "lon": 27.92
+  },
+  {
+   "region": "Burgas",
+   "city": "Burgas",
+   "lat": 42.5,
+   "lon": 27.47
+  },
+  {
+   "region": "Stara Zagora",
+   "city": "Stara Zagora",
+   "lat": 42.43,
+   "lon": 25.64
+  },
+  {
+   "region": "Plovdiv",
+   "city": "Plovdiv",
+   "lat": 42.14,
+   "lon": 24.75
+  },
+  {
+   "region": "Haskovo",
+   "city": "Haskovo",
+   "lat": 41.93,
+   "lon": 25.56
+  },
+  {
+   "region": "Rhodopes",
+   "city": "Smolyan",
+   "lat": 41.58,
+   "lon": 24.7
+  },
+  {
+   "region": "Pirin",
+   "city": "Blagoevgrad",
+   "lat": 42.02,
+   "lon": 23.1
+  },
+  {
+   "region": "Kyustendil",
+   "city": "Kyustendil",
+   "lat": 42.28,
+   "lon": 22.69
+  }
+ ],
+ "Greece": [
+  {
+   "region": "Attica",
+   "city": "Athens",
+   "lat": 37.98,
+   "lon": 23.73
+  },
+  {
+   "region": "Boeotia",
+   "city": "Thebes",
+   "lat": 38.32,
+   "lon": 23.32
+  },
+  {
+   "region": "Euboea",
+   "city": "Chalcis",
+   "lat": 38.46,
+   "lon": 23.6
+  },
+  {
+   "region": "Phthiotis",
+   "city": "Lamia",
+   "lat": 38.9,
+   "lon": 22.43
+  },
+  {
+   "region": "Thessaly",
+   "city": "Larissa",
+   "lat": 39.64,
+   "lon": 22.42
+  },
+  {
+   "region": "Epirus",
+   "city": "Ioannina",
+   "lat": 39.67,
+   "lon": 20.85
+  },
+  {
+   "region": "Acarnania",
+   "city": "Agrinio",
+   "lat": 38.62,
+   "lon": 21.41
+  },
+  {
+   "region": "Achaea",
+   "city": "Patras",
+   "lat": 38.25,
+   "lon": 21.73
+  },
+  {
+   "region": "Corinthia",
+   "city": "Corinth",
+   "lat": 37.94,
+   "lon": 22.93
+  },
+  {
+   "region": "Arcadia",
+   "city": "Tripoli",
+   "lat": 37.51,
+   "lon": 22.37
+  },
+  {
+   "region": "Laconia",
+   "city": "Sparta",
+   "lat": 37.07,
+   "lon": 22.43
+  },
+  {
+   "region": "Messenia",
+   "city": "Kalamata",
+   "lat": 37.04,
+   "lon": 22.11
+  },
+  {
+   "region": "Elis",
+   "city": "Pyrgos",
+   "lat": 37.67,
+   "lon": 21.44
+  },
+  {
+   "region": "Macedonia",
+   "city": "Thessaloniki",
+   "lat": 40.64,
+   "lon": 22.94
+  },
+  {
+   "region": "West Macedonia",
+   "city": "Kozani",
+   "lat": 40.3,
+   "lon": 21.79
+  },
+  {
+   "region": "East Macedonia",
+   "city": "Serres",
+   "lat": 41.09,
+   "lon": 23.55
+  },
+  {
+   "region": "Thrace",
+   "city": "Komotini",
+   "lat": 41.12,
+   "lon": 25.41
+  },
+  {
+   "region": "Crete",
+   "city": "Heraklion",
+   "lat": 35.34,
+   "lon": 25.13
+  },
+  {
+   "region": "West Crete",
+   "city": "Chania",
+   "lat": 35.51,
+   "lon": 24.02
+  },
+  {
+   "region": "Dodecanese",
+   "city": "Rhodes",
+   "lat": 36.43,
+   "lon": 28.22
+  },
+  {
+   "region": "Lesbos",
+   "city": "Mytilene",
+   "lat": 39.11,
+   "lon": 26.55
+  },
+  {
+   "region": "Chios",
+   "city": "Chios",
+   "lat": 38.37,
+   "lon": 26.14
+  },
+  {
+   "region": "Corfu",
+   "city": "Corfu",
+   "lat": 39.62,
+   "lon": 19.92
+  },
+  {
+   "region": "Ionian Islands",
+   "city": "Argostoli",
+   "lat": 38.18,
+   "lon": 20.49
+  },
+  {
+   "region": "Cyclades",
+   "city": "Ermoupoli",
+   "lat": 37.44,
+   "lon": 24.94
+  }
+ ],
+ "Romania": [
+  {
+   "region": "Bucharest",
+   "city": "Bucharest",
+   "lat": 44.43,
+   "lon": 26.1
+  },
+  {
+   "region": "Prahova",
+   "city": "Ploiești",
+   "lat": 44.94,
+   "lon": 26.03
+  },
+  {
+   "region": "Argeș",
+   "city": "Pitești",
+   "lat": 44.86,
+   "lon": 24.87
+  },
+  {
+   "region": "Oltenia",
+   "city": "Craiova",
+   "lat": 44.32,
+   "lon": 23.8
+  },
+  {
+   "region": "Severin",
+   "city": "Drobeta-Turnu Severin",
+   "lat": 44.63,
+   "lon": 22.66
+  },
+  {
+   "region": "Buzău",
+   "city": "Buzău",
+   "lat": 45.15,
+   "lon": 26.83
+  },
+  {
+   "region": "Danube",
+   "city": "Galați",
+   "lat": 45.43,
+   "lon": 28.05
+  },
+  {
+   "region": "Dobruja",
+   "city": "Constanța",
+   "lat": 44.18,
+   "lon": 28.65
+  },
+  {
+   "region": "Tulcea",
+   "city": "Tulcea",
+   "lat": 45.18,
+   "lon": 28.8
+  },
+  {
+   "region": "Moldavia",
+   "city": "Iași",
+   "lat": 47.16,
+   "lon": 27.59
+  },
+  {
+   "region": "Bacău",
+   "city": "Bacău",
+   "lat": 46.57,
+   "lon": 26.91
+  },
+  {
+   "region": "Bukovina",
+   "city": "Suceava",
+   "lat": 47.65,
+   "lon": 26.26
+  },
+  {
+   "region": "Transylvania",
+   "city": "Cluj-Napoca",
+   "lat": 46.77,
+   "lon": 23.59
+  },
+  {
+   "region": "Crișana",
+   "city": "Oradea",
+   "lat": 47.05,
+   "lon": 21.92
+  },
+  {
+   "region": "Satmar",
+   "city": "Satu Mare",
+   "lat": 47.79,
+   "lon": 22.88
+  },
+  {
+   "region": "Maramureș",
+   "city": "Baia Mare",
+   "lat": 47.66,
+   "lon": 23.57
+  },
+  {
+   "region": "Banat",
+   "city": "Timișoara",
+   "lat": 45.75,
+   "lon": 21.23
+  },
+  {
+   "region": "Arad",
+   "city": "Arad",
+   "lat": 46.18,
+   "lon": 21.31
+  },
+  {
+   "region": "Alba",
+   "city": "Alba Iulia",
+   "lat": 46.07,
+   "lon": 23.57
+  },
+  {
+   "region": "Sibiu",
+   "city": "Sibiu",
+   "lat": 45.8,
+   "lon": 24.15
+  },
+  {
+   "region": "Burzenland",
+   "city": "Brașov",
+   "lat": 45.64,
+   "lon": 25.59
+  },
+  {
+   "region": "Mureș",
+   "city": "Târgu Mureș",
+   "lat": 46.54,
+   "lon": 24.56
+  },
+  {
+   "region": "Szeklerland",
+   "city": "Miercurea Ciuc",
+   "lat": 46.36,
+   "lon": 25.8
+  },
+  {
+   "region": "Hunedoara",
+   "city": "Deva",
+   "lat": 45.89,
+   "lon": 22.91
+  },
+  {
+   "region": "Vaslui",
+   "city": "Vaslui",
+   "lat": 46.64,
+   "lon": 27.73
+  },
+  {
+   "region": "Neamț",
+   "city": "Piatra Neamț",
+   "lat": 46.93,
+   "lon": 26.37
+  }
+ ],
+ "Poland": [
+  {
+   "region": "Masovia",
+   "city": "Warsaw",
+   "lat": 52.23,
+   "lon": 21.01
+  },
+  {
+   "region": "Płock",
+   "city": "Płock",
+   "lat": 52.55,
+   "lon": 19.7
+  },
+  {
+   "region": "Radom",
+   "city": "Radom",
+   "lat": 51.4,
+   "lon": 21.15
+  },
+  {
+   "region": "Podlasie",
+   "city": "Białystok",
+   "lat": 53.13,
+   "lon": 23.17
+  },
+  {
+   "region": "Lublin",
+   "city": "Lublin",
+   "lat": 51.25,
+   "lon": 22.57
+  },
+  {
+   "region": "Subcarpathia",
+   "city": "Rzeszów",
+   "lat": 50.04,
+   "lon": 22.0
+  },
+  {
+   "region": "Lesser Poland",
+   "city": "Kraków",
+   "lat": 50.06,
+   "lon": 19.94
+  },
+  {
+   "region": "Świętokrzyskie",
+   "city": "Kielce",
+   "lat": 50.87,
+   "lon": 20.63
+  },
+  {
+   "region": "Łódź",
+   "city": "Łódź",
+   "lat": 51.76,
+   "lon": 19.46
+  },
+  {
+   "region": "Greater Poland",
+   "city": "Poznań",
+   "lat": 52.41,
+   "lon": 16.93
+  },
+  {
+   "region": "Kalisz",
+   "city": "Kalisz",
+   "lat": 51.76,
+   "lon": 18.09
+  },
+  {
+   "region": "Kuyavia",
+   "city": "Bydgoszcz",
+   "lat": 53.12,
+   "lon": 18.01
+  },
+  {
+   "region": "Chełmno",
+   "city": "Toruń",
+   "lat": 53.01,
+   "lon": 18.6
+  },
+  {
+   "region": "Pomerelia",
+   "city": "Gdańsk",
+   "lat": 54.35,
+   "lon": 18.65
+  },
+  {
+   "region": "Farther Pomerania",
+   "city": "Słupsk",
+   "lat": 54.46,
+   "lon": 17.03
+  },
+  {
+   "region": "Western Pomerania",
+   "city": "Szczecin",
+   "lat": 53.43,
+   "lon": 14.55
+  },
+  {
+   "region": "Lubusz",
+   "city": "Zielona Góra",
+   "lat": 51.94,
+   "lon": 15.51
+  },
+  {
+   "region": "Lower Silesia",
+   "city": "Wrocław",
+   "lat": 51.11,
+   "lon": 17.04
+  },
+  {
+   "region": "Legnica",
+   "city": "Legnica",
+   "lat": 51.21,
+   "lon": 16.16
+  },
+  {
+   "region": "Opole",
+   "city": "Opole",
+   "lat": 50.67,
+   "lon": 17.93
+  },
+  {
+   "region": "Upper Silesia",
+   "city": "Katowice",
+   "lat": 50.26,
+   "lon": 19.02
+  },
+  {
+   "region": "Częstochowa",
+   "city": "Częstochowa",
+   "lat": 50.81,
+   "lon": 19.12
+  },
+  {
+   "region": "Warmia",
+   "city": "Olsztyn",
+   "lat": 53.78,
+   "lon": 20.49
+  },
+  {
+   "region": "Masuria",
+   "city": "Ełk",
+   "lat": 53.82,
+   "lon": 22.36
+  }
+ ],
+ "Czechia": [
+  {
+   "region": "Prague",
+   "city": "Prague",
+   "lat": 50.09,
+   "lon": 14.42
+  },
+  {
+   "region": "West Bohemia",
+   "city": "Plzeň",
+   "lat": 49.75,
+   "lon": 13.38
+  },
+  {
+   "region": "South Bohemia",
+   "city": "České Budějovice",
+   "lat": 48.98,
+   "lon": 14.47
+  },
+  {
+   "region": "East Bohemia",
+   "city": "Hradec Králové",
+   "lat": 50.21,
+   "lon": 15.83
+  },
+  {
+   "region": "North Bohemia",
+   "city": "Ústí nad Labem",
+   "lat": 50.66,
+   "lon": 14.04
+  },
+  {
+   "region": "Liberec",
+   "city": "Liberec",
+   "lat": 50.77,
+   "lon": 15.06
+  },
+  {
+   "region": "Egerland",
+   "city": "Karlovy Vary",
+   "lat": 50.23,
+   "lon": 12.87
+  },
+  {
+   "region": "Highlands",
+   "city": "Jihlava",
+   "lat": 49.4,
+   "lon": 15.59
+  },
+  {
+   "region": "South Moravia",
+   "city": "Brno",
+   "lat": 49.2,
+   "lon": 16.61
+  },
+  {
+   "region": "Olomouc",
+   "city": "Olomouc",
+   "lat": 49.59,
+   "lon": 17.25
+  },
+  {
+   "region": "Moravian Slovakia",
+   "city": "Zlín",
+   "lat": 49.22,
+   "lon": 17.66
+  },
+  {
+   "region": "Silesia",
+   "city": "Ostrava",
+   "lat": 49.83,
+   "lon": 18.28
+  }
+ ],
+ "Slovakia": [
+  {
+   "region": "Bratislava",
+   "city": "Bratislava",
+   "lat": 48.15,
+   "lon": 17.11
+  },
+  {
+   "region": "Trnava",
+   "city": "Trnava",
+   "lat": 48.38,
+   "lon": 17.59
+  },
+  {
+   "region": "Nitra",
+   "city": "Nitra",
+   "lat": 48.31,
+   "lon": 18.09
+  },
+  {
+   "region": "Trenčín",
+   "city": "Trenčín",
+   "lat": 48.89,
+   "lon": 18.04
+  },
+  {
+   "region": "Žilina",
+   "city": "Žilina",
+   "lat": 49.22,
+   "lon": 18.74
+  },
+  {
+   "region": "Banská Bystrica",
+   "city": "Banská Bystrica",
+   "lat": 48.74,
+   "lon": 19.15
+  },
+  {
+   "region": "Prešov",
+   "city": "Prešov",
+   "lat": 49.0,
+   "lon": 21.24
+  },
+  {
+   "region": "Košice",
+   "city": "Košice",
+   "lat": 48.72,
+   "lon": 21.26
+  }
+ ],
+ "Hungary": [
+  {
+   "region": "Budapest",
+   "city": "Budapest",
+   "lat": 47.5,
+   "lon": 19.04
+  },
+  {
+   "region": "Győr",
+   "city": "Győr",
+   "lat": 47.69,
+   "lon": 17.63
+  },
+  {
+   "region": "Szombathely",
+   "city": "Szombathely",
+   "lat": 47.23,
+   "lon": 16.62
+  },
+  {
+   "region": "Fejér",
+   "city": "Székesfehérvár",
+   "lat": 47.19,
+   "lon": 18.41
+  },
+  {
+   "region": "Baranya",
+   "city": "Pécs",
+   "lat": 46.07,
+   "lon": 18.23
+  },
+  {
+   "region": "Somogy",
+   "city": "Kaposvár",
+   "lat": 46.36,
+   "lon": 17.8
+  },
+  {
+   "region": "Szeged",
+   "city": "Szeged",
+   "lat": 46.25,
+   "lon": 20.15
+  },
+  {
+   "region": "Kecskemét",
+   "city": "Kecskemét",
+   "lat": 46.91,
+   "lon": 19.69
+  },
+  {
+   "region": "Szolnok",
+   "city": "Szolnok",
+   "lat": 47.17,
+   "lon": 20.18
+  },
+  {
+   "region": "Debrecen",
+   "city": "Debrecen",
+   "lat": 47.53,
+   "lon": 21.63
+  },
+  {
+   "region": "Nyíregyháza",
+   "city": "Nyíregyháza",
+   "lat": 47.95,
+   "lon": 21.72
+  },
+  {
+   "region": "Miskolc",
+   "city": "Miskolc",
+   "lat": 48.1,
+   "lon": 20.78
+  },
+  {
+   "region": "Eger",
+   "city": "Eger",
+   "lat": 47.9,
+   "lon": 20.38
+  },
+  {
+   "region": "Békés",
+   "city": "Békéscsaba",
+   "lat": 46.68,
+   "lon": 21.09
+  }
+ ],
+ "Austria": [
+  {
+   "region": "Vienna",
+   "city": "Vienna",
+   "lat": 48.21,
+   "lon": 16.37
+  },
+  {
+   "region": "Lower Austria",
+   "city": "St. Pölten",
+   "lat": 48.2,
+   "lon": 15.63
+  },
+  {
+   "region": "Industrieviertel",
+   "city": "Wiener Neustadt",
+   "lat": 47.81,
+   "lon": 16.24
+  },
+  {
+   "region": "Burgenland",
+   "city": "Eisenstadt",
+   "lat": 47.85,
+   "lon": 16.52
+  },
+  {
+   "region": "Upper Austria",
+   "city": "Linz",
+   "lat": 48.31,
+   "lon": 14.29
+  },
+  {
+   "region": "Innviertel",
+   "city": "Ried im Innkreis",
+   "lat": 48.21,
+   "lon": 13.49
+  },
+  {
+   "region": "Salzburg",
+   "city": "Salzburg",
+   "lat": 47.8,
+   "lon": 13.04
+  },
+  {
+   "region": "Tyrol",
+   "city": "Innsbruck",
+   "lat": 47.27,
+   "lon": 11.39
+  },
+  {
+   "region": "East Tyrol",
+   "city": "Lienz",
+   "lat": 46.83,
+   "lon": 12.77
+  },
+  {
+   "region": "Vorarlberg",
+   "city": "Bregenz",
+   "lat": 47.5,
+   "lon": 9.75
+  },
+  {
+   "region": "Styria",
+   "city": "Graz",
+   "lat": 47.07,
+   "lon": 15.44
+  },
+  {
+   "region": "Upper Styria",
+   "city": "Leoben",
+   "lat": 47.38,
+   "lon": 15.09
+  },
+  {
+   "region": "Carinthia",
+   "city": "Klagenfurt",
+   "lat": 46.62,
+   "lon": 14.31
+  }
+ ],
+ "Switzerland": [
+  {
+   "region": "Zürich",
+   "city": "Zürich",
+   "lat": 47.38,
+   "lon": 8.54
+  },
+  {
+   "region": "Bern",
+   "city": "Bern",
+   "lat": 46.95,
+   "lon": 7.45
+  },
+  {
+   "region": "Basel",
+   "city": "Basel",
+   "lat": 47.56,
+   "lon": 7.59
+  },
+  {
+   "region": "Geneva",
+   "city": "Geneva",
+   "lat": 46.2,
+   "lon": 6.14
+  },
+  {
+   "region": "Vaud",
+   "city": "Lausanne",
+   "lat": 46.52,
+   "lon": 6.63
+  },
+  {
+   "region": "Fribourg",
+   "city": "Fribourg",
+   "lat": 46.81,
+   "lon": 7.15
+  },
+  {
+   "region": "Neuchâtel",
+   "city": "Neuchâtel",
+   "lat": 46.99,
+   "lon": 6.93
+  },
+  {
+   "region": "Valais",
+   "city": "Sion",
+   "lat": 46.23,
+   "lon": 7.36
+  },
+  {
+   "region": "Ticino",
+   "city": "Bellinzona",
+   "lat": 46.19,
+   "lon": 9.02
+  },
+  {
+   "region": "Graubünden",
+   "city": "Chur",
+   "lat": 46.85,
+   "lon": 9.53
+  },
+  {
+   "region": "St. Gallen",
+   "city": "St. Gallen",
+   "lat": 47.42,
+   "lon": 9.38
+  },
+  {
+   "region": "Lucerne",
+   "city": "Lucerne",
+   "lat": 47.05,
+   "lon": 8.31
+  },
+  {
+   "region": "Waldstätte",
+   "city": "Altdorf",
+   "lat": 46.88,
+   "lon": 8.64
+  },
+  {
+   "region": "Aargau",
+   "city": "Aarau",
+   "lat": 47.39,
+   "lon": 8.05
+  }
+ ],
+ "Lithuania": [
+  {
+   "region": "Vilnius",
+   "city": "Vilnius",
+   "lat": 54.69,
+   "lon": 25.28
+  },
+  {
+   "region": "Kaunas",
+   "city": "Kaunas",
+   "lat": 54.9,
+   "lon": 23.89
+  },
+  {
+   "region": "Lithuania Minor",
+   "city": "Klaipėda",
+   "lat": 55.71,
+   "lon": 21.14
+  },
+  {
+   "region": "Samogitia",
+   "city": "Telšiai",
+   "lat": 55.98,
+   "lon": 22.25
+  },
+  {
+   "region": "Šiauliai",
+   "city": "Šiauliai",
+   "lat": 55.93,
+   "lon": 23.31
+  },
+  {
+   "region": "Aukštaitija",
+   "city": "Panevėžys",
+   "lat": 55.73,
+   "lon": 24.36
+  },
+  {
+   "region": "Dzūkija",
+   "city": "Alytus",
+   "lat": 54.4,
+   "lon": 24.05
+  }
+ ],
+ "Latvia": [
+  {
+   "region": "Riga",
+   "city": "Riga",
+   "lat": 56.95,
+   "lon": 24.11
+  },
+  {
+   "region": "Courland",
+   "city": "Liepāja",
+   "lat": 56.51,
+   "lon": 21.01
+  },
+  {
+   "region": "Zemgale",
+   "city": "Jelgava",
+   "lat": 56.65,
+   "lon": 23.72
+  },
+  {
+   "region": "Vidzeme",
+   "city": "Cēsis",
+   "lat": 57.31,
+   "lon": 25.27
+  },
+  {
+   "region": "Latgale",
+   "city": "Daugavpils",
+   "lat": 55.87,
+   "lon": 26.54
+  }
+ ],
+ "Estonia": [
+  {
+   "region": "Harju",
+   "city": "Tallinn",
+   "lat": 59.44,
+   "lon": 24.75
+  },
+  {
+   "region": "Tartu",
+   "city": "Tartu",
+   "lat": 58.38,
+   "lon": 26.72
+  },
+  {
+   "region": "Pärnu",
+   "city": "Pärnu",
+   "lat": 58.38,
+   "lon": 24.5
+  },
+  {
+   "region": "Ida-Viru",
+   "city": "Narva",
+   "lat": 59.38,
+   "lon": 28.2
+  },
+  {
+   "region": "Saaremaa",
+   "city": "Kuressaare",
+   "lat": 58.25,
+   "lon": 22.49
+  },
+  {
+   "region": "Läänemaa",
+   "city": "Haapsalu",
+   "lat": 58.94,
+   "lon": 23.54
+  }
+ ],
+ "Belarus": [
+  {
+   "region": "Minsk",
+   "city": "Minsk",
+   "lat": 53.9,
+   "lon": 27.57
+  },
+  {
+   "region": "Brest",
+   "city": "Brest",
+   "lat": 52.1,
+   "lon": 23.69
+  },
+  {
+   "region": "Polesia",
+   "city": "Pinsk",
+   "lat": 52.12,
+   "lon": 26.1
+  },
+  {
+   "region": "Grodno",
+   "city": "Grodno",
+   "lat": 53.67,
+   "lon": 23.83
+  },
+  {
+   "region": "Novogrudok",
+   "city": "Navahrudak",
+   "lat": 53.6,
+   "lon": 25.82
+  },
+  {
+   "region": "Vitebsk",
+   "city": "Vitebsk",
+   "lat": 55.19,
+   "lon": 30.2
+  },
+  {
+   "region": "Polotsk",
+   "city": "Polotsk",
+   "lat": 55.49,
+   "lon": 28.77
+  },
+  {
+   "region": "Mogilev",
+   "city": "Mogilev",
+   "lat": 53.9,
+   "lon": 30.33
+  },
+  {
+   "region": "Bobruisk",
+   "city": "Babruysk",
+   "lat": 53.14,
+   "lon": 29.22
+  },
+  {
+   "region": "Gomel",
+   "city": "Gomel",
+   "lat": 52.44,
+   "lon": 30.98
+  },
+  {
+   "region": "Mozyr",
+   "city": "Mazyr",
+   "lat": 52.05,
+   "lon": 29.25
+  }
+ ],
+ "Moldova": [
+  {
+   "region": "Chișinău",
+   "city": "Chișinău",
+   "lat": 47.01,
+   "lon": 28.86
+  },
+  {
+   "region": "Bălți",
+   "city": "Bălți",
+   "lat": 47.76,
+   "lon": 27.93
+  },
+  {
+   "region": "Transnistria",
+   "city": "Tiraspol",
+   "lat": 46.84,
+   "lon": 29.63
+  },
+  {
+   "region": "South Moldova",
+   "city": "Cahul",
+   "lat": 45.9,
+   "lon": 28.19
+  }
+ ],
+ "Ukraine": [
+  {
+   "region": "Kyiv",
+   "city": "Kyiv",
+   "lat": 50.45,
+   "lon": 30.52
+  },
+  {
+   "region": "Chernihiv",
+   "city": "Chernihiv",
+   "lat": 51.49,
+   "lon": 31.29
+  },
+  {
+   "region": "Sumy",
+   "city": "Sumy",
+   "lat": 50.91,
+   "lon": 34.8
+  },
+  {
+   "region": "Kharkiv",
+   "city": "Kharkiv",
+   "lat": 49.99,
+   "lon": 36.23
+  },
+  {
+   "region": "Poltava",
+   "city": "Poltava",
+   "lat": 49.59,
+   "lon": 34.55
+  },
+  {
+   "region": "Cherkasy",
+   "city": "Cherkasy",
+   "lat": 49.44,
+   "lon": 32.06
+  },
+  {
+   "region": "Zhytomyr",
+   "city": "Zhytomyr",
+   "lat": 50.25,
+   "lon": 28.66
+  },
+  {
+   "region": "Podolia",
+   "city": "Vinnytsia",
+   "lat": 49.23,
+   "lon": 28.47
+  },
+  {
+   "region": "Khmelnytskyi",
+   "city": "Khmelnytskyi",
+   "lat": 49.42,
+   "lon": 26.98
+  },
+  {
+   "region": "Volhynia",
+   "city": "Lutsk",
+   "lat": 50.75,
+   "lon": 25.33
+  },
+  {
+   "region": "Rivne",
+   "city": "Rivne",
+   "lat": 50.62,
+   "lon": 26.25
+  },
+  {
+   "region": "Ternopil",
+   "city": "Ternopil",
+   "lat": 49.55,
+   "lon": 25.59
+  },
+  {
+   "region": "Galicia",
+   "city": "Lviv",
+   "lat": 49.84,
+   "lon": 24.03
+  },
+  {
+   "region": "Ivano-Frankivsk",
+   "city": "Ivano-Frankivsk",
+   "lat": 48.92,
+   "lon": 24.71
+  },
+  {
+   "region": "Bukovina",
+   "city": "Chernivtsi",
+   "lat": 48.29,
+   "lon": 25.94
+  },
+  {
+   "region": "Transcarpathia",
+   "city": "Uzhhorod",
+   "lat": 48.62,
+   "lon": 22.3
+  },
+  {
+   "region": "Kirovohrad",
+   "city": "Kropyvnytskyi",
+   "lat": 48.51,
+   "lon": 32.26
+  },
+  {
+   "region": "Dnipro",
+   "city": "Dnipro",
+   "lat": 48.46,
+   "lon": 35.05
+  },
+  {
+   "region": "Zaporizhzhia",
+   "city": "Zaporizhzhia",
+   "lat": 47.84,
+   "lon": 35.14
+  },
+  {
+   "region": "Donetsk",
+   "city": "Donetsk",
+   "lat": 48.02,
+   "lon": 37.8
+  },
+  {
+   "region": "Luhansk",
+   "city": "Luhansk",
+   "lat": 48.57,
+   "lon": 39.31
+  },
+  {
+   "region": "Azov",
+   "city": "Mariupol",
+   "lat": 47.1,
+   "lon": 37.54
+  },
+  {
+   "region": "Kherson",
+   "city": "Kherson",
+   "lat": 46.64,
+   "lon": 32.62
+  },
+  {
+   "region": "Mykolaiv",
+   "city": "Mykolaiv",
+   "lat": 46.97,
+   "lon": 32.0
+  },
+  {
+   "region": "Odesa",
+   "city": "Odesa",
+   "lat": 46.48,
+   "lon": 30.73
+  },
+  {
+   "region": "Budjak",
+   "city": "Izmail",
+   "lat": 45.35,
+   "lon": 28.84
+  },
+  {
+   "region": "Crimea",
+   "city": "Simferopol",
+   "lat": 44.95,
+   "lon": 34.1
+  }
+ ],
+ "Russia": [
+  {
+   "region": "Kola",
+   "city": "Murmansk",
+   "lat": 68.97,
+   "lon": 33.07
+  },
+  {
+   "region": "Arkhangelsk",
+   "city": "Arkhangelsk",
+   "lat": 64.54,
+   "lon": 40.54
+  },
+  {
+   "region": "Nenets",
+   "city": "Naryan-Mar",
+   "lat": 67.64,
+   "lon": 53.0
+  },
+  {
+   "region": "Komi",
+   "city": "Syktyvkar",
+   "lat": 61.67,
+   "lon": 50.82
+  },
+  {
+   "region": "Karelia",
+   "city": "Petrozavodsk",
+   "lat": 61.79,
+   "lon": 34.35
+  },
+  {
+   "region": "Ingria",
+   "city": "Saint Petersburg",
+   "lat": 59.93,
+   "lon": 30.34
+  },
+  {
+   "region": "Novgorod",
+   "city": "Veliky Novgorod",
+   "lat": 58.52,
+   "lon": 31.27
+  },
+  {
+   "region": "Pskov",
+   "city": "Pskov",
+   "lat": 57.82,
+   "lon": 28.33
+  },
+  {
+   "region": "Tver",
+   "city": "Tver",
+   "lat": 56.86,
+   "lon": 35.9
+  },
+  {
+   "region": "Rzhev",
+   "city": "Rzhev",
+   "lat": 56.26,
+   "lon": 34.33
+  },
+  {
+   "region": "Smolensk",
+   "city": "Smolensk",
+   "lat": 54.78,
+   "lon": 32.05
+  },
+  {
+   "region": "Bryansk",
+   "city": "Bryansk",
+   "lat": 53.25,
+   "lon": 34.36
+  },
+  {
+   "region": "Kaluga",
+   "city": "Kaluga",
+   "lat": 54.51,
+   "lon": 36.26
+  },
+  {
+   "region": "Tula",
+   "city": "Tula",
+   "lat": 54.19,
+   "lon": 37.62
+  },
+  {
+   "region": "Moscow",
+   "city": "Moscow",
+   "lat": 55.76,
+   "lon": 37.62
+  },
+  {
+   "region": "Vladimir",
+   "city": "Vladimir",
+   "lat": 56.13,
+   "lon": 40.41
+  },
+  {
+   "region": "Yaroslavl",
+   "city": "Yaroslavl",
+   "lat": 57.63,
+   "lon": 39.87
+  },
+  {
+   "region": "Kostroma",
+   "city": "Kostroma",
+   "lat": 57.77,
+   "lon": 40.93
+  },
+  {
+   "region": "Vologda",
+   "city": "Vologda",
+   "lat": 59.22,
+   "lon": 39.89
+  },
+  {
+   "region": "Nizhny Novgorod",
+   "city": "Nizhny Novgorod",
+   "lat": 56.33,
+   "lon": 44.0
+  },
+  {
+   "region": "Ryazan",
+   "city": "Ryazan",
+   "lat": 54.63,
+   "lon": 39.74
+  },
+  {
+   "region": "Kursk",
+   "city": "Kursk",
+   "lat": 51.73,
+   "lon": 36.19
+  },
+  {
+   "region": "Belgorod",
+   "city": "Belgorod",
+   "lat": 50.6,
+   "lon": 36.59
+  },
+  {
+   "region": "Voronezh",
+   "city": "Voronezh",
+   "lat": 51.67,
+   "lon": 39.18
+  },
+  {
+   "region": "Tambov",
+   "city": "Tambov",
+   "lat": 52.72,
+   "lon": 41.45
+  },
+  {
+   "region": "Penza",
+   "city": "Penza",
+   "lat": 53.2,
+   "lon": 45.0
+  },
+  {
+   "region": "Mordovia",
+   "city": "Saransk",
+   "lat": 54.19,
+   "lon": 45.18
+  },
+  {
+   "region": "Saratov",
+   "city": "Saratov",
+   "lat": 51.53,
+   "lon": 46.03
+  },
+  {
+   "region": "Volgograd",
+   "city": "Volgograd",
+   "lat": 48.71,
+   "lon": 44.51
+  },
+  {
+   "region": "Astrakhan",
+   "city": "Astrakhan",
+   "lat": 46.35,
+   "lon": 48.04
+  },
+  {
+   "region": "Kalmykia",
+   "city": "Elista",
+   "lat": 46.31,
+   "lon": 44.26
+  },
+  {
+   "region": "Don",
+   "city": "Rostov-on-Don",
+   "lat": 47.24,
+   "lon": 39.72
+  },
+  {
+   "region": "Kuban",
+   "city": "Krasnodar",
+   "lat": 45.04,
+   "lon": 38.98
+  },
+  {
+   "region": "Stavropol",
+   "city": "Stavropol",
+   "lat": 45.04,
+   "lon": 41.97
+  },
+  {
+   "region": "North Ossetia",
+   "city": "Vladikavkaz",
+   "lat": 43.02,
+   "lon": 44.68
+  },
+  {
+   "region": "Chechnya",
+   "city": "Grozny",
+   "lat": 43.32,
+   "lon": 45.69
+  },
+  {
+   "region": "Dagestan",
+   "city": "Makhachkala",
+   "lat": 42.98,
+   "lon": 47.5
+  },
+  {
+   "region": "Samara",
+   "city": "Samara",
+   "lat": 53.2,
+   "lon": 50.15
+  },
+  {
+   "region": "Simbirsk",
+   "city": "Ulyanovsk",
+   "lat": 54.32,
+   "lon": 48.39
+  },
+  {
+   "region": "Tatarstan",
+   "city": "Kazan",
+   "lat": 55.8,
+   "lon": 49.11
+  },
+  {
+   "region": "Chuvashia",
+   "city": "Cheboksary",
+   "lat": 56.13,
+   "lon": 47.25
+  },
+  {
+   "region": "Mari El",
+   "city": "Yoshkar-Ola",
+   "lat": 56.63,
+   "lon": 47.89
+  },
+  {
+   "region": "Bashkortostan",
+   "city": "Ufa",
+   "lat": 54.74,
+   "lon": 55.97
+  },
+  {
+   "region": "Orenburg",
+   "city": "Orenburg",
+   "lat": 51.77,
+   "lon": 55.1
+  },
+  {
+   "region": "Vyatka",
+   "city": "Kirov",
+   "lat": 58.6,
+   "lon": 49.66
+  },
+  {
+   "region": "Udmurtia",
+   "city": "Izhevsk",
+   "lat": 56.85,
+   "lon": 53.2
+  },
+  {
+   "region": "Perm",
+   "city": "Perm",
+   "lat": 58.01,
+   "lon": 56.23
+  },
+  {
+   "region": "Kaliningrad",
+   "city": "Kaliningrad",
+   "lat": 54.71,
+   "lon": 20.51
+  },
+  {
+   "region": "Yekaterinburg",
+   "city": "Yekaterinburg",
+   "lat": 56.84,
+   "lon": 60.61
+  },
+  {
+   "region": "Chelyabinsk",
+   "city": "Chelyabinsk",
+   "lat": 55.16,
+   "lon": 61.4
+  },
+  {
+   "region": "Kurgan",
+   "city": "Kurgan",
+   "lat": 55.44,
+   "lon": 65.34
+  },
+  {
+   "region": "Tyumen",
+   "city": "Tyumen",
+   "lat": 57.15,
+   "lon": 65.53
+  },
+  {
+   "region": "Khanty-Mansi",
+   "city": "Khanty-Mansiysk",
+   "lat": 61.0,
+   "lon": 69.02
+  },
+  {
+   "region": "Yamal",
+   "city": "Salekhard",
+   "lat": 66.53,
+   "lon": 66.6
+  },
+  {
+   "region": "Omsk",
+   "city": "Omsk",
+   "lat": 54.99,
+   "lon": 73.37
+  },
+  {
+   "region": "Novosibirsk",
+   "city": "Novosibirsk",
+   "lat": 55.03,
+   "lon": 82.92
+  },
+  {
+   "region": "Altai",
+   "city": "Barnaul",
+   "lat": 53.35,
+   "lon": 83.77
+  },
+  {
+   "region": "Tomsk",
+   "city": "Tomsk",
+   "lat": 56.5,
+   "lon": 84.97
+  },
+  {
+   "region": "Kuzbass",
+   "city": "Kemerovo",
+   "lat": 55.35,
+   "lon": 86.09
+  },
+  {
+   "region": "Krasnoyarsk",
+   "city": "Krasnoyarsk",
+   "lat": 56.01,
+   "lon": 92.85
+  },
+  {
+   "region": "Taymyr",
+   "city": "Norilsk",
+   "lat": 69.35,
+   "lon": 88.2
+  },
+  {
+   "region": "Khakassia",
+   "city": "Abakan",
+   "lat": 53.72,
+   "lon": 91.43
+  },
+  {
+   "region": "Tuva",
+   "city": "Kyzyl",
+   "lat": 51.72,
+   "lon": 94.45
+  },
+  {
+   "region": "Irkutsk",
+   "city": "Irkutsk",
+   "lat": 52.29,
+   "lon": 104.3
+  },
+  {
+   "region": "Buryatia",
+   "city": "Ulan-Ude",
+   "lat": 51.83,
+   "lon": 107.61
+  },
+  {
+   "region": "Transbaikal",
+   "city": "Chita",
+   "lat": 52.03,
+   "lon": 113.5
+  },
+  {
+   "region": "Yakutia",
+   "city": "Yakutsk",
+   "lat": 62.03,
+   "lon": 129.73
+  },
+  {
+   "region": "Arctic Yakutia",
+   "city": "Tiksi",
+   "lat": 71.64,
+   "lon": 128.87
+  },
+  {
+   "region": "Magadan",
+   "city": "Magadan",
+   "lat": 59.56,
+   "lon": 150.8
+  },
+  {
+   "region": "Chukotka",
+   "city": "Anadyr",
+   "lat": 64.73,
+   "lon": 177.5
+  },
+  {
+   "region": "Kamchatka",
+   "city": "Petropavlovsk-Kamchatsky",
+   "lat": 53.04,
+   "lon": 158.65
+  },
+  {
+   "region": "Khabarovsk",
+   "city": "Khabarovsk",
+   "lat": 48.48,
+   "lon": 135.08
+  },
+  {
+   "region": "Amur",
+   "city": "Blagoveshchensk",
+   "lat": 50.28,
+   "lon": 127.53
+  },
+  {
+   "region": "Primorye",
+   "city": "Vladivostok",
+   "lat": 43.12,
+   "lon": 131.89
+  },
+  {
+   "region": "Sakhalin",
+   "city": "Yuzhno-Sakhalinsk",
+   "lat": 46.96,
+   "lon": 142.74
+  },
+  {
+   "region": "Tatar Strait Coast",
+   "city": "Sovetskaya Gavan",
+   "lat": 49.0,
+   "lon": 140.25
+  }
+ ],
+ "Turkey": [
+  {
+   "region": "East Thrace",
+   "city": "Edirne",
+   "lat": 41.68,
+   "lon": 26.56
+  },
+  {
+   "region": "Istanbul",
+   "city": "Istanbul",
+   "lat": 41.01,
+   "lon": 28.98
+  },
+  {
+   "region": "Troad",
+   "city": "Çanakkale",
+   "lat": 40.15,
+   "lon": 26.41
+  },
+  {
+   "region": "Bursa",
+   "city": "Bursa",
+   "lat": 40.19,
+   "lon": 29.06
+  },
+  {
+   "region": "Kocaeli",
+   "city": "İzmit",
+   "lat": 40.77,
+   "lon": 29.94
+  },
+  {
+   "region": "Bolu",
+   "city": "Bolu",
+   "lat": 40.74,
+   "lon": 31.61
+  },
+  {
+   "region": "Heraclea",
+   "city": "Zonguldak",
+   "lat": 41.45,
+   "lon": 31.79
+  },
+  {
+   "region": "Karesi",
+   "city": "Balıkesir",
+   "lat": 39.65,
+   "lon": 27.89
+  },
+  {
+   "region": "Izmir",
+   "city": "İzmir",
+   "lat": 38.42,
+   "lon": 27.14
+  },
+  {
+   "region": "Aydın",
+   "city": "Aydın",
+   "lat": 37.85,
+   "lon": 27.84
+  },
+  {
+   "region": "Menteshe",
+   "city": "Muğla",
+   "lat": 37.22,
+   "lon": 28.36
+  },
+  {
+   "region": "Denizli",
+   "city": "Denizli",
+   "lat": 37.78,
+   "lon": 29.09
+  },
+  {
+   "region": "Antalya",
+   "city": "Antalya",
+   "lat": 36.9,
+   "lon": 30.7
+  },
+  {
+   "region": "Hamid",
+   "city": "Isparta",
+   "lat": 37.76,
+   "lon": 30.55
+  },
+  {
+   "region": "Afyon",
+   "city": "Afyonkarahisar",
+   "lat": 38.75,
+   "lon": 30.54
+  },
+  {
+   "region": "Eskişehir",
+   "city": "Eskişehir",
+   "lat": 39.78,
+   "lon": 30.52
+  },
+  {
+   "region": "Ankara",
+   "city": "Ankara",
+   "lat": 39.93,
+   "lon": 32.86
+  },
+  {
+   "region": "Kastamonu",
+   "city": "Kastamonu",
+   "lat": 41.38,
+   "lon": 33.78
+  },
+  {
+   "region": "Konya",
+   "city": "Konya",
+   "lat": 37.87,
+   "lon": 32.48
+  },
+  {
+   "region": "Karaman",
+   "city": "Karaman",
+   "lat": 37.18,
+   "lon": 33.22
+  },
+  {
+   "region": "Niğde",
+   "city": "Niğde",
+   "lat": 37.97,
+   "lon": 34.68
+  },
+  {
+   "region": "Kırşehir",
+   "city": "Kırşehir",
+   "lat": 39.15,
+   "lon": 34.16
+  },
+  {
+   "region": "Yozgat",
+   "city": "Yozgat",
+   "lat": 39.82,
+   "lon": 34.81
+  },
+  {
+   "region": "Amasya",
+   "city": "Amasya",
+   "lat": 40.65,
+   "lon": 35.83
+  },
+  {
+   "region": "Samsun",
+   "city": "Samsun",
+   "lat": 41.29,
+   "lon": 36.33
+  },
+  {
+   "region": "Ordu",
+   "city": "Ordu",
+   "lat": 40.98,
+   "lon": 37.88
+  },
+  {
+   "region": "Trabzon",
+   "city": "Trabzon",
+   "lat": 41.0,
+   "lon": 39.72
+  },
+  {
+   "region": "Kayseri",
+   "city": "Kayseri",
+   "lat": 38.73,
+   "lon": 35.48
+  },
+  {
+   "region": "Sivas",
+   "city": "Sivas",
+   "lat": 39.75,
+   "lon": 37.02
+  },
+  {
+   "region": "Erzincan",
+   "city": "Erzincan",
+   "lat": 39.75,
+   "lon": 39.49
+  },
+  {
+   "region": "Erzurum",
+   "city": "Erzurum",
+   "lat": 39.9,
+   "lon": 41.27
+  },
+  {
+   "region": "Kars",
+   "city": "Kars",
+   "lat": 40.6,
+   "lon": 43.1
+  },
+  {
+   "region": "Van",
+   "city": "Van",
+   "lat": 38.49,
+   "lon": 43.38
+  },
+  {
+   "region": "Bitlis",
+   "city": "Bitlis",
+   "lat": 38.4,
+   "lon": 42.11
+  },
+  {
+   "region": "Hakkari",
+   "city": "Hakkari",
+   "lat": 37.58,
+   "lon": 43.74
+  },
+  {
+   "region": "Siirt",
+   "city": "Siirt",
+   "lat": 37.93,
+   "lon": 41.94
+  },
+  {
+   "region": "Diyarbakır",
+   "city": "Diyarbakır",
+   "lat": 37.91,
+   "lon": 40.24
+  },
+  {
+   "region": "Elazığ",
+   "city": "Elazığ",
+   "lat": 38.67,
+   "lon": 39.22
+  },
+  {
+   "region": "Malatya",
+   "city": "Malatya",
+   "lat": 38.35,
+   "lon": 38.31
+  },
+  {
+   "region": "Urfa",
+   "city": "Şanlıurfa",
+   "lat": 37.16,
+   "lon": 38.8
+  },
+  {
+   "region": "Gaziantep",
+   "city": "Gaziantep",
+   "lat": 37.07,
+   "lon": 37.38
+  },
+  {
+   "region": "Cilicia",
+   "city": "Adana",
+   "lat": 37.0,
+   "lon": 35.32
+  },
+  {
+   "region": "Mersin",
+   "city": "Mersin",
+   "lat": 36.8,
+   "lon": 34.64
+  },
+  {
+   "region": "Hatay",
+   "city": "Antakya",
+   "lat": 36.2,
+   "lon": 36.16
+  },
+  {
+   "region": "Germiyan",
+   "city": "Kütahya",
+   "lat": 39.42,
+   "lon": 29.98
+  },
+  {
+   "region": "Saruhan",
+   "city": "Manisa",
+   "lat": 38.61,
+   "lon": 27.43
+  },
+  {
+   "region": "Sinop",
+   "city": "Sinop",
+   "lat": 42.03,
+   "lon": 35.15
+  },
+  {
+   "region": "Tokat",
+   "city": "Tokat",
+   "lat": 40.31,
+   "lon": 36.55
+  },
+  {
+   "region": "Çorum",
+   "city": "Çorum",
+   "lat": 40.55,
+   "lon": 34.95
+  },
+  {
+   "region": "Aksaray",
+   "city": "Aksaray",
+   "lat": 38.37,
+   "lon": 34.03
+  },
+  {
+   "region": "Dulkadir",
+   "city": "Kahramanmaraş",
+   "lat": 37.58,
+   "lon": 36.94
+  },
+  {
+   "region": "Bilecik",
+   "city": "Bilecik",
+   "lat": 40.14,
+   "lon": 29.98
+  },
+  {
+   "region": "Çankırı",
+   "city": "Çankırı",
+   "lat": 40.6,
+   "lon": 33.62
+  },
+  {
+   "region": "Rodosto",
+   "city": "Tekirdağ",
+   "lat": 40.98,
+   "lon": 27.51
+  },
+  {
+   "region": "Mardin",
+   "city": "Mardin",
+   "lat": 37.31,
+   "lon": 40.74
+  },
+  {
+   "region": "Muş",
+   "city": "Muş",
+   "lat": 38.74,
+   "lon": 41.49
+  },
+  {
+   "region": "Ağrı",
+   "city": "Ağrı",
+   "lat": 39.72,
+   "lon": 43.05
+  },
+  {
+   "region": "Artvin",
+   "city": "Artvin",
+   "lat": 41.18,
+   "lon": 41.82
+  },
+  {
+   "region": "Adıyaman",
+   "city": "Adıyaman",
+   "lat": 37.76,
+   "lon": 38.28
+  }
+ ],
+ "Morocco": [
+  {
+   "region": "Tingitana",
+   "city": "Tangier",
+   "lat": 35.77,
+   "lon": -5.8
+  },
+  {
+   "region": "Habt",
+   "city": "Larache",
+   "lat": 35.19,
+   "lon": -6.15
+  },
+  {
+   "region": "Rif",
+   "city": "Al Hoceima",
+   "lat": 35.25,
+   "lon": -3.93
+  },
+  {
+   "region": "Oriental",
+   "city": "Oujda",
+   "lat": 34.68,
+   "lon": -1.91
+  },
+  {
+   "region": "Taza",
+   "city": "Taza",
+   "lat": 34.21,
+   "lon": -4.01
+  },
+  {
+   "region": "Fez",
+   "city": "Fez",
+   "lat": 34.03,
+   "lon": -5.0
+  },
+  {
+   "region": "Meknes",
+   "city": "Meknes",
+   "lat": 33.89,
+   "lon": -5.55
+  },
+  {
+   "region": "Rabat",
+   "city": "Rabat",
+   "lat": 34.02,
+   "lon": -6.84
+  },
+  {
+   "region": "Chaouia",
+   "city": "Casablanca",
+   "lat": 33.57,
+   "lon": -7.59
+  },
+  {
+   "region": "Doukkala",
+   "city": "Safi",
+   "lat": 32.3,
+   "lon": -9.24
+  },
+  {
+   "region": "Haha",
+   "city": "Essaouira",
+   "lat": 31.51,
+   "lon": -9.77
+  },
+  {
+   "region": "Marrakesh",
+   "city": "Marrakesh",
+   "lat": 31.63,
+   "lon": -8.01
+  },
+  {
+   "region": "Tadla",
+   "city": "Beni Mellal",
+   "lat": 32.34,
+   "lon": -6.36
+  },
+  {
+   "region": "Tafilalt",
+   "city": "Errachidia",
+   "lat": 31.93,
+   "lon": -4.43
+  },
+  {
+   "region": "Figuig",
+   "city": "Figuig",
+   "lat": 32.11,
+   "lon": -1.23
+  },
+  {
+   "region": "Draa",
+   "city": "Ouarzazate",
+   "lat": 30.92,
+   "lon": -6.89
+  },
+  {
+   "region": "Sous",
+   "city": "Agadir",
+   "lat": 30.43,
+   "lon": -9.6
+  },
+  {
+   "region": "Guelmim",
+   "city": "Guelmim",
+   "lat": 28.99,
+   "lon": -10.06
+  },
+  {
+   "region": "Saguia el-Hamra",
+   "city": "Laayoune",
+   "lat": 27.15,
+   "lon": -13.2
+  },
+  {
+   "region": "Smara",
+   "city": "Smara",
+   "lat": 26.74,
+   "lon": -11.67
+  },
+  {
+   "region": "Río de Oro",
+   "city": "Dakhla",
+   "lat": 23.68,
+   "lon": -15.96
+  }
+ ],
+ "Algeria": [
+  {
+   "region": "Tlemcen",
+   "city": "Tlemcen",
+   "lat": 34.88,
+   "lon": -1.32
+  },
+  {
+   "region": "Oran",
+   "city": "Oran",
+   "lat": 35.7,
+   "lon": -0.63
+  },
+  {
+   "region": "Dahra",
+   "city": "Chlef",
+   "lat": 36.16,
+   "lon": 1.33
+  },
+  {
+   "region": "Algiers",
+   "city": "Algiers",
+   "lat": 36.75,
+   "lon": 3.06
+  },
+  {
+   "region": "Titteri",
+   "city": "Médéa",
+   "lat": 36.26,
+   "lon": 2.75
+  },
+  {
+   "region": "Kabylie",
+   "city": "Tizi Ouzou",
+   "lat": 36.71,
+   "lon": 4.05
+  },
+  {
+   "region": "Béjaïa",
+   "city": "Béjaïa",
+   "lat": 36.75,
+   "lon": 5.08
+  },
+  {
+   "region": "Sétif",
+   "city": "Sétif",
+   "lat": 36.19,
+   "lon": 5.41
+  },
+  {
+   "region": "Constantine",
+   "city": "Constantine",
+   "lat": 36.37,
+   "lon": 6.61
+  },
+  {
+   "region": "Annaba",
+   "city": "Annaba",
+   "lat": 36.9,
+   "lon": 7.77
+  },
+  {
+   "region": "Aurès",
+   "city": "Batna",
+   "lat": 35.56,
+   "lon": 6.17
+  },
+  {
+   "region": "Tébessa",
+   "city": "Tébessa",
+   "lat": 35.4,
+   "lon": 8.12
+  },
+  {
+   "region": "Tiaret",
+   "city": "Tiaret",
+   "lat": 35.37,
+   "lon": 1.32
+  },
+  {
+   "region": "Mascara",
+   "city": "Mascara",
+   "lat": 35.4,
+   "lon": 0.14
+  },
+  {
+   "region": "Saïda",
+   "city": "Saïda",
+   "lat": 34.83,
+   "lon": 0.15
+  },
+  {
+   "region": "Ksour",
+   "city": "El Bayadh",
+   "lat": 33.68,
+   "lon": 1.02
+  },
+  {
+   "region": "Zibans",
+   "city": "Biskra",
+   "lat": 34.85,
+   "lon": 5.73
+  },
+  {
+   "region": "Djelfa",
+   "city": "Djelfa",
+   "lat": 34.67,
+   "lon": 3.26
+  },
+  {
+   "region": "Laghouat",
+   "city": "Laghouat",
+   "lat": 33.8,
+   "lon": 2.88
+  },
+  {
+   "region": "M'zab",
+   "city": "Ghardaïa",
+   "lat": 32.49,
+   "lon": 3.67
+  },
+  {
+   "region": "Souf",
+   "city": "El Oued",
+   "lat": 33.37,
+   "lon": 6.86
+  },
+  {
+   "region": "Ouargla",
+   "city": "Ouargla",
+   "lat": 31.95,
+   "lon": 5.32
+  },
+  {
+   "region": "Béchar",
+   "city": "Béchar",
+   "lat": 31.62,
+   "lon": -2.22
+  },
+  {
+   "region": "Tindouf",
+   "city": "Tindouf",
+   "lat": 27.67,
+   "lon": -8.15
+  },
+  {
+   "region": "Touat",
+   "city": "Adrar",
+   "lat": 27.87,
+   "lon": -0.29
+  },
+  {
+   "region": "Gourara",
+   "city": "Timimoun",
+   "lat": 29.26,
+   "lon": 0.23
+  },
+  {
+   "region": "In Salah",
+   "city": "In Salah",
+   "lat": 27.2,
+   "lon": 2.47
+  },
+  {
+   "region": "Tassili",
+   "city": "Illizi",
+   "lat": 26.5,
+   "lon": 8.48
+  },
+  {
+   "region": "Ahaggar",
+   "city": "Tamanrasset",
+   "lat": 22.79,
+   "lon": 5.52
+  },
+  {
+   "region": "Tanezrouft",
+   "city": "Bordj Badji Mokhtar",
+   "lat": 21.33,
+   "lon": 0.95
+  }
+ ],
+ "Tunisia": [
+  {
+   "region": "Bizerte",
+   "city": "Bizerte",
+   "lat": 37.27,
+   "lon": 9.87
+  },
+  {
+   "region": "Tunis",
+   "city": "Tunis",
+   "lat": 36.81,
+   "lon": 10.18
+  },
+  {
+   "region": "Cap Bon",
+   "city": "Nabeul",
+   "lat": 36.45,
+   "lon": 10.74
+  },
+  {
+   "region": "Béja",
+   "city": "Béja",
+   "lat": 36.73,
+   "lon": 9.18
+  },
+  {
+   "region": "Le Kef",
+   "city": "Le Kef",
+   "lat": 36.17,
+   "lon": 8.7
+  },
+  {
+   "region": "Sahel",
+   "city": "Sousse",
+   "lat": 35.83,
+   "lon": 10.64
+  },
+  {
+   "region": "Kairouan",
+   "city": "Kairouan",
+   "lat": 35.68,
+   "lon": 10.1
+  },
+  {
+   "region": "Sfax",
+   "city": "Sfax",
+   "lat": 34.74,
+   "lon": 10.76
+  },
+  {
+   "region": "Gafsa",
+   "city": "Gafsa",
+   "lat": 34.43,
+   "lon": 8.78
+  },
+  {
+   "region": "Jérid",
+   "city": "Tozeur",
+   "lat": 33.92,
+   "lon": 8.13
+  },
+  {
+   "region": "Gabès",
+   "city": "Gabès",
+   "lat": 33.88,
+   "lon": 10.1
+  },
+  {
+   "region": "Djerba",
+   "city": "Médenine",
+   "lat": 33.35,
+   "lon": 10.5
+  },
+  {
+   "region": "Tataouine",
+   "city": "Tataouine",
+   "lat": 32.93,
+   "lon": 10.45
+  }
+ ],
+ "Libya": [
+  {
+   "region": "Zuwara",
+   "city": "Zuwara",
+   "lat": 32.93,
+   "lon": 12.08
+  },
+  {
+   "region": "Zawiya",
+   "city": "Zawiya",
+   "lat": 32.76,
+   "lon": 12.73
+  },
+  {
+   "region": "Tripoli",
+   "city": "Tripoli",
+   "lat": 32.89,
+   "lon": 13.19
+  },
+  {
+   "region": "Jebel Nafusa",
+   "city": "Gharyan",
+   "lat": 32.17,
+   "lon": 13.02
+  },
+  {
+   "region": "Nalut",
+   "city": "Nalut",
+   "lat": 31.87,
+   "lon": 10.98
+  },
+  {
+   "region": "Ghadames",
+   "city": "Ghadames",
+   "lat": 30.13,
+   "lon": 9.5
+  },
+  {
+   "region": "Misrata",
+   "city": "Misrata",
+   "lat": 32.38,
+   "lon": 15.09
+  },
+  {
+   "region": "Sirte",
+   "city": "Sirte",
+   "lat": 31.21,
+   "lon": 16.59
+  },
+  {
+   "region": "Jufra",
+   "city": "Hun",
+   "lat": 29.12,
+   "lon": 15.95
+  },
+  {
+   "region": "Ajdabiya",
+   "city": "Ajdabiya",
+   "lat": 30.76,
+   "lon": 20.23
+  },
+  {
+   "region": "Benghazi",
+   "city": "Benghazi",
+   "lat": 32.12,
+   "lon": 20.07
+  },
+  {
+   "region": "Jebel Akhdar",
+   "city": "Bayda",
+   "lat": 32.76,
+   "lon": 21.76
+  },
+  {
+   "region": "Derna",
+   "city": "Derna",
+   "lat": 32.77,
+   "lon": 22.64
+  },
+  {
+   "region": "Tobruk",
+   "city": "Tobruk",
+   "lat": 32.08,
+   "lon": 23.96
+  },
+  {
+   "region": "Fezzan",
+   "city": "Sabha",
+   "lat": 27.04,
+   "lon": 14.43
+  },
+  {
+   "region": "Ubari",
+   "city": "Ubari",
+   "lat": 26.59,
+   "lon": 12.78
+  },
+  {
+   "region": "Murzuq",
+   "city": "Murzuq",
+   "lat": 25.92,
+   "lon": 13.92
+  },
+  {
+   "region": "Ghat",
+   "city": "Ghat",
+   "lat": 24.96,
+   "lon": 10.17
+  },
+  {
+   "region": "Awjila",
+   "city": "Jalu",
+   "lat": 29.03,
+   "lon": 21.55
+  },
+  {
+   "region": "Kufra",
+   "city": "Kufra",
+   "lat": 24.2,
+   "lon": 23.3
+  }
+ ],
+ "Egypt": [
+  {
+   "region": "Marmarica",
+   "city": "Marsa Matruh",
+   "lat": 31.35,
+   "lon": 27.24
+  },
+  {
+   "region": "Siwa",
+   "city": "Siwa",
+   "lat": 29.2,
+   "lon": 25.52
+  },
+  {
+   "region": "Alexandria",
+   "city": "Alexandria",
+   "lat": 31.2,
+   "lon": 29.92
+  },
+  {
+   "region": "Beheira",
+   "city": "Damanhur",
+   "lat": 31.03,
+   "lon": 30.47
+  },
+  {
+   "region": "Kafr el-Sheikh",
+   "city": "Kafr el-Sheikh",
+   "lat": 31.11,
+   "lon": 30.94
+  },
+  {
+   "region": "Gharbia",
+   "city": "Tanta",
+   "lat": 30.79,
+   "lon": 31.0
+  },
+  {
+   "region": "Dakahlia",
+   "city": "Mansoura",
+   "lat": 31.04,
+   "lon": 31.38
+  },
+  {
+   "region": "Damietta",
+   "city": "Damietta",
+   "lat": 31.42,
+   "lon": 31.81
+  },
+  {
+   "region": "Port Said",
+   "city": "Port Said",
+   "lat": 31.27,
+   "lon": 32.3
+  },
+  {
+   "region": "Sharqia",
+   "city": "Zagazig",
+   "lat": 30.59,
+   "lon": 31.5
+  },
+  {
+   "region": "Ismailia",
+   "city": "Ismailia",
+   "lat": 30.6,
+   "lon": 32.27
+  },
+  {
+   "region": "Cairo",
+   "city": "Cairo",
+   "lat": 30.04,
+   "lon": 31.24
+  },
+  {
+   "region": "Suez",
+   "city": "Suez",
+   "lat": 29.97,
+   "lon": 32.55
+  },
+  {
+   "region": "North Sinai",
+   "city": "El Arish",
+   "lat": 31.13,
+   "lon": 33.8
+  },
+  {
+   "region": "South Sinai",
+   "city": "El Tor",
+   "lat": 28.24,
+   "lon": 33.62
+  },
+  {
+   "region": "Faiyum",
+   "city": "Faiyum",
+   "lat": 29.31,
+   "lon": 30.84
+  },
+  {
+   "region": "Beni Suef",
+   "city": "Beni Suef",
+   "lat": 29.07,
+   "lon": 31.1
+  },
+  {
+   "region": "Minya",
+   "city": "Minya",
+   "lat": 28.11,
+   "lon": 30.75
+  },
+  {
+   "region": "Asyut",
+   "city": "Asyut",
+   "lat": 27.18,
+   "lon": 31.18
+  },
+  {
+   "region": "Sohag",
+   "city": "Sohag",
+   "lat": 26.56,
+   "lon": 31.69
+  },
+  {
+   "region": "Qena",
+   "city": "Qena",
+   "lat": 26.16,
+   "lon": 32.72
+  },
+  {
+   "region": "Luxor",
+   "city": "Luxor",
+   "lat": 25.69,
+   "lon": 32.64
+  },
+  {
+   "region": "Aswan",
+   "city": "Aswan",
+   "lat": 24.09,
+   "lon": 32.9
+  },
+  {
+   "region": "Red Sea",
+   "city": "Hurghada",
+   "lat": 27.26,
+   "lon": 33.81
+  },
+  {
+   "region": "New Valley",
+   "city": "Kharga",
+   "lat": 25.45,
+   "lon": 30.55
+  },
+  {
+   "region": "Halaib",
+   "city": "Halaib",
+   "lat": 22.22,
+   "lon": 36.62
+  }
+ ],
+ "Iraq": [
+  {
+   "region": "Baghdad",
+   "city": "Baghdad",
+   "lat": 33.31,
+   "lon": 44.37
+  },
+  {
+   "region": "Diyala",
+   "city": "Baqubah",
+   "lat": 33.75,
+   "lon": 44.64
+  },
+  {
+   "region": "Salahuddin",
+   "city": "Tikrit",
+   "lat": 34.6,
+   "lon": 43.68
+  },
+  {
+   "region": "Kirkuk",
+   "city": "Kirkuk",
+   "lat": 35.47,
+   "lon": 44.39
+  },
+  {
+   "region": "Mosul",
+   "city": "Mosul",
+   "lat": 36.34,
+   "lon": 43.13
+  },
+  {
+   "region": "Duhok",
+   "city": "Dohuk",
+   "lat": 36.87,
+   "lon": 43.0
+  },
+  {
+   "region": "Erbil",
+   "city": "Erbil",
+   "lat": 36.19,
+   "lon": 44.01
+  },
+  {
+   "region": "Sulaymaniyah",
+   "city": "Sulaymaniyah",
+   "lat": 35.56,
+   "lon": 45.43
+  },
+  {
+   "region": "Anbar",
+   "city": "Ramadi",
+   "lat": 33.43,
+   "lon": 43.3
+  },
+  {
+   "region": "Western Desert",
+   "city": "Rutba",
+   "lat": 33.04,
+   "lon": 40.29
+  },
+  {
+   "region": "Karbala",
+   "city": "Karbala",
+   "lat": 32.62,
+   "lon": 44.02
+  },
+  {
+   "region": "Babylon",
+   "city": "Hillah",
+   "lat": 32.48,
+   "lon": 44.42
+  },
+  {
+   "region": "Najaf",
+   "city": "Najaf",
+   "lat": 32.0,
+   "lon": 44.34
+  },
+  {
+   "region": "Wasit",
+   "city": "Kut",
+   "lat": 32.51,
+   "lon": 45.82
+  },
+  {
+   "region": "Maysan",
+   "city": "Amarah",
+   "lat": 31.84,
+   "lon": 47.14
+  },
+  {
+   "region": "Dhi Qar",
+   "city": "Nasiriyah",
+   "lat": 31.05,
+   "lon": 46.26
+  },
+  {
+   "region": "Muthanna",
+   "city": "Samawah",
+   "lat": 31.31,
+   "lon": 45.28
+  },
+  {
+   "region": "Basra",
+   "city": "Basra",
+   "lat": 30.51,
+   "lon": 47.78
+  }
+ ],
+ "Iran": [
+  {
+   "region": "Tehran",
+   "city": "Tehran",
+   "lat": 35.69,
+   "lon": 51.39
+  },
+  {
+   "region": "Qom",
+   "city": "Qom",
+   "lat": 34.64,
+   "lon": 50.88
+  },
+  {
+   "region": "Arak",
+   "city": "Arak",
+   "lat": 34.09,
+   "lon": 49.69
+  },
+  {
+   "region": "Qazvin",
+   "city": "Qazvin",
+   "lat": 36.27,
+   "lon": 50.0
+  },
+  {
+   "region": "Gilan",
+   "city": "Rasht",
+   "lat": 37.28,
+   "lon": 49.58
+  },
+  {
+   "region": "Mazandaran",
+   "city": "Sari",
+   "lat": 36.56,
+   "lon": 53.06
+  },
+  {
+   "region": "Astarabad",
+   "city": "Gorgan",
+   "lat": 36.84,
+   "lon": 54.43
+  },
+  {
+   "region": "Semnan",
+   "city": "Semnan",
+   "lat": 35.58,
+   "lon": 53.39
+  },
+  {
+   "region": "Tabriz",
+   "city": "Tabriz",
+   "lat": 38.08,
+   "lon": 46.29
+  },
+  {
+   "region": "Ardabil",
+   "city": "Ardabil",
+   "lat": 38.25,
+   "lon": 48.3
+  },
+  {
+   "region": "Zanjan",
+   "city": "Zanjan",
+   "lat": 36.68,
+   "lon": 48.48
+  },
+  {
+   "region": "Urmia",
+   "city": "Urmia",
+   "lat": 37.55,
+   "lon": 45.07
+  },
+  {
+   "region": "Kurdistan",
+   "city": "Sanandaj",
+   "lat": 35.31,
+   "lon": 47.0
+  },
+  {
+   "region": "Hamadan",
+   "city": "Hamadan",
+   "lat": 34.8,
+   "lon": 48.51
+  },
+  {
+   "region": "Kermanshah",
+   "city": "Kermanshah",
+   "lat": 34.31,
+   "lon": 47.07
+  },
+  {
+   "region": "Luristan",
+   "city": "Khorramabad",
+   "lat": 33.49,
+   "lon": 48.35
+  },
+  {
+   "region": "Khuzestan",
+   "city": "Ahvaz",
+   "lat": 31.32,
+   "lon": 48.67
+  },
+  {
+   "region": "Isfahan",
+   "city": "Isfahan",
+   "lat": 32.65,
+   "lon": 51.67
+  },
+  {
+   "region": "Bakhtiari",
+   "city": "Shahr-e Kord",
+   "lat": 32.33,
+   "lon": 50.86
+  },
+  {
+   "region": "Kohgiluyeh",
+   "city": "Yasuj",
+   "lat": 30.67,
+   "lon": 51.59
+  },
+  {
+   "region": "Yazd",
+   "city": "Yazd",
+   "lat": 31.9,
+   "lon": 54.37
+  },
+  {
+   "region": "Fars",
+   "city": "Shiraz",
+   "lat": 29.59,
+   "lon": 52.58
+  },
+  {
+   "region": "Laristan",
+   "city": "Lar",
+   "lat": 27.68,
+   "lon": 54.34
+  },
+  {
+   "region": "Bushehr",
+   "city": "Bushehr",
+   "lat": 28.92,
+   "lon": 50.84
+  },
+  {
+   "region": "Hormozgan",
+   "city": "Bandar Abbas",
+   "lat": 27.18,
+   "lon": 56.27
+  },
+  {
+   "region": "Kerman",
+   "city": "Kerman",
+   "lat": 30.28,
+   "lon": 57.07
+  },
+  {
+   "region": "Sistan",
+   "city": "Zahedan",
+   "lat": 29.5,
+   "lon": 60.86
+  },
+  {
+   "region": "Makran",
+   "city": "Chabahar",
+   "lat": 25.29,
+   "lon": 60.64
+  },
+  {
+   "region": "South Khorasan",
+   "city": "Birjand",
+   "lat": 32.87,
+   "lon": 59.22
+  },
+  {
+   "region": "Khorasan",
+   "city": "Mashhad",
+   "lat": 36.3,
+   "lon": 59.61
+  },
+  {
+   "region": "North Khorasan",
+   "city": "Bojnord",
+   "lat": 37.47,
+   "lon": 57.33
+  },
+  {
+   "region": "Alborz",
+   "city": "Karaj",
+   "lat": 35.84,
+   "lon": 50.99
+  },
+  {
+   "region": "Saveh",
+   "city": "Saveh",
+   "lat": 35.02,
+   "lon": 50.36
+  },
+  {
+   "region": "Kashan",
+   "city": "Kashan",
+   "lat": 33.98,
+   "lon": 51.44
+  },
+  {
+   "region": "Khoy",
+   "city": "Khoy",
+   "lat": 38.55,
+   "lon": 44.95
+  },
+  {
+   "region": "Maragheh",
+   "city": "Maragheh",
+   "lat": 37.39,
+   "lon": 46.24
+  },
+  {
+   "region": "Mukriyan",
+   "city": "Mahabad",
+   "lat": 36.76,
+   "lon": 45.72
+  },
+  {
+   "region": "Saqqez",
+   "city": "Saqqez",
+   "lat": 36.25,
+   "lon": 46.27
+  },
+  {
+   "region": "Qaradagh",
+   "city": "Ahar",
+   "lat": 38.48,
+   "lon": 47.07
+  },
+  {
+   "region": "Talysh",
+   "city": "Astara",
+   "lat": 38.43,
+   "lon": 48.87
+  },
+  {
+   "region": "Tabarestan",
+   "city": "Amol",
+   "lat": 36.47,
+   "lon": 52.35
+  },
+  {
+   "region": "Gonbad",
+   "city": "Gonbad-e Kavus",
+   "lat": 37.25,
+   "lon": 55.17
+  },
+  {
+   "region": "Shahrud",
+   "city": "Shahroud",
+   "lat": 36.42,
+   "lon": 54.97
+  },
+  {
+   "region": "Nishapur",
+   "city": "Neyshabur",
+   "lat": 36.21,
+   "lon": 58.8
+  },
+  {
+   "region": "Sabzevar",
+   "city": "Sabzevar",
+   "lat": 36.21,
+   "lon": 57.68
+  },
+  {
+   "region": "Torbat",
+   "city": "Torbat-e Heydarieh",
+   "lat": 35.27,
+   "lon": 59.22
+  },
+  {
+   "region": "Tabas",
+   "city": "Tabas",
+   "lat": 33.6,
+   "lon": 56.92
+  },
+  {
+   "region": "Zabol",
+   "city": "Zabol",
+   "lat": 31.03,
+   "lon": 61.5
+  },
+  {
+   "region": "Baluchestan",
+   "city": "Iranshahr",
+   "lat": 27.2,
+   "lon": 60.68
+  },
+  {
+   "region": "Bam",
+   "city": "Bam",
+   "lat": 29.11,
+   "lon": 58.36
+  },
+  {
+   "region": "Jiroft",
+   "city": "Jiroft",
+   "lat": 28.68,
+   "lon": 57.74
+  },
+  {
+   "region": "Sirjan",
+   "city": "Sirjan",
+   "lat": 29.45,
+   "lon": 55.68
+  },
+  {
+   "region": "Rafsanjan",
+   "city": "Rafsanjan",
+   "lat": 30.41,
+   "lon": 55.99
+  },
+  {
+   "region": "Lengeh",
+   "city": "Bandar Lengeh",
+   "lat": 26.56,
+   "lon": 54.88
+  },
+  {
+   "region": "Jahrom",
+   "city": "Jahrom",
+   "lat": 28.5,
+   "lon": 53.56
+  },
+  {
+   "region": "Behbahan",
+   "city": "Behbahan",
+   "lat": 30.6,
+   "lon": 50.24
+  },
+  {
+   "region": "Abadan",
+   "city": "Abadan",
+   "lat": 30.34,
+   "lon": 48.3
+  },
+  {
+   "region": "Dezful",
+   "city": "Dezful",
+   "lat": 32.38,
+   "lon": 48.4
+  },
+  {
+   "region": "Ilam",
+   "city": "Ilam",
+   "lat": 33.64,
+   "lon": 46.42
+  },
+  {
+   "region": "Borujerd",
+   "city": "Borujerd",
+   "lat": 33.9,
+   "lon": 48.76
+  },
+  {
+   "region": "Nain",
+   "city": "Nain",
+   "lat": 32.86,
+   "lon": 53.09
+  },
+  {
+   "region": "Ardakan",
+   "city": "Ardakan",
+   "lat": 32.31,
+   "lon": 54.02
+  }
+ ],
+ "Saudi Arabia": [
+  {
+   "region": "Tabuk",
+   "city": "Tabuk",
+   "lat": 28.38,
+   "lon": 36.57
+  },
+  {
+   "region": "Hegra",
+   "city": "Al-Ula",
+   "lat": 26.61,
+   "lon": 37.92
+  },
+  {
+   "region": "Yanbu",
+   "city": "Yanbu",
+   "lat": 24.09,
+   "lon": 38.05
+  },
+  {
+   "region": "Medina",
+   "city": "Medina",
+   "lat": 24.47,
+   "lon": 39.61
+  },
+  {
+   "region": "Mecca",
+   "city": "Mecca",
+   "lat": 21.42,
+   "lon": 39.83
+  },
+  {
+   "region": "Taif",
+   "city": "Taif",
+   "lat": 21.27,
+   "lon": 40.42
+  },
+  {
+   "region": "Al Bahah",
+   "city": "Al Bahah",
+   "lat": 20.01,
+   "lon": 41.47
+  },
+  {
+   "region": "Asir",
+   "city": "Abha",
+   "lat": 18.22,
+   "lon": 42.51
+  },
+  {
+   "region": "Jizan",
+   "city": "Jizan",
+   "lat": 16.89,
+   "lon": 42.55
+  },
+  {
+   "region": "Najran",
+   "city": "Najran",
+   "lat": 17.49,
+   "lon": 44.13
+  },
+  {
+   "region": "Northern Border",
+   "city": "Arar",
+   "lat": 30.97,
+   "lon": 41.02
+  },
+  {
+   "region": "Al Jawf",
+   "city": "Sakaka",
+   "lat": 29.97,
+   "lon": 40.21
+  },
+  {
+   "region": "Hail",
+   "city": "Ha'il",
+   "lat": 27.52,
+   "lon": 41.7
+  },
+  {
+   "region": "Qassim",
+   "city": "Buraydah",
+   "lat": 26.33,
+   "lon": 43.97
+  },
+  {
+   "region": "Najd",
+   "city": "Riyadh",
+   "lat": 24.71,
+   "lon": 46.68
+  },
+  {
+   "region": "Aflaj",
+   "city": "Sulayyil",
+   "lat": 20.46,
+   "lon": 45.57
+  },
+  {
+   "region": "Hafar al-Batin",
+   "city": "Hafar al-Batin",
+   "lat": 28.43,
+   "lon": 45.97
+  },
+  {
+   "region": "Hasa",
+   "city": "Hofuf",
+   "lat": 25.38,
+   "lon": 49.59
+  },
+  {
+   "region": "Qatif",
+   "city": "Dammam",
+   "lat": 26.43,
+   "lon": 50.1
+  },
+  {
+   "region": "Empty Quarter",
+   "city": "Sharurah",
+   "lat": 17.48,
+   "lon": 47.11
+  }
+ ],
+ "Yemen": [
+  {
+   "region": "Sanaa",
+   "city": "Sanaa",
+   "lat": 15.37,
+   "lon": 44.19
+  },
+  {
+   "region": "Saada",
+   "city": "Saada",
+   "lat": 16.94,
+   "lon": 43.76
+  },
+  {
+   "region": "Hajjah",
+   "city": "Hajjah",
+   "lat": 15.69,
+   "lon": 43.6
+  },
+  {
+   "region": "Tihamah",
+   "city": "Hodeidah",
+   "lat": 14.8,
+   "lon": 42.95
+  },
+  {
+   "region": "Ibb",
+   "city": "Ibb",
+   "lat": 13.97,
+   "lon": 44.18
+  },
+  {
+   "region": "Taiz",
+   "city": "Taiz",
+   "lat": 13.58,
+   "lon": 44.02
+  },
+  {
+   "region": "Jawf",
+   "city": "Al Hazm",
+   "lat": 16.16,
+   "lon": 44.78
+  },
+  {
+   "region": "Marib",
+   "city": "Marib",
+   "lat": 15.46,
+   "lon": 45.32
+  },
+  {
+   "region": "Bayda",
+   "city": "Al Bayda",
+   "lat": 13.99,
+   "lon": 45.57
+  },
+  {
+   "region": "Aden",
+   "city": "Aden",
+   "lat": 12.78,
+   "lon": 45.04
+  },
+  {
+   "region": "Abyan",
+   "city": "Zinjibar",
+   "lat": 13.13,
+   "lon": 45.38
+  },
+  {
+   "region": "Shabwa",
+   "city": "Ataq",
+   "lat": 14.54,
+   "lon": 46.83
+  },
+  {
+   "region": "Hadramawt",
+   "city": "Seiyun",
+   "lat": 15.94,
+   "lon": 48.79
+  },
+  {
+   "region": "Mukalla",
+   "city": "Mukalla",
+   "lat": 14.54,
+   "lon": 49.12
+  },
+  {
+   "region": "Mahra",
+   "city": "Al Ghaydah",
+   "lat": 16.21,
+   "lon": 52.17
+  },
+  {
+   "region": "Socotra",
+   "city": "Hadibu",
+   "lat": 12.65,
+   "lon": 54.02
+  }
+ ],
+ "Oman": [
+  {
+   "region": "Musandam",
+   "city": "Khasab",
+   "lat": 26.18,
+   "lon": 56.25
+  },
+  {
+   "region": "Buraimi",
+   "city": "Buraimi",
+   "lat": 24.25,
+   "lon": 55.79
+  },
+  {
+   "region": "Batinah",
+   "city": "Sohar",
+   "lat": 24.36,
+   "lon": 56.75
+  },
+  {
+   "region": "Muscat",
+   "city": "Muscat",
+   "lat": 23.59,
+   "lon": 58.41
+  },
+  {
+   "region": "Dhahirah",
+   "city": "Ibri",
+   "lat": 23.23,
+   "lon": 56.52
+  },
+  {
+   "region": "Dakhiliyah",
+   "city": "Nizwa",
+   "lat": 22.93,
+   "lon": 57.53
+  },
+  {
+   "region": "Sharqiyah",
+   "city": "Ibra",
+   "lat": 22.69,
+   "lon": 58.53
+  },
+  {
+   "region": "Ras al Hadd",
+   "city": "Sur",
+   "lat": 22.57,
+   "lon": 59.53
+  },
+  {
+   "region": "Najd",
+   "city": "Haima",
+   "lat": 19.96,
+   "lon": 56.28
+  },
+  {
+   "region": "Al Wusta",
+   "city": "Duqm",
+   "lat": 19.67,
+   "lon": 57.7
+  },
+  {
+   "region": "Dhofar",
+   "city": "Salalah",
+   "lat": 17.02,
+   "lon": 54.09
+  }
+ ],
+ "United Arab Emirates": [
+  {
+   "region": "Abu Dhabi",
+   "city": "Abu Dhabi",
+   "lat": 24.45,
+   "lon": 54.38
+  },
+  {
+   "region": "Liwa",
+   "city": "Liwa Oasis",
+   "lat": 23.13,
+   "lon": 53.77
+  },
+  {
+   "region": "Al Ain",
+   "city": "Al Ain",
+   "lat": 24.21,
+   "lon": 55.76
+  },
+  {
+   "region": "Dubai",
+   "city": "Dubai",
+   "lat": 25.2,
+   "lon": 55.27
+  },
+  {
+   "region": "Ras al-Khaimah",
+   "city": "Ras al-Khaimah",
+   "lat": 25.79,
+   "lon": 55.94
+  },
+  {
+   "region": "Fujairah",
+   "city": "Fujairah",
+   "lat": 25.12,
+   "lon": 56.33
+  }
+ ],
+ "India": [
+  {
+   "region": "Kashmir",
+   "city": "Srinagar",
+   "lat": 34.08,
+   "lon": 74.8
+  },
+  {
+   "region": "Jammu",
+   "city": "Jammu",
+   "lat": 32.73,
+   "lon": 74.86
+  },
+  {
+   "region": "Ladakh",
+   "city": "Leh",
+   "lat": 34.15,
+   "lon": 77.58
+  },
+  {
+   "region": "Punjab",
+   "city": "Amritsar",
+   "lat": 31.63,
+   "lon": 74.87
+  },
+  {
+   "region": "Patiala",
+   "city": "Patiala",
+   "lat": 30.34,
+   "lon": 76.39
+  },
+  {
+   "region": "Himachal",
+   "city": "Shimla",
+   "lat": 31.1,
+   "lon": 77.17
+  },
+  {
+   "region": "Garhwal",
+   "city": "Dehradun",
+   "lat": 30.32,
+   "lon": 78.03
+  },
+  {
+   "region": "Kumaon",
+   "city": "Almora",
+   "lat": 29.6,
+   "lon": 79.66
+  },
+  {
+   "region": "Delhi",
+   "city": "Delhi",
+   "lat": 28.61,
+   "lon": 77.21
+  },
+  {
+   "region": "Doab",
+   "city": "Meerut",
+   "lat": 28.98,
+   "lon": 77.71
+  },
+  {
+   "region": "Braj",
+   "city": "Agra",
+   "lat": 27.18,
+   "lon": 78.01
+  },
+  {
+   "region": "Awadh",
+   "city": "Lucknow",
+   "lat": 26.85,
+   "lon": 80.95
+  },
+  {
+   "region": "Prayag",
+   "city": "Prayagraj",
+   "lat": 25.43,
+   "lon": 81.85
+  },
+  {
+   "region": "Kashi",
+   "city": "Varanasi",
+   "lat": 25.32,
+   "lon": 83.01
+  },
+  {
+   "region": "Gorakhpur",
+   "city": "Gorakhpur",
+   "lat": 26.76,
+   "lon": 83.37
+  },
+  {
+   "region": "Magadha",
+   "city": "Patna",
+   "lat": 25.59,
+   "lon": 85.14
+  },
+  {
+   "region": "Mithila",
+   "city": "Darbhanga",
+   "lat": 26.15,
+   "lon": 85.9
+  },
+  {
+   "region": "Anga",
+   "city": "Bhagalpur",
+   "lat": 25.24,
+   "lon": 86.97
+  },
+  {
+   "region": "Jharkhand",
+   "city": "Ranchi",
+   "lat": 23.34,
+   "lon": 85.31
+  },
+  {
+   "region": "Dhundhar",
+   "city": "Jaipur",
+   "lat": 26.91,
+   "lon": 75.79
+  },
+  {
+   "region": "Marwar",
+   "city": "Jodhpur",
+   "lat": 26.24,
+   "lon": 73.02
+  },
+  {
+   "region": "Bikaner",
+   "city": "Bikaner",
+   "lat": 28.02,
+   "lon": 73.31
+  },
+  {
+   "region": "Jaisalmer",
+   "city": "Jaisalmer",
+   "lat": 26.92,
+   "lon": 70.91
+  },
+  {
+   "region": "Mewar",
+   "city": "Udaipur",
+   "lat": 24.59,
+   "lon": 73.71
+  },
+  {
+   "region": "Ajmer",
+   "city": "Ajmer",
+   "lat": 26.45,
+   "lon": 74.64
+  },
+  {
+   "region": "Hadoti",
+   "city": "Kota",
+   "lat": 25.21,
+   "lon": 75.86
+  },
+  {
+   "region": "Gwalior",
+   "city": "Gwalior",
+   "lat": 26.22,
+   "lon": 78.18
+  },
+  {
+   "region": "Bhopal",
+   "city": "Bhopal",
+   "lat": 23.26,
+   "lon": 77.41
+  },
+  {
+   "region": "Malwa",
+   "city": "Indore",
+   "lat": 22.72,
+   "lon": 75.86
+  },
+  {
+   "region": "Mahakoshal",
+   "city": "Jabalpur",
+   "lat": 23.18,
+   "lon": 79.99
+  },
+  {
+   "region": "Chhattisgarh",
+   "city": "Raipur",
+   "lat": 21.25,
+   "lon": 81.63
+  },
+  {
+   "region": "Vidarbha",
+   "city": "Nagpur",
+   "lat": 21.15,
+   "lon": 79.09
+  },
+  {
+   "region": "Gujarat",
+   "city": "Ahmedabad",
+   "lat": 23.02,
+   "lon": 72.57
+  },
+  {
+   "region": "Kathiawar",
+   "city": "Rajkot",
+   "lat": 22.3,
+   "lon": 70.8
+  },
+  {
+   "region": "Kutch",
+   "city": "Bhuj",
+   "lat": 23.25,
+   "lon": 69.67
+  },
+  {
+   "region": "Surat",
+   "city": "Surat",
+   "lat": 21.17,
+   "lon": 72.83
+  },
+  {
+   "region": "Konkan",
+   "city": "Mumbai",
+   "lat": 19.08,
+   "lon": 72.88
+  },
+  {
+   "region": "Desh",
+   "city": "Pune",
+   "lat": 18.52,
+   "lon": 73.86
+  },
+  {
+   "region": "Marathwada",
+   "city": "Aurangabad",
+   "lat": 19.88,
+   "lon": 75.34
+  },
+  {
+   "region": "Kolhapur",
+   "city": "Kolhapur",
+   "lat": 16.7,
+   "lon": 74.24
+  },
+  {
+   "region": "Goa",
+   "city": "Panaji",
+   "lat": 15.5,
+   "lon": 73.83
+  },
+  {
+   "region": "Telangana",
+   "city": "Hyderabad",
+   "lat": 17.39,
+   "lon": 78.49
+  },
+  {
+   "region": "Andhra",
+   "city": "Vijayawada",
+   "lat": 16.51,
+   "lon": 80.65
+  },
+  {
+   "region": "Kalinga",
+   "city": "Visakhapatnam",
+   "lat": 17.69,
+   "lon": 83.22
+  },
+  {
+   "region": "Odisha",
+   "city": "Bhubaneswar",
+   "lat": 20.3,
+   "lon": 85.82
+  },
+  {
+   "region": "Sambalpur",
+   "city": "Sambalpur",
+   "lat": 21.47,
+   "lon": 83.97
+  },
+  {
+   "region": "Mysore",
+   "city": "Bengaluru",
+   "lat": 12.97,
+   "lon": 77.59
+  },
+  {
+   "region": "Belgaum",
+   "city": "Belgaum",
+   "lat": 15.85,
+   "lon": 74.5
+  },
+  {
+   "region": "Kalyana",
+   "city": "Kalaburagi",
+   "lat": 17.33,
+   "lon": 76.83
+  },
+  {
+   "region": "Rayalaseema",
+   "city": "Kurnool",
+   "lat": 15.83,
+   "lon": 78.04
+  },
+  {
+   "region": "Tondaimandalam",
+   "city": "Chennai",
+   "lat": 13.08,
+   "lon": 80.27
+  },
+  {
+   "region": "Pandya",
+   "city": "Madurai",
+   "lat": 9.93,
+   "lon": 78.12
+  },
+  {
+   "region": "Chola",
+   "city": "Thanjavur",
+   "lat": 10.79,
+   "lon": 79.14
+  },
+  {
+   "region": "Kongu",
+   "city": "Coimbatore",
+   "lat": 11.02,
+   "lon": 76.96
+  },
+  {
+   "region": "Cochin",
+   "city": "Kochi",
+   "lat": 9.93,
+   "lon": 76.27
+  },
+  {
+   "region": "Travancore",
+   "city": "Thiruvananthapuram",
+   "lat": 8.52,
+   "lon": 76.94
+  },
+  {
+   "region": "Malabar",
+   "city": "Kozhikode",
+   "lat": 11.26,
+   "lon": 75.78
+  },
+  {
+   "region": "Tulu Nadu",
+   "city": "Mangalore",
+   "lat": 12.91,
+   "lon": 74.86
+  },
+  {
+   "region": "Bengal",
+   "city": "Kolkata",
+   "lat": 22.57,
+   "lon": 88.36
+  },
+  {
+   "region": "Darjeeling",
+   "city": "Darjeeling",
+   "lat": 27.04,
+   "lon": 88.27
+  },
+  {
+   "region": "Sikkim",
+   "city": "Gangtok",
+   "lat": 27.34,
+   "lon": 88.61
+  },
+  {
+   "region": "Kamrup",
+   "city": "Guwahati",
+   "lat": 26.14,
+   "lon": 91.74
+  },
+  {
+   "region": "Upper Assam",
+   "city": "Dibrugarh",
+   "lat": 27.48,
+   "lon": 94.91
+  },
+  {
+   "region": "Meghalaya",
+   "city": "Shillong",
+   "lat": 25.58,
+   "lon": 91.89
+  },
+  {
+   "region": "Manipur",
+   "city": "Imphal",
+   "lat": 24.82,
+   "lon": 93.94
+  },
+  {
+   "region": "Tripura",
+   "city": "Agartala",
+   "lat": 23.83,
+   "lon": 91.28
+  },
+  {
+   "region": "Nagaland",
+   "city": "Kohima",
+   "lat": 25.67,
+   "lon": 94.11
+  },
+  {
+   "region": "Mizoram",
+   "city": "Aizawl",
+   "lat": 23.73,
+   "lon": 92.72
+  },
+  {
+   "region": "Andaman",
+   "city": "Port Blair",
+   "lat": 11.62,
+   "lon": 92.73
+  },
+  {
+   "region": "Lakshadweep",
+   "city": "Kavaratti",
+   "lat": 10.57,
+   "lon": 72.64
+  },
+  {
+   "region": "Doaba",
+   "city": "Jalandhar",
+   "lat": 31.33,
+   "lon": 75.58
+  },
+  {
+   "region": "Bathinda",
+   "city": "Bathinda",
+   "lat": 30.21,
+   "lon": 74.95
+  },
+  {
+   "region": "Hisar",
+   "city": "Hisar",
+   "lat": 29.15,
+   "lon": 75.72
+  },
+  {
+   "region": "Rohilkhand",
+   "city": "Bareilly",
+   "lat": 28.37,
+   "lon": 79.43
+  },
+  {
+   "region": "Bundelkhand",
+   "city": "Jhansi",
+   "lat": 25.45,
+   "lon": 78.57
+  },
+  {
+   "region": "Ayodhya",
+   "city": "Ayodhya",
+   "lat": 26.8,
+   "lon": 82.2
+  },
+  {
+   "region": "Vindhya",
+   "city": "Mirzapur",
+   "lat": 25.15,
+   "lon": 82.57
+  },
+  {
+   "region": "Mewat",
+   "city": "Alwar",
+   "lat": 27.55,
+   "lon": 76.63
+  },
+  {
+   "region": "Shekhawati",
+   "city": "Sikar",
+   "lat": 27.61,
+   "lon": 75.14
+  },
+  {
+   "region": "Barmer",
+   "city": "Barmer",
+   "lat": 25.75,
+   "lon": 71.4
+  },
+  {
+   "region": "Chittor",
+   "city": "Chittorgarh",
+   "lat": 24.88,
+   "lon": 74.63
+  },
+  {
+   "region": "Vagad",
+   "city": "Banswara",
+   "lat": 23.54,
+   "lon": 74.44
+  },
+  {
+   "region": "Baghelkhand",
+   "city": "Rewa",
+   "lat": 24.53,
+   "lon": 81.3
+  },
+  {
+   "region": "Sagar",
+   "city": "Sagar",
+   "lat": 23.84,
+   "lon": 78.74
+  },
+  {
+   "region": "Nimar",
+   "city": "Khandwa",
+   "lat": 21.83,
+   "lon": 76.35
+  },
+  {
+   "region": "Gondwana",
+   "city": "Chhindwara",
+   "lat": 22.06,
+   "lon": 78.94
+  },
+  {
+   "region": "Bastar",
+   "city": "Jagdalpur",
+   "lat": 19.07,
+   "lon": 82.03
+  },
+  {
+   "region": "Dakshin Kosala",
+   "city": "Bilaspur",
+   "lat": 22.08,
+   "lon": 82.14
+  },
+  {
+   "region": "Nashik",
+   "city": "Nashik",
+   "lat": 19.99,
+   "lon": 73.79
+  },
+  {
+   "region": "Ahmednagar",
+   "city": "Ahmednagar",
+   "lat": 19.09,
+   "lon": 74.74
+  },
+  {
+   "region": "Solapur",
+   "city": "Solapur",
+   "lat": 17.67,
+   "lon": 75.91
+  },
+  {
+   "region": "Berar",
+   "city": "Akola",
+   "lat": 20.71,
+   "lon": 77.0
+  },
+  {
+   "region": "South Konkan",
+   "city": "Ratnagiri",
+   "lat": 16.99,
+   "lon": 73.3
+  },
+  {
+   "region": "Baroda",
+   "city": "Vadodara",
+   "lat": 22.31,
+   "lon": 73.18
+  },
+  {
+   "region": "Banaskantha",
+   "city": "Palanpur",
+   "lat": 24.17,
+   "lon": 72.43
+  },
+  {
+   "region": "Sorath",
+   "city": "Junagadh",
+   "lat": 21.52,
+   "lon": 70.46
+  },
+  {
+   "region": "Halar",
+   "city": "Jamnagar",
+   "lat": 22.47,
+   "lon": 70.07
+  },
+  {
+   "region": "Dharwad",
+   "city": "Dharwad",
+   "lat": 15.46,
+   "lon": 75.01
+  },
+  {
+   "region": "Bellary",
+   "city": "Bellary",
+   "lat": 15.14,
+   "lon": 76.92
+  },
+  {
+   "region": "Malnad",
+   "city": "Shimoga",
+   "lat": 13.93,
+   "lon": 75.57
+  },
+  {
+   "region": "Bidar",
+   "city": "Bidar",
+   "lat": 17.91,
+   "lon": 77.52
+  },
+  {
+   "region": "Kakatiya",
+   "city": "Warangal",
+   "lat": 17.97,
+   "lon": 79.59
+  },
+  {
+   "region": "Adilabad",
+   "city": "Adilabad",
+   "lat": 19.67,
+   "lon": 78.53
+  },
+  {
+   "region": "Guntur",
+   "city": "Guntur",
+   "lat": 16.31,
+   "lon": 80.44
+  },
+  {
+   "region": "Nellore",
+   "city": "Nellore",
+   "lat": 14.44,
+   "lon": 79.99
+  },
+  {
+   "region": "Chittoor",
+   "city": "Tirupati",
+   "lat": 13.63,
+   "lon": 79.42
+  },
+  {
+   "region": "Anantapur",
+   "city": "Anantapur",
+   "lat": 14.68,
+   "lon": 77.6
+  },
+  {
+   "region": "Godavari",
+   "city": "Rajahmundry",
+   "lat": 17.0,
+   "lon": 81.8
+  },
+  {
+   "region": "Salem",
+   "city": "Salem",
+   "lat": 11.66,
+   "lon": 78.15
+  },
+  {
+   "region": "Tirunelveli",
+   "city": "Tirunelveli",
+   "lat": 8.73,
+   "lon": 77.7
+  },
+  {
+   "region": "Arcot",
+   "city": "Vellore",
+   "lat": 12.92,
+   "lon": 79.13
+  },
+  {
+   "region": "Palakkad",
+   "city": "Palakkad",
+   "lat": 10.78,
+   "lon": 76.65
+  },
+  {
+   "region": "Kolathunadu",
+   "city": "Kannur",
+   "lat": 11.87,
+   "lon": 75.37
+  },
+  {
+   "region": "Ganjam",
+   "city": "Berhampur",
+   "lat": 19.31,
+   "lon": 84.79
+  },
+  {
+   "region": "Balasore",
+   "city": "Balasore",
+   "lat": 21.49,
+   "lon": 86.93
+  },
+  {
+   "region": "Singhbhum",
+   "city": "Jamshedpur",
+   "lat": 22.8,
+   "lon": 86.2
+  },
+  {
+   "region": "Gaya",
+   "city": "Gaya",
+   "lat": 24.8,
+   "lon": 85.0
+  },
+  {
+   "region": "Purnea",
+   "city": "Purnia",
+   "lat": 25.78,
+   "lon": 87.47
+  },
+  {
+   "region": "Gaur",
+   "city": "Malda",
+   "lat": 25.01,
+   "lon": 88.14
+  },
+  {
+   "region": "Burdwan",
+   "city": "Bardhaman",
+   "lat": 23.23,
+   "lon": 87.86
+  }
+ ],
+ "Bangladesh": [
+  {
+   "region": "Dhaka",
+   "city": "Dhaka",
+   "lat": 23.81,
+   "lon": 90.41
+  },
+  {
+   "region": "Mymensingh",
+   "city": "Mymensingh",
+   "lat": 24.75,
+   "lon": 90.41
+  },
+  {
+   "region": "Rangpur",
+   "city": "Rangpur",
+   "lat": 25.75,
+   "lon": 89.25
+  },
+  {
+   "region": "Varendra",
+   "city": "Rajshahi",
+   "lat": 24.37,
+   "lon": 88.6
+  },
+  {
+   "region": "Khulna",
+   "city": "Khulna",
+   "lat": 22.82,
+   "lon": 89.55
+  },
+  {
+   "region": "Barisal",
+   "city": "Barisal",
+   "lat": 22.7,
+   "lon": 90.37
+  },
+  {
+   "region": "Comilla",
+   "city": "Comilla",
+   "lat": 23.46,
+   "lon": 91.18
+  },
+  {
+   "region": "Chittagong",
+   "city": "Chittagong",
+   "lat": 22.36,
+   "lon": 91.78
+  },
+  {
+   "region": "Sylhet",
+   "city": "Sylhet",
+   "lat": 24.9,
+   "lon": 91.87
+  }
+ ],
+ "Nepal": [
+  {
+   "region": "Kathmandu",
+   "city": "Kathmandu",
+   "lat": 27.72,
+   "lon": 85.32
+  },
+  {
+   "region": "Koshi",
+   "city": "Biratnagar",
+   "lat": 26.45,
+   "lon": 87.28
+  },
+  {
+   "region": "Madhesh",
+   "city": "Janakpur",
+   "lat": 26.73,
+   "lon": 85.93
+  },
+  {
+   "region": "Gandaki",
+   "city": "Pokhara",
+   "lat": 28.21,
+   "lon": 83.99
+  },
+  {
+   "region": "Bheri",
+   "city": "Nepalgunj",
+   "lat": 28.05,
+   "lon": 81.62
+  },
+  {
+   "region": "Far West",
+   "city": "Dhangadhi",
+   "lat": 28.69,
+   "lon": 80.6
+  }
+ ],
+ "Sri Lanka": [
+  {
+   "region": "Colombo",
+   "city": "Colombo",
+   "lat": 6.93,
+   "lon": 79.86
+  },
+  {
+   "region": "Kandy",
+   "city": "Kandy",
+   "lat": 7.29,
+   "lon": 80.63
+  },
+  {
+   "region": "Wayamba",
+   "city": "Kurunegala",
+   "lat": 7.49,
+   "lon": 80.37
+  },
+  {
+   "region": "Jaffna",
+   "city": "Jaffna",
+   "lat": 9.66,
+   "lon": 80.01
+  },
+  {
+   "region": "North Central",
+   "city": "Anuradhapura",
+   "lat": 8.31,
+   "lon": 80.4
+  },
+  {
+   "region": "Trincomalee",
+   "city": "Trincomalee",
+   "lat": 8.57,
+   "lon": 81.23
+  },
+  {
+   "region": "Batticaloa",
+   "city": "Batticaloa",
+   "lat": 7.71,
+   "lon": 81.7
+  },
+  {
+   "region": "Uva",
+   "city": "Badulla",
+   "lat": 6.99,
+   "lon": 81.06
+  },
+  {
+   "region": "Ruhuna",
+   "city": "Galle",
+   "lat": 6.03,
+   "lon": 80.22
+  }
+ ],
+ "Bhutan": [
+  {
+   "region": "West Bhutan",
+   "city": "Thimphu",
+   "lat": 27.47,
+   "lon": 89.64
+  },
+  {
+   "region": "Central Bhutan",
+   "city": "Trongsa",
+   "lat": 27.5,
+   "lon": 90.5
+  },
+  {
+   "region": "East Bhutan",
+   "city": "Trashigang",
+   "lat": 27.33,
+   "lon": 91.55
+  }
+ ],
+ "Pakistan": [
+  {
+   "region": "Karachi",
+   "city": "Karachi",
+   "lat": 24.86,
+   "lon": 67.01
+  },
+  {
+   "region": "Lower Sindh",
+   "city": "Hyderabad",
+   "lat": 25.38,
+   "lon": 68.37
+  },
+  {
+   "region": "Upper Sindh",
+   "city": "Sukkur",
+   "lat": 27.7,
+   "lon": 68.86
+  },
+  {
+   "region": "Makran",
+   "city": "Gwadar",
+   "lat": 25.13,
+   "lon": 62.32
+  },
+  {
+   "region": "Jhalawan",
+   "city": "Khuzdar",
+   "lat": 27.8,
+   "lon": 66.62
+  },
+  {
+   "region": "Balochistan",
+   "city": "Quetta",
+   "lat": 30.18,
+   "lon": 66.99
+  },
+  {
+   "region": "Zhob",
+   "city": "Zhob",
+   "lat": 31.34,
+   "lon": 69.45
+  },
+  {
+   "region": "Dera Ghazi Khan",
+   "city": "Dera Ghazi Khan",
+   "lat": 30.05,
+   "lon": 70.64
+  },
+  {
+   "region": "Multan",
+   "city": "Multan",
+   "lat": 30.2,
+   "lon": 71.47
+  },
+  {
+   "region": "Bahawalpur",
+   "city": "Bahawalpur",
+   "lat": 29.4,
+   "lon": 71.68
+  },
+  {
+   "region": "Montgomery",
+   "city": "Sahiwal",
+   "lat": 30.66,
+   "lon": 73.11
+  },
+  {
+   "region": "Lahore",
+   "city": "Lahore",
+   "lat": 31.55,
+   "lon": 74.34
+  },
+  {
+   "region": "Rechna",
+   "city": "Faisalabad",
+   "lat": 31.42,
+   "lon": 73.08
+  },
+  {
+   "region": "Sialkot",
+   "city": "Sialkot",
+   "lat": 32.49,
+   "lon": 74.53
+  },
+  {
+   "region": "Potohar",
+   "city": "Rawalpindi",
+   "lat": 33.6,
+   "lon": 73.05
+  },
+  {
+   "region": "Hazara",
+   "city": "Abbottabad",
+   "lat": 34.15,
+   "lon": 73.21
+  },
+  {
+   "region": "Azad Kashmir",
+   "city": "Muzaffarabad",
+   "lat": 34.37,
+   "lon": 73.47
+  },
+  {
+   "region": "Peshawar",
+   "city": "Peshawar",
+   "lat": 34.01,
+   "lon": 71.58
+  },
+  {
+   "region": "Dera Ismail Khan",
+   "city": "Dera Ismail Khan",
+   "lat": 31.83,
+   "lon": 70.9
+  },
+  {
+   "region": "Waziristan",
+   "city": "Bannu",
+   "lat": 32.99,
+   "lon": 70.6
+  },
+  {
+   "region": "Chitral",
+   "city": "Chitral",
+   "lat": 35.85,
+   "lon": 71.79
+  },
+  {
+   "region": "Gilgit",
+   "city": "Gilgit",
+   "lat": 35.92,
+   "lon": 74.31
+  },
+  {
+   "region": "Baltistan",
+   "city": "Skardu",
+   "lat": 35.3,
+   "lon": 75.64
+  }
+ ],
+ "Afghanistan": [
+  {
+   "region": "Kabul",
+   "city": "Kabul",
+   "lat": 34.53,
+   "lon": 69.17
+  },
+  {
+   "region": "Nangarhar",
+   "city": "Jalalabad",
+   "lat": 34.43,
+   "lon": 70.45
+  },
+  {
+   "region": "Paktia",
+   "city": "Gardez",
+   "lat": 33.6,
+   "lon": 69.22
+  },
+  {
+   "region": "Khost",
+   "city": "Khost",
+   "lat": 33.34,
+   "lon": 69.92
+  },
+  {
+   "region": "Ghazni",
+   "city": "Ghazni",
+   "lat": 33.55,
+   "lon": 68.42
+  },
+  {
+   "region": "Hazarajat",
+   "city": "Bamyan",
+   "lat": 34.82,
+   "lon": 67.82
+  },
+  {
+   "region": "Kandahar",
+   "city": "Kandahar",
+   "lat": 31.62,
+   "lon": 65.72
+  },
+  {
+   "region": "Helmand",
+   "city": "Lashkar Gah",
+   "lat": 31.59,
+   "lon": 64.37
+  },
+  {
+   "region": "Zabul",
+   "city": "Qalat",
+   "lat": 32.1,
+   "lon": 66.91
+  },
+  {
+   "region": "Uruzgan",
+   "city": "Tarin Kowt",
+   "lat": 32.63,
+   "lon": 65.87
+  },
+  {
+   "region": "Nimruz",
+   "city": "Zaranj",
+   "lat": 30.96,
+   "lon": 61.86
+  },
+  {
+   "region": "Farah",
+   "city": "Farah",
+   "lat": 32.37,
+   "lon": 62.11
+  },
+  {
+   "region": "Herat",
+   "city": "Herat",
+   "lat": 34.35,
+   "lon": 62.2
+  },
+  {
+   "region": "Ghor",
+   "city": "Chaghcharan",
+   "lat": 34.52,
+   "lon": 65.25
+  },
+  {
+   "region": "Faryab",
+   "city": "Maymana",
+   "lat": 35.92,
+   "lon": 64.78
+  },
+  {
+   "region": "Jowzjan",
+   "city": "Sheberghan",
+   "lat": 36.67,
+   "lon": 65.75
+  },
+  {
+   "region": "Balkh",
+   "city": "Mazar-i-Sharif",
+   "lat": 36.71,
+   "lon": 67.11
+  },
+  {
+   "region": "Baghlan",
+   "city": "Pul-e-Khumri",
+   "lat": 35.94,
+   "lon": 68.71
+  },
+  {
+   "region": "Kunduz",
+   "city": "Kunduz",
+   "lat": 36.73,
+   "lon": 68.87
+  },
+  {
+   "region": "Badakhshan",
+   "city": "Faizabad",
+   "lat": 37.12,
+   "lon": 70.58
+  }
+ ],
+ "Turkmenistan": [
+  {
+   "region": "Ashgabat",
+   "city": "Ashgabat",
+   "lat": 37.96,
+   "lon": 58.33
+  },
+  {
+   "region": "Atrek",
+   "city": "Serdar",
+   "lat": 38.98,
+   "lon": 56.28
+  },
+  {
+   "region": "Balkan",
+   "city": "Balkanabat",
+   "lat": 39.51,
+   "lon": 54.37
+  },
+  {
+   "region": "Caspian Coast",
+   "city": "Turkmenbashi",
+   "lat": 40.02,
+   "lon": 52.97
+  },
+  {
+   "region": "Khorezm",
+   "city": "Dashoguz",
+   "lat": 41.84,
+   "lon": 59.97
+  },
+  {
+   "region": "Amul",
+   "city": "Turkmenabat",
+   "lat": 39.07,
+   "lon": 63.58
+  },
+  {
+   "region": "Merv",
+   "city": "Mary",
+   "lat": 37.6,
+   "lon": 61.83
+  }
+ ],
+ "Uzbekistan": [
+  {
+   "region": "Karakalpakstan",
+   "city": "Nukus",
+   "lat": 42.46,
+   "lon": 59.6
+  },
+  {
+   "region": "Khorezm",
+   "city": "Khiva",
+   "lat": 41.38,
+   "lon": 60.36
+  },
+  {
+   "region": "Bukhara",
+   "city": "Bukhara",
+   "lat": 39.77,
+   "lon": 64.42
+  },
+  {
+   "region": "Navoi",
+   "city": "Navoi",
+   "lat": 40.08,
+   "lon": 65.38
+  },
+  {
+   "region": "Samarkand",
+   "city": "Samarkand",
+   "lat": 39.65,
+   "lon": 66.96
+  },
+  {
+   "region": "Jizzakh",
+   "city": "Jizzakh",
+   "lat": 40.12,
+   "lon": 67.84
+  },
+  {
+   "region": "Tashkent",
+   "city": "Tashkent",
+   "lat": 41.3,
+   "lon": 69.24
+  },
+  {
+   "region": "Fergana",
+   "city": "Fergana",
+   "lat": 40.38,
+   "lon": 71.78
+  },
+  {
+   "region": "Kashkadarya",
+   "city": "Qarshi",
+   "lat": 38.86,
+   "lon": 65.79
+  },
+  {
+   "region": "Surkhandarya",
+   "city": "Termez",
+   "lat": 37.22,
+   "lon": 67.28
+  }
+ ],
+ "Tajikistan": [
+  {
+   "region": "Dushanbe",
+   "city": "Dushanbe",
+   "lat": 38.56,
+   "lon": 68.77
+  },
+  {
+   "region": "Sughd",
+   "city": "Khujand",
+   "lat": 40.28,
+   "lon": 69.62
+  },
+  {
+   "region": "Zarafshan",
+   "city": "Panjakent",
+   "lat": 39.5,
+   "lon": 67.61
+  },
+  {
+   "region": "Khatlon",
+   "city": "Kulob",
+   "lat": 37.91,
+   "lon": 69.78
+  },
+  {
+   "region": "Badakhshan",
+   "city": "Khorog",
+   "lat": 37.49,
+   "lon": 71.55
+  }
+ ],
+ "Kyrgyzstan": [
+  {
+   "region": "Bishkek",
+   "city": "Bishkek",
+   "lat": 42.87,
+   "lon": 74.59
+  },
+  {
+   "region": "Talas",
+   "city": "Talas",
+   "lat": 42.52,
+   "lon": 72.24
+  },
+  {
+   "region": "Osh",
+   "city": "Osh",
+   "lat": 40.53,
+   "lon": 72.8
+  },
+  {
+   "region": "Naryn",
+   "city": "Naryn",
+   "lat": 41.43,
+   "lon": 76.0
+  },
+  {
+   "region": "Issyk-Kul",
+   "city": "Karakol",
+   "lat": 42.49,
+   "lon": 78.39
+  }
+ ],
+ "Azerbaijan": [
+  {
+   "region": "Baku",
+   "city": "Baku",
+   "lat": 40.41,
+   "lon": 49.87
+  },
+  {
+   "region": "Shirvan",
+   "city": "Shamakhi",
+   "lat": 40.63,
+   "lon": 48.64
+  },
+  {
+   "region": "Shaki",
+   "city": "Shaki",
+   "lat": 41.19,
+   "lon": 47.17
+  },
+  {
+   "region": "Ganja",
+   "city": "Ganja",
+   "lat": 40.68,
+   "lon": 46.36
+  },
+  {
+   "region": "Karabakh",
+   "city": "Barda",
+   "lat": 40.37,
+   "lon": 47.13
+  },
+  {
+   "region": "Lankaran",
+   "city": "Lankaran",
+   "lat": 38.75,
+   "lon": 48.85
+  },
+  {
+   "region": "Nakhchivan",
+   "city": "Nakhchivan",
+   "lat": 39.21,
+   "lon": 45.41
+  }
+ ],
+ "Armenia": [
+  {
+   "region": "Ararat",
+   "city": "Yerevan",
+   "lat": 40.18,
+   "lon": 44.51
+  },
+  {
+   "region": "Shirak",
+   "city": "Gyumri",
+   "lat": 40.79,
+   "lon": 43.84
+  },
+  {
+   "region": "Lori",
+   "city": "Vanadzor",
+   "lat": 40.81,
+   "lon": 44.49
+  },
+  {
+   "region": "Syunik",
+   "city": "Sisian",
+   "lat": 39.52,
+   "lon": 46.03
+  }
+ ],
+ "Georgia": [
+  {
+   "region": "Kartli",
+   "city": "Tbilisi",
+   "lat": 41.72,
+   "lon": 44.79
+  },
+  {
+   "region": "Shida Kartli",
+   "city": "Gori",
+   "lat": 41.98,
+   "lon": 44.11
+  },
+  {
+   "region": "Imereti",
+   "city": "Kutaisi",
+   "lat": 42.25,
+   "lon": 42.7
+  },
+  {
+   "region": "Adjara",
+   "city": "Batumi",
+   "lat": 41.64,
+   "lon": 41.64
+  },
+  {
+   "region": "Samegrelo",
+   "city": "Zugdidi",
+   "lat": 42.51,
+   "lon": 41.87
+  },
+  {
+   "region": "Abkhazia",
+   "city": "Sukhumi",
+   "lat": 43.0,
+   "lon": 41.02
+  },
+  {
+   "region": "Svaneti",
+   "city": "Mestia",
+   "lat": 43.04,
+   "lon": 42.73
+  },
+  {
+   "region": "Samtskhe",
+   "city": "Akhaltsikhe",
+   "lat": 41.64,
+   "lon": 42.98
+  },
+  {
+   "region": "Kakheti",
+   "city": "Telavi",
+   "lat": 41.92,
+   "lon": 45.47
+  }
+ ],
+ "Mauritania": [
+  {
+   "region": "Nouakchott",
+   "city": "Nouakchott",
+   "lat": 18.08,
+   "lon": -15.98
+  },
+  {
+   "region": "Nouadhibou",
+   "city": "Nouadhibou",
+   "lat": 20.93,
+   "lon": -17.03
+  },
+  {
+   "region": "Adrar",
+   "city": "Atar",
+   "lat": 20.52,
+   "lon": -13.05
+  },
+  {
+   "region": "Tiris",
+   "city": "Zouérat",
+   "lat": 22.73,
+   "lon": -12.47
+  },
+  {
+   "region": "Assaba",
+   "city": "Kiffa",
+   "lat": 16.62,
+   "lon": -11.4
+  },
+  {
+   "region": "Hodh el Gharbi",
+   "city": "Aïoun el Atrouss",
+   "lat": 16.66,
+   "lon": -9.61
+  },
+  {
+   "region": "Hodh ech Chargui",
+   "city": "Néma",
+   "lat": 16.62,
+   "lon": -7.26
+  },
+  {
+   "region": "Tagant",
+   "city": "Tidjikja",
+   "lat": 18.56,
+   "lon": -11.43
+  },
+  {
+   "region": "Trarza",
+   "city": "Rosso",
+   "lat": 16.51,
+   "lon": -15.81
+  },
+  {
+   "region": "Gorgol",
+   "city": "Kaédi",
+   "lat": 16.15,
+   "lon": -13.51
+  }
+ ],
+ "Senegal": [
+  {
+   "region": "Cap-Vert",
+   "city": "Dakar",
+   "lat": 14.72,
+   "lon": -17.47
+  },
+  {
+   "region": "Waalo",
+   "city": "Saint-Louis",
+   "lat": 16.03,
+   "lon": -16.49
+  },
+  {
+   "region": "Cayor",
+   "city": "Thiès",
+   "lat": 14.79,
+   "lon": -16.93
+  },
+  {
+   "region": "Baol",
+   "city": "Touba",
+   "lat": 14.85,
+   "lon": -15.88
+  },
+  {
+   "region": "Saloum",
+   "city": "Kaolack",
+   "lat": 14.15,
+   "lon": -16.07
+  },
+  {
+   "region": "Casamance",
+   "city": "Ziguinchor",
+   "lat": 12.58,
+   "lon": -16.27
+  },
+  {
+   "region": "Haute Casamance",
+   "city": "Kolda",
+   "lat": 12.89,
+   "lon": -14.94
+  },
+  {
+   "region": "Haut Sénégal",
+   "city": "Tambacounda",
+   "lat": 13.77,
+   "lon": -13.67
+  },
+  {
+   "region": "Fouta Toro",
+   "city": "Matam",
+   "lat": 15.66,
+   "lon": -13.26
+  },
+  {
+   "region": "Jolof",
+   "city": "Linguère",
+   "lat": 15.39,
+   "lon": -15.12
+  }
+ ],
+ "Guinea-Bissau": [
+  {
+   "region": "Bissau",
+   "city": "Bissau",
+   "lat": 11.86,
+   "lon": -15.6
+  },
+  {
+   "region": "Gabú",
+   "city": "Bafatá",
+   "lat": 12.17,
+   "lon": -14.66
+  }
+ ],
+ "Guinea": [
+  {
+   "region": "Conakry",
+   "city": "Conakry",
+   "lat": 9.64,
+   "lon": -13.58
+  },
+  {
+   "region": "Kindia",
+   "city": "Kindia",
+   "lat": 10.06,
+   "lon": -12.87
+  },
+  {
+   "region": "Rio Nunez",
+   "city": "Boké",
+   "lat": 10.93,
+   "lon": -14.29
+  },
+  {
+   "region": "Fouta Djallon",
+   "city": "Labé",
+   "lat": 11.32,
+   "lon": -12.29
+  },
+  {
+   "region": "Haute Guinée",
+   "city": "Kankan",
+   "lat": 10.38,
+   "lon": -9.31
+  },
+  {
+   "region": "Faranah",
+   "city": "Faranah",
+   "lat": 10.04,
+   "lon": -10.74
+  },
+  {
+   "region": "Guinée Forestière",
+   "city": "Nzérékoré",
+   "lat": 7.76,
+   "lon": -8.82
+  }
+ ],
+ "Sierra Leone": [
+  {
+   "region": "Freetown",
+   "city": "Freetown",
+   "lat": 8.48,
+   "lon": -13.23
+  },
+  {
+   "region": "Makeni",
+   "city": "Makeni",
+   "lat": 8.89,
+   "lon": -12.04
+  },
+  {
+   "region": "Mende Country",
+   "city": "Bo",
+   "lat": 7.96,
+   "lon": -11.74
+  },
+  {
+   "region": "Kenema",
+   "city": "Kenema",
+   "lat": 7.88,
+   "lon": -11.19
+  }
+ ],
+ "Liberia": [
+  {
+   "region": "Montserrado",
+   "city": "Monrovia",
+   "lat": 6.3,
+   "lon": -10.8
+  },
+  {
+   "region": "Lofa",
+   "city": "Voinjama",
+   "lat": 8.42,
+   "lon": -9.75
+  },
+  {
+   "region": "Bong",
+   "city": "Gbarnga",
+   "lat": 6.99,
+   "lon": -9.47
+  },
+  {
+   "region": "Grand Bassa",
+   "city": "Buchanan",
+   "lat": 5.88,
+   "lon": -10.05
+  },
+  {
+   "region": "Grand Gedeh",
+   "city": "Zwedru",
+   "lat": 6.07,
+   "lon": -8.13
+  },
+  {
+   "region": "Maryland",
+   "city": "Harper",
+   "lat": 4.38,
+   "lon": -7.72
+  }
+ ],
+ "Ivory Coast": [
+  {
+   "region": "Abidjan",
+   "city": "Abidjan",
+   "lat": 5.36,
+   "lon": -4.01
+  },
+  {
+   "region": "Baoulé",
+   "city": "Yamoussoukro",
+   "lat": 6.82,
+   "lon": -5.28
+  },
+  {
+   "region": "Bouaké",
+   "city": "Bouaké",
+   "lat": 7.69,
+   "lon": -5.03
+  },
+  {
+   "region": "Sassandra",
+   "city": "San-Pédro",
+   "lat": 4.75,
+   "lon": -6.64
+  },
+  {
+   "region": "Daloa",
+   "city": "Daloa",
+   "lat": 6.88,
+   "lon": -6.45
+  },
+  {
+   "region": "Man",
+   "city": "Man",
+   "lat": 7.41,
+   "lon": -7.55
+  },
+  {
+   "region": "Senufo",
+   "city": "Korhogo",
+   "lat": 9.46,
+   "lon": -5.63
+  },
+  {
+   "region": "Denguélé",
+   "city": "Odienné",
+   "lat": 9.51,
+   "lon": -7.56
+  },
+  {
+   "region": "Zanzan",
+   "city": "Bondoukou",
+   "lat": 8.04,
+   "lon": -2.8
+  },
+  {
+   "region": "Indénié",
+   "city": "Abengourou",
+   "lat": 6.73,
+   "lon": -3.49
+  }
+ ],
+ "Ghana": [
+  {
+   "region": "Accra",
+   "city": "Accra",
+   "lat": 5.6,
+   "lon": -0.19
+  },
+  {
+   "region": "Akim",
+   "city": "Koforidua",
+   "lat": 6.09,
+   "lon": -0.26
+  },
+  {
+   "region": "Fante",
+   "city": "Cape Coast",
+   "lat": 5.11,
+   "lon": -1.25
+  },
+  {
+   "region": "Western Ghana",
+   "city": "Takoradi",
+   "lat": 4.9,
+   "lon": -1.76
+  },
+  {
+   "region": "Ashanti",
+   "city": "Kumasi",
+   "lat": 6.69,
+   "lon": -1.62
+  },
+  {
+   "region": "Bono",
+   "city": "Sunyani",
+   "lat": 7.34,
+   "lon": -2.33
+  },
+  {
+   "region": "Volta",
+   "city": "Ho",
+   "lat": 6.6,
+   "lon": 0.47
+  },
+  {
+   "region": "Dagomba",
+   "city": "Tamale",
+   "lat": 9.4,
+   "lon": -0.84
+  },
+  {
+   "region": "Upper East",
+   "city": "Bolgatanga",
+   "lat": 10.79,
+   "lon": -0.86
+  },
+  {
+   "region": "Upper West",
+   "city": "Wa",
+   "lat": 10.06,
+   "lon": -2.51
+  },
+  {
+   "region": "Gonja",
+   "city": "Salaga",
+   "lat": 8.55,
+   "lon": -0.52
+  }
+ ],
+ "Togo": [
+  {
+   "region": "Maritime Togo",
+   "city": "Lomé",
+   "lat": 6.14,
+   "lon": 1.21
+  },
+  {
+   "region": "Plateaux",
+   "city": "Atakpamé",
+   "lat": 7.53,
+   "lon": 1.13
+  },
+  {
+   "region": "Centrale",
+   "city": "Sokodé",
+   "lat": 8.99,
+   "lon": 1.14
+  },
+  {
+   "region": "Kara",
+   "city": "Kara",
+   "lat": 9.55,
+   "lon": 1.19
+  },
+  {
+   "region": "Savanes",
+   "city": "Dapaong",
+   "lat": 10.86,
+   "lon": 0.21
+  }
+ ],
+ "Benin": [
+  {
+   "region": "Popo",
+   "city": "Cotonou",
+   "lat": 6.37,
+   "lon": 2.43
+  },
+  {
+   "region": "Dahomey",
+   "city": "Abomey",
+   "lat": 7.18,
+   "lon": 1.99
+  },
+  {
+   "region": "Borgu",
+   "city": "Parakou",
+   "lat": 9.34,
+   "lon": 2.63
+  },
+  {
+   "region": "Atakora",
+   "city": "Natitingou",
+   "lat": 10.3,
+   "lon": 1.38
+  },
+  {
+   "region": "Kandi",
+   "city": "Kandi",
+   "lat": 11.13,
+   "lon": 2.94
+  },
+  {
+   "region": "Whydah",
+   "city": "Ouidah",
+   "lat": 6.37,
+   "lon": 2.08
+  },
+  {
+   "region": "Ajase",
+   "city": "Porto-Novo",
+   "lat": 6.5,
+   "lon": 2.6
+  }
+ ],
+ "Nigeria": [
+  {
+   "region": "Lagos",
+   "city": "Lagos",
+   "lat": 6.52,
+   "lon": 3.38
+  },
+  {
+   "region": "Egba",
+   "city": "Abeokuta",
+   "lat": 7.16,
+   "lon": 3.35
+  },
+  {
+   "region": "Oyo",
+   "city": "Ibadan",
+   "lat": 7.38,
+   "lon": 3.95
+  },
+  {
+   "region": "Ekiti",
+   "city": "Akure",
+   "lat": 7.25,
+   "lon": 5.19
+  },
+  {
+   "region": "Edo",
+   "city": "Benin City",
+   "lat": 6.34,
+   "lon": 5.63
+  },
+  {
+   "region": "Delta",
+   "city": "Warri",
+   "lat": 5.52,
+   "lon": 5.75
+  },
+  {
+   "region": "Niger Delta",
+   "city": "Port Harcourt",
+   "lat": 4.82,
+   "lon": 7.03
+  },
+  {
+   "region": "Calabar",
+   "city": "Calabar",
+   "lat": 4.95,
+   "lon": 8.32
+  },
+  {
+   "region": "Igboland",
+   "city": "Enugu",
+   "lat": 6.44,
+   "lon": 7.5
+  },
+  {
+   "region": "Anambra",
+   "city": "Onitsha",
+   "lat": 6.15,
+   "lon": 6.79
+  },
+  {
+   "region": "Ilorin",
+   "city": "Ilorin",
+   "lat": 8.5,
+   "lon": 4.55
+  },
+  {
+   "region": "Niger-Benue",
+   "city": "Lokoja",
+   "lat": 7.8,
+   "lon": 6.74
+  },
+  {
+   "region": "Benue",
+   "city": "Makurdi",
+   "lat": 7.73,
+   "lon": 8.52
+  },
+  {
+   "region": "Nupe",
+   "city": "Minna",
+   "lat": 9.61,
+   "lon": 6.55
+  },
+  {
+   "region": "Abuja",
+   "city": "Abuja",
+   "lat": 9.08,
+   "lon": 7.4
+  },
+  {
+   "region": "Plateau",
+   "city": "Jos",
+   "lat": 9.9,
+   "lon": 8.86
+  },
+  {
+   "region": "Kaduna",
+   "city": "Kaduna",
+   "lat": 10.52,
+   "lon": 7.44
+  },
+  {
+   "region": "Kano",
+   "city": "Kano",
+   "lat": 12.0,
+   "lon": 8.52
+  },
+  {
+   "region": "Katsina",
+   "city": "Katsina",
+   "lat": 12.99,
+   "lon": 7.6
+  },
+  {
+   "region": "Zamfara",
+   "city": "Gusau",
+   "lat": 12.16,
+   "lon": 6.66
+  },
+  {
+   "region": "Sokoto",
+   "city": "Sokoto",
+   "lat": 13.06,
+   "lon": 5.24
+  },
+  {
+   "region": "Kebbi",
+   "city": "Birnin Kebbi",
+   "lat": 12.45,
+   "lon": 4.2
+  },
+  {
+   "region": "Bauchi",
+   "city": "Bauchi",
+   "lat": 10.31,
+   "lon": 9.84
+  },
+  {
+   "region": "Gombe",
+   "city": "Gombe",
+   "lat": 10.29,
+   "lon": 11.17
+  },
+  {
+   "region": "Borno",
+   "city": "Maiduguri",
+   "lat": 11.85,
+   "lon": 13.16
+  },
+  {
+   "region": "Adamawa",
+   "city": "Yola",
+   "lat": 9.2,
+   "lon": 12.46
+  },
+  {
+   "region": "Taraba",
+   "city": "Jalingo",
+   "lat": 8.89,
+   "lon": 11.36
+  },
+  {
+   "region": "Ife",
+   "city": "Ife",
+   "lat": 7.47,
+   "lon": 4.56
+  },
+  {
+   "region": "Ijebu",
+   "city": "Ijebu-Ode",
+   "lat": 6.82,
+   "lon": 3.92
+  },
+  {
+   "region": "Jukun",
+   "city": "Wukari",
+   "lat": 7.85,
+   "lon": 9.78
+  }
+ ],
+ "Cameroon": [
+  {
+   "region": "Littoral",
+   "city": "Douala",
+   "lat": 4.05,
+   "lon": 9.77
+  },
+  {
+   "region": "Centre",
+   "city": "Yaoundé",
+   "lat": 3.85,
+   "lon": 11.5
+  },
+  {
+   "region": "South",
+   "city": "Ebolowa",
+   "lat": 2.9,
+   "lon": 11.15
+  },
+  {
+   "region": "Grassfields",
+   "city": "Bafoussam",
+   "lat": 5.48,
+   "lon": 10.42
+  },
+  {
+   "region": "Bamenda",
+   "city": "Bamenda",
+   "lat": 5.96,
+   "lon": 10.15
+  },
+  {
+   "region": "East Cameroon",
+   "city": "Bertoua",
+   "lat": 4.58,
+   "lon": 13.68
+  },
+  {
+   "region": "Adamawa",
+   "city": "Ngaoundéré",
+   "lat": 7.32,
+   "lon": 13.58
+  },
+  {
+   "region": "North Cameroon",
+   "city": "Garoua",
+   "lat": 9.3,
+   "lon": 13.4
+  },
+  {
+   "region": "Far North",
+   "city": "Maroua",
+   "lat": 10.59,
+   "lon": 14.32
+  }
+ ],
+ "Mali": [
+  {
+   "region": "Bamako",
+   "city": "Bamako",
+   "lat": 12.64,
+   "lon": -8.0
+  },
+  {
+   "region": "Segou",
+   "city": "Ségou",
+   "lat": 13.44,
+   "lon": -6.26
+  },
+  {
+   "region": "Macina",
+   "city": "Mopti",
+   "lat": 14.49,
+   "lon": -4.2
+  },
+  {
+   "region": "Timbuktu",
+   "city": "Timbuktu",
+   "lat": 16.77,
+   "lon": -3.01
+  },
+  {
+   "region": "Gao",
+   "city": "Gao",
+   "lat": 16.27,
+   "lon": -0.04
+  },
+  {
+   "region": "Kayes",
+   "city": "Kayes",
+   "lat": 14.45,
+   "lon": -11.44
+  },
+  {
+   "region": "Kaarta",
+   "city": "Nioro du Sahel",
+   "lat": 15.23,
+   "lon": -9.35
+  },
+  {
+   "region": "Sikasso",
+   "city": "Sikasso",
+   "lat": 11.32,
+   "lon": -5.67
+  },
+  {
+   "region": "Adrar des Ifoghas",
+   "city": "Kidal",
+   "lat": 18.44,
+   "lon": 1.41
+  }
+ ],
+ "Burkina Faso": [
+  {
+   "region": "Mossi",
+   "city": "Ouagadougou",
+   "lat": 12.37,
+   "lon": -1.52
+  },
+  {
+   "region": "Yatenga",
+   "city": "Ouahigouya",
+   "lat": 13.58,
+   "lon": -2.42
+  },
+  {
+   "region": "Liptako",
+   "city": "Dori",
+   "lat": 14.04,
+   "lon": -0.03
+  },
+  {
+   "region": "Gurma",
+   "city": "Fada N'Gourma",
+   "lat": 12.06,
+   "lon": 0.35
+  },
+  {
+   "region": "Bobo",
+   "city": "Bobo-Dioulasso",
+   "lat": 11.18,
+   "lon": -4.3
+  },
+  {
+   "region": "Lobi",
+   "city": "Gaoua",
+   "lat": 10.33,
+   "lon": -3.18
+  }
+ ],
+ "Niger": [
+  {
+   "region": "Niamey",
+   "city": "Niamey",
+   "lat": 13.51,
+   "lon": 2.11
+  },
+  {
+   "region": "Songhai",
+   "city": "Tillabéri",
+   "lat": 14.21,
+   "lon": 1.45
+  },
+  {
+   "region": "Zarma",
+   "city": "Dosso",
+   "lat": 13.05,
+   "lon": 3.19
+  },
+  {
+   "region": "Tahoua",
+   "city": "Tahoua",
+   "lat": 14.89,
+   "lon": 5.27
+  },
+  {
+   "region": "Maradi",
+   "city": "Maradi",
+   "lat": 13.5,
+   "lon": 7.1
+  },
+  {
+   "region": "Damagaram",
+   "city": "Zinder",
+   "lat": 13.81,
+   "lon": 8.99
+  },
+  {
+   "region": "Diffa",
+   "city": "Diffa",
+   "lat": 13.32,
+   "lon": 12.61
+  },
+  {
+   "region": "Aïr",
+   "city": "Agadez",
+   "lat": 16.97,
+   "lon": 7.99
+  },
+  {
+   "region": "Arlit",
+   "city": "Arlit",
+   "lat": 18.74,
+   "lon": 7.39
+  },
+  {
+   "region": "Kaouar",
+   "city": "Bilma",
+   "lat": 18.69,
+   "lon": 12.92
+  }
+ ],
+ "Ethiopia": [
+  {
+   "region": "Shewa",
+   "city": "Addis Ababa",
+   "lat": 9.02,
+   "lon": 38.75
+  },
+  {
+   "region": "Arsi",
+   "city": "Adama",
+   "lat": 8.54,
+   "lon": 39.27
+  },
+  {
+   "region": "Bale",
+   "city": "Goba",
+   "lat": 7.0,
+   "lon": 39.98
+  },
+  {
+   "region": "Wollo",
+   "city": "Dessie",
+   "lat": 11.13,
+   "lon": 39.64
+  },
+  {
+   "region": "Lasta",
+   "city": "Lalibela",
+   "lat": 12.03,
+   "lon": 39.05
+  },
+  {
+   "region": "Tigray",
+   "city": "Mekelle",
+   "lat": 13.5,
+   "lon": 39.47
+  },
+  {
+   "region": "Axum",
+   "city": "Axum",
+   "lat": 14.13,
+   "lon": 38.72
+  },
+  {
+   "region": "Begemder",
+   "city": "Gondar",
+   "lat": 12.6,
+   "lon": 37.47
+  },
+  {
+   "region": "Gojjam",
+   "city": "Bahir Dar",
+   "lat": 11.59,
+   "lon": 37.39
+  },
+  {
+   "region": "Wollega",
+   "city": "Nekemte",
+   "lat": 9.09,
+   "lon": 36.55
+  },
+  {
+   "region": "Benishangul",
+   "city": "Asosa",
+   "lat": 10.07,
+   "lon": 34.53
+  },
+  {
+   "region": "Gambela",
+   "city": "Gambela",
+   "lat": 8.25,
+   "lon": 34.59
+  },
+  {
+   "region": "Kaffa",
+   "city": "Jimma",
+   "lat": 7.67,
+   "lon": 36.83
+  },
+  {
+   "region": "Gamo",
+   "city": "Arba Minch",
+   "lat": 6.03,
+   "lon": 37.55
+  },
+  {
+   "region": "Sidamo",
+   "city": "Hawassa",
+   "lat": 7.06,
+   "lon": 38.48
+  },
+  {
+   "region": "Borana",
+   "city": "Negele",
+   "lat": 5.33,
+   "lon": 39.58
+  },
+  {
+   "region": "Harar",
+   "city": "Harar",
+   "lat": 9.31,
+   "lon": 42.12
+  },
+  {
+   "region": "Jijiga",
+   "city": "Jijiga",
+   "lat": 9.35,
+   "lon": 42.8
+  },
+  {
+   "region": "Ogaden",
+   "city": "Gode",
+   "lat": 5.95,
+   "lon": 43.45
+  },
+  {
+   "region": "Afar",
+   "city": "Semera",
+   "lat": 11.79,
+   "lon": 41.01
+  },
+  {
+   "region": "Dire Dawa",
+   "city": "Dire Dawa",
+   "lat": 9.59,
+   "lon": 41.86
+  }
+ ],
+ "Eritrea": [
+  {
+   "region": "Hamasien",
+   "city": "Asmara",
+   "lat": 15.34,
+   "lon": 38.93
+  },
+  {
+   "region": "Massawa",
+   "city": "Massawa",
+   "lat": 15.61,
+   "lon": 39.45
+  },
+  {
+   "region": "Keren",
+   "city": "Keren",
+   "lat": 15.78,
+   "lon": 38.45
+  },
+  {
+   "region": "Gash-Barka",
+   "city": "Barentu",
+   "lat": 15.11,
+   "lon": 37.59
+  },
+  {
+   "region": "Danakil",
+   "city": "Assab",
+   "lat": 13.01,
+   "lon": 42.74
+  }
+ ],
+ "Somalia": [
+  {
+   "region": "Awdal",
+   "city": "Borama",
+   "lat": 9.94,
+   "lon": 43.18
+  },
+  {
+   "region": "Somaliland",
+   "city": "Hargeisa",
+   "lat": 9.56,
+   "lon": 44.07
+  },
+  {
+   "region": "Berbera",
+   "city": "Berbera",
+   "lat": 10.44,
+   "lon": 45.01
+  },
+  {
+   "region": "Togdheer",
+   "city": "Burao",
+   "lat": 9.52,
+   "lon": 45.53
+  },
+  {
+   "region": "Sool",
+   "city": "Las Anod",
+   "lat": 8.48,
+   "lon": 47.36
+  },
+  {
+   "region": "Bari",
+   "city": "Bosaso",
+   "lat": 11.28,
+   "lon": 49.18
+  },
+  {
+   "region": "Nugal",
+   "city": "Garowe",
+   "lat": 8.41,
+   "lon": 48.48
+  },
+  {
+   "region": "Mudug",
+   "city": "Galkayo",
+   "lat": 6.77,
+   "lon": 47.43
+  },
+  {
+   "region": "Hobyo",
+   "city": "Hobyo",
+   "lat": 5.35,
+   "lon": 48.53
+  },
+  {
+   "region": "Hiraan",
+   "city": "Beledweyne",
+   "lat": 4.74,
+   "lon": 45.2
+  },
+  {
+   "region": "Middle Shabelle",
+   "city": "Jowhar",
+   "lat": 2.78,
+   "lon": 45.5
+  },
+  {
+   "region": "Benadir",
+   "city": "Mogadishu",
+   "lat": 2.05,
+   "lon": 45.32
+  },
+  {
+   "region": "Bay",
+   "city": "Baidoa",
+   "lat": 3.12,
+   "lon": 43.65
+  },
+  {
+   "region": "Gedo",
+   "city": "Luuq",
+   "lat": 3.8,
+   "lon": 42.55
+  },
+  {
+   "region": "Jubaland",
+   "city": "Kismayo",
+   "lat": 0.36,
+   "lon": 42.55
+  },
+  {
+   "region": "Sanaag",
+   "city": "Erigavo",
+   "lat": 10.62,
+   "lon": 47.37
+  },
+  {
+   "region": "Galgaduud",
+   "city": "Dhusamareb",
+   "lat": 5.55,
+   "lon": 46.39
+  },
+  {
+   "region": "Zeila",
+   "city": "Zeila",
+   "lat": 11.35,
+   "lon": 43.47
+  },
+  {
+   "region": "Lower Shabelle",
+   "city": "Afgooye",
+   "lat": 2.14,
+   "lon": 45.12
+  },
+  {
+   "region": "Barawa",
+   "city": "Barawa",
+   "lat": 1.11,
+   "lon": 44.02
+  }
+ ],
+ "Kenya": [
+  {
+   "region": "Nairobi",
+   "city": "Nairobi",
+   "lat": -1.29,
+   "lon": 36.82
+  },
+  {
+   "region": "Mombasa",
+   "city": "Mombasa",
+   "lat": -4.04,
+   "lon": 39.67
+  },
+  {
+   "region": "Malindi",
+   "city": "Malindi",
+   "lat": -3.22,
+   "lon": 40.12
+  },
+  {
+   "region": "Lamu",
+   "city": "Lamu",
+   "lat": -2.27,
+   "lon": 40.9
+  },
+  {
+   "region": "Taita",
+   "city": "Voi",
+   "lat": -3.4,
+   "lon": 38.56
+  },
+  {
+   "region": "Ukambani",
+   "city": "Kitui",
+   "lat": -1.37,
+   "lon": 38.01
+  },
+  {
+   "region": "Kikuyuland",
+   "city": "Nyeri",
+   "lat": -0.42,
+   "lon": 36.95
+  },
+  {
+   "region": "Meru",
+   "city": "Meru",
+   "lat": 0.05,
+   "lon": 37.65
+  },
+  {
+   "region": "Maasailand",
+   "city": "Narok",
+   "lat": -1.08,
+   "lon": 35.86
+  },
+  {
+   "region": "Rift Valley",
+   "city": "Nakuru",
+   "lat": -0.3,
+   "lon": 36.07
+  },
+  {
+   "region": "Uasin Gishu",
+   "city": "Eldoret",
+   "lat": 0.52,
+   "lon": 35.27
+  },
+  {
+   "region": "Western Kenya",
+   "city": "Kakamega",
+   "lat": 0.28,
+   "lon": 34.75
+  },
+  {
+   "region": "Nyanza",
+   "city": "Kisumu",
+   "lat": -0.09,
+   "lon": 34.77
+  },
+  {
+   "region": "Turkana",
+   "city": "Lodwar",
+   "lat": 3.12,
+   "lon": 35.6
+  },
+  {
+   "region": "Marsabit",
+   "city": "Marsabit",
+   "lat": 2.33,
+   "lon": 37.99
+  },
+  {
+   "region": "Wajir",
+   "city": "Wajir",
+   "lat": 1.75,
+   "lon": 40.06
+  },
+  {
+   "region": "Mandera",
+   "city": "Mandera",
+   "lat": 3.94,
+   "lon": 41.86
+  },
+  {
+   "region": "Garissa",
+   "city": "Garissa",
+   "lat": -0.45,
+   "lon": 39.65
+  }
+ ],
+ "United Republic of Tanzania": [
+  {
+   "region": "Dar es Salaam",
+   "city": "Dar es Salaam",
+   "lat": -6.79,
+   "lon": 39.21
+  },
+  {
+   "region": "Zanzibar",
+   "city": "Zanzibar City",
+   "lat": -6.16,
+   "lon": 39.19
+  },
+  {
+   "region": "Pemba",
+   "city": "Chake Chake",
+   "lat": -5.25,
+   "lon": 39.77
+  },
+  {
+   "region": "Tanga",
+   "city": "Tanga",
+   "lat": -5.07,
+   "lon": 39.1
+  },
+  {
+   "region": "Kilwa",
+   "city": "Kilwa Kisiwani",
+   "lat": -8.96,
+   "lon": 39.51
+  },
+  {
+   "region": "Lindi",
+   "city": "Lindi",
+   "lat": -9.99,
+   "lon": 39.71
+  },
+  {
+   "region": "Mtwara",
+   "city": "Mtwara",
+   "lat": -10.27,
+   "lon": 40.18
+  },
+  {
+   "region": "Morogoro",
+   "city": "Morogoro",
+   "lat": -6.82,
+   "lon": 37.66
+  },
+  {
+   "region": "Gogo",
+   "city": "Dodoma",
+   "lat": -6.17,
+   "lon": 35.74
+  },
+  {
+   "region": "Singida",
+   "city": "Singida",
+   "lat": -4.82,
+   "lon": 34.74
+  },
+  {
+   "region": "Arusha",
+   "city": "Arusha",
+   "lat": -3.37,
+   "lon": 36.68
+  },
+  {
+   "region": "Kilimanjaro",
+   "city": "Moshi",
+   "lat": -3.35,
+   "lon": 37.34
+  },
+  {
+   "region": "Sukuma",
+   "city": "Mwanza",
+   "lat": -2.52,
+   "lon": 32.9
+  },
+  {
+   "region": "Kagera",
+   "city": "Bukoba",
+   "lat": -1.33,
+   "lon": 31.81
+  },
+  {
+   "region": "Ujiji",
+   "city": "Kigoma",
+   "lat": -4.88,
+   "lon": 29.63
+  },
+  {
+   "region": "Unyamwezi",
+   "city": "Tabora",
+   "lat": -5.02,
+   "lon": 32.8
+  },
+  {
+   "region": "Uhehe",
+   "city": "Iringa",
+   "lat": -7.77,
+   "lon": 35.69
+  },
+  {
+   "region": "Mbeya",
+   "city": "Mbeya",
+   "lat": -8.9,
+   "lon": 33.46
+  },
+  {
+   "region": "Ruvuma",
+   "city": "Songea",
+   "lat": -10.68,
+   "lon": 35.65
+  },
+  {
+   "region": "Bagamoyo",
+   "city": "Bagamoyo",
+   "lat": -6.43,
+   "lon": 38.9
+  },
+  {
+   "region": "Mafia",
+   "city": "Mafia",
+   "lat": -7.9,
+   "lon": 39.67
+  }
+ ],
+ "Mozambique": [
+  {
+   "region": "Maputo",
+   "city": "Maputo",
+   "lat": -25.97,
+   "lon": 32.57
+  },
+  {
+   "region": "Gaza",
+   "city": "Xai-Xai",
+   "lat": -25.05,
+   "lon": 33.64
+  },
+  {
+   "region": "Inhambane",
+   "city": "Inhambane",
+   "lat": -23.87,
+   "lon": 35.38
+  },
+  {
+   "region": "Vilankulo",
+   "city": "Vilankulo",
+   "lat": -22.0,
+   "lon": 35.31
+  },
+  {
+   "region": "Sofala",
+   "city": "Beira",
+   "lat": -19.84,
+   "lon": 34.84
+  },
+  {
+   "region": "Manica",
+   "city": "Chimoio",
+   "lat": -19.12,
+   "lon": 33.48
+  },
+  {
+   "region": "Tete",
+   "city": "Tete",
+   "lat": -16.16,
+   "lon": 33.59
+  },
+  {
+   "region": "Zambezia",
+   "city": "Quelimane",
+   "lat": -17.88,
+   "lon": 36.89
+  },
+  {
+   "region": "Angoche",
+   "city": "Angoche",
+   "lat": -16.23,
+   "lon": 39.91
+  },
+  {
+   "region": "Nampula",
+   "city": "Nampula",
+   "lat": -15.12,
+   "lon": 39.27
+  },
+  {
+   "region": "Ilha de Moçambique",
+   "city": "Ilha de Moçambique",
+   "lat": -15.04,
+   "lon": 40.73
+  },
+  {
+   "region": "Cabo Delgado",
+   "city": "Pemba",
+   "lat": -12.97,
+   "lon": 40.52
+  },
+  {
+   "region": "Mocímboa",
+   "city": "Mocímboa da Praia",
+   "lat": -11.35,
+   "lon": 40.35
+  },
+  {
+   "region": "Niassa",
+   "city": "Lichinga",
+   "lat": -13.31,
+   "lon": 35.24
+  }
+ ],
+ "China": [
+  {
+   "region": "Harbin",
+   "city": "Harbin",
+   "lat": 45.8,
+   "lon": 126.53
+  },
+  {
+   "region": "Qiqihar",
+   "city": "Qiqihar",
+   "lat": 47.34,
+   "lon": 123.97
+  },
+  {
+   "region": "Heihe",
+   "city": "Heihe",
+   "lat": 50.25,
+   "lon": 127.49
+  },
+  {
+   "region": "Sanjiang",
+   "city": "Jiamusi",
+   "lat": 46.8,
+   "lon": 130.32
+  },
+  {
+   "region": "Mudanjiang",
+   "city": "Mudanjiang",
+   "lat": 44.55,
+   "lon": 129.63
+  },
+  {
+   "region": "Mohe",
+   "city": "Mohe",
+   "lat": 52.97,
+   "lon": 122.54
+  },
+  {
+   "region": "Yichun Heilongjiang",
+   "city": "Yichun",
+   "lat": 47.73,
+   "lon": 128.84
+  },
+  {
+   "region": "Changchun",
+   "city": "Changchun",
+   "lat": 43.82,
+   "lon": 125.32
+  },
+  {
+   "region": "Jilin",
+   "city": "Jilin City",
+   "lat": 43.84,
+   "lon": 126.55
+  },
+  {
+   "region": "Western Jilin",
+   "city": "Baicheng",
+   "lat": 45.62,
+   "lon": 122.84
+  },
+  {
+   "region": "Songyuan",
+   "city": "Songyuan",
+   "lat": 45.14,
+   "lon": 124.83
+  },
+  {
+   "region": "Yanbian",
+   "city": "Yanji",
+   "lat": 42.89,
+   "lon": 129.51
+  },
+  {
+   "region": "Tonghua",
+   "city": "Tonghua",
+   "lat": 41.73,
+   "lon": 125.94
+  },
+  {
+   "region": "Shenyang",
+   "city": "Shenyang",
+   "lat": 41.8,
+   "lon": 123.43
+  },
+  {
+   "region": "Liaodong",
+   "city": "Dalian",
+   "lat": 38.91,
+   "lon": 121.6
+  },
+  {
+   "region": "Jinzhou",
+   "city": "Jinzhou",
+   "lat": 41.1,
+   "lon": 121.13
+  },
+  {
+   "region": "Dandong",
+   "city": "Dandong",
+   "lat": 40.12,
+   "lon": 124.39
+  },
+  {
+   "region": "Chaoyang",
+   "city": "Chaoyang",
+   "lat": 41.57,
+   "lon": 120.45
+  },
+  {
+   "region": "Hohhot",
+   "city": "Hohhot",
+   "lat": 40.84,
+   "lon": 111.75
+  },
+  {
+   "region": "Baotou",
+   "city": "Baotou",
+   "lat": 40.66,
+   "lon": 109.84
+  },
+  {
+   "region": "Ordos",
+   "city": "Ordos",
+   "lat": 39.61,
+   "lon": 109.78
+  },
+  {
+   "region": "Wuhai",
+   "city": "Wuhai",
+   "lat": 39.65,
+   "lon": 106.82
+  },
+  {
+   "region": "Bayannur",
+   "city": "Bayannur",
+   "lat": 40.76,
+   "lon": 107.39
+  },
+  {
+   "region": "Alxa",
+   "city": "Alxa Left Banner",
+   "lat": 38.85,
+   "lon": 105.73
+  },
+  {
+   "region": "Ulanqab",
+   "city": "Ulanqab",
+   "lat": 40.99,
+   "lon": 113.13
+  },
+  {
+   "region": "Xilingol",
+   "city": "Xilinhot",
+   "lat": 43.94,
+   "lon": 116.09
+  },
+  {
+   "region": "Chifeng",
+   "city": "Chifeng",
+   "lat": 42.26,
+   "lon": 118.89
+  },
+  {
+   "region": "Tongliao",
+   "city": "Tongliao",
+   "lat": 43.65,
+   "lon": 122.24
+  },
+  {
+   "region": "Khinggan",
+   "city": "Ulanhot",
+   "lat": 46.08,
+   "lon": 122.07
+  },
+  {
+   "region": "Hulunbuir",
+   "city": "Hulunbuir",
+   "lat": 49.21,
+   "lon": 119.77
+  },
+  {
+   "region": "Beijing",
+   "city": "Beijing",
+   "lat": 39.9,
+   "lon": 116.41
+  },
+  {
+   "region": "Tianjin",
+   "city": "Tianjin",
+   "lat": 39.34,
+   "lon": 117.36
+  },
+  {
+   "region": "Shijiazhuang",
+   "city": "Shijiazhuang",
+   "lat": 38.04,
+   "lon": 114.51
+  },
+  {
+   "region": "Baoding",
+   "city": "Baoding",
+   "lat": 38.87,
+   "lon": 115.46
+  },
+  {
+   "region": "Cangzhou",
+   "city": "Cangzhou",
+   "lat": 38.3,
+   "lon": 116.84
+  },
+  {
+   "region": "Xingtai",
+   "city": "Xingtai",
+   "lat": 37.07,
+   "lon": 114.5
+  },
+  {
+   "region": "Handan",
+   "city": "Handan",
+   "lat": 36.61,
+   "lon": 114.49
+  },
+  {
+   "region": "Tangshan",
+   "city": "Tangshan",
+   "lat": 39.63,
+   "lon": 118.18
+  },
+  {
+   "region": "Shanhaiguan",
+   "city": "Qinhuangdao",
+   "lat": 39.94,
+   "lon": 119.6
+  },
+  {
+   "region": "Zhangjiakou",
+   "city": "Zhangjiakou",
+   "lat": 40.77,
+   "lon": 114.89
+  },
+  {
+   "region": "Jehol",
+   "city": "Chengde",
+   "lat": 40.95,
+   "lon": 117.96
+  },
+  {
+   "region": "Taiyuan",
+   "city": "Taiyuan",
+   "lat": 37.87,
+   "lon": 112.55
+  },
+  {
+   "region": "Daizhou",
+   "city": "Datong",
+   "lat": 40.08,
+   "lon": 113.3
+  },
+  {
+   "region": "Lüliang",
+   "city": "Lüliang",
+   "lat": 37.52,
+   "lon": 111.14
+  },
+  {
+   "region": "Shangdang",
+   "city": "Changzhi",
+   "lat": 36.2,
+   "lon": 113.12
+  },
+  {
+   "region": "Pingyang",
+   "city": "Linfen",
+   "lat": 36.09,
+   "lon": 111.52
+  },
+  {
+   "region": "Jinan",
+   "city": "Jinan",
+   "lat": 36.65,
+   "lon": 117.0
+  },
+  {
+   "region": "Dezhou",
+   "city": "Dezhou",
+   "lat": 37.43,
+   "lon": 116.36
+  },
+  {
+   "region": "Jiaodong",
+   "city": "Qingdao",
+   "lat": 36.07,
+   "lon": 120.38
+  },
+  {
+   "region": "Dengzhou",
+   "city": "Yantai",
+   "lat": 37.46,
+   "lon": 121.45
+  },
+  {
+   "region": "Weifang",
+   "city": "Weifang",
+   "lat": 36.71,
+   "lon": 119.16
+  },
+  {
+   "region": "Yanzhou",
+   "city": "Jining",
+   "lat": 35.41,
+   "lon": 116.59
+  },
+  {
+   "region": "Linyi",
+   "city": "Linyi",
+   "lat": 35.1,
+   "lon": 118.36
+  },
+  {
+   "region": "Zhengzhou",
+   "city": "Zhengzhou",
+   "lat": 34.75,
+   "lon": 113.62
+  },
+  {
+   "region": "Luoyang",
+   "city": "Luoyang",
+   "lat": 34.62,
+   "lon": 112.45
+  },
+  {
+   "region": "Kaifeng",
+   "city": "Kaifeng",
+   "lat": 34.8,
+   "lon": 114.31
+  },
+  {
+   "region": "Shangqiu",
+   "city": "Shangqiu",
+   "lat": 34.41,
+   "lon": 115.66
+  },
+  {
+   "region": "Anyang",
+   "city": "Anyang",
+   "lat": 36.1,
+   "lon": 114.39
+  },
+  {
+   "region": "Sanmenxia",
+   "city": "Sanmenxia",
+   "lat": 34.77,
+   "lon": 111.2
+  },
+  {
+   "region": "Nanyang",
+   "city": "Nanyang",
+   "lat": 32.99,
+   "lon": 112.53
+  },
+  {
+   "region": "Xinyang",
+   "city": "Xinyang",
+   "lat": 32.13,
+   "lon": 114.09
+  },
+  {
+   "region": "Guanzhong",
+   "city": "Xi'an",
+   "lat": 34.27,
+   "lon": 108.95
+  },
+  {
+   "region": "Baoji",
+   "city": "Baoji",
+   "lat": 34.36,
+   "lon": 107.24
+  },
+  {
+   "region": "Weinan",
+   "city": "Weinan",
+   "lat": 34.5,
+   "lon": 109.51
+  },
+  {
+   "region": "Shangluo",
+   "city": "Shangluo",
+   "lat": 33.87,
+   "lon": 109.93
+  },
+  {
+   "region": "Hanzhong",
+   "city": "Hanzhong",
+   "lat": 33.07,
+   "lon": 107.03
+  },
+  {
+   "region": "Ankang",
+   "city": "Ankang",
+   "lat": 32.69,
+   "lon": 109.03
+  },
+  {
+   "region": "Yan'an",
+   "city": "Yan'an",
+   "lat": 36.59,
+   "lon": 109.49
+  },
+  {
+   "region": "Yulin",
+   "city": "Yulin",
+   "lat": 38.29,
+   "lon": 109.73
+  },
+  {
+   "region": "Lanzhou",
+   "city": "Lanzhou",
+   "lat": 36.06,
+   "lon": 103.83
+  },
+  {
+   "region": "Hezhou",
+   "city": "Linxia",
+   "lat": 35.6,
+   "lon": 103.21
+  },
+  {
+   "region": "Tianshui",
+   "city": "Tianshui",
+   "lat": 34.58,
+   "lon": 105.72
+  },
+  {
+   "region": "Longnan",
+   "city": "Longnan",
+   "lat": 33.4,
+   "lon": 104.92
+  },
+  {
+   "region": "Pingliang",
+   "city": "Pingliang",
+   "lat": 35.54,
+   "lon": 106.67
+  },
+  {
+   "region": "Liangzhou",
+   "city": "Wuwei",
+   "lat": 37.93,
+   "lon": 102.64
+  },
+  {
+   "region": "Zhangye",
+   "city": "Zhangye",
+   "lat": 38.93,
+   "lon": 100.45
+  },
+  {
+   "region": "Jiuquan",
+   "city": "Jiuquan",
+   "lat": 39.73,
+   "lon": 98.49
+  },
+  {
+   "region": "Dunhuang",
+   "city": "Dunhuang",
+   "lat": 40.14,
+   "lon": 94.66
+  },
+  {
+   "region": "Yinchuan",
+   "city": "Yinchuan",
+   "lat": 38.49,
+   "lon": 106.23
+  },
+  {
+   "region": "Guyuan",
+   "city": "Guyuan",
+   "lat": 36.0,
+   "lon": 106.28
+  },
+  {
+   "region": "Xining",
+   "city": "Xining",
+   "lat": 36.62,
+   "lon": 101.78
+  },
+  {
+   "region": "Qaidam",
+   "city": "Golmud",
+   "lat": 36.41,
+   "lon": 94.91
+  },
+  {
+   "region": "Yushu",
+   "city": "Yushu",
+   "lat": 33.0,
+   "lon": 97.01
+  },
+  {
+   "region": "Urumqi",
+   "city": "Urumqi",
+   "lat": 43.83,
+   "lon": 87.62
+  },
+  {
+   "region": "Turpan",
+   "city": "Turpan",
+   "lat": 42.95,
+   "lon": 89.18
+  },
+  {
+   "region": "Hami",
+   "city": "Hami",
+   "lat": 42.82,
+   "lon": 93.51
+  },
+  {
+   "region": "Ili",
+   "city": "Yining",
+   "lat": 43.91,
+   "lon": 81.32
+  },
+  {
+   "region": "Bortala",
+   "city": "Bole",
+   "lat": 44.9,
+   "lon": 82.07
+  },
+  {
+   "region": "Tacheng",
+   "city": "Tacheng",
+   "lat": 46.75,
+   "lon": 82.99
+  },
+  {
+   "region": "Altay",
+   "city": "Altay",
+   "lat": 47.85,
+   "lon": 88.14
+  },
+  {
+   "region": "Karamay",
+   "city": "Karamay",
+   "lat": 45.58,
+   "lon": 84.89
+  },
+  {
+   "region": "Korla",
+   "city": "Korla",
+   "lat": 41.76,
+   "lon": 86.15
+  },
+  {
+   "region": "Aksu",
+   "city": "Aksu",
+   "lat": 41.17,
+   "lon": 80.26
+  },
+  {
+   "region": "Kashgar",
+   "city": "Kashgar",
+   "lat": 39.47,
+   "lon": 75.99
+  },
+  {
+   "region": "Yarkand",
+   "city": "Yarkand",
+   "lat": 38.41,
+   "lon": 77.25
+  },
+  {
+   "region": "Hotan",
+   "city": "Hotan",
+   "lat": 37.11,
+   "lon": 79.92
+  },
+  {
+   "region": "Qiemo",
+   "city": "Qiemo",
+   "lat": 38.14,
+   "lon": 85.53
+  },
+  {
+   "region": "Lhasa",
+   "city": "Lhasa",
+   "lat": 29.65,
+   "lon": 91.12
+  },
+  {
+   "region": "Lhoka",
+   "city": "Shannan",
+   "lat": 29.24,
+   "lon": 91.77
+  },
+  {
+   "region": "Tsang",
+   "city": "Shigatse",
+   "lat": 29.27,
+   "lon": 88.88
+  },
+  {
+   "region": "Nyingchi",
+   "city": "Nyingchi",
+   "lat": 29.65,
+   "lon": 94.36
+  },
+  {
+   "region": "Chamdo",
+   "city": "Chamdo",
+   "lat": 31.14,
+   "lon": 97.17
+  },
+  {
+   "region": "Nagqu",
+   "city": "Nagqu",
+   "lat": 31.48,
+   "lon": 92.05
+  },
+  {
+   "region": "Ngari",
+   "city": "Shiquanhe",
+   "lat": 32.5,
+   "lon": 80.1
+  },
+  {
+   "region": "Chengdu",
+   "city": "Chengdu",
+   "lat": 30.66,
+   "lon": 104.07
+  },
+  {
+   "region": "Chongqing",
+   "city": "Chongqing",
+   "lat": 29.56,
+   "lon": 106.55
+  },
+  {
+   "region": "Mianyang",
+   "city": "Mianyang",
+   "lat": 31.47,
+   "lon": 104.74
+  },
+  {
+   "region": "Guangyuan",
+   "city": "Guangyuan",
+   "lat": 32.44,
+   "lon": 105.84
+  },
+  {
+   "region": "Nanchong",
+   "city": "Nanchong",
+   "lat": 30.84,
+   "lon": 106.11
+  },
+  {
+   "region": "Dazhou",
+   "city": "Dazhou",
+   "lat": 31.21,
+   "lon": 107.47
+  },
+  {
+   "region": "Yibin",
+   "city": "Yibin",
+   "lat": 28.77,
+   "lon": 104.64
+  },
+  {
+   "region": "Zigong",
+   "city": "Zigong",
+   "lat": 29.34,
+   "lon": 104.78
+  },
+  {
+   "region": "Leshan",
+   "city": "Leshan",
+   "lat": 29.55,
+   "lon": 103.77
+  },
+  {
+   "region": "Ya'an",
+   "city": "Ya'an",
+   "lat": 29.98,
+   "lon": 103.0
+  },
+  {
+   "region": "Kham",
+   "city": "Kangding",
+   "lat": 30.05,
+   "lon": 101.96
+  },
+  {
+   "region": "Aba",
+   "city": "Aba",
+   "lat": 31.9,
+   "lon": 102.22
+  },
+  {
+   "region": "Liangshan",
+   "city": "Xichang",
+   "lat": 27.89,
+   "lon": 102.27
+  },
+  {
+   "region": "Kunming",
+   "city": "Kunming",
+   "lat": 25.04,
+   "lon": 102.71
+  },
+  {
+   "region": "Qujing",
+   "city": "Qujing",
+   "lat": 25.49,
+   "lon": 103.8
+  },
+  {
+   "region": "Zhaotong",
+   "city": "Zhaotong",
+   "lat": 27.34,
+   "lon": 103.72
+  },
+  {
+   "region": "Dali",
+   "city": "Dali",
+   "lat": 25.61,
+   "lon": 100.27
+  },
+  {
+   "region": "Lijiang",
+   "city": "Lijiang",
+   "lat": 26.87,
+   "lon": 100.23
+  },
+  {
+   "region": "Zhongdian",
+   "city": "Shangri-La",
+   "lat": 27.82,
+   "lon": 99.7
+  },
+  {
+   "region": "Baoshan",
+   "city": "Baoshan",
+   "lat": 25.11,
+   "lon": 99.17
+  },
+  {
+   "region": "Pu'er",
+   "city": "Pu'er",
+   "lat": 22.79,
+   "lon": 100.97
+  },
+  {
+   "region": "Xishuangbanna",
+   "city": "Jinghong",
+   "lat": 22.01,
+   "lon": 100.8
+  },
+  {
+   "region": "Honghe",
+   "city": "Mengzi",
+   "lat": 23.37,
+   "lon": 103.37
+  },
+  {
+   "region": "Wenshan",
+   "city": "Wenshan",
+   "lat": 23.39,
+   "lon": 104.24
+  },
+  {
+   "region": "Guiyang",
+   "city": "Guiyang",
+   "lat": 26.65,
+   "lon": 106.63
+  },
+  {
+   "region": "Zunyi",
+   "city": "Zunyi",
+   "lat": 27.73,
+   "lon": 106.93
+  },
+  {
+   "region": "Bijie",
+   "city": "Bijie",
+   "lat": 27.3,
+   "lon": 105.29
+  },
+  {
+   "region": "Liupanshui",
+   "city": "Liupanshui",
+   "lat": 26.59,
+   "lon": 104.83
+  },
+  {
+   "region": "Anshun",
+   "city": "Anshun",
+   "lat": 26.25,
+   "lon": 105.95
+  },
+  {
+   "region": "Qiandongnan",
+   "city": "Kaili",
+   "lat": 26.57,
+   "lon": 107.98
+  },
+  {
+   "region": "Qianxinan",
+   "city": "Xingyi",
+   "lat": 25.09,
+   "lon": 104.9
+  },
+  {
+   "region": "Tongren",
+   "city": "Tongren",
+   "lat": 27.72,
+   "lon": 109.19
+  },
+  {
+   "region": "Nanning",
+   "city": "Nanning",
+   "lat": 22.82,
+   "lon": 108.37
+  },
+  {
+   "region": "Guilin",
+   "city": "Guilin",
+   "lat": 25.27,
+   "lon": 110.29
+  },
+  {
+   "region": "Liuzhou",
+   "city": "Liuzhou",
+   "lat": 24.33,
+   "lon": 109.43
+  },
+  {
+   "region": "Wuzhou",
+   "city": "Wuzhou",
+   "lat": 23.48,
+   "lon": 111.28
+  },
+  {
+   "region": "Hechi",
+   "city": "Hechi",
+   "lat": 24.69,
+   "lon": 108.06
+  },
+  {
+   "region": "Baise",
+   "city": "Baise",
+   "lat": 23.9,
+   "lon": 106.62
+  },
+  {
+   "region": "Qinzhou",
+   "city": "Qinzhou",
+   "lat": 21.98,
+   "lon": 108.65
+  },
+  {
+   "region": "Beihai",
+   "city": "Beihai",
+   "lat": 21.48,
+   "lon": 109.12
+  },
+  {
+   "region": "Guangzhou",
+   "city": "Guangzhou",
+   "lat": 23.13,
+   "lon": 113.26
+  },
+  {
+   "region": "Shenzhen",
+   "city": "Shenzhen",
+   "lat": 22.54,
+   "lon": 114.06
+  },
+  {
+   "region": "Huizhou",
+   "city": "Huizhou",
+   "lat": 23.11,
+   "lon": 114.42
+  },
+  {
+   "region": "Chaoshan",
+   "city": "Shantou",
+   "lat": 23.35,
+   "lon": 116.68
+  },
+  {
+   "region": "Hakka",
+   "city": "Meizhou",
+   "lat": 24.29,
+   "lon": 116.12
+  },
+  {
+   "region": "Shaoguan",
+   "city": "Shaoguan",
+   "lat": 24.81,
+   "lon": 113.6
+  },
+  {
+   "region": "Zhaoqing",
+   "city": "Zhaoqing",
+   "lat": 23.05,
+   "lon": 112.47
+  },
+  {
+   "region": "Leizhou",
+   "city": "Zhanjiang",
+   "lat": 21.27,
+   "lon": 110.36
+  },
+  {
+   "region": "Haikou",
+   "city": "Haikou",
+   "lat": 20.04,
+   "lon": 110.2
+  },
+  {
+   "region": "Sanya",
+   "city": "Sanya",
+   "lat": 18.25,
+   "lon": 109.51
+  },
+  {
+   "region": "Changsha",
+   "city": "Changsha",
+   "lat": 28.23,
+   "lon": 112.94
+  },
+  {
+   "region": "Yueyang",
+   "city": "Yueyang",
+   "lat": 29.36,
+   "lon": 113.13
+  },
+  {
+   "region": "Changde",
+   "city": "Changde",
+   "lat": 29.03,
+   "lon": 111.7
+  },
+  {
+   "region": "Zhangjiajie",
+   "city": "Zhangjiajie",
+   "lat": 29.12,
+   "lon": 110.48
+  },
+  {
+   "region": "Huaihua",
+   "city": "Huaihua",
+   "lat": 27.55,
+   "lon": 109.98
+  },
+  {
+   "region": "Shaoyang",
+   "city": "Shaoyang",
+   "lat": 27.24,
+   "lon": 111.47
+  },
+  {
+   "region": "Hengyang",
+   "city": "Hengyang",
+   "lat": 26.89,
+   "lon": 112.57
+  },
+  {
+   "region": "Chenzhou",
+   "city": "Chenzhou",
+   "lat": 25.77,
+   "lon": 113.01
+  },
+  {
+   "region": "Wuhan",
+   "city": "Wuhan",
+   "lat": 30.59,
+   "lon": 114.31
+  },
+  {
+   "region": "Huangshi",
+   "city": "Huangshi",
+   "lat": 30.2,
+   "lon": 115.04
+  },
+  {
+   "region": "Jingzhou",
+   "city": "Jingzhou",
+   "lat": 30.33,
+   "lon": 112.24
+  },
+  {
+   "region": "Yichang",
+   "city": "Yichang",
+   "lat": 30.69,
+   "lon": 111.29
+  },
+  {
+   "region": "Enshi",
+   "city": "Enshi",
+   "lat": 30.27,
+   "lon": 109.49
+  },
+  {
+   "region": "Xiangyang",
+   "city": "Xiangyang",
+   "lat": 32.01,
+   "lon": 112.14
+  },
+  {
+   "region": "Shiyan",
+   "city": "Shiyan",
+   "lat": 32.65,
+   "lon": 110.8
+  },
+  {
+   "region": "Nanchang",
+   "city": "Nanchang",
+   "lat": 28.68,
+   "lon": 115.86
+  },
+  {
+   "region": "Jiujiang",
+   "city": "Jiujiang",
+   "lat": 29.71,
+   "lon": 116.0
+  },
+  {
+   "region": "Shangrao",
+   "city": "Shangrao",
+   "lat": 28.45,
+   "lon": 117.94
+  },
+  {
+   "region": "Yichun Jiangxi",
+   "city": "Yichun",
+   "lat": 27.81,
+   "lon": 114.42
+  },
+  {
+   "region": "Ji'an",
+   "city": "Ji'an",
+   "lat": 27.11,
+   "lon": 114.99
+  },
+  {
+   "region": "Ganzhou",
+   "city": "Ganzhou",
+   "lat": 25.83,
+   "lon": 114.93
+  },
+  {
+   "region": "Hefei",
+   "city": "Hefei",
+   "lat": 31.82,
+   "lon": 117.23
+  },
+  {
+   "region": "Chuzhou",
+   "city": "Chuzhou",
+   "lat": 32.3,
+   "lon": 118.32
+  },
+  {
+   "region": "Wuhu",
+   "city": "Wuhu",
+   "lat": 31.35,
+   "lon": 118.43
+  },
+  {
+   "region": "Bengbu",
+   "city": "Bengbu",
+   "lat": 32.92,
+   "lon": 117.39
+  },
+  {
+   "region": "Fuyang",
+   "city": "Fuyang",
+   "lat": 32.89,
+   "lon": 115.81
+  },
+  {
+   "region": "Anqing",
+   "city": "Anqing",
+   "lat": 30.54,
+   "lon": 117.06
+  },
+  {
+   "region": "Huizhou Anhui",
+   "city": "Huangshan",
+   "lat": 29.71,
+   "lon": 118.34
+  },
+  {
+   "region": "Nanjing",
+   "city": "Nanjing",
+   "lat": 32.06,
+   "lon": 118.8
+  },
+  {
+   "region": "Wuxi",
+   "city": "Wuxi",
+   "lat": 31.49,
+   "lon": 120.31
+  },
+  {
+   "region": "Suzhou",
+   "city": "Suzhou",
+   "lat": 31.3,
+   "lon": 120.58
+  },
+  {
+   "region": "Nantong",
+   "city": "Nantong",
+   "lat": 31.98,
+   "lon": 120.89
+  },
+  {
+   "region": "Yangzhou",
+   "city": "Yangzhou",
+   "lat": 32.39,
+   "lon": 119.41
+  },
+  {
+   "region": "Huai'an",
+   "city": "Huai'an",
+   "lat": 33.6,
+   "lon": 119.02
+  },
+  {
+   "region": "Lianyungang",
+   "city": "Lianyungang",
+   "lat": 34.6,
+   "lon": 119.22
+  },
+  {
+   "region": "Xuzhou",
+   "city": "Xuzhou",
+   "lat": 34.26,
+   "lon": 117.18
+  },
+  {
+   "region": "Shanghai",
+   "city": "Shanghai",
+   "lat": 31.23,
+   "lon": 121.47
+  },
+  {
+   "region": "Hangzhou",
+   "city": "Hangzhou",
+   "lat": 30.27,
+   "lon": 120.15
+  },
+  {
+   "region": "Shaoxing",
+   "city": "Shaoxing",
+   "lat": 30.0,
+   "lon": 120.58
+  },
+  {
+   "region": "Ningbo",
+   "city": "Ningbo",
+   "lat": 29.87,
+   "lon": 121.54
+  },
+  {
+   "region": "Jinhua",
+   "city": "Jinhua",
+   "lat": 29.08,
+   "lon": 119.65
+  },
+  {
+   "region": "Quzhou",
+   "city": "Quzhou",
+   "lat": 28.94,
+   "lon": 118.87
+  },
+  {
+   "region": "Taizhou",
+   "city": "Taizhou",
+   "lat": 28.66,
+   "lon": 121.42
+  },
+  {
+   "region": "Lishui",
+   "city": "Lishui",
+   "lat": 28.47,
+   "lon": 119.92
+  },
+  {
+   "region": "Wenzhou",
+   "city": "Wenzhou",
+   "lat": 28.0,
+   "lon": 120.67
+  },
+  {
+   "region": "Fuzhou",
+   "city": "Fuzhou",
+   "lat": 26.07,
+   "lon": 119.3
+  },
+  {
+   "region": "Nanping",
+   "city": "Nanping",
+   "lat": 26.64,
+   "lon": 118.18
+  },
+  {
+   "region": "Sanming",
+   "city": "Sanming",
+   "lat": 26.26,
+   "lon": 117.64
+  },
+  {
+   "region": "Quanzhou",
+   "city": "Quanzhou",
+   "lat": 24.87,
+   "lon": 118.68
+  },
+  {
+   "region": "Xiamen",
+   "city": "Xiamen",
+   "lat": 24.48,
+   "lon": 118.09
+  },
+  {
+   "region": "Longyan",
+   "city": "Longyan",
+   "lat": 25.08,
+   "lon": 117.02
+  }
+ ],
+ "Vietnam": [
+  {
+   "region": "Tonkin",
+   "city": "Hanoi",
+   "lat": 21.03,
+   "lon": 105.85
+  },
+  {
+   "region": "Thanh-Nghe",
+   "city": "Vinh",
+   "lat": 18.67,
+   "lon": 105.69
+  },
+  {
+   "region": "Hue",
+   "city": "Hue",
+   "lat": 16.46,
+   "lon": 107.59
+  },
+  {
+   "region": "Quang Nam",
+   "city": "Da Nang",
+   "lat": 16.05,
+   "lon": 108.2
+  },
+  {
+   "region": "Champa South",
+   "city": "Nha Trang",
+   "lat": 12.24,
+   "lon": 109.19
+  },
+  {
+   "region": "Central Highlands",
+   "city": "Buon Ma Thuot",
+   "lat": 12.67,
+   "lon": 108.04
+  },
+  {
+   "region": "Cochinchina",
+   "city": "Ho Chi Minh City",
+   "lat": 10.82,
+   "lon": 106.63
+  },
+  {
+   "region": "Mekong Delta",
+   "city": "Can Tho",
+   "lat": 10.05,
+   "lon": 105.79
+  }
+ ],
+ "Laos": [
+  {
+   "region": "Luang Namtha",
+   "city": "Luang Namtha",
+   "lat": 20.95,
+   "lon": 101.4
+  },
+  {
+   "region": "Luang Prabang",
+   "city": "Luang Prabang",
+   "lat": 19.89,
+   "lon": 102.13
+  },
+  {
+   "region": "Houaphan",
+   "city": "Xam Neua",
+   "lat": 20.42,
+   "lon": 104.05
+  },
+  {
+   "region": "Vientiane",
+   "city": "Vientiane",
+   "lat": 17.97,
+   "lon": 102.6
+  },
+  {
+   "region": "Savannakhet",
+   "city": "Savannakhet",
+   "lat": 16.56,
+   "lon": 104.75
+  },
+  {
+   "region": "Champasak",
+   "city": "Pakse",
+   "lat": 15.12,
+   "lon": 105.8
+  }
+ ],
+ "Cambodia": [
+  {
+   "region": "Phnom Penh",
+   "city": "Phnom Penh",
+   "lat": 11.56,
+   "lon": 104.93
+  },
+  {
+   "region": "Angkor",
+   "city": "Siem Reap",
+   "lat": 13.36,
+   "lon": 103.86
+  },
+  {
+   "region": "Kampong Cham",
+   "city": "Kampong Cham",
+   "lat": 12.0,
+   "lon": 105.46
+  },
+  {
+   "region": "Kampot",
+   "city": "Kampot",
+   "lat": 10.61,
+   "lon": 104.18
+  }
+ ],
+ "Thailand": [
+  {
+   "region": "Bangkok",
+   "city": "Bangkok",
+   "lat": 13.76,
+   "lon": 100.5
+  },
+  {
+   "region": "Lanna",
+   "city": "Chiang Mai",
+   "lat": 18.79,
+   "lon": 98.98
+  },
+  {
+   "region": "Sukhothai",
+   "city": "Phitsanulok",
+   "lat": 16.82,
+   "lon": 100.26
+  },
+  {
+   "region": "Western Siam",
+   "city": "Kanchanaburi",
+   "lat": 14.02,
+   "lon": 99.53
+  },
+  {
+   "region": "Eastern Siam",
+   "city": "Chanthaburi",
+   "lat": 12.61,
+   "lon": 102.1
+  },
+  {
+   "region": "Khorat",
+   "city": "Nakhon Ratchasima",
+   "lat": 14.98,
+   "lon": 102.1
+  },
+  {
+   "region": "Isan North",
+   "city": "Udon Thani",
+   "lat": 17.41,
+   "lon": 102.79
+  },
+  {
+   "region": "Isan East",
+   "city": "Ubon Ratchathani",
+   "lat": 15.24,
+   "lon": 104.85
+  },
+  {
+   "region": "Nakhon Si Thammarat",
+   "city": "Surat Thani",
+   "lat": 9.14,
+   "lon": 99.33
+  },
+  {
+   "region": "Pattani",
+   "city": "Songkhla",
+   "lat": 7.01,
+   "lon": 100.47
+  }
+ ],
+ "North Korea": [
+  {
+   "region": "Pyongan",
+   "city": "Pyongyang",
+   "lat": 39.04,
+   "lon": 125.76
+  },
+  {
+   "region": "Pyongan North",
+   "city": "Sinuiju",
+   "lat": 40.1,
+   "lon": 124.4
+  },
+  {
+   "region": "Hwanghae",
+   "city": "Haeju",
+   "lat": 38.04,
+   "lon": 125.71
+  },
+  {
+   "region": "Chagang",
+   "city": "Kanggye",
+   "lat": 40.97,
+   "lon": 126.6
+  },
+  {
+   "region": "Kangwon North",
+   "city": "Wonsan",
+   "lat": 39.15,
+   "lon": 127.44
+  },
+  {
+   "region": "Hamgyong South",
+   "city": "Hamhung",
+   "lat": 39.92,
+   "lon": 127.54
+  },
+  {
+   "region": "Hamgyong North",
+   "city": "Chongjin",
+   "lat": 41.8,
+   "lon": 129.78
+  }
+ ],
+ "South Korea": [
+  {
+   "region": "Hanseong",
+   "city": "Seoul",
+   "lat": 37.57,
+   "lon": 126.98
+  },
+  {
+   "region": "Gangwon West",
+   "city": "Chuncheon",
+   "lat": 37.88,
+   "lon": 127.73
+  },
+  {
+   "region": "Gangwon East",
+   "city": "Gangneung",
+   "lat": 37.75,
+   "lon": 128.88
+  },
+  {
+   "region": "Chungcheong",
+   "city": "Daejeon",
+   "lat": 36.35,
+   "lon": 127.38
+  },
+  {
+   "region": "Jeolla North",
+   "city": "Jeonju",
+   "lat": 35.82,
+   "lon": 127.15
+  },
+  {
+   "region": "Jeolla South",
+   "city": "Gwangju",
+   "lat": 35.16,
+   "lon": 126.85
+  },
+  {
+   "region": "Gyeongsang North",
+   "city": "Daegu",
+   "lat": 35.87,
+   "lon": 128.6
+  },
+  {
+   "region": "Gyeongsang South",
+   "city": "Busan",
+   "lat": 35.18,
+   "lon": 129.08
+  },
+  {
+   "region": "Jeju",
+   "city": "Jeju City",
+   "lat": 33.5,
+   "lon": 126.53
+  }
+ ],
+ "Japan": [
+  {
+   "region": "Ezo West",
+   "city": "Sapporo",
+   "lat": 43.06,
+   "lon": 141.35
+  },
+  {
+   "region": "Ezo South",
+   "city": "Hakodate",
+   "lat": 41.77,
+   "lon": 140.73
+  },
+  {
+   "region": "Ezo East",
+   "city": "Kushiro",
+   "lat": 42.98,
+   "lon": 144.38
+  },
+  {
+   "region": "Mutsu",
+   "city": "Aomori",
+   "lat": 40.82,
+   "lon": 140.74
+  },
+  {
+   "region": "Iwate",
+   "city": "Morioka",
+   "lat": 39.7,
+   "lon": 141.15
+  },
+  {
+   "region": "Dewa North",
+   "city": "Akita",
+   "lat": 39.72,
+   "lon": 140.1
+  },
+  {
+   "region": "Mutsu South",
+   "city": "Sendai",
+   "lat": 38.27,
+   "lon": 140.87
+  },
+  {
+   "region": "Dewa South",
+   "city": "Yamagata",
+   "lat": 38.24,
+   "lon": 140.36
+  },
+  {
+   "region": "Aizu",
+   "city": "Aizuwakamatsu",
+   "lat": 37.49,
+   "lon": 139.93
+  },
+  {
+   "region": "Musashi",
+   "city": "Tokyo",
+   "lat": 35.68,
+   "lon": 139.69
+  },
+  {
+   "region": "Sagami",
+   "city": "Yokohama",
+   "lat": 35.44,
+   "lon": 139.64
+  },
+  {
+   "region": "Boso",
+   "city": "Chiba",
+   "lat": 35.61,
+   "lon": 140.12
+  },
+  {
+   "region": "Hitachi",
+   "city": "Mito",
+   "lat": 36.37,
+   "lon": 140.45
+  },
+  {
+   "region": "Kozuke",
+   "city": "Maebashi",
+   "lat": 36.39,
+   "lon": 139.06
+  },
+  {
+   "region": "Echigo",
+   "city": "Niigata",
+   "lat": 37.92,
+   "lon": 139.04
+  },
+  {
+   "region": "Etchu",
+   "city": "Toyama",
+   "lat": 36.7,
+   "lon": 137.21
+  },
+  {
+   "region": "Kaga",
+   "city": "Kanazawa",
+   "lat": 36.56,
+   "lon": 136.66
+  },
+  {
+   "region": "Shinano",
+   "city": "Nagano",
+   "lat": 36.65,
+   "lon": 138.18
+  },
+  {
+   "region": "Kai",
+   "city": "Kofu",
+   "lat": 35.66,
+   "lon": 138.57
+  },
+  {
+   "region": "Suruga",
+   "city": "Shizuoka",
+   "lat": 34.98,
+   "lon": 138.38
+  },
+  {
+   "region": "Totomi",
+   "city": "Hamamatsu",
+   "lat": 34.71,
+   "lon": 137.73
+  },
+  {
+   "region": "Owari",
+   "city": "Nagoya",
+   "lat": 35.18,
+   "lon": 136.91
+  },
+  {
+   "region": "Mino",
+   "city": "Gifu",
+   "lat": 35.42,
+   "lon": 136.76
+  },
+  {
+   "region": "Ise",
+   "city": "Tsu",
+   "lat": 34.72,
+   "lon": 136.51
+  },
+  {
+   "region": "Yamashiro",
+   "city": "Kyoto",
+   "lat": 35.01,
+   "lon": 135.77
+  },
+  {
+   "region": "Yamato",
+   "city": "Nara",
+   "lat": 34.69,
+   "lon": 135.83
+  },
+  {
+   "region": "Settsu",
+   "city": "Osaka",
+   "lat": 34.69,
+   "lon": 135.5
+  },
+  {
+   "region": "Kii",
+   "city": "Wakayama",
+   "lat": 34.23,
+   "lon": 135.17
+  },
+  {
+   "region": "Harima",
+   "city": "Himeji",
+   "lat": 34.82,
+   "lon": 134.69
+  },
+  {
+   "region": "Izumo",
+   "city": "Matsue",
+   "lat": 35.47,
+   "lon": 133.05
+  },
+  {
+   "region": "Bizen",
+   "city": "Okayama",
+   "lat": 34.66,
+   "lon": 133.93
+  },
+  {
+   "region": "Aki",
+   "city": "Hiroshima",
+   "lat": 34.4,
+   "lon": 132.46
+  },
+  {
+   "region": "Nagato",
+   "city": "Shimonoseki",
+   "lat": 33.96,
+   "lon": 130.94
+  },
+  {
+   "region": "Sanuki",
+   "city": "Takamatsu",
+   "lat": 34.34,
+   "lon": 134.04
+  },
+  {
+   "region": "Awa",
+   "city": "Tokushima",
+   "lat": 34.07,
+   "lon": 134.55
+  },
+  {
+   "region": "Iyo",
+   "city": "Matsuyama",
+   "lat": 33.84,
+   "lon": 132.77
+  },
+  {
+   "region": "Tosa",
+   "city": "Kochi",
+   "lat": 33.56,
+   "lon": 133.53
+  },
+  {
+   "region": "Chikuzen",
+   "city": "Fukuoka",
+   "lat": 33.59,
+   "lon": 130.4
+  },
+  {
+   "region": "Bungo",
+   "city": "Oita",
+   "lat": 33.24,
+   "lon": 131.61
+  },
+  {
+   "region": "Hizen",
+   "city": "Nagasaki",
+   "lat": 32.75,
+   "lon": 129.88
+  },
+  {
+   "region": "Higo",
+   "city": "Kumamoto",
+   "lat": 32.8,
+   "lon": 130.71
+  },
+  {
+   "region": "Hyuga",
+   "city": "Miyazaki",
+   "lat": 31.91,
+   "lon": 131.42
+  },
+  {
+   "region": "Satsuma",
+   "city": "Kagoshima",
+   "lat": 31.6,
+   "lon": 130.56
+  },
+  {
+   "region": "Ryukyu",
+   "city": "Naha",
+   "lat": 26.21,
+   "lon": 127.68
+  }
+ ],
+ "Indonesia": [
+  {
+   "region": "Aceh",
+   "city": "Banda Aceh",
+   "lat": 5.55,
+   "lon": 95.32
+  },
+  {
+   "region": "Deli",
+   "city": "Medan",
+   "lat": 3.59,
+   "lon": 98.67
+  },
+  {
+   "region": "Tapanuli",
+   "city": "Sibolga",
+   "lat": 1.74,
+   "lon": 98.78
+  },
+  {
+   "region": "Nias",
+   "city": "Gunungsitoli",
+   "lat": 1.29,
+   "lon": 97.62
+  },
+  {
+   "region": "Minangkabau",
+   "city": "Padang",
+   "lat": -0.95,
+   "lon": 100.35
+  },
+  {
+   "region": "Riau",
+   "city": "Pekanbaru",
+   "lat": 0.51,
+   "lon": 101.45
+  },
+  {
+   "region": "Riau Islands",
+   "city": "Tanjung Pinang",
+   "lat": 0.92,
+   "lon": 104.45
+  },
+  {
+   "region": "Jambi",
+   "city": "Jambi",
+   "lat": -1.61,
+   "lon": 103.61
+  },
+  {
+   "region": "Srivijaya",
+   "city": "Palembang",
+   "lat": -2.99,
+   "lon": 104.76
+  },
+  {
+   "region": "Bangka",
+   "city": "Pangkal Pinang",
+   "lat": -2.13,
+   "lon": 106.12
+  },
+  {
+   "region": "Bengkulu",
+   "city": "Bengkulu",
+   "lat": -3.8,
+   "lon": 102.26
+  },
+  {
+   "region": "Lampung",
+   "city": "Bandar Lampung",
+   "lat": -5.43,
+   "lon": 105.26
+  },
+  {
+   "region": "Batavia",
+   "city": "Jakarta",
+   "lat": -6.21,
+   "lon": 106.85
+  },
+  {
+   "region": "Banten",
+   "city": "Serang",
+   "lat": -6.12,
+   "lon": 106.15
+  },
+  {
+   "region": "Priangan",
+   "city": "Bandung",
+   "lat": -6.92,
+   "lon": 107.61
+  },
+  {
+   "region": "Cirebon",
+   "city": "Cirebon",
+   "lat": -6.71,
+   "lon": 108.56
+  },
+  {
+   "region": "Banyumas",
+   "city": "Purwokerto",
+   "lat": -7.42,
+   "lon": 109.23
+  },
+  {
+   "region": "Semarang",
+   "city": "Semarang",
+   "lat": -6.97,
+   "lon": 110.42
+  },
+  {
+   "region": "Mataram",
+   "city": "Yogyakarta",
+   "lat": -7.8,
+   "lon": 110.36
+  },
+  {
+   "region": "Surakarta",
+   "city": "Surakarta",
+   "lat": -7.57,
+   "lon": 110.83
+  },
+  {
+   "region": "Madiun",
+   "city": "Madiun",
+   "lat": -7.63,
+   "lon": 111.52
+  },
+  {
+   "region": "Surabaya",
+   "city": "Surabaya",
+   "lat": -7.25,
+   "lon": 112.75
+  },
+  {
+   "region": "Malang",
+   "city": "Malang",
+   "lat": -7.97,
+   "lon": 112.63
+  },
+  {
+   "region": "Madura",
+   "city": "Pamekasan",
+   "lat": -7.16,
+   "lon": 113.48
+  },
+  {
+   "region": "Blambangan",
+   "city": "Banyuwangi",
+   "lat": -8.22,
+   "lon": 114.37
+  },
+  {
+   "region": "Bali",
+   "city": "Denpasar",
+   "lat": -8.65,
+   "lon": 115.22
+  },
+  {
+   "region": "Lombok",
+   "city": "Mataram",
+   "lat": -8.58,
+   "lon": 116.12
+  },
+  {
+   "region": "Sumbawa",
+   "city": "Sumbawa Besar",
+   "lat": -8.5,
+   "lon": 117.42
+  },
+  {
+   "region": "Bima",
+   "city": "Bima",
+   "lat": -8.46,
+   "lon": 118.73
+  },
+  {
+   "region": "West Flores",
+   "city": "Labuan Bajo",
+   "lat": -8.5,
+   "lon": 119.89
+  },
+  {
+   "region": "Sumba",
+   "city": "Waingapu",
+   "lat": -9.65,
+   "lon": 120.26
+  },
+  {
+   "region": "Flores",
+   "city": "Maumere",
+   "lat": -8.62,
+   "lon": 122.21
+  },
+  {
+   "region": "West Timor",
+   "city": "Kupang",
+   "lat": -10.17,
+   "lon": 123.61
+  },
+  {
+   "region": "West Kalimantan",
+   "city": "Pontianak",
+   "lat": -0.03,
+   "lon": 109.33
+  },
+  {
+   "region": "Kapuas Hulu",
+   "city": "Sintang",
+   "lat": 0.08,
+   "lon": 111.49
+  },
+  {
+   "region": "Central Kalimantan",
+   "city": "Palangkaraya",
+   "lat": -2.21,
+   "lon": 113.92
+  },
+  {
+   "region": "Banjar",
+   "city": "Banjarmasin",
+   "lat": -3.32,
+   "lon": 114.59
+  },
+  {
+   "region": "Kutai",
+   "city": "Balikpapan",
+   "lat": -1.24,
+   "lon": 116.83
+  },
+  {
+   "region": "North Kalimantan",
+   "city": "Tarakan",
+   "lat": 3.3,
+   "lon": 117.63
+  },
+  {
+   "region": "Minahasa",
+   "city": "Manado",
+   "lat": 1.49,
+   "lon": 124.84
+  },
+  {
+   "region": "Gorontalo",
+   "city": "Gorontalo",
+   "lat": 0.54,
+   "lon": 123.06
+  },
+  {
+   "region": "Banggai",
+   "city": "Luwuk",
+   "lat": -0.95,
+   "lon": 122.79
+  },
+  {
+   "region": "Central Sulawesi",
+   "city": "Palu",
+   "lat": -0.9,
+   "lon": 119.87
+  },
+  {
+   "region": "Mandar",
+   "city": "Mamuju",
+   "lat": -2.68,
+   "lon": 118.89
+  },
+  {
+   "region": "Luwu",
+   "city": "Palopo",
+   "lat": -2.99,
+   "lon": 120.2
+  },
+  {
+   "region": "Gowa",
+   "city": "Makassar",
+   "lat": -5.15,
+   "lon": 119.43
+  },
+  {
+   "region": "Southeast Sulawesi",
+   "city": "Kendari",
+   "lat": -3.97,
+   "lon": 122.51
+  },
+  {
+   "region": "North Maluku",
+   "city": "Ternate",
+   "lat": 0.79,
+   "lon": 127.38
+  },
+  {
+   "region": "Ambon",
+   "city": "Ambon",
+   "lat": -3.7,
+   "lon": 128.18
+  },
+  {
+   "region": "Kei",
+   "city": "Tual",
+   "lat": -5.64,
+   "lon": 132.75
+  },
+  {
+   "region": "Raja Ampat",
+   "city": "Sorong",
+   "lat": -0.88,
+   "lon": 131.26
+  },
+  {
+   "region": "Bird's Head",
+   "city": "Manokwari",
+   "lat": -0.86,
+   "lon": 134.06
+  },
+  {
+   "region": "Cenderawasih",
+   "city": "Nabire",
+   "lat": -3.37,
+   "lon": 135.48
+  },
+  {
+   "region": "Papua North",
+   "city": "Jayapura",
+   "lat": -2.53,
+   "lon": 140.72
+  },
+  {
+   "region": "Highlands",
+   "city": "Wamena",
+   "lat": -4.1,
+   "lon": 138.95
+  },
+  {
+   "region": "Mimika",
+   "city": "Timika",
+   "lat": -4.54,
+   "lon": 136.89
+  },
+  {
+   "region": "South Papua",
+   "city": "Merauke",
+   "lat": -8.5,
+   "lon": 140.4
+  }
+ ],
+ "Malaysia": [
+  {
+   "region": "Perlis",
+   "city": "Kangar",
+   "lat": 6.44,
+   "lon": 100.2
+  },
+  {
+   "region": "Kedah",
+   "city": "Alor Setar",
+   "lat": 6.12,
+   "lon": 100.37
+  },
+  {
+   "region": "Penang",
+   "city": "George Town",
+   "lat": 5.41,
+   "lon": 100.33
+  },
+  {
+   "region": "Perak",
+   "city": "Ipoh",
+   "lat": 4.6,
+   "lon": 101.08
+  },
+  {
+   "region": "Kelantan",
+   "city": "Kota Bharu",
+   "lat": 6.13,
+   "lon": 102.24
+  },
+  {
+   "region": "Terengganu",
+   "city": "Kuala Terengganu",
+   "lat": 5.33,
+   "lon": 103.14
+  },
+  {
+   "region": "Pahang",
+   "city": "Kuantan",
+   "lat": 3.81,
+   "lon": 103.33
+  },
+  {
+   "region": "Selangor",
+   "city": "Kuala Lumpur",
+   "lat": 3.14,
+   "lon": 101.69
+  },
+  {
+   "region": "Negeri Sembilan",
+   "city": "Seremban",
+   "lat": 2.73,
+   "lon": 101.94
+  },
+  {
+   "region": "Malacca",
+   "city": "Malacca City",
+   "lat": 2.19,
+   "lon": 102.25
+  },
+  {
+   "region": "Johor",
+   "city": "Johor Bahru",
+   "lat": 1.49,
+   "lon": 103.74
+  },
+  {
+   "region": "Kuching",
+   "city": "Kuching",
+   "lat": 1.55,
+   "lon": 110.34
+  },
+  {
+   "region": "Rajang",
+   "city": "Sibu",
+   "lat": 2.29,
+   "lon": 111.83
+  },
+  {
+   "region": "Bintulu",
+   "city": "Bintulu",
+   "lat": 3.17,
+   "lon": 113.04
+  },
+  {
+   "region": "Miri",
+   "city": "Miri",
+   "lat": 4.4,
+   "lon": 113.99
+  },
+  {
+   "region": "Sabah West",
+   "city": "Kota Kinabalu",
+   "lat": 5.98,
+   "lon": 116.07
+  },
+  {
+   "region": "Sabah East",
+   "city": "Sandakan",
+   "lat": 5.84,
+   "lon": 118.12
+  },
+  {
+   "region": "Tawau",
+   "city": "Tawau",
+   "lat": 4.24,
+   "lon": 117.89
+  }
+ ],
+ "Israel": [
+  {
+   "region": "Israel",
+   "city": "Jerusalem",
+   "lat": 31.77,
+   "lon": 35.21
+  }
+ ],
+ "Palestine": [
+  {
+   "region": "Gaza",
+   "city": "Gaza",
+   "lat": 31.5,
+   "lon": 34.46
+  }
+ ],
+ "Gabon": [
+  {
+   "region": "Orungu",
+   "city": "Port-Gentil",
+   "lat": -0.72,
+   "lon": 8.78
+  },
+  {
+   "region": "Gabon",
+   "city": "Libreville",
+   "lat": 0.39,
+   "lon": 9.46
+  },
+  {
+   "region": "Bongoville",
+   "city": "Bongoville",
+   "lat": -1.65,
+   "lon": 13.86
+  }
+ ],
+ "Zimbabwe": [
+  {
+   "region": "Harare",
+   "city": "Harare",
+   "lat": -17.82,
+   "lon": 31.04
+  },
+  {
+   "region": "Bulawayo",
+   "city": "Bulawayo",
+   "lat": -20.17,
+   "lon": 28.58
+  },
+  {
+   "region": "Great Zimbabwe",
+   "city": "Great Zimbabwe",
+   "lat": -20.27,
+   "lon": 30.93
+  },
+  {
+   "region": "Manicaland",
+   "city": "Mutare",
+   "lat": -18.97,
+   "lon": 32.67
+  }
+ ],
+ "Angola": [
+  {
+   "region": "Cabinda",
+   "city": "Cabinda",
+   "lat": -5.56,
+   "lon": 12.19
+  },
+  {
+   "region": "Soyo",
+   "city": "Soyo",
+   "lat": -6.13,
+   "lon": 12.37
+  },
+  {
+   "region": "Mbanza Kongo",
+   "city": "Mbanza Kongo",
+   "lat": -6.27,
+   "lon": 14.24
+  },
+  {
+   "region": "Luanda",
+   "city": "Luanda",
+   "lat": -8.84,
+   "lon": 13.23
+  },
+  {
+   "region": "Malanje",
+   "city": "Malanje",
+   "lat": -9.54,
+   "lon": 16.34
+  },
+  {
+   "region": "Saurimo",
+   "city": "Saurimo",
+   "lat": -9.66,
+   "lon": 20.39
+  },
+  {
+   "region": "Luau",
+   "city": "Luau",
+   "lat": -10.71,
+   "lon": 22.23
+  },
+  {
+   "region": "Luena",
+   "city": "Luena",
+   "lat": -11.79,
+   "lon": 19.9
+  },
+  {
+   "region": "Benguela",
+   "city": "Benguela",
+   "lat": -12.58,
+   "lon": 13.41
+  },
+  {
+   "region": "Huambo",
+   "city": "Huambo",
+   "lat": -12.75,
+   "lon": 15.76
+  },
+  {
+   "region": "Lubango",
+   "city": "Lubango",
+   "lat": -14.92,
+   "lon": 13.5
+  },
+  {
+   "region": "Menongue",
+   "city": "Menongue",
+   "lat": -14.67,
+   "lon": 17.7
+  },
+  {
+   "region": "Mavinga",
+   "city": "Mavinga",
+   "lat": -15.79,
+   "lon": 20.36
+  },
+  {
+   "region": "Moçâmedes",
+   "city": "Moçâmedes",
+   "lat": -15.19,
+   "lon": 12.16
+  }
+ ],
+ "Republic of the Congo": [
+  {
+   "region": "Impfondo",
+   "city": "Impfondo",
+   "lat": 1.64,
+   "lon": 18.04
+  },
+  {
+   "region": "Owando",
+   "city": "Owando",
+   "lat": -0.48,
+   "lon": 15.92
+  },
+  {
+   "region": "Brazzaville",
+   "city": "Brazzaville",
+   "lat": -4.26,
+   "lon": 15.28
+  },
+  {
+   "region": "Loango",
+   "city": "Pointe-Noire",
+   "lat": -4.78,
+   "lon": 11.86
+  },
+  {
+   "region": "Niari",
+   "city": "Dolisie",
+   "lat": -4.2,
+   "lon": 12.67
+  }
+ ]
+}

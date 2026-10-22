@@ -1,0 +1,10 @@
+{
+ "_comment": "Fixed map colours. 'colors' sets a hex colour for an occupier (matched by exact name, case-insensitive). 'sameAs' gives an occupier the colour of another one (so a nation and its modern successor look alike). Everyone else gets an automatic colour spread across hue, saturation and lightness, most prominent nations first.",
+ "colors": {
+  "Castile": "#f2c500",
+  "Almohad Caliphate": "#4b1f6f"
+ },
+ "sameAs": {
+  "Spain": "Castile"
+ }
+}

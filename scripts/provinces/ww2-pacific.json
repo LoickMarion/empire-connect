@@ -1,0 +1,384 @@
+{
+ "_comment": "The Pacific War between the 1938 and 1945 snapshots (held through 1944, like ww2-conquests.json): the Japanese conquests of 1937-42 and the puppet states they set up. Same format as ww2-conquests.json.",
+ "until": 1944,
+ "groups": [
+  {
+   "name": "Philippines (Dec 1941 - 1942)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Philippines (Japanese-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Philippines"
+    }
+   ]
+  },
+  {
+   "name": "Dutch East Indies (Mar 1942)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Dutch East Indies (Japanese-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Indonesia"
+    }
+   ]
+  },
+  {
+   "name": "Portuguese Timor (Feb 1942)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Portuguese Timor (Japanese-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "East Timor"
+    }
+   ]
+  },
+  {
+   "name": "Malaya and Borneo (Dec 1941 - Feb 1942)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Malaya (Japanese-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Malaysia"
+    }
+   ]
+  },
+  {
+   "name": "Thai gains in northern Malaya (1943)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Malaya (Japanese-occupied)"
+    ],
+    [
+     1943,
+     "Thailand (Japanese-aligned)"
+    ]
+   ],
+   "provinces": [
+    "Malaysia/Perlis",
+    "Malaysia/Kedah",
+    "Malaysia/Kelantan",
+    "Malaysia/Terengganu"
+   ]
+  },
+  {
+   "name": "Burma (Jan - May 1942)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Burma (Japanese-occupied)"
+    ],
+    [
+     1943,
+     "State of Burma"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Myanmar"
+    }
+   ]
+  },
+  {
+   "name": "Thailand (Dec 1941)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Thailand (Japanese-aligned)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Thailand"
+    }
+   ]
+  },
+  {
+   "name": "French Indochina under Japan (1941)",
+   "until": 1944,
+   "timeline": [
+    [
+     1941,
+     "French Indochina (Japanese-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Vietnam"
+    },
+    {
+     "country": "Laos"
+    },
+    {
+     "country": "Cambodia",
+     "except": [
+      "Siem Reap"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tonkin (Sep 1940)",
+   "until": 1944,
+   "timeline": [
+    [
+     1940,
+     "French Indochina (Japanese-occupied)"
+    ]
+   ],
+   "provinces": [
+    "Vietnam/Tonkin"
+   ]
+  },
+  {
+   "name": "New Guinea (1942)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "New Guinea (Japanese-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Papua New Guinea",
+     "box": [
+      140,
+      160,
+      -8,
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Manchukuo (1932)",
+   "until": 1944,
+   "timeline": [
+    [
+     1938,
+     "Manchukuo"
+    ]
+   ],
+   "select": [
+    {
+     "country": "China",
+     "box": [
+      118,
+      136,
+      38,
+      54
+     ]
+    },
+    {
+     "country": "Russia",
+     "box": [
+      125,
+      142,
+      47,
+      54
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Jehol (1933)",
+   "until": 1944,
+   "timeline": [
+    [
+     1938,
+     "Manchukuo"
+    ]
+   ],
+   "provinces": [
+    "China/Jehol",
+    "China/Chifeng",
+    "China/Jinzhou",
+    "China/Chaoyang"
+   ]
+  },
+  {
+   "name": "Mengjiang (1939)",
+   "until": 1944,
+   "timeline": [
+    [
+     1938,
+     "Mengjiang"
+    ]
+   ],
+   "provinces": [
+    "China/Hohhot",
+    "China/Baotou",
+    "China/Ulanqab",
+    "China/Xilingol",
+    "China/Bayannur",
+    "China/Zhangjiakou",
+    "China/Daizhou"
+   ]
+  },
+  {
+   "name": "Provisional Government of China (Dec 1937)",
+   "until": 1944,
+   "timeline": [
+    [
+     1938,
+     "Provisional Government of China"
+    ]
+   ],
+   "provinces": [
+    "China/Beijing",
+    "China/Tianjin",
+    "China/Baoding",
+    "China/Shijiazhuang",
+    "China/Cangzhou",
+    "China/Tangshan",
+    "China/Shanhaiguan",
+    "China/Handan",
+    "China/Xingtai",
+    "China/Anyang",
+    "China/Jinan",
+    "China/Weifang",
+    "China/Jiaodong",
+    "China/Dengzhou",
+    "China/Dezhou",
+    "China/Yanzhou",
+    "China/Linyi",
+    "China/Kaifeng",
+    "China/Zhengzhou",
+    "China/Shangqiu",
+    "China/Xuzhou",
+    "China/Lianyungang",
+    "China/Taiyuan",
+    "China/Pingyang",
+    "China/Shangdang"
+   ]
+  },
+  {
+   "name": "Reformed and Reorganized National Government (1938-40)",
+   "until": 1944,
+   "timeline": [
+    [
+     1938,
+     "Reformed Government of China"
+    ],
+    [
+     1940,
+     "Reorganized National Government of China"
+    ]
+   ],
+   "provinces": [
+    "China/Nanjing",
+    "China/Shanghai",
+    "China/Suzhou",
+    "China/Wuxi",
+    "China/Nantong",
+    "China/Yangzhou",
+    "China/Huai'an",
+    "China/Chuzhou",
+    "China/Hangzhou",
+    "China/Ningbo",
+    "China/Shaoxing",
+    "China/Jinhua",
+    "China/Hefei",
+    "China/Wuhu",
+    "China/Bengbu",
+    "China/Anqing",
+    "China/Wuhan",
+    "China/Jiujiang",
+    "China/Nanchang",
+    "China/Yueyang",
+    "China/Guangzhou",
+    "China/Huizhou",
+    "China/Zhaoqing",
+    "China/Chaoshan",
+    "China/Fuzhou",
+    "China/Xiamen",
+    "China/Nanning",
+    "China/Beihai",
+    "China/Qinzhou"
+   ]
+  },
+  {
+   "name": "Hubei and Hunan after the Ichigo offensive (1944)",
+   "until": 1944,
+   "timeline": [
+    [
+     1944,
+     "Reorganized National Government of China"
+    ]
+   ],
+   "provinces": [
+    "China/Changsha",
+    "China/Hengyang",
+    "China/Guilin",
+    "China/Liuzhou",
+    "China/Luoyang",
+    "China/Nanyang"
+   ]
+  },
+  {
+   "name": "Hainan (1939)",
+   "until": 1944,
+   "timeline": [
+    [
+     1939,
+     "Empire of Japan"
+    ]
+   ],
+   "provinces": [
+    "China/Haikou",
+    "China/Sanya"
+   ]
+  },
+  {
+   "name": "Hong Kong (Dec 1941)",
+   "until": 1944,
+   "timeline": [
+    [
+     1942,
+     "Empire of Japan"
+    ]
+   ],
+   "provinces": [
+    "China/Shenzhen",
+    "China/Leizhou"
+   ]
+  },
+  {
+   "name": "Thai gains in Cambodia (1941)",
+   "until": 1944,
+   "timeline": [
+    [
+     1941,
+     "Thailand (Japanese-aligned)"
+    ]
+   ],
+   "provinces": [
+    "Cambodia/Angkor"
+   ]
+  }
+ ]
+}

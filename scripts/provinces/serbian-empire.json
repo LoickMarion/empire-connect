@@ -1,0 +1,47 @@
+{
+ "_comment": "The Serbian state of 1345 is Serbia and becomes the Serbian Empire when Stefan Dusan was crowned emperor in 1346 (to 1370). Provinces already labelled Serbian Empire in 1345 by the snapshots are Serbia that year.",
+ "groups": [
+  {
+   "name": "Serbia (1345) to Serbian Empire (1346)",
+   "until": 1370,
+   "timeline": [
+    [
+     1345,
+     "Serbia"
+    ],
+    [
+     1346,
+     "Serbian Empire"
+    ]
+   ],
+   "provinces": [
+    "Republic of Serbia/Belgrade",
+    "Republic of Serbia/Mačva",
+    "Bosnia and Herzegovina/Central Bosnia",
+    "Republic of Serbia/Šumadija",
+    "Bosnia and Herzegovina/Bosnia",
+    "Republic of Serbia/Zlatibor",
+    "Republic of Serbia/Kruševac",
+    "Bosnia and Herzegovina/Herzegovina",
+    "Republic of Serbia/Raška",
+    "Montenegro/Sandžak",
+    "Kosovo/Mitrovica",
+    "Montenegro/Nikšić",
+    "Bosnia and Herzegovina/Trebinje",
+    "Kosovo/Kosovo",
+    "Croatia/Ragusa",
+    "Montenegro/Zeta",
+    "Montenegro/Boka",
+    "Kosovo/Prizren",
+    "Albania/Shkodër",
+    "North Macedonia/Polog",
+    "North Macedonia/Skopje",
+    "North Macedonia/Ovče Pole",
+    "North Macedonia/Ohrid",
+    "North Macedonia/Pelagonia",
+    "Greece/East Macedonia",
+    "Greece/West Macedonia"
+   ]
+  }
+ ]
+}

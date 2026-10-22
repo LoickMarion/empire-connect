@@ -1,0 +1,324 @@
+{
+ "_comment": "Replaces the generic 'Holy Roman Empire' occupier with the constituent state or free city that held each province. Key = Country/Region. Value = a name, or a timeline [[fromYear, name], ...]; from-years must be map snapshot years. Names shared with later occupiers (Bavaria, Brandenburg, Milan, Venice...) keep the history continuous.",
+ "mapping": {
+  "Germany/Aachen": "Free Imperial City of Aachen",
+  "Germany/Altmark": "Brandenburg",
+  "Germany/Anhalt": "Principality of Anhalt",
+  "Germany/Ansbach": "Brandenburg-Ansbach",
+  "Germany/Augsburg": "Free Imperial City of Augsburg",
+  "Germany/Baden": "Baden",
+  "Germany/Bamberg": "Prince-Bishopric of Bamberg",
+  "Germany/Bayreuth": "Brandenburg-Bayreuth",
+  "Germany/Berg": "Duchy of Berg",
+  "Germany/Berlin": "Brandenburg",
+  "Germany/Brandenburg": "Brandenburg",
+  "Germany/Braunschweig": "Brunswick-Wolfenbüttel",
+  "Germany/Breisgau": "Further Austria",
+  "Germany/Bremen": "Free Imperial City of Bremen",
+  "Germany/Calenberg": "Brunswick-Lüneburg",
+  "Germany/Coburg": "Saxe-Coburg",
+  "Germany/Eisenach": [
+   [
+    1000,
+    "Landgraviate of Thuringia"
+   ],
+   [
+    1530,
+    "Saxony"
+   ]
+  ],
+  "Germany/Erzgebirge": [
+   [
+    1000,
+    "Margraviate of Meissen"
+   ],
+   [
+    1492,
+    "Saxony"
+   ]
+  ],
+  "Germany/Frankfurt": "Free Imperial City of Frankfurt",
+  "Germany/Fulda": "Prince-Abbey of Fulda",
+  "Germany/Göttingen": "Brunswick-Lüneburg",
+  "Germany/Halberstadt": "Prince-Bishopric of Halberstadt",
+  "Germany/Halle": "Archbishopric of Magdeburg",
+  "Germany/Hamburg": "Free Imperial City of Hamburg",
+  "Germany/Heilbronn": "Free Imperial City of Heilbronn",
+  "Germany/Hessen-Darmstadt": [
+   [
+    1000,
+    "Landgraviate of Hesse"
+   ],
+   [
+    1600,
+    "Hesse-Darmstadt"
+   ]
+  ],
+  "Germany/Hildesheim": "Prince-Bishopric of Hildesheim",
+  "Germany/Hohenlohe": "County of Hohenlohe",
+  "Germany/Holstein": "Holstein",
+  "Germany/Kempten": "Free Imperial City of Kempten",
+  "Germany/Kleve": "Duchy of Cleves",
+  "Germany/Koblenz": "Electorate of Trier",
+  "Germany/Konstanz": "Prince-Bishopric of Constance",
+  "Germany/Kurpfalz": "Electoral Palatinate",
+  "Germany/Köln": [
+   [
+    1000,
+    "Electorate of Cologne"
+   ],
+   [
+    1300,
+    "Free Imperial City of Cologne"
+   ]
+  ],
+  "Germany/Landshut": "Bavaria",
+  "Germany/Lauenburg": "Saxe-Lauenburg",
+  "Germany/Lausitz": "Lusatia",
+  "Germany/Leipzig": [
+   [
+    1000,
+    "Margraviate of Meissen"
+   ],
+   [
+    1492,
+    "Saxony"
+   ]
+  ],
+  "Germany/Lippe": "County of Lippe",
+  "Germany/Lübeck": "Lübeck",
+  "Germany/Lüneburg": "Brunswick-Lüneburg",
+  "Germany/Magdeburg": "Archbishopric of Magdeburg",
+  "Germany/Mainz": "Electorate of Mainz",
+  "Germany/Mark": "County of Mark",
+  "Germany/Mecklenburg": "Mecklenburg",
+  "Germany/Meißen": [
+   [
+    1000,
+    "Margraviate of Meissen"
+   ],
+   [
+    1492,
+    "Saxony"
+   ]
+  ],
+  "Germany/Memmingen": "Free Imperial City of Memmingen",
+  "Germany/München": "Bavaria",
+  "Germany/Münster": "Prince-Bishopric of Münster",
+  "Germany/Nassau": "County of Nassau",
+  "Germany/Neuburg": [
+   [
+    1000,
+    "Bavaria"
+   ],
+   [
+    1530,
+    "Palatinate-Neuburg"
+   ]
+  ],
+  "Germany/Neumark": "Brandenburg",
+  "Germany/Niederhessen": "Landgraviate of Hesse",
+  "Germany/Nordhausen": "Free Imperial City of Nordhausen",
+  "Germany/Nürnberg": "Free Imperial City of Nuremberg",
+  "Germany/Oberhessen": "Landgraviate of Hesse",
+  "Germany/Oberpfalz": [
+   [
+    1000,
+    "Electoral Palatinate"
+   ],
+   [
+    1650,
+    "Bavaria"
+   ]
+  ],
+  "Germany/Oberschwaben": "Free Imperial City of Ravensburg",
+  "Germany/Oldenburg": "Oldenburg",
+  "Germany/Osnabrück": "Prince-Bishopric of Osnabrück",
+  "Germany/Ostfriesland": "County of East Frisia",
+  "Germany/Paderborn": "Prince-Bishopric of Paderborn",
+  "Germany/Passau": "Prince-Bishopric of Passau",
+  "Germany/Ravensberg": "County of Ravensberg",
+  "Germany/Regensburg": "Free Imperial City of Regensburg",
+  "Germany/Reuss": "Lordship of Reuss",
+  "Germany/Rosenheim": "Bavaria",
+  "Germany/Rostock": "Mecklenburg",
+  "Germany/Saarbrücken": "Nassau-Saarbrücken",
+  "Germany/Schwarzwald": "Free Imperial City of Rottweil",
+  "Germany/Schweinfurt": "Free Imperial City of Schweinfurt",
+  "Germany/Siegerland": "County of Nassau",
+  "Germany/Speyer": "Free Imperial City of Speyer",
+  "Germany/Stade": "Archbishopric of Bremen",
+  "Germany/Stargard": "Mecklenburg",
+  "Germany/Thüringen": [
+   [
+    1000,
+    "Landgraviate of Thuringia"
+   ],
+   [
+    1530,
+    "Saxony"
+   ]
+  ],
+  "Germany/Trier": "Electorate of Trier",
+  "Germany/Uckermark": "Brandenburg",
+  "Germany/Ulm": "Free Imperial City of Ulm",
+  "Germany/Vogtland": [
+   [
+    1000,
+    "Margraviate of Meissen"
+   ],
+   [
+    1492,
+    "Saxony"
+   ]
+  ],
+  "Germany/Vorpommern": "Pomerania",
+  "Germany/Waldeck": "County of Waldeck",
+  "Germany/Wittenberg": [
+   [
+    1000,
+    "Saxe-Wittenberg"
+   ],
+   [
+    1492,
+    "Saxony"
+   ]
+  ],
+  "Germany/Worms": "Free Imperial City of Worms",
+  "Germany/Württemberg": [
+   [
+    1000,
+    "County of Württemberg"
+   ],
+   [
+    1492,
+    "Württemberg"
+   ]
+  ],
+  "Germany/Würzburg": "Prince-Bishopric of Würzburg",
+  "Germany/Zweibrücken": "Palatinate-Zweibrücken",
+  "Italy/Alessandria": "Genoa",
+  "Italy/Bozen": "County of Tyrol",
+  "Italy/Brescia": "Milan",
+  "Italy/Cuneo": "Savoy",
+  "Italy/Ferrara": "Duchy of Ferrara",
+  "Italy/Firenze": "Florence",
+  "Italy/Forlì-Cesena": "Papal States",
+  "Italy/Grosseto": "Republic of Siena",
+  "Italy/L'Aquila": "Naples",
+  "Italy/Macerata": "Papal States",
+  "Italy/Mantova": "Mantua",
+  "Italy/Milano": "Milan",
+  "Italy/Modena": "Modena",
+  "Italy/Parma": "Parma",
+  "Italy/Perugia": "Papal States",
+  "Italy/Piacenza": "Parma",
+  "Italy/Roma": "Papal States",
+  "Italy/Trento": "Prince-Bishopric of Trent",
+  "Italy/Turin": "Savoy",
+  "Italy/Udine": "Patriarchate of Aquileia",
+  "Italy/Venezia": "Venice",
+  "Italy/Vercelli": "Milan",
+  "Switzerland/Aargau": "Bern",
+  "Switzerland/Basel": "Basel",
+  "Switzerland/Bern": "Bern",
+  "Switzerland/Fribourg": "Fribourg",
+  "Switzerland/Geneva": "Prince-Bishopric of Geneva",
+  "Switzerland/Graubünden": "Three Leagues",
+  "Switzerland/Lucerne": "Lucerne",
+  "Switzerland/Neuchâtel": "County of Neuchâtel",
+  "Switzerland/St. Gallen": "Prince-Abbey of St. Gallen",
+  "Switzerland/Ticino": "Milan",
+  "Switzerland/Valais": "Prince-Bishopric of Sion",
+  "Switzerland/Vaud": "Savoy",
+  "Switzerland/Waldstätte": "Uri, Schwyz and Unterwalden",
+  "Switzerland/Zürich": "Zürich",
+  "Austria/Burgenland": "Archduchy of Austria",
+  "Austria/Carinthia": "Duchy of Carinthia",
+  "Austria/East Tyrol": "County of Gorizia",
+  "Austria/Industrieviertel": "Archduchy of Austria",
+  "Austria/Innviertel": "Bavaria",
+  "Austria/Lower Austria": "Archduchy of Austria",
+  "Austria/Salzburg": "Archbishopric of Salzburg",
+  "Austria/Styria": "Duchy of Styria",
+  "Austria/Tyrol": "County of Tyrol",
+  "Austria/Upper Austria": "Archduchy of Austria",
+  "Austria/Upper Styria": "Duchy of Styria",
+  "Austria/Vienna": "Archduchy of Austria",
+  "Austria/Vorarlberg": "Further Austria",
+  "Slovenia/Carniola": "Duchy of Carniola",
+  "Slovenia/Gorizia": "County of Gorizia",
+  "Slovenia/Littoral": [
+   [
+    1000,
+    "Patriarchate of Aquileia"
+   ],
+   [
+    1530,
+    "Archduchy of Austria"
+   ]
+  ],
+  "Slovenia/Lower Carniola": "Duchy of Carniola",
+  "Slovenia/Lower Styria": "Duchy of Styria",
+  "Czechia/Prague": "Kingdom of Bohemia",
+  "Czechia/West Bohemia": "Kingdom of Bohemia",
+  "Czechia/South Bohemia": "Kingdom of Bohemia",
+  "Czechia/East Bohemia": "Kingdom of Bohemia",
+  "Czechia/North Bohemia": "Kingdom of Bohemia",
+  "Czechia/Liberec": "Kingdom of Bohemia",
+  "Czechia/Egerland": "Kingdom of Bohemia",
+  "Czechia/Highlands": "Kingdom of Bohemia",
+  "Czechia/South Moravia": "Margraviate of Moravia",
+  "Czechia/Olomouc": "Margraviate of Moravia",
+  "Czechia/Moravian Slovakia": "Margraviate of Moravia",
+  "Czechia/Silesia": "Duchy of Silesia",
+  "Poland/Lower Silesia": "Duchy of Silesia",
+  "Poland/Legnica": "Duchy of Silesia",
+  "Poland/Opole": "Duchy of Silesia",
+  "Poland/Western Pomerania": "Pomerania",
+  "Poland/Farther Pomerania": "Pomerania",
+  "Poland/Lubusz": "Brandenburg",
+  "Slovakia/Bratislava": "Kingdom of Hungary",
+  "Slovakia/Trenčín": "Kingdom of Hungary",
+  "Slovakia/Trnava": "Kingdom of Hungary",
+  "Hungary/Szombathely": "Kingdom of Hungary",
+  "Croatia/Zagorje": "Kingdom of Croatia",
+  "Croatia/Zagreb": "Kingdom of Croatia",
+  "Belgium/Antwerp": "Duchy of Brabant",
+  "Belgium/East Flanders": "County of Flanders",
+  "Belgium/West Flanders": "County of Flanders",
+  "Belgium/Flemish Brabant": "Duchy of Brabant",
+  "Belgium/Walloon Brabant": "Duchy of Brabant",
+  "Belgium/Hainaut": "County of Hainaut",
+  "Belgium/Liege": "Prince-Bishopric of Liège",
+  "Belgium/Limburg": "Prince-Bishopric of Liège",
+  "Belgium/Luxembourg": "Luxembourg",
+  "Belgium/Namur": "County of Namur",
+  "Netherlands/Drenthe": "Bishopric of Utrecht",
+  "Netherlands/Flevoland": "Bishopric of Utrecht",
+  "Netherlands/Friesland": "Frisia",
+  "Netherlands/Gelderland": "Duchy of Guelders",
+  "Netherlands/Groningen": "Groningen",
+  "Netherlands/Limburg": "Duchy of Limburg",
+  "Netherlands/Noord-Brabant": "Duchy of Brabant",
+  "Netherlands/Noord-Holland": "County of Holland",
+  "Netherlands/Zuid-Holland": "County of Holland",
+  "Netherlands/Overijssel": "Bishopric of Utrecht",
+  "Netherlands/Utrecht": "Bishopric of Utrecht",
+  "Netherlands/Zeeland": "County of Zeeland",
+  "France/Bas-Rhin": "Free Imperial City of Strasbourg",
+  "France/Haute-Rhin": "Further Austria",
+  "France/Meurthe-et-Moselle": "Duchy of Lorraine",
+  "France/Moselle": "Free Imperial City of Metz",
+  "France/Vosges": "Duchy of Lorraine",
+  "France/Territoire de Belfort": "Further Austria",
+  "France/Doubs": "Franche-Comté",
+  "France/Haute-Saône": "Franche-Comté",
+  "France/Haute-Savoie": "Savoy",
+  "France/Savoie": "Savoy",
+  "France/Nord": "County of Flanders",
+  "France/Pas-de-Calais": "County of Flanders",
+  "France/Corse-du-Sud": "Genoa",
+  "France/Haute-Corse": "Genoa"
+ }
+}

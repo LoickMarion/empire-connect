@@ -1,0 +1,950 @@
+{
+ "_comment": "The Napoleonic wars between the 1783, 1800 and 1815 snapshots. Each group lists provinces (Country/Region) and a timeline of [year, occupier]: the occupier holds from that year until the next entry. The last entry runs to 'until' (default 1814). A value of \"@1815\" means 'whoever held the province in the 1815 snapshot' (the restoration), and null means 'leave the existing record alone from here'. The span from the first entry's year to 'until' is replaced.",
+ "groups": [
+  {
+   "name": "Confederation of the Rhine (1806): all of Germany but Prussia, Austria and the Danish and Swedish lands",
+   "timeline": [
+    [
+     1806,
+     "Confederation of the Rhine"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814,
+   "select": [
+    {
+     "country": "Germany",
+     "except": [
+      "Berlin",
+      "Brandenburg",
+      "Neumark",
+      "Uckermark",
+      "Vorpommern",
+      "Holstein",
+      "Schleswig",
+      "Lauenburg"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Kingdom of Spain under Joseph Bonaparte (1808-1813)",
+   "timeline": [
+    [
+     1808,
+     "Kingdom of Spain (Bonaparte)"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814,
+   "select": [
+    {
+     "country": "Spain",
+     "except": [
+      "Cádiz",
+      "Las Palmas",
+      "Santa Cruz de Tenerife",
+      "Baleares",
+      "Ceuta",
+      "Melilla"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Savoy and Nice (annexed 1792)",
+   "provinces": [
+    "France/Savoie",
+    "France/Haute-Savoie",
+    "France/Alpes-Maritimes"
+   ],
+   "timeline": [
+    [
+     1792,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Austrian Netherlands, Liège and Luxembourg (annexed 1795)",
+   "provinces": [
+    "Belgium/Antwerp",
+    "Belgium/East Flanders",
+    "Belgium/West Flanders",
+    "Belgium/Flemish Brabant",
+    "Belgium/Walloon Brabant",
+    "Belgium/Hainaut",
+    "Belgium/Liege",
+    "Belgium/Limburg",
+    "Belgium/Luxembourg",
+    "Belgium/Namur",
+    "Netherlands/Limburg"
+   ],
+   "timeline": [
+    [
+     1795,
+     "France"
+    ],
+    [
+     1814,
+     "Netherlands"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Netherlands",
+   "provinces": [
+    "Netherlands/Drenthe",
+    "Netherlands/Flevoland",
+    "Netherlands/Friesland",
+    "Netherlands/Gelderland",
+    "Netherlands/Groningen",
+    "Netherlands/Noord-Brabant",
+    "Netherlands/Noord-Holland",
+    "Netherlands/Overijssel",
+    "Netherlands/Utrecht",
+    "Netherlands/Zeeland",
+    "Netherlands/Zuid-Holland"
+   ],
+   "timeline": [
+    [
+     1795,
+     "Batavian Republic"
+    ],
+    [
+     1806,
+     "Kingdom of Holland"
+    ],
+    [
+     1810,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Left bank of the Rhine (annexed 1797)",
+   "provinces": [
+    "Germany/Aachen",
+    "Germany/Köln",
+    "Germany/Koblenz",
+    "Germany/Trier",
+    "Germany/Speyer",
+    "Germany/Worms",
+    "Germany/Zweibrücken",
+    "Germany/Saarbrücken",
+    "Germany/Mainz",
+    "Germany/Kleve"
+   ],
+   "timeline": [
+    [
+     1797,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Switzerland",
+   "provinces": [
+    "Switzerland/Aargau",
+    "Switzerland/Basel",
+    "Switzerland/Bern",
+    "Switzerland/Fribourg",
+    "Switzerland/Graubünden",
+    "Switzerland/Lucerne",
+    "Switzerland/St. Gallen",
+    "Switzerland/Ticino",
+    "Switzerland/Vaud",
+    "Switzerland/Waldstätte",
+    "Switzerland/Zürich"
+   ],
+   "timeline": [
+    [
+     1798,
+     "Helvetic Republic"
+    ],
+    [
+     1803,
+     "Switzerland"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Geneva",
+   "provinces": [
+    "Switzerland/Geneva"
+   ],
+   "timeline": [
+    [
+     1798,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Valais",
+   "provinces": [
+    "Switzerland/Valais"
+   ],
+   "timeline": [
+    [
+     1798,
+     "Helvetic Republic"
+    ],
+    [
+     1802,
+     "Republic of Valais"
+    ],
+    [
+     1810,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Neuchâtel",
+   "provinces": [
+    "Switzerland/Neuchâtel"
+   ],
+   "timeline": [
+    [
+     1806,
+     "Principality of Neuchâtel"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Lombardy, Emilia and Romagna",
+   "provinces": [
+    "Italy/Milano",
+    "Italy/Brescia",
+    "Italy/Mantova",
+    "Italy/Modena",
+    "Italy/Ferrara",
+    "Italy/Forlì-Cesena",
+    "Italy/Vercelli"
+   ],
+   "timeline": [
+    [
+     1797,
+     "Cisalpine Republic"
+    ],
+    [
+     1805,
+     "Kingdom of Italy (Napoleonic)"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Venetia",
+   "provinces": [
+    "Italy/Venezia"
+   ],
+   "timeline": [
+    [
+     1797,
+     "Austrian Empire"
+    ],
+    [
+     1806,
+     "Kingdom of Italy (Napoleonic)"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Friuli",
+   "provinces": [
+    "Italy/Udine"
+   ],
+   "timeline": [
+    [
+     1797,
+     "Austrian Empire"
+    ],
+    [
+     1806,
+     "Kingdom of Italy (Napoleonic)"
+    ],
+    [
+     1809,
+     "Illyrian Provinces"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Piedmont",
+   "provinces": [
+    "Italy/Turin",
+    "Italy/Cuneo"
+   ],
+   "timeline": [
+    [
+     1800,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Genoa",
+   "provinces": [
+    "Italy/Alessandria"
+   ],
+   "timeline": [
+    [
+     1797,
+     "Ligurian Republic"
+    ],
+    [
+     1805,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Parma and Piacenza",
+   "provinces": [
+    "Italy/Parma",
+    "Italy/Piacenza"
+   ],
+   "timeline": [
+    [
+     1802,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Tuscany",
+   "provinces": [
+    "Italy/Firenze",
+    "Italy/Grosseto"
+   ],
+   "timeline": [
+    [
+     1801,
+     "Kingdom of Etruria"
+    ],
+    [
+     1808,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Rome and Umbria",
+   "provinces": [
+    "Italy/Roma",
+    "Italy/Perugia"
+   ],
+   "timeline": [
+    [
+     1798,
+     "Roman Republic (1798-99)"
+    ],
+    [
+     1800,
+     "Papal States"
+    ],
+    [
+     1809,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "The Marches",
+   "provinces": [
+    "Italy/Macerata"
+   ],
+   "timeline": [
+    [
+     1798,
+     "Roman Republic (1798-99)"
+    ],
+    [
+     1800,
+     "Papal States"
+    ],
+    [
+     1808,
+     "Kingdom of Italy (Napoleonic)"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Kingdom of Naples",
+   "provinces": [
+    "Italy/L'Aquila",
+    "Italy/Campobasso",
+    "Italy/Foggia",
+    "Italy/Avellino",
+    "Italy/Bari",
+    "Italy/Potenza",
+    "Italy/Salerno",
+    "Italy/Taranto",
+    "Italy/Cosenza",
+    "Italy/Reggio Calabria"
+   ],
+   "timeline": [
+    [
+     1806,
+     "Kingdom of Naples (Napoleonic)"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Trentino and South Tyrol",
+   "provinces": [
+    "Italy/Trento",
+    "Italy/Bozen"
+   ],
+   "timeline": [
+    [
+     1805,
+     "Bavaria"
+    ],
+    [
+     1810,
+     "Kingdom of Italy (Napoleonic)"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Egypt expedition",
+   "provinces": [
+    "Egypt/Alexandria",
+    "Egypt/Beheira",
+    "Egypt/Kafr el-Sheikh",
+    "Egypt/Gharbia",
+    "Egypt/Dakahlia",
+    "Egypt/Damietta",
+    "Egypt/Port Said",
+    "Egypt/Sharqia",
+    "Egypt/Ismailia",
+    "Egypt/Cairo",
+    "Egypt/Suez",
+    "Egypt/Faiyum",
+    "Egypt/Beni Suef",
+    "Egypt/Minya",
+    "Egypt/Asyut",
+    "Egypt/Sohag",
+    "Egypt/Qena",
+    "Egypt/Luxor",
+    "Egypt/Aswan"
+   ],
+   "timeline": [
+    [
+     1798,
+     "France"
+    ],
+    [
+     1802,
+     null
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Dalmatia and Istria",
+   "provinces": [
+    "Croatia/Istria",
+    "Croatia/Kvarner",
+    "Croatia/Zadar",
+    "Croatia/Dalmatia"
+   ],
+   "timeline": [
+    [
+     1806,
+     "Kingdom of Italy (Napoleonic)"
+    ],
+    [
+     1809,
+     "Illyrian Provinces"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Ragusa",
+   "provinces": [
+    "Croatia/Ragusa"
+   ],
+   "timeline": [
+    [
+     1808,
+     "France"
+    ],
+    [
+     1810,
+     "Illyrian Provinces"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Illyrian Provinces",
+   "provinces": [
+    "Slovenia/Carniola",
+    "Slovenia/Gorizia",
+    "Slovenia/Littoral",
+    "Slovenia/Lower Carniola",
+    "Slovenia/Lower Styria",
+    "Croatia/Lika",
+    "Croatia/Pokuplje",
+    "Croatia/Banovina",
+    "Austria/Carinthia",
+    "Austria/East Tyrol"
+   ],
+   "timeline": [
+    [
+     1809,
+     "Illyrian Provinces"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Bavarian gains from Austria",
+   "provinces": [
+    "Austria/Tyrol",
+    "Austria/Vorarlberg"
+   ],
+   "timeline": [
+    [
+     1805,
+     "Bavaria"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Salzburg and Innviertel",
+   "provinces": [
+    "Austria/Salzburg",
+    "Austria/Innviertel"
+   ],
+   "timeline": [
+    [
+     1810,
+     "Bavaria"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Kingdom of Westphalia",
+   "provinces": [
+    "Germany/Braunschweig",
+    "Germany/Göttingen",
+    "Germany/Calenberg",
+    "Germany/Niederhessen",
+    "Germany/Halberstadt",
+    "Germany/Magdeburg",
+    "Germany/Halle",
+    "Germany/Altmark",
+    "Germany/Paderborn",
+    "Germany/Hildesheim",
+    "Germany/Ravensberg",
+    "Germany/Nordhausen"
+   ],
+   "timeline": [
+    [
+     1807,
+     "Kingdom of Westphalia"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Grand Duchy of Berg",
+   "provinces": [
+    "Germany/Berg",
+    "Germany/Mark",
+    "Germany/Siegerland"
+   ],
+   "timeline": [
+    [
+     1806,
+     "Grand Duchy of Berg"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "North German coast (annexed 1810)",
+   "provinces": [
+    "Germany/Hamburg",
+    "Germany/Lübeck",
+    "Germany/Bremen",
+    "Germany/Oldenburg",
+    "Germany/Lüneburg",
+    "Germany/Stade",
+    "Germany/Lauenburg",
+    "Germany/Osnabrück",
+    "Germany/Münster",
+    "Germany/Ostfriesland"
+   ],
+   "timeline": [
+    [
+     1810,
+     "France"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Würzburg",
+   "provinces": [
+    "Germany/Würzburg"
+   ],
+   "timeline": [
+    [
+     1806,
+     "Grand Duchy of Würzburg"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Frankfurt",
+   "provinces": [
+    "Germany/Frankfurt"
+   ],
+   "timeline": [
+    [
+     1810,
+     "Grand Duchy of Frankfurt"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Duchy of Warsaw (1807)",
+   "provinces": [
+    "Poland/Masovia",
+    "Poland/Płock",
+    "Poland/Radom",
+    "Poland/Greater Poland",
+    "Poland/Kalisz",
+    "Poland/Kuyavia",
+    "Poland/Chełmno",
+    "Poland/Łódź",
+    "Poland/Częstochowa"
+   ],
+   "timeline": [
+    [
+     1807,
+     "Duchy of Warsaw"
+    ],
+    [
+     1813,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Duchy of Warsaw (Austrian Galicia, 1809)",
+   "provinces": [
+    "Poland/Lublin",
+    "Poland/Lesser Poland",
+    "Poland/Świętokrzyskie",
+    "Poland/Subcarpathia"
+   ],
+   "timeline": [
+    [
+     1809,
+     "Duchy of Warsaw"
+    ],
+    [
+     1813,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Danzig",
+   "provinces": [
+    "Poland/Pomerelia"
+   ],
+   "timeline": [
+    [
+     1807,
+     "Free City of Danzig (1807-14)"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Białystok",
+   "provinces": [
+    "Poland/Podlasie"
+   ],
+   "timeline": [
+    [
+     1807,
+     "Russian Empire"
+    ],
+    [
+     1814,
+     "@1815"
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Catalonia annexed (1812)",
+   "provinces": [
+    "Spain/Barcelona",
+    "Spain/Gerona",
+    "Spain/Lérida",
+    "Spain/Tarragona"
+   ],
+   "timeline": [
+    [
+     1808,
+     "Kingdom of Spain (Bonaparte)"
+    ],
+    [
+     1812,
+     "France"
+    ],
+    [
+     1814,
+     null
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Portugal (Junot's occupation)",
+   "provinces": [
+    "Portugal/Lisboa",
+    "Portugal/Setúbal",
+    "Portugal/Santarém",
+    "Portugal/Leiria",
+    "Portugal/Coimbra",
+    "Portugal/Aveiro",
+    "Portugal/Porto",
+    "Portugal/Viseu",
+    "Portugal/Guarda",
+    "Portugal/Castelo Branco",
+    "Portugal/Portalegre",
+    "Portugal/Évora",
+    "Portugal/Beja",
+    "Portugal/Faro",
+    "Portugal/Braga",
+    "Portugal/Viana do Castelo",
+    "Portugal/Vila Real",
+    "Portugal/Bragança"
+   ],
+   "timeline": [
+    [
+     1807,
+     "France"
+    ],
+    [
+     1808,
+     null
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Ionian Islands",
+   "provinces": [
+    "Greece/Corfu",
+    "Greece/Ionian Islands"
+   ],
+   "timeline": [
+    [
+     1797,
+     "France"
+    ],
+    [
+     1799,
+     "Septinsular Republic"
+    ],
+    [
+     1807,
+     "France"
+    ],
+    [
+     1814,
+     null
+    ]
+   ],
+   "until": 1814
+  },
+  {
+   "name": "Russian campaign (1812)",
+   "provinces": [
+    "Lithuania/Vilnius",
+    "Lithuania/Kaunas",
+    "Lithuania/Samogitia",
+    "Lithuania/Šiauliai",
+    "Lithuania/Aukštaitija",
+    "Lithuania/Dzūkija",
+    "Belarus/Minsk",
+    "Belarus/Vitebsk",
+    "Belarus/Polotsk",
+    "Belarus/Mogilev",
+    "Belarus/Grodno",
+    "Russia/Smolensk",
+    "Russia/Moscow"
+   ],
+   "timeline": [
+    [
+     1812,
+     "France"
+    ],
+    [
+     1813,
+     null
+    ]
+   ],
+   "until": 1814
+  }
+ ]
+}

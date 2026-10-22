@@ -1,0 +1,1745 @@
+{
+ "_comment": "India, Pakistan and Bangladesh from 1200 to the early 1700s: the vague 'Islamic and Hindu states', 'minor Hindu kingdoms', 'Rajastan' and 'Orissa' labels replaced by the actual sultanates and kingdoms, and Mughal conquest dates that follow the real campaigns (Delhi 1526, Gujarat 1573, Bengal 1576, Kashmir 1586, Sindh 1591, Deccan 1596-1687). Vassal Rajput and Gond states are linked to the Mughals in overlords.json. Same format as napoleonic-conquests.json.",
+ "groups": [
+  {
+   "name": "Delhi and the Punjab",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1526,
+     "Mughal Empire"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Delhi",
+    "India/Doab",
+    "India/Rohilkhand",
+    "India/Braj",
+    "India/Mewat",
+    "India/Hisar",
+    "India/Patiala",
+    "India/Bathinda",
+    "India/Punjab",
+    "India/Doaba",
+    "Pakistan/Sialkot",
+    "Pakistan/Lahore",
+    "Pakistan/Rechna",
+    "Pakistan/Montgomery",
+    "Pakistan/Dera Ismail Khan",
+    "Pakistan/Dera Ghazi Khan",
+    "Pakistan/Bahawalpur",
+    "Pakistan/Hazara",
+    "Pakistan/Azad Kashmir",
+    "Pakistan/Potohar",
+    "Pakistan/Peshawar",
+    "Pakistan/Waziristan",
+    "India/Ajmer"
+   ]
+  },
+  {
+   "name": "Multan",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1445,
+     "Langah Sultanate"
+    ],
+    [
+     1527,
+     "Mughal Empire"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "Pakistan/Multan"
+   ]
+  },
+  {
+   "name": "Jaunpur Sultanate",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1394,
+     "Jaunpur Sultanate"
+    ],
+    [
+     1479,
+     "Sultanate of Delhi"
+    ],
+    [
+     1526,
+     "Mughal Empire"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Awadh",
+    "India/Ayodhya",
+    "India/Gorakhpur",
+    "India/Kashi",
+    "India/Vindhya",
+    "India/Prayag"
+   ]
+  },
+  {
+   "name": "Bihar",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1394,
+     "Jaunpur Sultanate"
+    ],
+    [
+     1479,
+     "Sultanate of Delhi"
+    ],
+    [
+     1526,
+     "Mughal Empire"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Magadha",
+    "India/Gaya"
+   ]
+  },
+  {
+   "name": "Gwalior",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1398,
+     "Tomara Kingdom of Gwalior"
+    ],
+    [
+     1518,
+     "Sultanate of Delhi"
+    ],
+    [
+     1526,
+     "Mughal Empire"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Gwalior"
+   ]
+  },
+  {
+   "name": "Bundelkhand",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1501,
+     "Bundela Kingdom"
+    ],
+    [
+     1605,
+     "Bundela Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Bundelkhand"
+   ]
+  },
+  {
+   "name": "Mithila",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Kingdom of Mithila"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Mithila"
+   ]
+  },
+  {
+   "name": "Baghelkhand",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Kingdom of Rewa"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Kingdom of Rewa"
+    ]
+   ],
+   "provinces": [
+    "India/Baghelkhand"
+   ]
+  },
+  {
+   "name": "Garhwal",
+   "until": 1714,
+   "timeline": [
+    [
+     1358,
+     "Garhwal Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Garhwal"
+   ]
+  },
+  {
+   "name": "Kumaon",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Kumaon Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Kumaon"
+   ]
+  },
+  {
+   "name": "Kangra and the hill states",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Kangra Kingdom"
+    ],
+    [
+     1620,
+     "Kangra Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Himachal"
+   ]
+  },
+  {
+   "name": "Kashmir",
+   "until": 1714,
+   "timeline": [
+    [
+     1339,
+     "Kashmir Sultanate"
+    ],
+    [
+     1586,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Kashmir"
+   ]
+  },
+  {
+   "name": "Jammu",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1526,
+     "Mughal Empire"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Jammu"
+   ]
+  },
+  {
+   "name": "Ladakh",
+   "until": 1714,
+   "timeline": [
+    [
+     1470,
+     "Kingdom of Ladakh"
+    ]
+   ],
+   "provinces": [
+    "India/Ladakh"
+   ]
+  },
+  {
+   "name": "Baltistan",
+   "until": 1714,
+   "timeline": [
+    [
+     1500,
+     "Maqpon dynasty"
+    ]
+   ],
+   "provinces": [
+    "Pakistan/Baltistan"
+   ]
+  },
+  {
+   "name": "Gilgit",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Trakhan dynasty"
+    ]
+   ],
+   "provinces": [
+    "Pakistan/Gilgit"
+   ]
+  },
+  {
+   "name": "Chitral",
+   "until": 1714,
+   "timeline": [
+    [
+     1320,
+     "Rais dynasty"
+    ],
+    [
+     1570,
+     "Katur dynasty"
+    ]
+   ],
+   "provinces": [
+    "Pakistan/Chitral"
+   ]
+  },
+  {
+   "name": "Mewar",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Mewar"
+    ]
+   ],
+   "provinces": [
+    "India/Mewar",
+    "India/Chittor"
+   ]
+  },
+  {
+   "name": "Marwar",
+   "until": 1714,
+   "timeline": [
+    [
+     1226,
+     "Kingdom of Marwar"
+    ]
+   ],
+   "provinces": [
+    "India/Marwar",
+    "India/Barmer"
+   ]
+  },
+  {
+   "name": "Amber",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Amber"
+    ]
+   ],
+   "provinces": [
+    "India/Dhundhar"
+   ]
+  },
+  {
+   "name": "Bikaner",
+   "until": 1714,
+   "timeline": [
+    [
+     1465,
+     "Kingdom of Bikaner"
+    ]
+   ],
+   "provinces": [
+    "India/Bikaner"
+   ]
+  },
+  {
+   "name": "Jaisalmer",
+   "until": 1714,
+   "timeline": [
+    [
+     1156,
+     "Kingdom of Jaisalmer"
+    ]
+   ],
+   "provinces": [
+    "India/Jaisalmer"
+   ]
+  },
+  {
+   "name": "Shekhawati",
+   "until": 1714,
+   "timeline": [
+    [
+     1445,
+     "Kingdom of Amber"
+    ]
+   ],
+   "provinces": [
+    "India/Shekhawati"
+   ]
+  },
+  {
+   "name": "Hadoti",
+   "until": 1714,
+   "timeline": [
+    [
+     1241,
+     "Kingdom of Bundi"
+    ]
+   ],
+   "provinces": [
+    "India/Hadoti"
+   ]
+  },
+  {
+   "name": "Vagad",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Banswara"
+    ]
+   ],
+   "provinces": [
+    "India/Vagad"
+   ]
+  },
+  {
+   "name": "Palanpur",
+   "until": 1714,
+   "timeline": [
+    [
+     1370,
+     "Palanpur State"
+    ]
+   ],
+   "provinces": [
+    "India/Banaskantha"
+   ]
+  },
+  {
+   "name": "Sindh",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Soomra dynasty"
+    ],
+    [
+     1351,
+     "Samma dynasty"
+    ],
+    [
+     1521,
+     "Arghun dynasty"
+    ],
+    [
+     1555,
+     "Tarkhan dynasty"
+    ],
+    [
+     1591,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "Pakistan/Upper Sindh",
+    "Pakistan/Karachi",
+    "Pakistan/Lower Sindh"
+   ]
+  },
+  {
+   "name": "Baluchistan (Quetta, Zhob)",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1595,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "Pakistan/Balochistan",
+    "Pakistan/Zhob"
+   ]
+  },
+  {
+   "name": "Khuzdar and Gwadar",
+   "until": 1714,
+   "timeline": [
+    [
+     1500,
+     "Baloch tribes"
+    ],
+    [
+     1595,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "Pakistan/Jhalawan",
+    "Pakistan/Makran"
+   ]
+  },
+  {
+   "name": "Kandahar and Qalat",
+   "until": 1714,
+   "timeline": [
+    [
+     1530,
+     "Safavid Empire"
+    ],
+    [
+     1595,
+     "Mughal Empire"
+    ],
+    [
+     1622,
+     "Safavid Empire"
+    ],
+    [
+     1638,
+     "Mughal Empire"
+    ],
+    [
+     1649,
+     "Safavid Empire"
+    ]
+   ],
+   "provinces": [
+    "Afghanistan/Kandahar",
+    "Afghanistan/Zabul"
+   ]
+  },
+  {
+   "name": "Khost",
+   "until": 1714,
+   "timeline": [
+    [
+     1526,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "Afghanistan/Khost"
+   ]
+  },
+  {
+   "name": "Helmand",
+   "until": 1714,
+   "timeline": [
+    [
+     1530,
+     "Safavid Empire"
+    ]
+   ],
+   "provinces": [
+    "Afghanistan/Helmand"
+   ]
+  },
+  {
+   "name": "Nepal",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Malla Kingdoms"
+    ]
+   ],
+   "provinces": [
+    "Nepal/Kathmandu",
+    "Nepal/Gandaki"
+   ]
+  },
+  {
+   "name": "Sikkim",
+   "until": 1782,
+   "timeline": [
+    [
+     1642,
+     "Kingdom of Sikkim"
+    ]
+   ],
+   "provinces": [
+    "India/Sikkim",
+    "India/Darjeeling"
+   ]
+  },
+  {
+   "name": "Bengal",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1338,
+     "Bengal Sultanate"
+    ],
+    [
+     1539,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Bengal Sultanate"
+    ],
+    [
+     1576,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Bengal",
+    "India/Burdwan",
+    "Bangladesh/Khulna",
+    "Bangladesh/Varendra",
+    "India/Gaur",
+    "India/Purnea",
+    "India/Anga",
+    "Bangladesh/Rangpur",
+    "Bangladesh/Mymensingh",
+    "India/Singhbhum",
+    "India/Jharkhand"
+   ]
+  },
+  {
+   "name": "East Bengal",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1338,
+     "Bengal Sultanate"
+    ],
+    [
+     1539,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Bengal Sultanate"
+    ],
+    [
+     1576,
+     "Bhati chieftains"
+    ],
+    [
+     1612,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "Bangladesh/Dhaka",
+    "Bangladesh/Barisal",
+    "Bangladesh/Comilla",
+    "Bangladesh/Sylhet"
+   ]
+  },
+  {
+   "name": "Chittagong",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1338,
+     "Bengal Sultanate"
+    ],
+    [
+     1539,
+     "Sur Empire"
+    ],
+    [
+     1556,
+     "Bengal Sultanate"
+    ],
+    [
+     1576,
+     "Arakan"
+    ],
+    [
+     1666,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "Bangladesh/Chittagong"
+   ]
+  },
+  {
+   "name": "Tripura",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Tripura"
+    ]
+   ],
+   "provinces": [
+    "India/Tripura"
+   ]
+  },
+  {
+   "name": "Ahom Assam",
+   "until": 1782,
+   "timeline": [
+    [
+     1228,
+     "Ahom Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Upper Assam"
+   ]
+  },
+  {
+   "name": "Kamrup",
+   "until": 1782,
+   "timeline": [
+    [
+     1250,
+     "Kamata Kingdom"
+    ],
+    [
+     1498,
+     "Bengal Sultanate"
+    ],
+    [
+     1515,
+     "Koch Kingdom"
+    ],
+    [
+     1639,
+     "Mughal Empire"
+    ],
+    [
+     1682,
+     "Ahom Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Kamrup"
+   ]
+  },
+  {
+   "name": "Manipur",
+   "until": 1782,
+   "timeline": [
+    [
+     1100,
+     "Kingdom of Manipur"
+    ]
+   ],
+   "provinces": [
+    "India/Manipur"
+   ]
+  },
+  {
+   "name": "Hill peoples of the east",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Naga peoples"
+    ]
+   ],
+   "provinces": [
+    "India/Nagaland"
+   ]
+  },
+  {
+   "name": "Mizoram",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Mizo peoples"
+    ]
+   ],
+   "provinces": [
+    "India/Mizoram"
+   ]
+  },
+  {
+   "name": "Khasi and Jaintia hills",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Khasi states"
+    ]
+   ],
+   "provinces": [
+    "India/Meghalaya"
+   ]
+  },
+  {
+   "name": "Odisha",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Eastern Ganga dynasty"
+    ],
+    [
+     1434,
+     "Gajapati Kingdom"
+    ],
+    [
+     1541,
+     "Bhoi dynasty"
+    ],
+    [
+     1559,
+     "Bengal Sultanate"
+    ],
+    [
+     1592,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Odisha",
+    "India/Balasore",
+    "India/Ganjam"
+   ]
+  },
+  {
+   "name": "Sambalpur",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Kingdom of Sambalpur"
+    ],
+    [
+     1592,
+     "Kingdom of Sambalpur"
+    ]
+   ],
+   "provinces": [
+    "India/Sambalpur"
+   ]
+  },
+  {
+   "name": "Malwa",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1401,
+     "Malwa Sultanate"
+    ],
+    [
+     1531,
+     "Gujarat Sultanate"
+    ],
+    [
+     1535,
+     "Mughal Empire"
+    ],
+    [
+     1540,
+     "Sur Empire"
+    ],
+    [
+     1555,
+     "Malwa Sultanate"
+    ],
+    [
+     1562,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Malwa",
+    "India/Bhopal",
+    "India/Sagar"
+   ]
+  },
+  {
+   "name": "Khandesh",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1382,
+     "Khandesh Sultanate"
+    ],
+    [
+     1601,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Nimar"
+   ]
+  },
+  {
+   "name": "Gond kingdoms",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Garha-Mandla"
+    ],
+    [
+     1564,
+     "Garha-Mandla"
+    ]
+   ],
+   "provinces": [
+    "India/Mahakoshal"
+   ]
+  },
+  {
+   "name": "Deogarh and Chanda",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Yadava Kingdom"
+    ],
+    [
+     1318,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1490,
+     "Berar Sultanate"
+    ],
+    [
+     1572,
+     "Ahmadnagar Sultanate"
+    ],
+    [
+     1596,
+     "Gond Kingdom of Deogarh"
+    ]
+   ],
+   "provinces": [
+    "India/Vidarbha",
+    "India/Gondwana"
+   ]
+  },
+  {
+   "name": "Ratanpur",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Ratanpur"
+    ]
+   ],
+   "provinces": [
+    "India/Dakshin Kosala",
+    "India/Chhattisgarh"
+   ]
+  },
+  {
+   "name": "Bastar",
+   "until": 1714,
+   "timeline": [
+    [
+     1324,
+     "Bastar Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Bastar"
+   ]
+  },
+  {
+   "name": "Gujarat",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1407,
+     "Gujarat Sultanate"
+    ],
+    [
+     1573,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Gujarat",
+    "India/Surat",
+    "India/Baroda",
+    "India/Kathiawar",
+    "India/Sorath"
+   ]
+  },
+  {
+   "name": "Nawanagar",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Sultanate of Delhi"
+    ],
+    [
+     1407,
+     "Gujarat Sultanate"
+    ],
+    [
+     1540,
+     "Nawanagar State"
+    ]
+   ],
+   "provinces": [
+    "India/Halar"
+   ]
+  },
+  {
+   "name": "Kutch",
+   "until": 1714,
+   "timeline": [
+    [
+     1147,
+     "Kingdom of Kutch"
+    ]
+   ],
+   "provinces": [
+    "India/Kutch"
+   ]
+  },
+  {
+   "name": "Berar",
+   "until": 1714,
+   "timeline": [
+    [
+     1200,
+     "Yadava Kingdom"
+    ],
+    [
+     1318,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1490,
+     "Berar Sultanate"
+    ],
+    [
+     1572,
+     "Ahmadnagar Sultanate"
+    ],
+    [
+     1596,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Berar",
+    "India/Adilabad"
+   ]
+  },
+  {
+   "name": "Ahmadnagar",
+   "until": 1714,
+   "timeline": [
+    [
+     1189,
+     "Yadava Kingdom"
+    ],
+    [
+     1318,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1490,
+     "Ahmadnagar Sultanate"
+    ],
+    [
+     1636,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Marathwada",
+    "India/Nashik",
+    "India/Ahmednagar"
+   ]
+  },
+  {
+   "name": "Maratha country",
+   "until": 1714,
+   "timeline": [
+    [
+     1189,
+     "Yadava Kingdom"
+    ],
+    [
+     1318,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1490,
+     "Ahmadnagar Sultanate"
+    ],
+    [
+     1636,
+     "Bijapur Sultanate"
+    ],
+    [
+     1674,
+     "Maratha Confederacy"
+    ]
+   ],
+   "provinces": [
+    "India/Desh",
+    "India/Konkan"
+   ]
+  },
+  {
+   "name": "South Konkan and Kolhapur",
+   "until": 1714,
+   "timeline": [
+    [
+     1189,
+     "Yadava Kingdom"
+    ],
+    [
+     1318,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1490,
+     "Bijapur Sultanate"
+    ],
+    [
+     1674,
+     "Maratha Confederacy"
+    ]
+   ],
+   "provinces": [
+    "India/South Konkan",
+    "India/Kolhapur"
+   ]
+  },
+  {
+   "name": "Bijapur",
+   "until": 1714,
+   "timeline": [
+    [
+     1189,
+     "Yadava Kingdom"
+    ],
+    [
+     1318,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1490,
+     "Bijapur Sultanate"
+    ],
+    [
+     1686,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Solapur",
+    "India/Kalyana"
+   ]
+  },
+  {
+   "name": "Bidar",
+   "until": 1714,
+   "timeline": [
+    [
+     1189,
+     "Kalyani Chalukya Kingdom"
+    ],
+    [
+     1318,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1489,
+     "Bidar Sultanate"
+    ],
+    [
+     1619,
+     "Bijapur Sultanate"
+    ],
+    [
+     1656,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Bidar"
+   ]
+  },
+  {
+   "name": "Telangana",
+   "until": 1714,
+   "timeline": [
+    [
+     1163,
+     "Kakatiya Kingdom"
+    ],
+    [
+     1323,
+     "Sultanate of Delhi"
+    ],
+    [
+     1347,
+     "Bahmani Sultanate"
+    ],
+    [
+     1518,
+     "Golconda Sultanate"
+    ],
+    [
+     1687,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Kakatiya",
+    "India/Telangana"
+   ]
+  },
+  {
+   "name": "Northern Andhra",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Eastern Ganga dynasty"
+    ],
+    [
+     1434,
+     "Gajapati Kingdom"
+    ],
+    [
+     1541,
+     "Bhoi dynasty"
+    ],
+    [
+     1571,
+     "Golconda Sultanate"
+    ],
+    [
+     1687,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Kalinga"
+   ]
+  },
+  {
+   "name": "Coastal Andhra",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Kakatiya Kingdom"
+    ],
+    [
+     1323,
+     "Sultanate of Delhi"
+    ],
+    [
+     1325,
+     "Reddy Kingdoms"
+    ],
+    [
+     1448,
+     "Gajapati Kingdom"
+    ],
+    [
+     1515,
+     "Vijayanagara"
+    ],
+    [
+     1565,
+     "Golconda Sultanate"
+    ],
+    [
+     1687,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Godavari",
+    "India/Andhra",
+    "India/Guntur"
+   ]
+  },
+  {
+   "name": "Rayalaseema",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Kakatiya Kingdom"
+    ],
+    [
+     1323,
+     "Sultanate of Delhi"
+    ],
+    [
+     1336,
+     "Vijayanagara"
+    ],
+    [
+     1646,
+     "Golconda Sultanate"
+    ],
+    [
+     1687,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Rayalaseema",
+    "India/Nellore",
+    "India/Chittoor",
+    "India/Tondaimandalam",
+    "India/Arcot"
+   ]
+  },
+  {
+   "name": "Karnataka plateau",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Hoysala Empire"
+    ],
+    [
+     1343,
+     "Vijayanagara"
+    ],
+    [
+     1565,
+     "Bijapur Sultanate"
+    ],
+    [
+     1686,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Belgaum",
+    "India/Dharwad",
+    "India/Bellary"
+   ]
+  },
+  {
+   "name": "Anantapur",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Hoysala Empire"
+    ],
+    [
+     1343,
+     "Vijayanagara"
+    ],
+    [
+     1646,
+     "Bijapur Sultanate"
+    ],
+    [
+     1686,
+     "Mughal Empire"
+    ]
+   ],
+   "provinces": [
+    "India/Anantapur"
+   ]
+  },
+  {
+   "name": "Mysore",
+   "until": 1782,
+   "timeline": [
+    [
+     1206,
+     "Hoysala Empire"
+    ],
+    [
+     1343,
+     "Vijayanagara"
+    ],
+    [
+     1646,
+     "Kingdom of Mysore"
+    ],
+    [
+     1687,
+     "Mughal Empire"
+    ],
+    [
+     1689,
+     "Kingdom of Mysore"
+    ]
+   ],
+   "provinces": [
+    "India/Mysore"
+   ]
+  },
+  {
+   "name": "Keladi",
+   "until": 1782,
+   "timeline": [
+    [
+     1206,
+     "Hoysala Empire"
+    ],
+    [
+     1343,
+     "Vijayanagara"
+    ],
+    [
+     1565,
+     "Keladi Nayaka Kingdom"
+    ],
+    [
+     1763,
+     "Kingdom of Mysore"
+    ]
+   ],
+   "provinces": [
+    "India/Malnad",
+    "India/Tulu Nadu"
+   ]
+  },
+  {
+   "name": "Goa",
+   "until": 1714,
+   "timeline": [
+    [
+     1206,
+     "Hoysala Empire"
+    ],
+    [
+     1343,
+     "Vijayanagara"
+    ],
+    [
+     1489,
+     "Bijapur Sultanate"
+    ],
+    [
+     1510,
+     "Portuguese India"
+    ]
+   ],
+   "provinces": [
+    "India/Goa"
+   ]
+  },
+  {
+   "name": "Madurai and the far south",
+   "until": 1782,
+   "timeline": [
+    [
+     1206,
+     "Pandya"
+    ],
+    [
+     1311,
+     "Sultanate of Delhi"
+    ],
+    [
+     1335,
+     "Madurai Sultanate"
+    ],
+    [
+     1378,
+     "Vijayanagara"
+    ],
+    [
+     1529,
+     "Madurai Nayak Kingdom"
+    ],
+    [
+     1736,
+     "Carnatic Sultanate"
+    ]
+   ],
+   "provinces": [
+    "India/Pandya",
+    "India/Tirunelveli"
+   ]
+  },
+  {
+   "name": "Thanjavur",
+   "until": 1782,
+   "timeline": [
+    [
+     1206,
+     "Chola"
+    ],
+    [
+     1279,
+     "Pandya"
+    ],
+    [
+     1311,
+     "Sultanate of Delhi"
+    ],
+    [
+     1335,
+     "Madurai Sultanate"
+    ],
+    [
+     1378,
+     "Vijayanagara"
+    ],
+    [
+     1532,
+     "Thanjavur Nayak Kingdom"
+    ],
+    [
+     1674,
+     "Thanjavur Maratha Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Chola"
+   ]
+  },
+  {
+   "name": "Kongu",
+   "until": 1782,
+   "timeline": [
+    [
+     1206,
+     "Hoysala Empire"
+    ],
+    [
+     1343,
+     "Vijayanagara"
+    ],
+    [
+     1565,
+     "Madurai Nayak Kingdom"
+    ],
+    [
+     1736,
+     "Kingdom of Mysore"
+    ]
+   ],
+   "provinces": [
+    "India/Kongu",
+    "India/Salem"
+   ]
+  },
+  {
+   "name": "Malabar",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Calicut"
+    ],
+    [
+     1766,
+     "Kingdom of Mysore"
+    ]
+   ],
+   "provinces": [
+    "India/Malabar"
+   ]
+  },
+  {
+   "name": "Kolathunadu",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Kolathunadu"
+    ]
+   ],
+   "provinces": [
+    "India/Kolathunadu"
+   ]
+  },
+  {
+   "name": "Cochin",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Cochin"
+    ]
+   ],
+   "provinces": [
+    "India/Cochin"
+   ]
+  },
+  {
+   "name": "Palakkad",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Palakkad Kingdom"
+    ]
+   ],
+   "provinces": [
+    "India/Palakkad"
+   ]
+  },
+  {
+   "name": "Venad",
+   "until": 1782,
+   "timeline": [
+    [
+     1200,
+     "Kingdom of Venad"
+    ],
+    [
+     1729,
+     "Travancore"
+    ]
+   ],
+   "provinces": [
+    "India/Travancore"
+   ]
+  }
+ ]
+}

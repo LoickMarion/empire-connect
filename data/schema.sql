@@ -1,64 +1,63 @@
--- Cities: only lat/lon + existence range are physically stable facts.
-CREATE TABLE city (
-  id             TEXT PRIMARY KEY,     -- internal slug, derived at import time
-  lat            REAL NOT NULL,
-  lon            REAL NOT NULL,
-  founded_year   INTEGER,              -- signed year, NULL = unknown/prehistoric
-  dissolved_year INTEGER,              -- signed year, NULL = still exists today
-  wikidata_id    TEXT NOT NULL UNIQUE  -- QID of the most recent item in the merge chain
+-- The world is divided into provinces. Each province has exactly one city and a record of
+-- which country/tribe/empire occupied it during which years.
+
+CREATE TABLE province (
+  id              TEXT PRIMARY KEY,     -- 'p0001'... ordered north->south, west->east
+  city_name       TEXT NOT NULL,        -- the province's one city (current name)
+  city_lat        REAL NOT NULL,
+  city_lon        REAL NOT NULL,
+  city_wikidata_id TEXT,                -- QID when known
+  -- 'inside' = a populated place within the province; 'listed' = hand-listed capital/county town
+  -- (historic counties of Britain and Ireland, Dutch and Belgian provinces); 'capital' = the division's administrative capital from Wikidata;
+  -- 'nearest' = the province had no town (arctic,
+  -- desert, remote ocean) so it borrows the closest unclaimed place.
+  city_source     TEXT NOT NULL CHECK (city_source IN ('inside', 'listed', 'capital', 'nearest')),
+  seed_lat        REAL NOT NULL,        -- Voronoi seed the province boundary grew from
+  seed_lon        REAL NOT NULL,
+  area_km2        INTEGER NOT NULL,     -- land area
+  country         TEXT NOT NULL,        -- present-day country the province lies in
+  continent       TEXT NOT NULL,        -- Africa, Asia, Europe, North America, South America or Oceania
+  region          TEXT NOT NULL         -- present-day state/province/department it follows (the country name where the country is divided freely)
 );
 
--- Name history: every name a city has carried, time-ranged.
-CREATE TABLE city_name (
-  id            INTEGER PRIMARY KEY AUTOINCREMENT,
-  city_id       TEXT NOT NULL REFERENCES city(id),
-  name          TEXT NOT NULL,
-  start_year    INTEGER NOT NULL,     -- inclusive
-  end_year      INTEGER,              -- inclusive; NULL = current/ongoing name
-  UNIQUE(city_id, start_year)
-);
-CREATE INDEX idx_city_name_city ON city_name(city_id);
-
--- Empires: real entities now, not free strings.
-CREATE TABLE empire (
-  id           TEXT PRIMARY KEY,     -- internal slug
-  name         TEXT NOT NULL,
-  color        TEXT,                 -- hex, for map/UI; assigned deterministically at import time
-  wikidata_id  TEXT NOT NULL UNIQUE
+-- Anything that can occupy a province: an empire, a state, a tribe or culture. Names are as
+-- they appear in the historical-basemaps border data.
+CREATE TABLE occupier (
+  id    TEXT PRIMARY KEY,               -- slug
+  name  TEXT NOT NULL UNIQUE,
+  color TEXT NOT NULL,                  -- hex, deterministic from the name
+  -- 0 for peoples, cultures and generic labels ("Bantu", "Thai", "hunter-gatherers", "Hindu
+  -- kingdoms"): they paint on the map but were not nations, so the game can't link through them.
+  -- Classified by scripts/provinces/non-nations.json.
+  is_nation INTEGER NOT NULL DEFAULT 1
 );
 
--- Holdings: empire held city from start to end (mirrors the old holdings.json shape,
--- just with empire_id FK instead of a free-string nation).
-CREATE TABLE holding (
+-- occupier held province from start_year to end_year (inclusive; NULL = still ongoing).
+-- Derived from border snapshots: a snapshot at year Y holds until the next snapshot, so
+-- boundaries are only as precise as the snapshot spacing (see eras.mjs).
+CREATE TABLE occupation (
   id          INTEGER PRIMARY KEY AUTOINCREMENT,
-  empire_id   TEXT NOT NULL REFERENCES empire(id),
-  city_id     TEXT NOT NULL REFERENCES city(id),
+  province_id TEXT NOT NULL REFERENCES province(id),
+  occupier_id TEXT NOT NULL REFERENCES occupier(id),
+  start_year  INTEGER NOT NULL,
+  end_year    INTEGER,
+  CHECK (end_year IS NULL OR start_year <= end_year)
+);
+CREATE INDEX idx_occupation_province ON occupation(province_id);
+CREATE INDEX idx_occupation_occupier ON occupation(occupier_id);
+CREATE INDEX idx_occupation_range ON occupation(start_year, end_year);
+
+-- Colonies and dependencies roll up to their parent realm, for linking provinces in the game only:
+-- while overlord_id's realm held occupier_id as a colony/dependency (start..end, inclusive), a
+-- province held by occupier_id also counts as held by overlord_id. Also joins a realm's names
+-- (England -> United Kingdom). Computed from scripts/provinces/overlords.json, chained transitively.
+CREATE TABLE realm_link (
+  occupier_id TEXT NOT NULL REFERENCES occupier(id),
+  overlord_id TEXT NOT NULL REFERENCES occupier(id),
   start_year  INTEGER NOT NULL,
   end_year    INTEGER NOT NULL,
-  -- true for holdings synthesized (at import time) from a city's current
-  -- country rather than real historical sovereignty-change data — used so
-  -- every city stays reachable in the connect-the-cities game even when
-  -- Wikidata has no qualified statement for it. Not a real historical claim;
-  -- excluded from Paint mode's territory rendering.
-  synthetic   INTEGER NOT NULL DEFAULT 0
+  -- 'subject' = colony / dependency / puppet / occupied zone; 'member' = the same state under another
+  -- name (England -> United Kingdom). Subjects are drawn as a lighter shade of their overlord.
+  kind        TEXT NOT NULL DEFAULT 'subject' CHECK (kind IN ('subject', 'member'))
 );
-CREATE INDEX idx_holding_city ON holding(city_id);
-CREATE INDEX idx_holding_empire ON holding(empire_id);
-CREATE INDEX idx_holding_range ON holding(start_year, end_year);
-
--- Borders: empire's territory as of a time-slice ("era"), pointing at a geometry file
--- rather than embedding GeoJSON in the db (keeps the .sqlite small).
-CREATE TABLE border_era (
-  id        INTEGER PRIMARY KEY AUTOINCREMENT,
-  era_year  INTEGER NOT NULL,     -- the snapshot year this era file represents
-  file      TEXT NOT NULL         -- e.g. 'borders/0476ce.geojson', relative to public/data/
-);
-CREATE UNIQUE INDEX idx_border_era_year ON border_era(era_year);
-
--- Which empire, in a given era file, corresponds to which GeoJSON feature.
-CREATE TABLE border_empire_map (
-  border_era_id  INTEGER NOT NULL REFERENCES border_era(id),
-  empire_id      TEXT NOT NULL REFERENCES empire(id),
-  feature_name   TEXT NOT NULL,   -- the NAME property value in the source GeoJSON feature
-  PRIMARY KEY (border_era_id, empire_id)
-);
+CREATE INDEX idx_realm_link_occupier ON realm_link(occupier_id);

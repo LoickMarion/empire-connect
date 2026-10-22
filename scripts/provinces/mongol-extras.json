@@ -1,0 +1,266 @@
+{
+ "_comment": "Provinces the Mongol Empire held (as a vassal or directly) that the snapshots label with the old local state. Same format as napoleonic-conquests.json: the Mongol Empire from the conquest year to 1278, the successor khanate from 1279 to 1299, then the 1300 snapshot again.",
+ "until": 1299,
+ "groups": [
+  {
+   "name": "Georgia, a Mongol vassal from 1236",
+   "timeline": [
+    [
+     1236,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Ilkhanate"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "Georgia/Shida Kartli",
+    "Georgia/Samegrelo",
+    "Georgia/Imereti",
+    "Georgia/Adjara",
+    "Georgia/Svaneti",
+    "Georgia/Abkhazia",
+    "Georgia/Kakheti",
+    "Georgia/Kartli",
+    "Georgia/Samtskhe"
+   ]
+  },
+  {
+   "name": "Rum, Trebizond and central Anatolia after Köse Dağ (1243)",
+   "timeline": [
+    [
+     1243,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Ilkhanate"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "Turkey/Niğde",
+    "Turkey/Karaman",
+    "Turkey/Cilicia",
+    "Turkey/Mersin",
+    "Turkey/Ankara",
+    "Turkey/Hamid",
+    "Turkey/Antalya",
+    "Turkey/Amasya",
+    "Turkey/Konya",
+    "Turkey/Yozgat",
+    "Turkey/Kırşehir",
+    "Turkey/Samsun",
+    "Turkey/Sivas",
+    "Turkey/Erzincan",
+    "Turkey/Kayseri",
+    "Turkey/Malatya",
+    "Turkey/Tokat",
+    "Turkey/Çorum",
+    "Turkey/Aksaray",
+    "Turkey/Çankırı",
+    "Turkey/Sinop",
+    "Turkey/Erzurum",
+    "Turkey/Dulkadir",
+    "Turkey/Menteshe"
+   ]
+  },
+  {
+   "name": "Tibet under the Mongols (1251)",
+   "timeline": [
+    [
+     1251,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Great Khanate"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "China/Qaidam",
+    "China/Yushu",
+    "China/Ngari",
+    "China/Aba",
+    "China/Nagqu",
+    "China/Chamdo",
+    "China/Lhasa",
+    "China/Nyingchi",
+    "China/Tsang",
+    "China/Lhoka",
+    "China/Zhongdian"
+   ]
+  },
+  {
+   "name": "Hainan and Baoshan (1277)",
+   "timeline": [
+    [
+     1277,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Great Khanate"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "China/Haikou",
+    "China/Sanya",
+    "China/Baoshan"
+   ]
+  },
+  {
+   "name": "Ryazan, Vladimir and Chernigov lands (1237-38)",
+   "timeline": [
+    [
+     1237,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Khanate of the Golden Horde"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "Russia/Ryazan",
+    "Russia/Vladimir",
+    "Russia/Moscow",
+    "Russia/Nizhny Novgorod",
+    "Russia/Kostroma"
+   ]
+  },
+  {
+   "name": "Southern Rus, Kyiv and the Cuman steppe (1240)",
+   "timeline": [
+    [
+     1240,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Khanate of the Golden Horde"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "Ukraine/Kyiv",
+    "Ukraine/Chernihiv",
+    "Ukraine/Sumy",
+    "Ukraine/Zhytomyr",
+    "Ukraine/Kharkiv",
+    "Ukraine/Poltava",
+    "Ukraine/Cherkasy",
+    "Ukraine/Podolia",
+    "Russia/Tula",
+    "Russia/Kaluga",
+    "Russia/Bryansk",
+    "Russia/Tambov",
+    "Russia/Kursk",
+    "Russia/Voronezh",
+    "Russia/Belgorod",
+    "Russia/Tver",
+    "Russia/Yaroslavl",
+    "Russia/Rzhev"
+   ]
+  },
+  {
+   "name": "Galicia-Volhynia (1241)",
+   "timeline": [
+    [
+     1241,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Khanate of the Golden Horde"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "Ukraine/Volhynia",
+    "Ukraine/Rivne",
+    "Ukraine/Galicia",
+    "Ukraine/Ternopil",
+    "Ukraine/Ivano-Frankivsk",
+    "Ukraine/Khmelnytskyi"
+   ]
+  },
+  {
+   "name": "Novgorod's eastern tributaries (1260)",
+   "timeline": [
+    [
+     1260,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Khanate of the Golden Horde"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "Russia/Vyatka",
+    "Russia/Komi"
+   ]
+  },
+  {
+   "name": "Mongol raids and vassals in northern Syria (1260)",
+   "timeline": [
+    [
+     1260,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Ilkhanate"
+    ],
+    [
+     1300,
+     "@1300"
+    ]
+   ],
+   "until": 1299,
+   "provinces": [
+    "Turkey/Gaziantep",
+    "Turkey/Hatay"
+   ]
+  }
+ ]
+}

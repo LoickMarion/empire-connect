@@ -1,0 +1,506 @@
+{
+ "_comment": "Mongol conquests between the 1200 and 1279 snapshots. A province that is held by a Mongol successor khanate (Great Khanate, Ilkhanate, Golden Horde, Chagatai Khanate) in 1279 and by one of the listed predecessors at 1200 becomes 'Mongol Empire' in the year of the first matching rule. Rules are tried in order: pred = occupier names at 1200 (as spelled in the source, before aliasing), box = [lonMin, lonMax, latMin, latMax] of the province's seed, year = conquest year. Anything unmatched uses defaultYear.",
+ "defaultYear": 1270,
+ "successors": [
+  "Great Khanate",
+  "Ilkhanate",
+  "Golden Horde",
+  "Khanate of the Golden Horde",
+  "Chagatai Khanate"
+ ],
+ "rules": [
+  {
+   "pred": [
+    "Kara Khitai Khaganate"
+   ],
+   "year": 1218,
+   "box": [
+    74,
+    180,
+    25,
+    50
+   ]
+  },
+  {
+   "pred": [
+    "Kara Khitai Khaganate"
+   ],
+   "year": 1220,
+   "box": [
+    60,
+    74,
+    43,
+    60
+   ]
+  },
+  {
+   "pred": [
+    "Kara Khitai Khaganate"
+   ],
+   "year": 1221,
+   "box": [
+    -180,
+    60,
+    36,
+    60
+   ]
+  },
+  {
+   "pred": [
+    "Kara Khitai Khaganate"
+   ],
+   "year": 1220
+  },
+  {
+   "pred": [
+    "Kwarizm-Shah"
+   ],
+   "year": 1221
+  },
+  {
+   "pred": [
+    "Ghaznavid Emirate"
+   ],
+   "year": 1222,
+   "box": [
+    66,
+    76,
+    23,
+    35
+   ]
+  },
+  {
+   "pred": [
+    "Ghaznavid Emirate"
+   ],
+   "year": 1221
+  },
+  {
+   "pred": [
+    "Buwayhid Emirates",
+    "Buyiids",
+    "Buyid Emirate"
+   ],
+   "year": 1221,
+   "box": [
+    56,
+    80,
+    20,
+    45
+   ]
+  },
+  {
+   "pred": [
+    "Buwayhid Emirates",
+    "Buyiids",
+    "Buyid Emirate"
+   ],
+   "year": 1243,
+   "box": [
+    34,
+    44,
+    36.5,
+    43
+   ]
+  },
+  {
+   "pred": [
+    "Buwayhid Emirates",
+    "Buyiids",
+    "Buyid Emirate"
+   ],
+   "year": 1260,
+   "box": [
+    34,
+    40.5,
+    29,
+    36.5
+   ]
+  },
+  {
+   "pred": [
+    "Buwayhid Emirates",
+    "Buyiids",
+    "Buyid Emirate"
+   ],
+   "year": 1258,
+   "box": [
+    38,
+    45.8,
+    29,
+    36.5
+   ]
+  },
+  {
+   "pred": [
+    "Buwayhid Emirates",
+    "Buyiids",
+    "Buyid Emirate"
+   ],
+   "year": 1236,
+   "box": [
+    41,
+    50,
+    38,
+    42
+   ]
+  },
+  {
+   "pred": [
+    "Buwayhid Emirates",
+    "Buyiids",
+    "Buyid Emirate"
+   ],
+   "year": 1231
+  },
+  {
+   "pred": [
+    "Armenia"
+   ],
+   "year": 1236
+  },
+  {
+   "pred": [
+    "Georgia",
+    "Kingdom of Georgia",
+    "Georgian Kingdom"
+   ],
+   "year": 1243
+  },
+  {
+   "pred": [
+    "Byzantine Empire"
+   ],
+   "year": 1243
+  },
+  {
+   "pred": [
+    "Cuman Khanates",
+    "Cuman-Kipchak confederation"
+   ],
+   "year": 1229,
+   "box": [
+    45,
+    180,
+    -90,
+    90
+   ]
+  },
+  {
+   "pred": [
+    "Cuman Khanates",
+    "Cuman-Kipchak confederation"
+   ],
+   "year": 1239,
+   "box": [
+    33,
+    45,
+    -90,
+    90
+   ]
+  },
+  {
+   "pred": [
+    "Cuman Khanates",
+    "Cuman-Kipchak confederation"
+   ],
+   "year": 1241
+  },
+  {
+   "pred": [
+    "Volga Bulgars"
+   ],
+   "year": 1236
+  },
+  {
+   "pred": [
+    "Bulgar Khanate"
+   ],
+   "year": 1242
+  },
+  {
+   "pred": [
+    "Principality of Galicia-Volhynia"
+   ],
+   "year": 1241
+  },
+  {
+   "pred": [
+    "Principality of Kyiv",
+    "Kievan Rus",
+    "Kyivan Rus"
+   ],
+   "year": 1240
+  },
+  {
+   "pred": [
+    "Hungary"
+   ],
+   "year": 1241
+  },
+  {
+   "pred": [
+    "Finno-Ugric taiga hunter-gatherers",
+    "Paleo-Siberian hunter-gatherers",
+    "Subarctic forest hunter-gatherers"
+   ],
+   "year": 1207
+  },
+  {
+   "pred": [
+    "(none)"
+   ],
+   "year": 1207,
+   "box": [
+    50,
+    180,
+    52,
+    90
+   ]
+  },
+  {
+   "pred": [
+    "(none)"
+   ],
+   "year": 1241,
+   "box": [
+    -180,
+    50,
+    -90,
+    90
+   ]
+  },
+  {
+   "pred": [
+    "(none)"
+   ],
+   "year": 1220
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1259,
+   "box": [
+    100,
+    108.5,
+    26,
+    34
+   ]
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1227,
+   "box": [
+    98,
+    108,
+    34,
+    42
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1233,
+   "box": [
+    124,
+    140,
+    43,
+    54
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1216,
+   "box": [
+    118,
+    135,
+    39,
+    44
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1230,
+   "box": [
+    115.5,
+    123,
+    34.2,
+    37.6
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1215,
+   "box": [
+    113.5,
+    120,
+    36,
+    41
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1211,
+   "box": [
+    100,
+    120,
+    40,
+    46
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1218,
+   "box": [
+    110,
+    113.5,
+    34.5,
+    41
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1231,
+   "box": [
+    106,
+    110,
+    32.5,
+    39
+   ]
+  },
+  {
+   "pred": [
+    "Liao",
+    "Song Empire"
+   ],
+   "year": 1233,
+   "box": [
+    110.5,
+    116,
+    32,
+    36.2
+   ]
+  },
+  {
+   "pred": [
+    "Liao"
+   ],
+   "year": 1234
+  },
+  {
+   "pred": [
+    "Xixia"
+   ],
+   "year": 1227
+  },
+  {
+   "pred": [
+    "Tibet"
+   ],
+   "year": 1247
+  },
+  {
+   "pred": [
+    "Nan Chao",
+    "Nan-Zhao",
+    "Nanzhao"
+   ],
+   "year": 1254
+  },
+  {
+   "pred": [
+    "Goryeo"
+   ],
+   "year": 1259
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1275,
+   "box": [
+    104,
+    109.5,
+    24,
+    29.2
+   ]
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1273,
+   "box": [
+    108,
+    123,
+    32,
+    40
+   ]
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1275,
+   "box": [
+    108,
+    123,
+    29,
+    32
+   ]
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1276,
+   "box": [
+    108,
+    123,
+    25,
+    29
+   ]
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1277,
+   "box": [
+    100,
+    123,
+    -90,
+    25
+   ]
+  },
+  {
+   "pred": [
+    "Song Empire"
+   ],
+   "year": 1276
+  }
+ ]
+}

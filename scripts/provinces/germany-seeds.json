@@ -1,0 +1,625 @@
+[
+ {
+  "region": "Schleswig",
+  "city": "Schleswig",
+  "lat": 54.52,
+  "lon": 9.55,
+  "free": false
+ },
+ {
+  "region": "Holstein",
+  "city": "Kiel",
+  "lat": 54.32,
+  "lon": 10.14,
+  "free": false
+ },
+ {
+  "region": "Lauenburg",
+  "city": "Ratzeburg",
+  "lat": 53.7,
+  "lon": 10.77,
+  "free": false
+ },
+ {
+  "region": "Lübeck",
+  "city": "Lübeck",
+  "lat": 53.87,
+  "lon": 10.69,
+  "free": true
+ },
+ {
+  "region": "Hamburg",
+  "city": "Hamburg",
+  "lat": 53.55,
+  "lon": 9.99,
+  "free": true
+ },
+ {
+  "region": "Stade",
+  "city": "Stade",
+  "lat": 53.6,
+  "lon": 9.48,
+  "free": false
+ },
+ {
+  "region": "Bremen",
+  "city": "Bremen",
+  "lat": 53.08,
+  "lon": 8.8,
+  "free": true
+ },
+ {
+  "region": "Oldenburg",
+  "city": "Oldenburg",
+  "lat": 53.14,
+  "lon": 8.21,
+  "free": false
+ },
+ {
+  "region": "Ostfriesland",
+  "city": "Emden",
+  "lat": 53.37,
+  "lon": 7.21,
+  "free": false
+ },
+ {
+  "region": "Osnabrück",
+  "city": "Osnabrück",
+  "lat": 52.28,
+  "lon": 8.04,
+  "free": false
+ },
+ {
+  "region": "Münster",
+  "city": "Münster",
+  "lat": 51.96,
+  "lon": 7.63,
+  "free": false
+ },
+ {
+  "region": "Lüneburg",
+  "city": "Lüneburg",
+  "lat": 53.25,
+  "lon": 10.41,
+  "free": false
+ },
+ {
+  "region": "Altmark",
+  "city": "Stendal",
+  "lat": 52.6,
+  "lon": 11.86,
+  "free": false
+ },
+ {
+  "region": "Braunschweig",
+  "city": "Braunschweig",
+  "lat": 52.27,
+  "lon": 10.52,
+  "free": false
+ },
+ {
+  "region": "Calenberg",
+  "city": "Hanover",
+  "lat": 52.37,
+  "lon": 9.73,
+  "free": false
+ },
+ {
+  "region": "Hildesheim",
+  "city": "Hildesheim",
+  "lat": 52.15,
+  "lon": 9.95,
+  "free": false
+ },
+ {
+  "region": "Göttingen",
+  "city": "Göttingen",
+  "lat": 51.53,
+  "lon": 9.93,
+  "free": false
+ },
+ {
+  "region": "Paderborn",
+  "city": "Paderborn",
+  "lat": 51.72,
+  "lon": 8.75,
+  "free": false
+ },
+ {
+  "region": "Ravensberg",
+  "city": "Bielefeld",
+  "lat": 52.02,
+  "lon": 8.53,
+  "free": false
+ },
+ {
+  "region": "Lippe",
+  "city": "Detmold",
+  "lat": 51.94,
+  "lon": 8.88,
+  "free": false
+ },
+ {
+  "region": "Mark",
+  "city": "Dortmund",
+  "lat": 51.51,
+  "lon": 7.47,
+  "free": false
+ },
+ {
+  "region": "Berg",
+  "city": "Düsseldorf",
+  "lat": 51.23,
+  "lon": 6.78,
+  "free": false
+ },
+ {
+  "region": "Kleve",
+  "city": "Kleve",
+  "lat": 51.79,
+  "lon": 6.14,
+  "free": false
+ },
+ {
+  "region": "Köln",
+  "city": "Cologne",
+  "lat": 50.94,
+  "lon": 6.96,
+  "free": true
+ },
+ {
+  "region": "Aachen",
+  "city": "Aachen",
+  "lat": 50.78,
+  "lon": 6.08,
+  "free": true
+ },
+ {
+  "region": "Siegerland",
+  "city": "Siegen",
+  "lat": 50.87,
+  "lon": 8.02,
+  "free": false
+ },
+ {
+  "region": "Waldeck",
+  "city": "Korbach",
+  "lat": 51.27,
+  "lon": 8.87,
+  "free": false
+ },
+ {
+  "region": "Trier",
+  "city": "Trier",
+  "lat": 49.76,
+  "lon": 6.64,
+  "free": false
+ },
+ {
+  "region": "Koblenz",
+  "city": "Koblenz",
+  "lat": 50.36,
+  "lon": 7.59,
+  "free": false
+ },
+ {
+  "region": "Mainz",
+  "city": "Mainz",
+  "lat": 50.0,
+  "lon": 8.27,
+  "free": false
+ },
+ {
+  "region": "Nassau",
+  "city": "Wiesbaden",
+  "lat": 50.08,
+  "lon": 8.24,
+  "free": false
+ },
+ {
+  "region": "Frankfurt",
+  "city": "Frankfurt",
+  "lat": 50.11,
+  "lon": 8.68,
+  "free": true
+ },
+ {
+  "region": "Hessen-Darmstadt",
+  "city": "Darmstadt",
+  "lat": 49.87,
+  "lon": 8.65,
+  "free": false
+ },
+ {
+  "region": "Niederhessen",
+  "city": "Kassel",
+  "lat": 51.32,
+  "lon": 9.5,
+  "free": false
+ },
+ {
+  "region": "Oberhessen",
+  "city": "Marburg",
+  "lat": 50.81,
+  "lon": 8.77,
+  "free": false
+ },
+ {
+  "region": "Fulda",
+  "city": "Fulda",
+  "lat": 50.55,
+  "lon": 9.68,
+  "free": false
+ },
+ {
+  "region": "Kurpfalz",
+  "city": "Heidelberg",
+  "lat": 49.4,
+  "lon": 8.69,
+  "free": false
+ },
+ {
+  "region": "Speyer",
+  "city": "Speyer",
+  "lat": 49.32,
+  "lon": 8.43,
+  "free": true
+ },
+ {
+  "region": "Worms",
+  "city": "Worms",
+  "lat": 49.63,
+  "lon": 8.36,
+  "free": true
+ },
+ {
+  "region": "Zweibrücken",
+  "city": "Zweibrücken",
+  "lat": 49.25,
+  "lon": 7.37,
+  "free": false
+ },
+ {
+  "region": "Saarbrücken",
+  "city": "Saarbrücken",
+  "lat": 49.23,
+  "lon": 7.0,
+  "free": false
+ },
+ {
+  "region": "Baden",
+  "city": "Karlsruhe",
+  "lat": 49.01,
+  "lon": 8.4,
+  "free": false
+ },
+ {
+  "region": "Breisgau",
+  "city": "Freiburg",
+  "lat": 47.99,
+  "lon": 7.85,
+  "free": false
+ },
+ {
+  "region": "Schwarzwald",
+  "city": "Rottweil",
+  "lat": 48.17,
+  "lon": 8.63,
+  "free": false
+ },
+ {
+  "region": "Konstanz",
+  "city": "Konstanz",
+  "lat": 47.66,
+  "lon": 9.18,
+  "free": false
+ },
+ {
+  "region": "Württemberg",
+  "city": "Stuttgart",
+  "lat": 48.78,
+  "lon": 9.18,
+  "free": false
+ },
+ {
+  "region": "Heilbronn",
+  "city": "Heilbronn",
+  "lat": 49.14,
+  "lon": 9.22,
+  "free": true
+ },
+ {
+  "region": "Hohenlohe",
+  "city": "Schwäbisch Hall",
+  "lat": 49.11,
+  "lon": 9.74,
+  "free": false
+ },
+ {
+  "region": "Ulm",
+  "city": "Ulm",
+  "lat": 48.4,
+  "lon": 9.99,
+  "free": true
+ },
+ {
+  "region": "Oberschwaben",
+  "city": "Ravensburg",
+  "lat": 47.78,
+  "lon": 9.61,
+  "free": false
+ },
+ {
+  "region": "Augsburg",
+  "city": "Augsburg",
+  "lat": 48.37,
+  "lon": 10.9,
+  "free": true
+ },
+ {
+  "region": "Memmingen",
+  "city": "Memmingen",
+  "lat": 47.98,
+  "lon": 10.18,
+  "free": true
+ },
+ {
+  "region": "Kempten",
+  "city": "Kempten",
+  "lat": 47.73,
+  "lon": 10.31,
+  "free": true
+ },
+ {
+  "region": "Würzburg",
+  "city": "Würzburg",
+  "lat": 49.79,
+  "lon": 9.95,
+  "free": false
+ },
+ {
+  "region": "Schweinfurt",
+  "city": "Schweinfurt",
+  "lat": 50.05,
+  "lon": 10.23,
+  "free": true
+ },
+ {
+  "region": "Bamberg",
+  "city": "Bamberg",
+  "lat": 49.89,
+  "lon": 10.89,
+  "free": false
+ },
+ {
+  "region": "Coburg",
+  "city": "Coburg",
+  "lat": 50.26,
+  "lon": 10.96,
+  "free": false
+ },
+ {
+  "region": "Ansbach",
+  "city": "Ansbach",
+  "lat": 49.3,
+  "lon": 10.57,
+  "free": false
+ },
+ {
+  "region": "Nürnberg",
+  "city": "Nuremberg",
+  "lat": 49.45,
+  "lon": 11.08,
+  "free": true
+ },
+ {
+  "region": "Bayreuth",
+  "city": "Bayreuth",
+  "lat": 49.94,
+  "lon": 11.58,
+  "free": false
+ },
+ {
+  "region": "Oberpfalz",
+  "city": "Amberg",
+  "lat": 49.44,
+  "lon": 11.86,
+  "free": false
+ },
+ {
+  "region": "Regensburg",
+  "city": "Regensburg",
+  "lat": 49.02,
+  "lon": 12.1,
+  "free": true
+ },
+ {
+  "region": "Neuburg",
+  "city": "Ingolstadt",
+  "lat": 48.76,
+  "lon": 11.42,
+  "free": false
+ },
+ {
+  "region": "München",
+  "city": "Munich",
+  "lat": 48.14,
+  "lon": 11.58,
+  "free": false
+ },
+ {
+  "region": "Rosenheim",
+  "city": "Rosenheim",
+  "lat": 47.86,
+  "lon": 12.12,
+  "free": false
+ },
+ {
+  "region": "Landshut",
+  "city": "Landshut",
+  "lat": 48.54,
+  "lon": 12.15,
+  "free": false
+ },
+ {
+  "region": "Passau",
+  "city": "Passau",
+  "lat": 48.57,
+  "lon": 13.46,
+  "free": false
+ },
+ {
+  "region": "Mecklenburg",
+  "city": "Schwerin",
+  "lat": 53.63,
+  "lon": 11.41,
+  "free": false
+ },
+ {
+  "region": "Rostock",
+  "city": "Rostock",
+  "lat": 54.09,
+  "lon": 12.14,
+  "free": false
+ },
+ {
+  "region": "Stargard",
+  "city": "Neubrandenburg",
+  "lat": 53.56,
+  "lon": 13.26,
+  "free": false
+ },
+ {
+  "region": "Vorpommern",
+  "city": "Stralsund",
+  "lat": 54.31,
+  "lon": 13.09,
+  "free": false
+ },
+ {
+  "region": "Brandenburg",
+  "city": "Brandenburg an der Havel",
+  "lat": 52.41,
+  "lon": 12.56,
+  "free": false
+ },
+ {
+  "region": "Berlin",
+  "city": "Berlin",
+  "lat": 52.52,
+  "lon": 13.4,
+  "free": true
+ },
+ {
+  "region": "Uckermark",
+  "city": "Prenzlau",
+  "lat": 53.32,
+  "lon": 13.86,
+  "free": false
+ },
+ {
+  "region": "Neumark",
+  "city": "Frankfurt (Oder)",
+  "lat": 52.35,
+  "lon": 14.55,
+  "free": false
+ },
+ {
+  "region": "Lausitz",
+  "city": "Cottbus",
+  "lat": 51.76,
+  "lon": 14.33,
+  "free": false
+ },
+ {
+  "region": "Magdeburg",
+  "city": "Magdeburg",
+  "lat": 52.13,
+  "lon": 11.64,
+  "free": false
+ },
+ {
+  "region": "Halberstadt",
+  "city": "Halberstadt",
+  "lat": 51.9,
+  "lon": 11.05,
+  "free": false
+ },
+ {
+  "region": "Anhalt",
+  "city": "Dessau",
+  "lat": 51.84,
+  "lon": 12.24,
+  "free": false
+ },
+ {
+  "region": "Halle",
+  "city": "Halle",
+  "lat": 51.48,
+  "lon": 11.97,
+  "free": false
+ },
+ {
+  "region": "Wittenberg",
+  "city": "Wittenberg",
+  "lat": 51.87,
+  "lon": 12.65,
+  "free": false
+ },
+ {
+  "region": "Leipzig",
+  "city": "Leipzig",
+  "lat": 51.34,
+  "lon": 12.38,
+  "free": false
+ },
+ {
+  "region": "Meißen",
+  "city": "Dresden",
+  "lat": 51.05,
+  "lon": 13.74,
+  "free": false
+ },
+ {
+  "region": "Erzgebirge",
+  "city": "Chemnitz",
+  "lat": 50.83,
+  "lon": 12.92,
+  "free": false
+ },
+ {
+  "region": "Vogtland",
+  "city": "Zwickau",
+  "lat": 50.72,
+  "lon": 12.49,
+  "free": false
+ },
+ {
+  "region": "Thüringen",
+  "city": "Erfurt",
+  "lat": 50.98,
+  "lon": 11.03,
+  "free": false
+ },
+ {
+  "region": "Eisenach",
+  "city": "Eisenach",
+  "lat": 50.98,
+  "lon": 10.32,
+  "free": false
+ },
+ {
+  "region": "Reuss",
+  "city": "Gera",
+  "lat": 50.88,
+  "lon": 12.08,
+  "free": false
+ },
+ {
+  "region": "Nordhausen",
+  "city": "Nordhausen",
+  "lat": 51.5,
+  "lon": 10.79,
+  "free": false
+ }
+]

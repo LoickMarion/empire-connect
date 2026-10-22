@@ -123,13 +123,40 @@ html, body, #root {
 }
 
 .year-picker input[type='range'] {
-  width: 100%;
+  flex: 1;
+  min-width: 0;
 }
 
-.year-picker-value {
+.year-input-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+}
+
+.year-input {
+  width: 120px;
+  font-size: 22px;
   font-weight: 600;
-  font-size: 15px;
   text-align: center;
+  padding: 4px 6px;
+}
+
+.year-era {
+  font-size: 14px;
+  color: #666;
+  width: 32px;
+}
+
+.year-buttons {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 3px;
+}
+
+.year-buttons button {
+  padding: 4px 0;
+  font-size: 12px;
 }
 
 .legend {
@@ -167,4 +194,27 @@ html, body, #root {
   border-radius: 50%;
   border: 2px solid white;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+.solutions-toggle {
+  margin-top: 4px;
+}
+
+.solutions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.solution {
+  background: #f7f7f7;
+  border-radius: 6px;
+  padding: 8px 10px;
+}
+
+/* the sea shows through wherever there is no tile, so it extends instead of leaving a grey gap */
+.leaflet-container {
+  background: #9ebcd8;
 }

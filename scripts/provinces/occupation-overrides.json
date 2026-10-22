@@ -1,0 +1,443 @@
+{
+ "_comment": "Hand corrections to the occupation record, applied before names are merged. Each row replaces whatever overlapped [from, to] (inclusive; use map-snapshot years) for one province, keyed Country/Region, with the given occupier. The border source leaves New York, Pennsylvania and the Carolinas with Native groups until 1782 although they were British colonies. Also: Belgium after 1815 (the source calls it Austrian) and Hamburg, which the source gives to Sweden/Hanover/Mecklenburg-Strelitz. Brittany also covers Ille-et-Vilaine (Rennes) and Loire-Atlantique (Nantes) from 900 to 1599, matching the three Breton provinces the source already marks (they were annexed from the Franks in 851). Also: French Louisiana and New France (1650-1762) and what followed (Spanish Louisiana, the British Province of Quebec and West Florida), which the source leaves as Native groups, Rupert's Land or nothing until 1783. Use 'city' to pick one province of a region that was split into several.",
+ "overrides": [
+  {
+   "province": "United States of America/New York",
+   "from": 1650,
+   "to": 1782,
+   "occupier": "British American colonies"
+  },
+  {
+   "province": "United States of America/Pennsylvania",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "British American colonies"
+  },
+  {
+   "province": "United States of America/North Carolina",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "British American colonies"
+  },
+  {
+   "province": "United States of America/South Carolina",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "British American colonies"
+  },
+  {
+   "province": "Belgium/Antwerp",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Antwerp",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/East Flanders",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/East Flanders",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/West Flanders",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/West Flanders",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/Flemish Brabant",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Flemish Brabant",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/Walloon Brabant",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Walloon Brabant",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/Hainaut",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Hainaut",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/Liege",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Liege",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/Limburg",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Limburg",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/Luxembourg",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Luxembourg",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Belgium/Namur",
+   "from": 1815,
+   "to": 1829,
+   "occupier": "Netherlands"
+  },
+  {
+   "province": "Belgium/Namur",
+   "from": 1830,
+   "to": 1879,
+   "occupier": "Belgium"
+  },
+  {
+   "province": "Germany/Hamburg",
+   "from": 1700,
+   "to": 1805,
+   "occupier": "Free Imperial City of Hamburg"
+  },
+  {
+   "province": "Germany/Hamburg",
+   "from": 1806,
+   "to": 1809,
+   "occupier": "Free City of Hamburg"
+  },
+  {
+   "province": "Germany/Hamburg",
+   "from": 1814,
+   "to": 1879,
+   "occupier": "Free City of Hamburg"
+  },
+  {
+   "province": "France/Ille-et-Vilaine",
+   "from": 900,
+   "to": 1599,
+   "occupier": "Brittany"
+  },
+  {
+   "province": "France/Loire-Atlantique",
+   "from": 900,
+   "to": 1599,
+   "occupier": "Brittany"
+  },
+  {
+   "province": "United States of America/Louisiana",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Arkansas",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Missouri",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Iowa",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Kansas",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Nebraska",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Oklahoma",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Minnesota",
+   "from": 1700,
+   "to": 1782,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Mississippi",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Mississippi",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "British American colonies"
+  },
+  {
+   "province": "United States of America/Alabama",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Alabama",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "British American colonies"
+  },
+  {
+   "province": "United States of America/Illinois",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "Louisiana"
+  },
+  {
+   "province": "United States of America/Illinois",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Quebec"
+  },
+  {
+   "province": "United States of America/Indiana",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "New France"
+  },
+  {
+   "province": "United States of America/Indiana",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Quebec"
+  },
+  {
+   "province": "United States of America/Ohio",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "New France"
+  },
+  {
+   "province": "United States of America/Ohio",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Quebec"
+  },
+  {
+   "province": "United States of America/Michigan",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "New France"
+  },
+  {
+   "province": "United States of America/Michigan",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Quebec"
+  },
+  {
+   "province": "United States of America/Wisconsin",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "New France"
+  },
+  {
+   "province": "United States of America/Wisconsin",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Quebec"
+  },
+  {
+   "province": "Canada/Québec",
+   "from": 1650,
+   "to": 1762,
+   "occupier": "New France",
+   "city": "Montréal"
+  },
+  {
+   "province": "Canada/Québec",
+   "from": 1763,
+   "to": 1814,
+   "occupier": "Quebec",
+   "city": "Montréal"
+  },
+  {
+   "province": "Canada/Québec",
+   "from": 1650,
+   "to": 1762,
+   "occupier": "New France",
+   "city": "Sept-Îles"
+  },
+  {
+   "province": "Canada/Québec",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Quebec",
+   "city": "Sept-Îles"
+  },
+  {
+   "province": "Canada/Ontario",
+   "from": 1700,
+   "to": 1762,
+   "occupier": "New France",
+   "city": "Toronto"
+  },
+  {
+   "province": "Canada/Ontario",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Quebec",
+   "city": "Toronto"
+  },
+  {
+   "province": "Canada/New Brunswick",
+   "from": 1650,
+   "to": 1762,
+   "occupier": "New France"
+  },
+  {
+   "province": "Canada/New Brunswick",
+   "from": 1763,
+   "to": 1782,
+   "occupier": "Acadian Peninsula (UK)"
+  },
+  {
+   "province": "Canada/Nova Scotia",
+   "from": 1650,
+   "to": 1712,
+   "occupier": "New France"
+  },
+  {
+   "province": "Canada/Nova Scotia",
+   "from": 1713,
+   "to": 1782,
+   "occupier": "Acadian Peninsula (UK)"
+  },
+  {
+   "province": "Israel/Israel",
+   "from": 1938,
+   "to": 1947,
+   "occupier": "Mandatory Palestine (GB)"
+  },
+  {
+   "province": "Palestine/Gaza",
+   "from": 1938,
+   "to": 1947,
+   "occupier": "Mandatory Palestine (GB)"
+  },
+  {
+   "province": "Palestine/Gaza",
+   "from": 1948,
+   "to": 1966,
+   "occupier": "Egypt"
+  },
+  {
+   "province": "Palestine/Gaza",
+   "from": 1967,
+   "to": 1993,
+   "occupier": "Israel"
+  },
+  {
+   "province": "Palestine/Gaza",
+   "from": 1994,
+   "to": 2025,
+   "occupier": "Palestine"
+  },
+  {
+   "province": "Spain/Las Palmas",
+   "from": 1496,
+   "to": 2025,
+   "occupier": "Spain"
+  },
+  {
+   "province": "Spain/Santa Cruz de Tenerife",
+   "from": 1496,
+   "to": 2025,
+   "occupier": "Spain"
+  },
+  {
+   "province": "Philippines/Philippines",
+   "from": 1565,
+   "to": 1897,
+   "occupier": "Philippines (Spain)"
+  },
+  {
+   "province": "Morocco/Río de Oro",
+   "from": 1885,
+   "to": 1975,
+   "occupier": "Spanish Sahara"
+  },
+  {
+   "province": "Morocco/Saguia el-Hamra",
+   "from": 1934,
+   "to": 1975,
+   "occupier": "Spanish Sahara"
+  },
+  {
+   "province": "Morocco/Smara",
+   "from": 1934,
+   "to": 1975,
+   "occupier": "Spanish Sahara"
+  }
+ ]
+}

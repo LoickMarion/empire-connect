@@ -1,9 +1,8 @@
-import { useEffect, useState } from 'react'
-import { MapContainer, TileLayer, Marker, Tooltip, GeoJSON } from 'react-leaflet'
+import { useState } from 'react'
+import { MapContainer, Marker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
-import { getBorderEras, getBorderEmpireMap } from '../data/dataSource.js'
-import { pickEraForYear, loadEraGeoJSON } from '../data/borders.js'
-import EmpireMapLayer from './EmpireMapLayer.jsx'
+import ProvinceLayer from './ProvinceLayer.jsx'
+import ReliefLayer, { OCEAN } from './ReliefLayer.jsx'
 
 function markerIcon(kind) {
   const color =
@@ -24,37 +23,47 @@ function markerIcon(kind) {
   })
 }
 
-const WORLD_BOUNDS = [
-  [-90, -180],
-  [90, 180],
-]
+// City dots only show from this zoom level in; the start, target, path and selected dots always do.
+const MIN_DOT_ZOOM = 5
 
-function useBorderLayer(currentYear) {
-  const [eras, setEras] = useState([])
-  const [geojson, setGeojson] = useState(null)
-  const [colorByName, setColorByName] = useState({})
-
-  useEffect(() => {
-    getBorderEras().then(setEras)
-  }, [])
-
-  useEffect(() => {
-    if (eras.length === 0 || currentYear == null) return
-    const era = pickEraForYear(eras, currentYear)
-    if (!era) return
-    let cancelled = false
-    Promise.all([loadEraGeoJSON(era.file), getBorderEmpireMap(era.id)]).then(([data, mapping]) => {
-      if (cancelled) return
-      setGeojson(data)
-      setColorByName(Object.fromEntries(mapping.map((m) => [m.featureName, m.color])))
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [eras, currentYear])
-
-  return { geojson, colorByName }
+function useZoom() {
+  const map = useMap()
+  const [zoom, setZoom] = useState(map.getZoom())
+  useMapEvents({ zoomend: () => setZoom(map.getZoom()) })
+  return zoom
 }
+
+function CityMarkers({ cities, startCity, targetCity, pathIds, selectedCityId, onCityClick }) {
+  const zoomedIn = useZoom() >= MIN_DOT_ZOOM
+  return cities.map((city) => {
+    const kind =
+      city.id === startCity
+        ? 'start'
+        : city.id === targetCity
+          ? 'target'
+          : pathIds.includes(city.id)
+            ? 'path'
+            : city.id === selectedCityId
+              ? 'selected'
+              : 'default'
+    if (kind === 'default' && !zoomedIn) return null
+    return (
+      <Marker
+        key={city.id}
+        position={[city.lat, city.lon]}
+        icon={markerIcon(kind)}
+        eventHandlers={{ click: () => onCityClick(city.id) }}
+      >
+        <Tooltip>{city.name}</Tooltip>
+      </Marker>
+    )
+  })
+}
+
+const WORLD_BOUNDS = [
+  [-85.05, -180],
+  [85.05, 180],
+]
 
 export default function MapView({
   cities,
@@ -63,67 +72,46 @@ export default function MapView({
   pathIds,
   selectedCityId,
   onCityClick,
-  currentYear,
   paintMode,
   paintYear,
   holdings,
-  empireColorById,
+  colorAt,
 }) {
-  const { geojson, colorByName } = useBorderLayer(paintMode ? null : currentYear)
-
   return (
     <MapContainer
       center={[45, 15]}
-      zoom={4}
+      zoom={5}
       minZoom={2}
-      style={{ height: '100%', width: '100%' }}
+      style={{ height: '100%', width: '100%', background: OCEAN }}
       worldCopyJump={false}
       maxBounds={WORLD_BOUNDS}
       maxBoundsViscosity={1.0}
     >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      {/* Shaded relief only: no modern borders or place names. */}
+      <ReliefLayer
+        attribution='Tiles &copy; Esri | UK &amp; Irish counties: <a href="https://www.county-borders.co.uk">Historic County Borders Project</a> | German districts &copy; EuroGeographics'
+        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"
+        maxNativeZoom={13}
         noWrap
       />
-      {paintMode && (
-        <EmpireMapLayer cities={cities} holdings={holdings} empireColorById={empireColorById} year={paintYear} />
-      )}
-      {!paintMode && geojson && (
-        <GeoJSON
-          key={currentYear}
-          data={geojson}
-          style={(feature) => {
-            const color = colorByName[feature.properties?.NAME]
-            return color
-              ? { color, weight: 1, fillColor: color, fillOpacity: 0.15 }
-              : { color: '#999', weight: 0.5, fillOpacity: 0 }
-          }}
+      <ProvinceLayer
+        paint={paintMode}
+        year={paintYear}
+        holdings={holdings}
+        cities={cities}
+        colorAt={colorAt}
+        onProvinceClick={paintMode ? undefined : onCityClick}
+      />
+      {!paintMode && (
+        <CityMarkers
+          cities={cities}
+          startCity={startCity}
+          targetCity={targetCity}
+          pathIds={pathIds}
+          selectedCityId={selectedCityId}
+          onCityClick={onCityClick}
         />
       )}
-      {!paintMode &&
-        cities.map((city) => {
-          const kind =
-            city.id === startCity
-              ? 'start'
-              : city.id === targetCity
-                ? 'target'
-                : pathIds.includes(city.id)
-                  ? 'path'
-                  : city.id === selectedCityId
-                    ? 'selected'
-                    : 'default'
-          return (
-            <Marker
-              key={city.id}
-              position={[city.lat, city.lon]}
-              icon={markerIcon(kind)}
-              eventHandlers={{ click: () => onCityClick(city.id) }}
-            >
-              <Tooltip>{city.name}</Tooltip>
-            </Marker>
-          )
-        })}
     </MapContainer>
   )
 }

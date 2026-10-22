@@ -1,0 +1,326 @@
+{
+ "_comment": "Mongolia, Inner Mongolia, Dzungaria and Manchuria after the Yuan (1368-1650): the Northern Yuan, the Oirat confederation, the Khorchin and the Jurchen tribes (Jianzhou, Haixi, Yeren) until Nurhaci's Later Jin. Ming held the Liaodong plain, not the rest of Manchuria. Same format as napoleonic-conquests.json.",
+ "groups": [
+  {
+   "name": "Oirat lands of the Altai and Dzungaria",
+   "until": 1789,
+   "timeline": [
+    [
+     1400,
+     "Oirat Confederation"
+    ],
+    [
+     1634,
+     "Dzungar Khanate"
+    ],
+    [
+     1758,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Altay",
+    "China/Urumqi"
+   ],
+   "select": [
+    {
+     "country": "Mongolia",
+     "box": [
+      88,
+      96,
+      45,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Khalkha and the Northern Yuan",
+   "until": 1789,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1434,
+     "Oirat Confederation"
+    ],
+    [
+     1455,
+     "Northern Yuan"
+    ],
+    [
+     1635,
+     "Khalkha Khanates"
+    ],
+    [
+     1691,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [],
+   "select": [
+    {
+     "country": "Mongolia",
+     "box": [
+      96,
+      125,
+      41,
+      52
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Buryatia and Tuva",
+   "until": 1599,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ]
+   ],
+   "provinces": [
+    "Russia/Buryatia",
+    "Russia/Transbaikal",
+    "Russia/Irkutsk",
+    "Russia/Tuva"
+   ]
+  },
+  {
+   "name": "Southern Inner Mongolia",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1635,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Hohhot",
+    "China/Baotou",
+    "China/Bayannur",
+    "China/Ordos",
+    "China/Alxa",
+    "China/Wuhai",
+    "China/Ulanqab",
+    "China/Xilingol"
+   ]
+  },
+  {
+   "name": "Uriankhai Three Guards",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1389,
+     "Three Guards of Uriankhai"
+    ],
+    [
+     1450,
+     "Northern Yuan"
+    ],
+    [
+     1635,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Hulunbuir",
+    "China/Chifeng"
+   ]
+  },
+  {
+   "name": "Khorchin",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1400,
+     "Khorchin"
+    ],
+    [
+     1626,
+     "Later Jin"
+    ],
+    [
+     1636,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Tongliao",
+    "China/Khinggan",
+    "China/Western Jilin",
+    "China/Qiqihar"
+   ]
+  },
+  {
+   "name": "Jianzhou Jurchens",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1403,
+     "Jianzhou Jurchens"
+    ],
+    [
+     1583,
+     "Later Jin"
+    ],
+    [
+     1636,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Tonghua"
+   ]
+  },
+  {
+   "name": "Haixi Jurchens (Ula and Hoifa)",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1403,
+     "Haixi Jurchens"
+    ],
+    [
+     1613,
+     "Later Jin"
+    ],
+    [
+     1636,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Jilin",
+    "China/Harbin"
+   ]
+  },
+  {
+   "name": "Haixi Jurchens (Yehe)",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1403,
+     "Haixi Jurchens"
+    ],
+    [
+     1619,
+     "Later Jin"
+    ],
+    [
+     1636,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Changchun",
+    "China/Songyuan"
+   ]
+  },
+  {
+   "name": "Yeren Jurchens",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Northern Yuan"
+    ],
+    [
+     1403,
+     "Yeren Jurchens"
+    ],
+    [
+     1616,
+     "Later Jin"
+    ],
+    [
+     1636,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Sanjiang",
+    "China/Mudanjiang",
+    "China/Yichun Heilongjiang",
+    "Russia/Khabarovsk",
+    "Russia/Primorye",
+    "China/Yanbian",
+    "Russia/Tatar Strait Coast"
+   ]
+  },
+  {
+   "name": "Tungusic peoples of the Amur",
+   "until": 1649,
+   "timeline": [
+    [
+     1368,
+     "Tungusic peoples"
+    ]
+   ],
+   "provinces": [
+    "China/Mohe",
+    "China/Heihe",
+    "Russia/Amur"
+   ]
+  },
+  {
+   "name": "Liaodong falls to the Jurchens (1621)",
+   "until": 1649,
+   "timeline": [
+    [
+     1621,
+     "Later Jin"
+    ],
+    [
+     1636,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Shenyang",
+    "China/Dandong",
+    "China/Liaodong"
+   ]
+  },
+  {
+   "name": "Western Liaodong (1642)",
+   "until": 1649,
+   "timeline": [
+    [
+     1642,
+     "Qing Empire"
+    ]
+   ],
+   "provinces": [
+    "China/Jinzhou",
+    "China/Chaoyang"
+   ]
+  }
+ ]
+}

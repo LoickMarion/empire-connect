@@ -54,6 +54,28 @@ describe('findConnections', () => {
   })
 })
 
+describe('peoples and cultures', () => {
+  it('never connect two provinces, even when both were held over the same years', () => {
+    const withCulture = [
+      { nation: 'Bantu', empireId: 'bantu', isNation: false, city: 'a', start: -1000, end: 500 },
+      { nation: 'Bantu', empireId: 'bantu', isNation: false, city: 'b', start: -1000, end: 500 },
+    ]
+    expect(findConnections('a', 'b', withCulture)).toEqual([])
+  })
+
+  it('still connect through a real nation alongside a culture', () => {
+    const mixed = [
+      { nation: 'Bantu', empireId: 'bantu', isNation: false, city: 'a', start: 0, end: 100 },
+      { nation: 'Bantu', empireId: 'bantu', isNation: false, city: 'b', start: 0, end: 100 },
+      { nation: 'Kingdom', empireId: 'kingdom', isNation: true, city: 'a', start: 50, end: 150 },
+      { nation: 'Kingdom', empireId: 'kingdom', isNation: true, city: 'b', start: 50, end: 150 },
+    ]
+    expect(findConnections('a', 'b', mixed)).toEqual([
+      { nation: 'Kingdom', empireId: 'kingdom', overlapStart: 50, overlapEnd: 150 },
+    ])
+  })
+})
+
 describe('canConnect', () => {
   it('is true when a connection exists', () => {
     expect(canConnect('sofia', 'belgrade', holdings)).toBe(true)

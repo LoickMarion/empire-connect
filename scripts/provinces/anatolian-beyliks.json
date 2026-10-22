@@ -1,0 +1,459 @@
+{
+ "_comment": "Turkish beyliks and the lands around them after the Seljuk collapse (1300 onward). Same format as napoleonic-conquests.json. The Ottoman takeovers that were already in late-medieval-timelines.json keep their dates.",
+ "groups": [
+  {
+   "name": "Germiyan",
+   "until": 1389,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Germiyan"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Afyon"
+   ]
+  },
+  {
+   "name": "Saruhan",
+   "until": 1491,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Saruhan"
+    ],
+    [
+     1390,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Beylik of Saruhan"
+    ],
+    [
+     1410,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Saruhan"
+   ]
+  },
+  {
+   "name": "Aydın",
+   "until": 1389,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Aydin"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Izmir",
+    "Turkey/Aydın",
+    "Turkey/Denizli"
+   ]
+  },
+  {
+   "name": "Menteshe",
+   "until": 1389,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Menteshe"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Menteshe"
+   ]
+  },
+  {
+   "name": "Hamid and Teke",
+   "until": 1390,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Hamid"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Hamid"
+   ]
+  },
+  {
+   "name": "Teke",
+   "until": 1390,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Teke"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Antalya"
+   ]
+  },
+  {
+   "name": "Karesi",
+   "until": 1344,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Karesi"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Karesi"
+   ]
+  },
+  {
+   "name": "Candar (Isfendiyar)",
+   "until": 1391,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Candar"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Kastamonu",
+    "Turkey/Sinop",
+    "Turkey/Çankırı",
+    "Turkey/Heraclea"
+   ]
+  },
+  {
+   "name": "Candar to 1460",
+   "until": 1491,
+   "timeline": [
+    [
+     1392,
+     "Beylik of Candar"
+    ],
+    [
+     1461,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Sinop",
+    "Turkey/Kastamonu"
+   ]
+  },
+  {
+   "name": "Ottoman origins (Söğüt, 1299)",
+   "until": 1491,
+   "timeline": [
+    [
+     1299,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Bilecik"
+   ]
+  },
+  {
+   "name": "Rodosto (Byzantine to 1356)",
+   "until": 1491,
+   "timeline": [
+    [
+     1300,
+     "Byzantine Empire"
+    ],
+    [
+     1356,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Rodosto"
+   ]
+  },
+  {
+   "name": "Karaman",
+   "until": 1396,
+   "timeline": [
+    [
+     1300,
+     "Beylik of Karaman"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Konya",
+    "Turkey/Aksaray"
+   ]
+  },
+  {
+   "name": "Aksaray (Karaman until 1470)",
+   "until": 1491,
+   "timeline": [
+    [
+     1397,
+     "Beylik of Karaman"
+    ],
+    [
+     1471,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Aksaray"
+   ]
+  },
+  {
+   "name": "Ilkhanate then Eretna and Sivas",
+   "until": 1398,
+   "timeline": [
+    [
+     1300,
+     "Ilkhanate"
+    ],
+    [
+     1336,
+     "Beylik of Eretna"
+    ],
+    [
+     1381,
+     "Emirate of Sivas"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Amasya",
+    "Turkey/Kırşehir",
+    "Turkey/Yozgat",
+    "Turkey/Samsun"
+   ]
+  },
+  {
+   "name": "Dulkadir and the Mamluk marches",
+   "until": 1529,
+   "timeline": [
+    [
+     1300,
+     "Mamluke Sultanate"
+    ],
+    [
+     1337,
+     "Beylik of Dulkadir"
+    ],
+    [
+     1515,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Dulkadir",
+    "Turkey/Adıyaman"
+   ]
+  },
+  {
+   "name": "Mardin (Artuqid, Ilkhanid vassal)",
+   "until": 1529,
+   "timeline": [
+    [
+     1300,
+     "Ilkhanate"
+    ],
+    [
+     1336,
+     "Artuqid Emirate of Mardin"
+    ],
+    [
+     1517,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Mardin"
+   ]
+  },
+  {
+   "name": "Sivas, Tokat, Çorum after Eretna",
+   "until": 1472,
+   "timeline": [
+    [
+     1300,
+     "Ilkhanate"
+    ],
+    [
+     1336,
+     "Beylik of Eretna"
+    ],
+    [
+     1381,
+     "Emirate of Sivas"
+    ],
+    [
+     1399,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Sivas",
+    "Turkey/Tokat",
+    "Turkey/Çorum"
+   ]
+  },
+  {
+   "name": "Kayseri",
+   "until": 1491,
+   "timeline": [
+    [
+     1300,
+     "Ilkhanate"
+    ],
+    [
+     1336,
+     "Beylik of Eretna"
+    ],
+    [
+     1381,
+     "Emirate of Sivas"
+    ],
+    [
+     1399,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Beylik of Dulkadir"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Kayseri"
+   ]
+  },
+  {
+   "name": "Erzurum, Erzincan and Malatya",
+   "until": 1491,
+   "timeline": [
+    [
+     1300,
+     "Ilkhanate"
+    ],
+    [
+     1336,
+     "Beylik of Eretna"
+    ],
+    [
+     1400,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1473,
+     "Emirate of the White Sheep Turks"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Erzurum",
+    "Turkey/Erzincan"
+   ]
+  },
+  {
+   "name": "Malatya",
+   "until": 1491,
+   "timeline": [
+    [
+     1300,
+     "Ilkhanate"
+    ],
+    [
+     1336,
+     "Mamluke Sultanate"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Beylik of Dulkadir"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Malatya"
+   ]
+  },
+  {
+   "name": "Ankara before the Ottomans",
+   "until": 1353,
+   "timeline": [
+    [
+     1300,
+     "Ilkhanate"
+    ],
+    [
+     1336,
+     "Beylik of Eretna"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Ankara"
+   ]
+  },
+  {
+   "name": "Kütahya, Byzantine until the Turks took it",
+   "until": 1389,
+   "timeline": [
+    [
+     1243,
+     "Byzantine Empire"
+    ],
+    [
+     1302,
+     "Beylik of Germiyan"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Germiyan"
+   ]
+  },
+  {
+   "name": "Empire of Trebizond (1204)",
+   "until": 1299,
+   "timeline": [
+    [
+     1204,
+     "Trebizond"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Trabzon",
+    "Turkey/Ordu"
+   ]
+  }
+ ]
+}

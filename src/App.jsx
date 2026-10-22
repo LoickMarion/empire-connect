@@ -3,22 +3,18 @@ import MapView from './components/MapView.jsx'
 import GameControls from './components/GameControls.jsx'
 import ExplorePanel from './components/ExplorePanel.jsx'
 import PaintControls from './components/PaintControls.jsx'
-import { getCities, getHoldings, getEmpires } from './data/dataSource.js'
+import { getProvinces, getOccupations, getOccupiers, getRealmLinks } from './data/dataSource.js'
+import { expandWithRealms } from './game/realms.js'
+import { createColorResolver } from './game/colors.js'
 import { findConnections } from './game/pathValidator.js'
+import { createGraph, describePaths, diversePaths, pickGamePair, shortestPaths } from './game/solver.js'
 
 const MODES = ['game', 'explore', 'paint']
 
-function pickPair(cities) {
-  const a = cities[Math.floor(Math.random() * cities.length)]
-  let b = a
-  while (b.id === a.id) {
-    b = cities[Math.floor(Math.random() * cities.length)]
-  }
-  return [a.id, b.id]
-}
-
-function newGameState(cities) {
-  const [start, target] = pickPair(cities)
+// A start and target 3 to 7 steps apart by the shortest route.
+function newGameState(playable, graph) {
+  const pair = pickGamePair(graph, playable, { min: 3, max: 7 })
+  const [start, target] = pair ? [pair.start, pair.target] : [playable[0].id, playable[1].id]
   return {
     startCity: start,
     targetCity: target,
@@ -26,6 +22,8 @@ function newGameState(cities) {
     connections: [undefined],
     status: 'in-progress',
     lastError: null,
+    solutions: null, // filled in on request: { distance, total, items }
+    showSolutions: false,
   }
 }
 
@@ -37,20 +35,40 @@ export default function App() {
   const [paintYear, setPaintYear] = useState(1500)
 
   useEffect(() => {
-    Promise.all([getCities(), getHoldings(), getEmpires()]).then(([cities, holdings, empires]) => {
+    Promise.all([getProvinces(), getOccupations(), getOccupiers(), getRealmLinks()]).then(([cities, holdings, empires, realmLinks]) => {
       const cityById = Object.fromEntries(cities.map((c) => [c.id, c]))
-      const empireColorById = Object.fromEntries(empires.map((e) => [e.id, e.color]))
+      const colorAt = createColorResolver(empires, realmLinks)
       const minYear = Math.min(...holdings.map((h) => h.start))
       const maxYear = Math.max(...holdings.map((h) => h.end))
-      setData({ cities, holdings, empires, cityById, empireColorById, minYear, maxYear })
-      setGame(newGameState(cities))
+      // Provinces no nation is recorded as holding can't connect to anything (peoples and cultures
+      // don't count), so keep them out of games.
+      const occupied = new Set(holdings.filter((h) => h.isNation).map((h) => h.city))
+      const playable = cities.filter((c) => occupied.has(c.id))
+      // for linking provinces, colonies also count as held by their parent realm
+      const linkHoldings = expandWithRealms(holdings, realmLinks)
+      const graph = createGraph(linkHoldings)
+      setData({ cities, playable, holdings, linkHoldings, graph, empires, cityById, colorAt, minYear, maxYear })
+      setGame(newGameState(playable, graph))
     })
   }, [])
 
   const pathIds = useMemo(() => game?.path ?? [], [game])
 
   function handleNewGame() {
-    setGame(newGameState(data.cities))
+    setGame(newGameState(data.playable, data.graph))
+  }
+
+  // Reveal up to 3 of the shortest routes, chosen to be as different from each other as possible.
+  function handleToggleSolutions() {
+    if (game.solutions) {
+      setGame((g) => ({ ...g, showSolutions: !g.showSolutions }))
+      return
+    }
+    const result = shortestPaths(data.graph, game.startCity, game.targetCity)
+    if (!result) return
+    const chosen = diversePaths(result.paths, 3, data.graph, (id) => data.cityById[id]?.country)
+    const items = describePaths(data.graph, chosen)
+    setGame((g) => ({ ...g, showSolutions: true, solutions: { distance: result.distance, total: result.total, items } }))
   }
 
   function handleCycleMode() {
@@ -62,11 +80,11 @@ export default function App() {
     const last = game.path[game.path.length - 1]
     if (cityId === last || game.path.includes(cityId)) return
 
-    const conns = findConnections(last, cityId, data.holdings)
+    const conns = findConnections(last, cityId, data.linkHoldings)
     if (conns.length === 0) {
       setGame((g) => ({
         ...g,
-        lastError: `No nation held both ${data.cityById[last].name} and ${data.cityById[cityId].name} at the same time.`,
+        lastError: `No occupier held both ${data.cityById[last].name} and ${data.cityById[cityId].name} at the same time.`,
       }))
       return
     }
@@ -118,11 +136,10 @@ export default function App() {
           pathIds={mode === 'game' ? pathIds : []}
           selectedCityId={mode === 'explore' ? exploreCityId : null}
           onCityClick={handleCityClick}
-          currentYear={mode === 'game' ? game.connections[game.connections.length - 1]?.overlapEnd : undefined}
           paintMode={mode === 'paint'}
           paintYear={paintYear}
           holdings={data.holdings}
-          empireColorById={data.empireColorById}
+          colorAt={data.colorAt}
         />
       </div>
       {mode === 'game' && (
@@ -134,6 +151,9 @@ export default function App() {
           status={game.status}
           lastError={game.lastError}
           onNewGame={handleNewGame}
+          solutions={game.solutions}
+          showSolutions={game.showSolutions}
+          onToggleSolutions={handleToggleSolutions}
         />
       )}
       {mode === 'explore' && <ExplorePanel city={exploreCity} holdings={exploreHoldings} />}
@@ -141,8 +161,7 @@ export default function App() {
         <PaintControls
           holdings={data.holdings}
           empires={data.empires}
-          minYear={data.minYear}
-          maxYear={data.maxYear}
+          colorAt={data.colorAt}
           year={paintYear}
           onYearChange={setPaintYear}
         />

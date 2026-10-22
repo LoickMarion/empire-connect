@@ -1,0 +1,75 @@
+{
+ "_comment": "The 1279-1491 snapshot calls most of China the Great Khanate, but the Yuan fell in 1368 and the Ming took Yunnan by 1382. Where the Great Khanate holds a province in 1368, it becomes the Ming (and Korea is Korean again from 1356). 'when' limits a group to provinces held by that occupier in that year.",
+ "groups": [
+  {
+   "name": "Ming China (1368)",
+   "until": 1491,
+   "when": {
+    "year": 1368,
+    "occupier": "Great Khanate"
+   },
+   "timeline": [
+    [
+     1368,
+     "Ming Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "China"
+    }
+   ]
+  },
+  {
+   "name": "Ming Yunnan (1382)",
+   "until": 1491,
+   "when": {
+    "year": 1382,
+    "occupier": "Ming Empire"
+   },
+   "timeline": [
+    [
+     1368,
+     "Great Khanate"
+    ],
+    [
+     1382,
+     "Ming Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "China",
+     "box": [
+      97,
+      109,
+      21,
+      29
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Goryeo and Joseon (Korea)",
+   "until": 1491,
+   "when": {
+    "year": 1368,
+    "occupier": "Great Khanate"
+   },
+   "timeline": [
+    [
+     1356,
+     "Korea"
+    ]
+   ],
+   "select": [
+    {
+     "country": "North Korea"
+    },
+    {
+     "country": "South Korea"
+    }
+   ]
+  }
+ ]
+}

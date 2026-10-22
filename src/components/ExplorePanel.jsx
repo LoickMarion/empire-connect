@@ -1,4 +1,5 @@
 import { formatYear } from '../game/formatYear.js'
+import { PRESENT_YEAR } from '../data/dataSource.js'
 
 export default function ExplorePanel({ city, holdings }) {
   return (
@@ -7,34 +8,28 @@ export default function ExplorePanel({ city, holdings }) {
         <h1>Explore</h1>
       </div>
 
-      {!city && <p className="hint">Click a city on the map to see every state that has ever held it.</p>}
+      {!city && <p className="hint">Click a province on the map to see everyone who has ever occupied it.</p>}
 
       {city && (
         <>
           <h2>{city.name}</h2>
-
-          {city.names.length > 1 && (
-            <p className="hint">
-              Also known as:{' '}
-              {city.names
-                .filter((n) => n.name !== city.name)
-                .map((n) => `${n.name} (${formatYear(n.startYear)}–${n.endYear == null ? 'present' : formatYear(n.endYear)})`)
-                .join(', ')}
-            </p>
-          )}
+          <p className="hint">
+            {city.region === city.country ? city.country : `${city.region}, ${city.country}`} · {city.areaKm2.toLocaleString()} km²
+            {city.citySource === 'nearest' && ' · no town of its own, so it borrows the nearest one'}
+          </p>
 
           {holdings.length === 0 ? (
-            <p className="hint">No recorded holdings for this city.</p>
+            <p className="hint">No recorded occupiers for this province.</p>
           ) : (
             <ol className="history">
               {holdings.map((h, i) => (
                 <li key={i}>
                   <span className="empire-name">
                     {h.nation}
-                    {h.synthetic && ' (current country — no detailed history recorded)'}
+                    {h.isNation === false && ' (people/culture, not a nation)'}
                   </span>
                   <span className="year-range">
-                    {h.synthetic ? 'present' : `${formatYear(h.start)}–${formatYear(h.end)}`}
+                    {formatYear(h.start)}–{h.end === PRESENT_YEAR ? 'present' : formatYear(h.end)}
                   </span>
                 </li>
               ))}

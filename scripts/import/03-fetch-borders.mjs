@@ -1,31 +1,18 @@
-// Downloads only the border-snapshot years actually needed to cover the
-// holdings data's date range, from aourednik/historical-basemaps, rather than
-// cloning the whole ~130MB repo.
+// Downloads every border snapshot from aourednik/historical-basemaps (the files, not the
+// whole ~130MB repo) into data/raw/borders for the province occupation step.
 import fs from 'node:fs/promises'
 import path from 'node:path'
-import { nearestEra } from './lib/eras.mjs'
+import { ERAS } from './lib/eras.mjs'
 
 const RAW_URL = 'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson'
 const RAW_DIR = new URL('../../data/raw/', import.meta.url)
-const HOLDINGS_FILE = path.join(new URL(RAW_DIR).pathname, 'holdings.json')
 const BORDERS_RAW_DIR = path.join(new URL(RAW_DIR).pathname, 'borders')
 
 async function main() {
-  const holdings = JSON.parse(await fs.readFile(HOLDINGS_FILE, 'utf8'))
-
-  const years = new Set()
-  for (const h of holdings) {
-    years.add(h.start)
-    years.add(h.end)
-  }
-
-  const neededFiles = new Map() // file -> era year
-  for (const year of years) {
-    const era = nearestEra(year)
-    neededFiles.set(era.file, era.year)
-  }
-
-  console.log(`${years.size} distinct holding years -> ${neededFiles.size} era snapshots needed`)
+  // Every snapshot is needed: provinces sample all of them to build their occupation record.
+  // The 123000 BCE one is a placeholder map, not a useful occupation record, so skip it.
+  const neededFiles = new Map(ERAS.filter((era) => era.year >= -10000).map((era) => [era.file, era.year]))
+  console.log(`${neededFiles.size} era snapshots needed`)
 
   await fs.mkdir(BORDERS_RAW_DIR, { recursive: true })
 

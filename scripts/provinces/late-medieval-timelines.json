@@ -1,0 +1,3406 @@
+{
+ "_comment": "The fall of Byzantium, the Ottoman conquests (1299-1566) and the Timurid empire between the 1279, 1300, 1400, 1492, 1500 and 1530 snapshots, which jump straight from one state of the map to the next. Same format as napoleonic-conquests.json: groups of provinces (selected by country and regions) with a timeline of [year, occupier]; each group has its own 'until' year (the last year it replaces, so the snapshot data takes over afterwards).",
+ "groups": [
+  {
+   "name": "Ottoman Anatolia 1299",
+   "timeline": [
+    [
+     1299,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Eskişehir"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Anatolia 1323",
+   "timeline": [
+    [
+     1323,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Bolu"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Anatolia 1326",
+   "timeline": [
+    [
+     1326,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Bursa"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Anatolia 1337",
+   "timeline": [
+    [
+     1337,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Kocaeli"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Anatolia 1345",
+   "timeline": [
+    [
+     1345,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Karesi"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Anatolia 1354",
+   "timeline": [
+    [
+     1354,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Troad",
+      "Ankara"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Anatolia 1390",
+   "timeline": [
+    [
+     1390,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Afyon"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Anatolia 1392",
+   "timeline": [
+    [
+     1392,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Heraclea",
+      "Amasya"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Ottoman Thrace (Adrianople 1361)",
+   "timeline": [
+    [
+     1361,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "East Thrace"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Constantinople (until 1453)",
+   "timeline": [
+    [
+     1400,
+     "Byzantine Empire"
+    ],
+    [
+     1453,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Istanbul"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Aydın and Izmir",
+   "timeline": [
+    [
+     1390,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Beylik of Aydin"
+    ],
+    [
+     1425,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Izmir",
+      "Aydın"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Denizli and Menteshe",
+   "timeline": [
+    [
+     1390,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Beylik of Aydin"
+    ],
+    [
+     1428,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Denizli",
+      "Menteshe"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Hamid and Antalya",
+   "timeline": [
+    [
+     1391,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Hamid",
+      "Antalya"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Konya",
+   "timeline": [
+    [
+     1397,
+     "Ottoman Empire"
+    ],
+    [
+     1402,
+     "Beylik of Karaman"
+    ],
+    [
+     1468,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Konya"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Karaman, Niğde and Mersin",
+   "timeline": [
+    [
+     1300,
+     "Beylik of Karaman"
+    ],
+    [
+     1471,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Karaman",
+      "Niğde",
+      "Mersin"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Central Anatolia",
+   "timeline": [
+    [
+     1413,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Yozgat",
+      "Kırşehir"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Samsun",
+   "timeline": [
+    [
+     1420,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Samsun"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Sivas",
+   "timeline": [
+    [
+     1473,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Sivas"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Kastamonu, Trabzon and Ordu",
+   "timeline": [
+    [
+     1461,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Kastamonu",
+      "Trabzon",
+      "Ordu"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Erzincan",
+   "timeline": [
+    [
+     1473,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1501,
+     "Safavid Empire"
+    ],
+    [
+     1514,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Erzincan"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Kayseri and Malatya (Dulkadir, 1515)",
+   "timeline": [
+    [
+     1492,
+     "Mamluke Sultanate"
+    ],
+    [
+     1515,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Kayseri",
+      "Malatya"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Erzurum and Van",
+   "timeline": [
+    [
+     1502,
+     "Safavid Empire"
+    ],
+    [
+     1514,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Erzurum",
+      "Van"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Kars",
+   "timeline": [
+    [
+     1502,
+     "Safavid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Kars"
+     ]
+    }
+   ],
+   "until": 1533
+  },
+  {
+   "name": "Kurdistan and the Jazira (1515)",
+   "timeline": [
+    [
+     1501,
+     "Safavid Empire"
+    ],
+    [
+     1515,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Diyarbakır",
+      "Elazığ",
+      "Urfa",
+      "Siirt",
+      "Hakkari",
+      "Bitlis"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Cilicia",
+   "timeline": [
+    [
+     1300,
+     "Mamluke Sultanate"
+    ],
+    [
+     1516,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Cilicia"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Gaziantep and Hatay",
+   "timeline": [
+    [
+     1279,
+     "Mamluke Sultanate"
+    ],
+    [
+     1400,
+     "Timurid Empire"
+    ],
+    [
+     1402,
+     "Mamluke Sultanate"
+    ],
+    [
+     1516,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Turkey",
+     "regions": [
+      "Gaziantep",
+      "Hatay"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Bulgaria 1364",
+   "timeline": [
+    [
+     1364,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Plovdiv"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Bulgaria 1371",
+   "timeline": [
+    [
+     1371,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Stara Zagora",
+      "Haskovo",
+      "Rhodopes",
+      "Burgas"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Bulgaria 1382",
+   "timeline": [
+    [
+     1382,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Sofia"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Bulgaria 1385",
+   "timeline": [
+    [
+     1385,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Pirin"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Bulgaria 1388",
+   "timeline": [
+    [
+     1388,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Shumen"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Bulgaria 1395",
+   "timeline": [
+    [
+     1395,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Kyustendil"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Bulgaria 1393",
+   "timeline": [
+    [
+     1393,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Varna",
+      "Tarnovo"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Bulgaria 1388",
+   "timeline": [
+    [
+     1388,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Ruse"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Bulgaria 1393",
+   "timeline": [
+    [
+     1393,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Pleven"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Bulgaria 1396",
+   "timeline": [
+    [
+     1396,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Vidin",
+      "Montana"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Bulgaria 1417",
+   "timeline": [
+    [
+     1417,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Dobruja"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Niš and Jablanica (1386)",
+   "timeline": [
+    [
+     1386,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Niš",
+      "Jablanica"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Pčinja (1389)",
+   "timeline": [
+    [
+     1389,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Pčinja"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Timok (1396)",
+   "timeline": [
+    [
+     1396,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Timok"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Despotate of Serbia (conquered 1459)",
+   "timeline": [
+    [
+     1389,
+     "Serbia"
+    ],
+    [
+     1459,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Mačva",
+      "Šumadija",
+      "Zlatibor",
+      "Kruševac"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Raška (Novi Pazar 1455)",
+   "timeline": [
+    [
+     1389,
+     "Serbia"
+    ],
+    [
+     1455,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Raška"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Belgrade (Hungarian 1427-1521)",
+   "timeline": [
+    [
+     1389,
+     "Serbia"
+    ],
+    [
+     1427,
+     "Hungary"
+    ],
+    [
+     1521,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Belgrade"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Srem (1521)",
+   "timeline": [
+    [
+     1521,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Srem"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Bačka (1526)",
+   "timeline": [
+    [
+     1526,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Bačka"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Banat (Temesvár 1552)",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1552,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Banat"
+     ]
+    },
+    {
+     "country": "Romania",
+     "regions": [
+      "Banat",
+      "Arad"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Kosovo (Serbian, Ottoman 1455)",
+   "timeline": [
+    [
+     1282,
+     "Serbia"
+    ],
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Serbia"
+    ],
+    [
+     1455,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Kosovo"
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "North Macedonia 1392",
+   "timeline": [
+    [
+     1282,
+     "Serbia"
+    ],
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Serbia"
+    ],
+    [
+     1392,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "North Macedonia",
+     "regions": [
+      "Skopje",
+      "Polog"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "North Macedonia 1382",
+   "timeline": [
+    [
+     1334,
+     "Serbia"
+    ],
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Serbia"
+    ],
+    [
+     1382,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "North Macedonia",
+     "regions": [
+      "Pelagonia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "North Macedonia 1394",
+   "timeline": [
+    [
+     1334,
+     "Serbia"
+    ],
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Serbia"
+    ],
+    [
+     1394,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "North Macedonia",
+     "regions": [
+      "Ohrid"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "North Macedonia 1385",
+   "timeline": [
+    [
+     1334,
+     "Serbia"
+    ],
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Serbia"
+    ],
+    [
+     1385,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "North Macedonia",
+     "regions": [
+      "Ovče Pole"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Albania 1417",
+   "timeline": [
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Albania"
+    ],
+    [
+     1417,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Albania",
+     "regions": [
+      "Vlorë"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Albania 1419",
+   "timeline": [
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Albania"
+    ],
+    [
+     1419,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Albania",
+     "regions": [
+      "Gjirokastër"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Albania 1440",
+   "timeline": [
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Albania"
+    ],
+    [
+     1440,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Albania",
+     "regions": [
+      "Korçë"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Albania 1466",
+   "timeline": [
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Albania"
+    ],
+    [
+     1466,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Albania",
+     "regions": [
+      "Elbasan"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Albania 1478",
+   "timeline": [
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Albania"
+    ],
+    [
+     1478,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Albania",
+     "regions": [
+      "Tirana",
+      "Kukës"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Albania 1479",
+   "timeline": [
+    [
+     1346,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Albania"
+    ],
+    [
+     1479,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Albania",
+     "regions": [
+      "Shkodër"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "West Macedonia",
+   "timeline": [
+    [
+     1345,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Byzantine Empire"
+    ],
+    [
+     1385,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "West Macedonia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "East Macedonia (Serres 1383)",
+   "timeline": [
+    [
+     1345,
+     "Serbian Empire"
+    ],
+    [
+     1371,
+     "Byzantine Empire"
+    ],
+    [
+     1383,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "East Macedonia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Thrace",
+   "timeline": [
+    [
+     1300,
+     "Byzantine Empire"
+    ],
+    [
+     1371,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Thrace"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Thessaloniki",
+   "timeline": [
+    [
+     1300,
+     "Byzantine Empire"
+    ],
+    [
+     1387,
+     "Ottoman Empire"
+    ],
+    [
+     1403,
+     "Byzantine Empire"
+    ],
+    [
+     1423,
+     "Venice"
+    ],
+    [
+     1430,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Macedonia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Epirus (Ioannina 1430)",
+   "timeline": [
+    [
+     1348,
+     "Serbian Empire"
+    ],
+    [
+     1359,
+     "Despotate of Epirus"
+    ],
+    [
+     1430,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Epirus"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Acarnania (Arta 1449)",
+   "timeline": [
+    [
+     1348,
+     "Serbian Empire"
+    ],
+    [
+     1359,
+     "Despotate of Epirus"
+    ],
+    [
+     1449,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Acarnania"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Thessaly and Phthiotis (1393)",
+   "timeline": [
+    [
+     1348,
+     "Serbian Empire"
+    ],
+    [
+     1359,
+     "Byzantine Empire"
+    ],
+    [
+     1393,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Thessaly",
+      "Phthiotis"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Duchy of Athens: Attica",
+   "timeline": [
+    [
+     1311,
+     "Duchy of Athens"
+    ],
+    [
+     1456,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Attica"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Duchy of Athens: Boeotia",
+   "timeline": [
+    [
+     1311,
+     "Duchy of Athens"
+    ],
+    [
+     1458,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Boeotia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Euboea (Negroponte)",
+   "timeline": [
+    [
+     1300,
+     "Venice"
+    ],
+    [
+     1470,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Euboea"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Morea: Achaea and Corinthia",
+   "timeline": [
+    [
+     1300,
+     "Principality of Achaea"
+    ],
+    [
+     1432,
+     "Byzantine Empire"
+    ],
+    [
+     1458,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Achaea",
+      "Corinthia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Morea: Elis",
+   "timeline": [
+    [
+     1300,
+     "Principality of Achaea"
+    ],
+    [
+     1432,
+     "Byzantine Empire"
+    ],
+    [
+     1460,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Elis"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Morea: Arcadia and Laconia (Mistra 1460)",
+   "timeline": [
+    [
+     1300,
+     "Byzantine Empire"
+    ],
+    [
+     1460,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Arcadia",
+      "Laconia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Messenia (Modon and Coron)",
+   "timeline": [
+    [
+     1300,
+     "Byzantine Empire"
+    ],
+    [
+     1460,
+     "Venice"
+    ],
+    [
+     1500,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Messenia"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Cyclades",
+   "timeline": [
+    [
+     1300,
+     "Venice"
+    ],
+    [
+     1566,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Cyclades"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Corfu",
+   "timeline": [
+    [
+     1386,
+     "Venice"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Corfu"
+     ]
+    }
+   ],
+   "until": 1796
+  },
+  {
+   "name": "Ionian Islands",
+   "timeline": [
+    [
+     1484,
+     "Venice"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Ionian Islands"
+     ]
+    }
+   ],
+   "until": 1796
+  },
+  {
+   "name": "Crete",
+   "timeline": [
+    [
+     1300,
+     "Venice"
+    ],
+    [
+     1669,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Crete",
+      "West Crete"
+     ]
+    }
+   ],
+   "until": 1714
+  },
+  {
+   "name": "Dodecanese (Knights of Rhodes)",
+   "timeline": [
+    [
+     1310,
+     "Knights Hospitaller"
+    ],
+    [
+     1522,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Dodecanese"
+     ]
+    }
+   ],
+   "until": 1714
+  },
+  {
+   "name": "Lesbos",
+   "timeline": [
+    [
+     1355,
+     "Genoa"
+    ],
+    [
+     1462,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Lesbos"
+     ]
+    }
+   ],
+   "until": 1714
+  },
+  {
+   "name": "Chios",
+   "timeline": [
+    [
+     1346,
+     "Genoa"
+    ],
+    [
+     1566,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Chios"
+     ]
+    }
+   ],
+   "until": 1714
+  },
+  {
+   "name": "Cyprus",
+   "timeline": [
+    [
+     1489,
+     "Venice"
+    ],
+    [
+     1571,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Cyprus"
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Bosnia (1463)",
+   "timeline": [
+    [
+     1463,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bosnia and Herzegovina",
+     "regions": [
+      "Bosnia",
+      "Central Bosnia"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Herzegovina (1482)",
+   "timeline": [
+    [
+     1482,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bosnia and Herzegovina",
+     "regions": [
+      "Herzegovina",
+      "Trebinje"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Bosnian Krajina (1527)",
+   "timeline": [
+    [
+     1527,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bosnia and Herzegovina",
+     "regions": [
+      "Krajina"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Tuzla (1512)",
+   "timeline": [
+    [
+     1512,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bosnia and Herzegovina",
+     "regions": [
+      "Tuzla"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Bihać (1592)",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1592,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bosnia and Herzegovina",
+     "regions": [
+      "Bihać"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Sandžak (1455)",
+   "timeline": [
+    [
+     1455,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Montenegro",
+     "regions": [
+      "Sandžak"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Nikšić (1470)",
+   "timeline": [
+    [
+     1470,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Montenegro",
+     "regions": [
+      "Nikšić"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Zeta (1499)",
+   "timeline": [
+    [
+     1492,
+     "Montenegro"
+    ],
+    [
+     1499,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Montenegro",
+     "regions": [
+      "Zeta"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Boka Kotorska",
+   "timeline": [
+    [
+     1420,
+     "Venice"
+    ],
+    [
+     1539,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Montenegro",
+     "regions": [
+      "Boka"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Slavonia and Lika",
+   "timeline": [
+    [
+     1526,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Slavonia"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Lika (1527)",
+   "timeline": [
+    [
+     1527,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Lika"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Habsburg Croatia",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Pokuplje",
+      "Banovina",
+      "Kvarner"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Dalmatia and Zadar (Venetian)",
+   "timeline": [
+    [
+     1409,
+     "Venice"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Dalmatia",
+      "Zadar"
+     ]
+    }
+   ],
+   "until": 1796
+  },
+  {
+   "name": "Republic of Ragusa",
+   "timeline": [
+    [
+     1358,
+     "Republic of Ragusa"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Ragusa"
+     ]
+    }
+   ],
+   "until": 1806
+  },
+  {
+   "name": "Royal Hungary: Slovakia",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Slovakia",
+     "regions": [
+      "Žilina",
+      "Prešov",
+      "Banská Bystrica",
+      "Košice",
+      "Nitra"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Hungary: Ottoman 1541-1686",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1541,
+     "Ottoman Empire"
+    ],
+    [
+     1686,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Budapest",
+      "Kecskemét"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Hungary: Ottoman 1543-1688",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1543,
+     "Ottoman Empire"
+    ],
+    [
+     1688,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Fejér"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Hungary: Ottoman 1543-1686",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1543,
+     "Ottoman Empire"
+    ],
+    [
+     1686,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Baranya",
+      "Szeged"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Hungary: Ottoman 1555-1686",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1555,
+     "Ottoman Empire"
+    ],
+    [
+     1686,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Somogy"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Hungary: Ottoman 1552-1685",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1552,
+     "Ottoman Empire"
+    ],
+    [
+     1685,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Szolnok"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Hungary: Ottoman 1566-1695",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1566,
+     "Ottoman Empire"
+    ],
+    [
+     1695,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Békés"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Hungary: Ottoman 1596-1687",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1596,
+     "Ottoman Empire"
+    ],
+    [
+     1687,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Eger"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Royal Hungary and Transylvania",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary",
+     "regions": [
+      "Győr",
+      "Miskolc",
+      "Nyíregyháza",
+      "Debrecen"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Principality of Transylvania (1541)",
+   "timeline": [
+    [
+     1530,
+     "Hungary"
+    ],
+    [
+     1541,
+     "Principality of Transylvania"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Romania",
+     "regions": [
+      "Satmar",
+      "Maramureș",
+      "Crișana",
+      "Transylvania",
+      "Mureș",
+      "Szeklerland",
+      "Alba",
+      "Hunedoara",
+      "Burzenland",
+      "Sibiu"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Principality of Wallachia",
+   "timeline": [
+    [
+     1400,
+     "Principality of Wallachia"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Romania",
+     "regions": [
+      "Buzău",
+      "Prahova",
+      "Argeș",
+      "Severin",
+      "Bucharest",
+      "Oltenia"
+     ]
+    }
+   ],
+   "until": 1714
+  },
+  {
+   "name": "Principality of Moldavia",
+   "timeline": [
+    [
+     1359,
+     "Moldova"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Romania",
+     "regions": [
+      "Moldavia",
+      "Vaslui",
+      "Danube",
+      "Neamț",
+      "Bacău",
+      "Bukovina"
+     ]
+    }
+   ],
+   "until": 1714
+  },
+  {
+   "name": "Dobruja (1417)",
+   "timeline": [
+    [
+     1417,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Romania",
+     "regions": [
+      "Tulcea",
+      "Dobruja"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Crimean Khanate (Ottoman vassal from 1475)",
+   "timeline": [
+    [
+     1441,
+     "Crimean Khanate"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Crimea"
+     ]
+    }
+   ],
+   "until": 1782
+  },
+  {
+   "name": "Egypt (Ottoman conquest, 1517)",
+   "timeline": [
+    [
+     1517,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Egypt"
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Syria",
+   "timeline": [
+    [
+     1279,
+     "Mamluke Sultanate"
+    ],
+    [
+     1400,
+     "Timurid Empire"
+    ],
+    [
+     1402,
+     "Mamluke Sultanate"
+    ],
+    [
+     1516,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Syria"
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Lebanon, Israel and Jordan (1516)",
+   "timeline": [
+    [
+     1516,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Lebanon"
+    },
+    {
+     "country": "Israel"
+    },
+    {
+     "country": "Palestine"
+    },
+    {
+     "country": "Jordan"
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Hejaz (1517)",
+   "timeline": [
+    [
+     1517,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Saudi Arabia",
+     "regions": [
+      "Tabuk",
+      "Hegra",
+      "Medina",
+      "Yanbu",
+      "Mecca",
+      "Taif"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Hasa (1550)",
+   "timeline": [
+    [
+     1530,
+     "Arabs"
+    ],
+    [
+     1550,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Saudi Arabia",
+     "regions": [
+      "Qatif",
+      "Hasa"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Asir (1538)",
+   "timeline": [
+    [
+     1530,
+     "Arabs"
+    ],
+    [
+     1538,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Saudi Arabia",
+     "regions": [
+      "Al Bahah",
+      "Asir",
+      "Jizan"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Yemen (1538)",
+   "timeline": [
+    [
+     1530,
+     "Yemen"
+    ],
+    [
+     1538,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Yemen"
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Algiers (1516)",
+   "timeline": [
+    [
+     1516,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Algeria",
+     "regions": [
+      "Algiers",
+      "Titteri",
+      "Dahra",
+      "Kabylie",
+      "Sétif"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Oran (Spanish 1509)",
+   "timeline": [
+    [
+     1509,
+     "Spain"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Algeria",
+     "regions": [
+      "Oran"
+     ]
+    }
+   ],
+   "until": 1707
+  },
+  {
+   "name": "Tlemcen (1555)",
+   "timeline": [
+    [
+     1530,
+     "Zayyanid Caliphate"
+    ],
+    [
+     1555,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Algeria",
+     "regions": [
+      "Tlemcen",
+      "Mascara",
+      "Saïda",
+      "Tiaret"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Tunisia",
+   "timeline": [
+    [
+     1530,
+     "Hafsid Caliphate"
+    ],
+    [
+     1535,
+     "Spain"
+    ],
+    [
+     1574,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Tunisia"
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Tripoli",
+   "timeline": [
+    [
+     1510,
+     "Spain"
+    ],
+    [
+     1530,
+     "Knights Hospitaller"
+    ],
+    [
+     1551,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Libya",
+     "regions": [
+      "Tripoli",
+      "Zawiya"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Western Libya",
+   "timeline": [
+    [
+     1530,
+     "Hafsid Caliphate"
+    ],
+    [
+     1551,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Libya",
+     "regions": [
+      "Zuwara",
+      "Misrata",
+      "Jebel Nafusa",
+      "Sirte",
+      "Jufra"
+     ]
+    }
+   ],
+   "until": 1599
+  },
+  {
+   "name": "Cyrenaica (1517)",
+   "timeline": [
+    [
+     1517,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Libya",
+     "regions": [
+      "Derna",
+      "Jebel Akhdar",
+      "Benghazi",
+      "Tobruk",
+      "Ajdabiya"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Transoxiana (1370)",
+   "timeline": [
+    [
+     1370,
+     "Timurid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Uzbekistan",
+     "regions": [
+      "Samarkand",
+      "Navoi",
+      "Bukhara",
+      "Jizzakh",
+      "Kashkadarya",
+      "Surkhandarya"
+     ]
+    },
+    {
+     "country": "Tajikistan",
+     "regions": [
+      "Zarafshan",
+      "Dushanbe",
+      "Khatlon",
+      "Sughd"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Balkh and the Oxus (1370)",
+   "timeline": [
+    [
+     1370,
+     "Timurid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Afghanistan",
+     "regions": [
+      "Balkh",
+      "Jowzjan",
+      "Baghlan",
+      "Kunduz",
+      "Badakhshan"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Tashkent and Fergana (1380s)",
+   "timeline": [
+    [
+     1380,
+     "Timurid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Uzbekistan",
+     "regions": [
+      "Fergana"
+     ]
+    },
+    {
+     "country": "Kyrgyzstan",
+     "regions": [
+      "Osh",
+      "Talas"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Herat and Khorasan (1381)",
+   "timeline": [
+    [
+     1381,
+     "Timurid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Afghanistan",
+     "regions": [
+      "Herat",
+      "Farah",
+      "Nimruz",
+      "Ghor",
+      "Faryab"
+     ]
+    },
+    {
+     "country": "Turkmenistan",
+     "regions": [
+      "Ashgabat",
+      "Merv"
+     ]
+    },
+    {
+     "country": "Iran",
+     "regions": [
+      "North Khorasan",
+      "Gonbad",
+      "Astarabad",
+      "Shahrud",
+      "Khorasan",
+      "Sabzevar",
+      "Nishapur",
+      "Torbat",
+      "Tabas",
+      "South Khorasan"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Sistan and Kandahar (1383)",
+   "timeline": [
+    [
+     1383,
+     "Timurid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Afghanistan",
+     "regions": [
+      "Kandahar",
+      "Zabul",
+      "Helmand"
+     ]
+    },
+    {
+     "country": "Iran",
+     "regions": [
+      "Sistan",
+      "Zabol",
+      "Baluchestan"
+     ]
+    },
+    {
+     "country": "Pakistan",
+     "regions": [
+      "Zhob",
+      "Balochistan",
+      "Jhalawan",
+      "Makran"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Khwarazm (1388)",
+   "timeline": [
+    [
+     1388,
+     "Timurid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Uzbekistan",
+     "regions": [
+      "Khorezm",
+      "Karakalpakstan"
+     ]
+    },
+    {
+     "country": "Turkmenistan",
+     "regions": [
+      "Khorezm",
+      "Amul",
+      "Balkan",
+      "Atrek",
+      "Caspian Coast"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "Kabul and the Indus (1398)",
+   "timeline": [
+    [
+     1398,
+     "Timurid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Afghanistan",
+     "regions": [
+      "Kabul",
+      "Nangarhar",
+      "Khost",
+      "Paktia",
+      "Ghazni",
+      "Hazarajat",
+      "Uruzgan"
+     ]
+    },
+    {
+     "country": "Pakistan",
+     "regions": [
+      "Peshawar",
+      "Gilgit",
+      "Chitral",
+      "Dera Ghazi Khan"
+     ]
+    }
+   ],
+   "until": 1399
+  },
+  {
+   "name": "North-west Iran",
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1386,
+     "Timurid Empire"
+    ],
+    [
+     1408,
+     "Kara Koyunlu"
+    ],
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1501,
+     "Safavid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Iran",
+     "regions": [
+      "Khoy",
+      "Qaradagh",
+      "Talysh",
+      "Ardabil",
+      "Tabriz",
+      "Urmia",
+      "Maragheh",
+      "Gilan",
+      "Mukriyan",
+      "Zanjan",
+      "Saqqez",
+      "Kurdistan",
+      "Hamadan",
+      "Kermanshah",
+      "Borujerd",
+      "Ilam",
+      "Luristan",
+      "Dezful",
+      "Khuzestan",
+      "Abadan"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Azerbaijan and Armenia",
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1386,
+     "Timurid Empire"
+    ],
+    [
+     1408,
+     "Kara Koyunlu"
+    ],
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1501,
+     "Safavid Empire"
+    ],
+    [
+     1578,
+     "Ottoman Empire"
+    ],
+    [
+     1603,
+     "Safavid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Azerbaijan"
+    },
+    {
+     "country": "Armenia"
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Georgia (Kartli, Kakheti, Samtskhe)",
+   "timeline": [
+    [
+     1386,
+     "Timurid Empire"
+    ],
+    [
+     1403,
+     "Georgia"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Georgia",
+     "regions": [
+      "Kakheti",
+      "Kartli",
+      "Samtskhe",
+      "Shida Kartli"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Central and southern Iran",
+   "timeline": [
+    [
+     1336,
+     "Muzaffarid dynasty"
+    ],
+    [
+     1393,
+     "Timurid Empire"
+    ],
+    [
+     1452,
+     "Kara Koyunlu"
+    ],
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1501,
+     "Safavid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Iran",
+     "regions": [
+      "Mazandaran",
+      "Tabarestan",
+      "Qazvin",
+      "Alborz",
+      "Tehran",
+      "Semnan",
+      "Saveh",
+      "Qom",
+      "Arak",
+      "Kashan",
+      "Nain",
+      "Isfahan",
+      "Bakhtiari",
+      "Ardakan",
+      "Yazd",
+      "Kohgiluyeh",
+      "Behbahan",
+      "Rafsanjan",
+      "Fars",
+      "Sirjan",
+      "Bushehr",
+      "Jiroft",
+      "Jahrom",
+      "Laristan",
+      "Hormozgan",
+      "Lengeh"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Kerman",
+   "timeline": [
+    [
+     1336,
+     "Muzaffarid dynasty"
+    ],
+    [
+     1393,
+     "Timurid Empire"
+    ],
+    [
+     1452,
+     "Kara Koyunlu"
+    ],
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1503,
+     "Safavid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Iran",
+     "regions": [
+      "Kerman",
+      "Bam"
+     ]
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Iraq",
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1393,
+     "Timurid Empire"
+    ],
+    [
+     1405,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1410,
+     "Kara Koyunlu"
+    ],
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ],
+    [
+     1508,
+     "Safavid Empire"
+    ],
+    [
+     1534,
+     "Ottoman Empire"
+    ],
+    [
+     1623,
+     "Safavid Empire"
+    ],
+    [
+     1638,
+     "Ottoman Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Iraq"
+    },
+    {
+     "country": "Kuwait"
+    }
+   ],
+   "until": 1699
+  },
+  {
+   "name": "Tashkent (Moghulistan, 1485)",
+   "timeline": [
+    [
+     1380,
+     "Timurid Empire"
+    ],
+    [
+     1485,
+     "Chagatai Khanate"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Uzbekistan",
+     "regions": [
+      "Tashkent"
+     ]
+    }
+   ],
+   "until": 1491
+  },
+  {
+   "name": "Herat to the Uzbeks and Safavids (1507-1510)",
+   "timeline": [
+    [
+     1507,
+     "Khiva Khanate"
+    ],
+    [
+     1510,
+     "Safavid Empire"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Afghanistan",
+     "regions": [
+      "Herat",
+      "Farah",
+      "Nimruz",
+      "Ghor",
+      "Faryab"
+     ]
+    },
+    {
+     "country": "Turkmenistan",
+     "regions": [
+      "Ashgabat",
+      "Merv"
+     ]
+    },
+    {
+     "country": "Iran",
+     "regions": [
+      "North Khorasan",
+      "Gonbad",
+      "Astarabad",
+      "Shahrud",
+      "Khorasan",
+      "Sabzevar",
+      "Nishapur",
+      "Torbat",
+      "Tabas",
+      "South Khorasan"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Transoxiana: Timurid until the Uzbek conquest (1500)",
+   "timeline": [
+    [
+     1492,
+     "Timurid Empire"
+    ],
+    [
+     1500,
+     "Khiva Khanate"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Uzbekistan",
+     "regions": [
+      "Samarkand",
+      "Jizzakh"
+     ]
+    },
+    {
+     "country": "Tajikistan",
+     "regions": [
+      "Zarafshan",
+      "Dushanbe",
+      "Khatlon",
+      "Sughd",
+      "Badakhshan"
+     ]
+    }
+   ],
+   "until": 1529
+  },
+  {
+   "name": "Fergana (Babur, until 1503)",
+   "timeline": [
+    [
+     1492,
+     "Timurid Empire"
+    ],
+    [
+     1503,
+     "Khiva Khanate"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Uzbekistan",
+     "regions": [
+      "Fergana"
+     ]
+    },
+    {
+     "country": "Kyrgyzstan",
+     "regions": [
+      "Osh"
+     ]
+    }
+   ],
+   "until": 1529
+  }
+ ]
+}

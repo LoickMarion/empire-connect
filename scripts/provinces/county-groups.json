@@ -1,0 +1,24 @@
+{
+  "Northern Isles":      { "country": "Scotland", "counties": ["Orkney", "Shetland"], "city": ["Kirkwall", 58.981, -2.96] },
+  "Northern Highlands":  { "country": "Scotland", "counties": ["Caithness", "Sutherland", "Ross-shire", "Cromartyshire"], "city": ["Dingwall", 57.597, -4.425] },
+  "Central Highlands":   { "country": "Scotland", "counties": ["Inverness-shire", "Nairnshire", "Morayshire"], "city": ["Inverness", 57.478, -4.224] },
+  "North East Scotland": { "country": "Scotland", "counties": ["Aberdeenshire", "Banffshire", "Kincardineshire"], "city": ["Aberdeen", 57.15, -2.094] },
+  "Tayside":             { "country": "Scotland", "counties": ["Perthshire", "Angus", "Kinross-shire"], "city": ["Dundee", 56.462, -2.971] },
+  "Fife and Forth":      { "country": "Scotland", "counties": ["Fife", "Clackmannanshire", "Stirlingshire"], "city": ["Stirling", 56.116, -3.936] },
+  "Argyll and the Isles": { "country": "Scotland", "counties": ["Argyllshire", "Buteshire", "Dunbartonshire"], "city": ["Oban", 56.415, -5.472] },
+  "The Lothians":        { "country": "Scotland", "counties": ["Midlothian", "East Lothian", "West Lothian", "Peeblesshire"], "city": ["Edinburgh", 55.953, -3.189] },
+  "Clydeside":           { "country": "Scotland", "counties": ["Lanarkshire", "Renfrewshire", "Ayrshire"], "city": ["Glasgow", 55.861, -4.25] },
+  "Borders and Galloway": { "country": "Scotland", "counties": ["Berwickshire", "Roxburghshire", "Selkirkshire", "Dumfriesshire", "Kirkcudbrightshire", "Wigtownshire"], "city": ["Dumfries", 55.071, -3.605] },
+
+  "North West Ireland":  { "country": "Ireland", "counties": ["Donegal", "Leitrim", "Sligo"], "city": ["Sligo", 54.267, -8.469] },
+  "Connacht":            { "country": "Ireland", "counties": ["Mayo", "Galway", "Roscommon"], "city": ["Galway", 53.28, -9.03] },
+  "Mid-West Ireland":    { "country": "Ireland", "counties": ["Clare", "Limerick", "Tipperary"], "city": ["Limerick", 52.668, -8.627] },
+  "South West Ireland":  { "country": "Ireland", "counties": ["Kerry", "Cork"], "city": ["Cork", 51.898, -8.471] },
+  "South East Ireland":  { "country": "Ireland", "counties": ["Waterford", "Wexford", "Kilkenny", "Carlow"], "city": ["Kilkenny", 52.654, -7.245] },
+  "Greater Dublin":      { "country": "Ireland", "counties": ["Dublin", "Wicklow", "Kildare"], "city": ["Dublin", 53.35, -6.26] },
+  "North East Ireland":  { "country": "Ireland", "counties": ["Meath", "Louth", "Cavan", "Monaghan"], "city": ["Dundalk", 54.0, -6.416] },
+  "Irish Midlands":      { "country": "Ireland", "counties": ["Laois", "Offaly", "Westmeath", "Longford"], "city": ["Tullamore", 53.274, -7.489] },
+
+  "East Northern Ireland": { "country": "Northern Ireland", "counties": ["Antrim", "Down"], "city": ["Belfast", 54.597, -5.93] },
+  "West Northern Ireland": { "country": "Northern Ireland", "counties": ["Londonderry", "Tyrone", "Fermanagh", "Armagh"], "city": ["Derry", 54.997, -7.309] }
+}

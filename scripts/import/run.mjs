@@ -1,15 +1,17 @@
-// Orchestrates the full import pipeline: npm run import-data
+// Orchestrates the full data pipeline: npm run import-data
 import { execFileSync } from 'node:child_process'
 
 const STEPS = [
-  '01-fetch-wikidata-cities.mjs',
-  '02-fetch-wikidata-holdings.mjs',
-  '03-fetch-borders.mjs',
-  '04-simplify-borders.mjs',
-  '05-build-sqlite.mjs',
+  'import/01-fetch-wikidata-cities.mjs', // historic cities; they win province-city selection
+  'import/03-fetch-borders.mjs',
+  'provinces/00-fetch-historic-counties.mjs',
+  'provinces/00-fetch-german-districts.mjs',
+  'provinces/01-generate-provinces.mjs',
+  'provinces/02-assign-cities-and-occupation.mjs',
+  'provinces/03-build-outputs.mjs',
 ]
 
 for (const step of STEPS) {
   console.log(`\n=== ${step} ===`)
-  execFileSync('node', [new URL(step, import.meta.url).pathname], { stdio: 'inherit' })
+  execFileSync('node', [new URL(`../${step}`, import.meta.url).pathname], { stdio: 'inherit' })
 }

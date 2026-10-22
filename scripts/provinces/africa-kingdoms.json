@@ -1,0 +1,1963 @@
+{
+ "_comment": "Africa between roughly 800 and 1900. Groups with 'relabel' swap a catch-all people label for a better one (same dates); the others are dated timelines like napoleonic-conquests.json. Dates are approximate.",
+ "groups": [
+  {
+   "name": "Wolof peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Wolof peoples"
+   },
+   "provinces": [
+    "Senegal/Waalo",
+    "Senegal/Baol",
+    "Senegal/Cayor",
+    "Senegal/Jolof",
+    "Senegal/Saloum"
+   ]
+  },
+  {
+   "name": "Mande peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Mande peoples"
+   },
+   "provinces": [
+    "Gambia/Gambia",
+    "Senegal/Haut Sénégal",
+    "Senegal/Haute Casamance",
+    "Senegal/Casamance",
+    "Mali/Kayes",
+    "Mali/Segou",
+    "Mali/Bamako",
+    "Mali/Sikasso",
+    "Guinea/Haute Guinée",
+    "Guinea/Faranah",
+    "Guinea/Guinée Forestière",
+    "Guinea/Kindia",
+    "Guinea/Rio Nunez",
+    "Guinea/Conakry",
+    "Guinea-Bissau/Gabú",
+    "Guinea-Bissau/Bissau",
+    "Ivory Coast/Denguélé",
+    "Ivory Coast/Man",
+    "Sierra Leone/Makeni",
+    "Sierra Leone/Freetown",
+    "Sierra Leone/Mende Country",
+    "Sierra Leone/Kenema",
+    "Liberia/Lofa",
+    "Liberia/Bong"
+   ]
+  },
+  {
+   "name": "Fulani (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Fulani"
+   },
+   "provinces": [
+    "Senegal/Fouta Toro",
+    "Guinea/Fouta Djallon"
+   ]
+  },
+  {
+   "name": "Gur peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Gur peoples"
+   },
+   "provinces": [
+    "Burkina Faso/Yatenga",
+    "Burkina Faso/Mossi",
+    "Burkina Faso/Gurma",
+    "Burkina Faso/Bobo",
+    "Burkina Faso/Lobi",
+    "Ghana/Upper East",
+    "Ghana/Upper West",
+    "Ghana/Dagomba",
+    "Ghana/Gonja",
+    "Togo/Savanes",
+    "Togo/Kara",
+    "Togo/Centrale",
+    "Ivory Coast/Senufo",
+    "Benin/Kandi",
+    "Benin/Atakora",
+    "Benin/Borgu"
+   ]
+  },
+  {
+   "name": "Akan peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Akan peoples"
+   },
+   "provinces": [
+    "Ghana/Bono",
+    "Ghana/Ashanti",
+    "Ghana/Akim",
+    "Ghana/Accra",
+    "Ghana/Fante",
+    "Ghana/Western Ghana",
+    "Ivory Coast/Zanzan",
+    "Ivory Coast/Bouaké",
+    "Ivory Coast/Baoulé",
+    "Ivory Coast/Indénié",
+    "Ivory Coast/Abidjan",
+    "Ivory Coast/Sassandra",
+    "Ivory Coast/Daloa"
+   ]
+  },
+  {
+   "name": "Ewe peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Ewe peoples"
+   },
+   "provinces": [
+    "Ghana/Volta",
+    "Togo/Plateaux",
+    "Togo/Maritime Togo",
+    "Benin/Dahomey",
+    "Benin/Popo",
+    "Benin/Whydah",
+    "Benin/Ajase"
+   ]
+  },
+  {
+   "name": "Kru peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Kru peoples"
+   },
+   "provinces": [
+    "Liberia/Grand Gedeh",
+    "Liberia/Grand Bassa",
+    "Liberia/Maryland",
+    "Liberia/Montserrado"
+   ]
+  },
+  {
+   "name": "Yoruba peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Yoruba peoples"
+   },
+   "provinces": [
+    "Nigeria/Oyo",
+    "Nigeria/Egba",
+    "Nigeria/Lagos",
+    "Nigeria/Ekiti",
+    "Nigeria/Ilorin",
+    "Nigeria/Ife",
+    "Nigeria/Ijebu"
+   ]
+  },
+  {
+   "name": "Igbo peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Igbo peoples"
+   },
+   "provinces": [
+    "Nigeria/Igboland",
+    "Nigeria/Anambra"
+   ]
+  },
+  {
+   "name": "Hausa peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Hausa peoples"
+   },
+   "provinces": [
+    "Nigeria/Sokoto",
+    "Nigeria/Katsina",
+    "Nigeria/Kebbi",
+    "Nigeria/Zamfara",
+    "Nigeria/Kano",
+    "Nigeria/Kaduna",
+    "Nigeria/Bauchi",
+    "Niger/Maradi",
+    "Niger/Damagaram",
+    "Niger/Tahoua"
+   ]
+  },
+  {
+   "name": "Nupe peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Nupe peoples"
+   },
+   "provinces": [
+    "Nigeria/Nupe",
+    "Nigeria/Abuja",
+    "Nigeria/Niger-Benue"
+   ]
+  },
+  {
+   "name": "Benue peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Benue peoples"
+   },
+   "provinces": [
+    "Nigeria/Plateau",
+    "Nigeria/Gombe",
+    "Nigeria/Adamawa",
+    "Nigeria/Taraba",
+    "Nigeria/Benue",
+    "Nigeria/Jukun"
+   ]
+  },
+  {
+   "name": "Kanuri peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Kanuri peoples"
+   },
+   "provinces": [
+    "Nigeria/Borno"
+   ]
+  },
+  {
+   "name": "Chadic peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Chadic peoples"
+   },
+   "provinces": [
+    "Cameroon/Far North",
+    "Cameroon/North Cameroon"
+   ]
+  },
+  {
+   "name": "Sara peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Sara peoples"
+   },
+   "select": [
+    {
+     "country": "Chad",
+     "box": [
+      14,
+      22,
+      8,
+      11.5
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ubangian peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Ubangian peoples"
+   },
+   "select": [
+    {
+     "country": "Central African Republic"
+    }
+   ]
+  },
+  {
+   "name": "Nilotic peoples (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Nilotic peoples"
+   },
+   "select": [
+    {
+     "country": "South Sudan"
+    },
+    {
+     "country": "Sudan",
+     "box": [
+      22,
+      36,
+      9,
+      15.5
+     ]
+    },
+    {
+     "country": "Kenya",
+     "regions": [
+      "Turkana"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cushites (label)",
+   "relabel": {
+    "from": [
+     "West African cereal farmers",
+     "Bantu",
+     "Kushites",
+     "Azandes",
+     "Khoisan"
+    ],
+    "to": "Cushites"
+   },
+   "provinces": [
+    "Somalia/Bari",
+    "Somalia/Berbera",
+    "Somalia/Awdal",
+    "Somalia/Somaliland",
+    "Somalia/Togdheer",
+    "Somalia/Sool",
+    "Somalia/Nugal",
+    "Somalia/Mudug",
+    "Somalia/Hobyo",
+    "Somalia/Hiraan",
+    "Somalia/Gedo",
+    "Somalia/Bay",
+    "Somalia/Middle Shabelle",
+    "Somalia/Benadir",
+    "Somalia/Jubaland",
+    "Somalia/Sanaag",
+    "Somalia/Galgaduud",
+    "Somalia/Zeila",
+    "Somalia/Lower Shabelle",
+    "Somalia/Barawa",
+    "Ethiopia/Jijiga",
+    "Ethiopia/Harar",
+    "Ethiopia/Ogaden",
+    "Ethiopia/Borana",
+    "Ethiopia/Bale",
+    "Ethiopia/Gamo",
+    "Ethiopia/Sidamo",
+    "Ethiopia/Arsi",
+    "Ethiopia/Afar",
+    "Ethiopia/Dire Dawa",
+    "Djibouti/Djibouti",
+    "Kenya/Mandera",
+    "Kenya/Marsabit",
+    "Kenya/Wajir"
+   ]
+  },
+  {
+   "name": "Ethiopian highland farmers (label)",
+   "relabel": {
+    "from": "West African cereal farmers",
+    "to": "Ethiopian highland farmers"
+   },
+   "provinces": [
+    "Ethiopia/Axum",
+    "Ethiopia/Tigray",
+    "Ethiopia/Begemder",
+    "Ethiopia/Lasta",
+    "Ethiopia/Gojjam",
+    "Ethiopia/Wollo",
+    "Ethiopia/Shewa",
+    "Ethiopia/Arsi"
+   ]
+  },
+  {
+   "name": "Waalo",
+   "until": 1879,
+   "timeline": [
+    [
+     800,
+     "Takrur"
+    ],
+    [
+     1286,
+     "Kingdom of Waalo"
+    ],
+    [
+     1350,
+     "Jolof Empire"
+    ],
+    [
+     1550,
+     "Kingdom of Waalo"
+    ]
+   ],
+   "provinces": [
+    "Senegal/Waalo"
+   ]
+  },
+  {
+   "name": "Cayor",
+   "until": 1879,
+   "timeline": [
+    [
+     1350,
+     "Jolof Empire"
+    ],
+    [
+     1550,
+     "Kingdom of Cayor"
+    ]
+   ],
+   "provinces": [
+    "Senegal/Cayor"
+   ]
+  },
+  {
+   "name": "Baol",
+   "until": 1879,
+   "timeline": [
+    [
+     1350,
+     "Jolof Empire"
+    ],
+    [
+     1550,
+     "Kingdom of Baol"
+    ]
+   ],
+   "provinces": [
+    "Senegal/Baol"
+   ]
+  },
+  {
+   "name": "Jolof",
+   "until": 1889,
+   "timeline": [
+    [
+     1350,
+     "Jolof Empire"
+    ],
+    [
+     1550,
+     "Kingdom of Jolof"
+    ]
+   ],
+   "provinces": [
+    "Senegal/Jolof"
+   ]
+  },
+  {
+   "name": "Saloum",
+   "until": 1879,
+   "timeline": [
+    [
+     1350,
+     "Mali"
+    ],
+    [
+     1494,
+     "Kingdom of Saloum"
+    ]
+   ],
+   "provinces": [
+    "Senegal/Saloum"
+   ]
+  },
+  {
+   "name": "Fouta Toro",
+   "until": 1889,
+   "timeline": [
+    [
+     800,
+     "Takrur"
+    ],
+    [
+     1286,
+     "Mali"
+    ],
+    [
+     1350,
+     "Jolof Empire"
+    ],
+    [
+     1500,
+     "Denianke Kingdom"
+    ],
+    [
+     1776,
+     "Imamate of Futa Toro"
+    ],
+    [
+     1861,
+     "Toucouleur Empire"
+    ]
+   ],
+   "provinces": [
+    "Senegal/Fouta Toro"
+   ]
+  },
+  {
+   "name": "Kaabu",
+   "until": 1866,
+   "timeline": [
+    [
+     1235,
+     "Mali"
+    ],
+    [
+     1537,
+     "Kaabu Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Senegal/Haute Casamance",
+    "Senegal/Casamance",
+    "Guinea-Bissau/Gabú",
+    "Guinea-Bissau/Bissau",
+    "Gambia/Gambia"
+   ]
+  },
+  {
+   "name": "Mali heartland",
+   "until": 1299,
+   "timeline": [
+    [
+     1235,
+     "Mali"
+    ]
+   ],
+   "provinces": [
+    "Mali/Kayes",
+    "Mali/Bamako",
+    "Mali/Segou"
+   ]
+  },
+  {
+   "name": "Bamana Empire",
+   "until": 1889,
+   "timeline": [
+    [
+     1712,
+     "Bamana Empire"
+    ],
+    [
+     1861,
+     "Toucouleur Empire"
+    ]
+   ],
+   "provinces": [
+    "Mali/Segou",
+    "Mali/Bamako"
+   ]
+  },
+  {
+   "name": "Macina",
+   "until": 1889,
+   "timeline": [
+    [
+     1712,
+     "Bamana Empire"
+    ],
+    [
+     1818,
+     "Massina Empire"
+    ],
+    [
+     1862,
+     "Toucouleur Empire"
+    ]
+   ],
+   "provinces": [
+    "Mali/Macina"
+   ]
+  },
+  {
+   "name": "Kenedugu",
+   "until": 1889,
+   "timeline": [
+    [
+     1235,
+     "Mali"
+    ],
+    [
+     1650,
+     "Kenedugu Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Mali/Sikasso"
+   ]
+  },
+  {
+   "name": "Futa Jallon",
+   "until": 1889,
+   "timeline": [
+    [
+     1235,
+     "Mali"
+    ],
+    [
+     1727,
+     "Imamate of Futa Jallon"
+    ]
+   ],
+   "provinces": [
+    "Guinea/Fouta Djallon",
+    "Guinea/Kindia"
+   ]
+  },
+  {
+   "name": "Wassoulou",
+   "until": 1897,
+   "timeline": [
+    [
+     1878,
+     "Wassoulou Empire"
+    ]
+   ],
+   "provinces": [
+    "Guinea/Haute Guinée",
+    "Guinea/Faranah",
+    "Guinea/Guinée Forestière",
+    "Ivory Coast/Denguélé"
+   ]
+  },
+  {
+   "name": "Aïr",
+   "until": 1899,
+   "timeline": [
+    [
+     1449,
+     "Sultanate of Aïr"
+    ]
+   ],
+   "provinces": [
+    "Niger/Aïr"
+   ]
+  },
+  {
+   "name": "Damagaram",
+   "until": 1879,
+   "timeline": [
+    [
+     1731,
+     "Sultanate of Damagaram"
+    ]
+   ],
+   "provinces": [
+    "Niger/Damagaram"
+   ]
+  },
+  {
+   "name": "Dagbon",
+   "until": 1894,
+   "timeline": [
+    [
+     1400,
+     "Dagbon Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Dagomba"
+   ]
+  },
+  {
+   "name": "Mamprugu",
+   "until": 1894,
+   "timeline": [
+    [
+     1400,
+     "Mamprugu Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Upper East"
+   ]
+  },
+  {
+   "name": "Wala",
+   "until": 1894,
+   "timeline": [
+    [
+     1600,
+     "Wala Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Upper West"
+   ]
+  },
+  {
+   "name": "Gonja",
+   "until": 1894,
+   "timeline": [
+    [
+     1550,
+     "Gonja Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Gonja"
+   ]
+  },
+  {
+   "name": "Bono and Asante",
+   "until": 1879,
+   "timeline": [
+    [
+     1450,
+     "Bono State"
+    ],
+    [
+     1740,
+     "Asante"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Bono"
+   ]
+  },
+  {
+   "name": "Kumasi",
+   "until": 1879,
+   "timeline": [
+    [
+     1600,
+     "Denkyira"
+    ],
+    [
+     1701,
+     "Asante"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Ashanti"
+   ]
+  },
+  {
+   "name": "Akim",
+   "until": 1879,
+   "timeline": [
+    [
+     1600,
+     "Kingdom of Akyem"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Akim"
+   ]
+  },
+  {
+   "name": "Volta",
+   "until": 1879,
+   "timeline": [
+    [
+     1600,
+     "Akwamu"
+    ],
+    [
+     1730,
+     "Ewe peoples"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Volta"
+   ]
+  },
+  {
+   "name": "Accra",
+   "until": 1879,
+   "timeline": [
+    [
+     1500,
+     "Ga Kingdom"
+    ],
+    [
+     1677,
+     "Akwamu"
+    ],
+    [
+     1730,
+     "Ga Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Accra"
+   ]
+  },
+  {
+   "name": "Fante coast",
+   "until": 1879,
+   "timeline": [
+    [
+     1500,
+     "Kingdom of Fetu"
+    ],
+    [
+     1700,
+     "Fante Confederacy"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Fante"
+   ]
+  },
+  {
+   "name": "Ahanta",
+   "until": 1879,
+   "timeline": [
+    [
+     1500,
+     "Ahanta Kingdom"
+    ],
+    [
+     1700,
+     "Fante Confederacy"
+    ]
+   ],
+   "provinces": [
+    "Ghana/Western Ghana"
+   ]
+  },
+  {
+   "name": "Gyaman",
+   "until": 1893,
+   "timeline": [
+    [
+     1690,
+     "Kingdom of Gyaman"
+    ]
+   ],
+   "provinces": [
+    "Ivory Coast/Zanzan"
+   ]
+  },
+  {
+   "name": "Kong",
+   "until": 1893,
+   "timeline": [
+    [
+     1710,
+     "Kong Empire"
+    ]
+   ],
+   "provinces": [
+    "Ivory Coast/Senufo"
+   ]
+  },
+  {
+   "name": "Baoule",
+   "until": 1893,
+   "timeline": [
+    [
+     1730,
+     "Baoulé Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Ivory Coast/Bouaké",
+    "Ivory Coast/Baoulé"
+   ]
+  },
+  {
+   "name": "Indenie",
+   "until": 1893,
+   "timeline": [
+    [
+     1740,
+     "Kingdom of Indénié"
+    ]
+   ],
+   "provinces": [
+    "Ivory Coast/Indénié"
+   ]
+  },
+  {
+   "name": "Dahomey",
+   "until": 1893,
+   "timeline": [
+    [
+     1000,
+     "Ewe peoples"
+    ],
+    [
+     1600,
+     "Dahomey"
+    ]
+   ],
+   "provinces": [
+    "Benin/Dahomey"
+   ]
+  },
+  {
+   "name": "Allada",
+   "until": 1893,
+   "timeline": [
+    [
+     1000,
+     "Ewe peoples"
+    ],
+    [
+     1575,
+     "Kingdom of Allada"
+    ],
+    [
+     1724,
+     "Dahomey"
+    ]
+   ],
+   "provinces": [
+    "Benin/Popo"
+   ]
+  },
+  {
+   "name": "Whydah",
+   "until": 1893,
+   "timeline": [
+    [
+     1000,
+     "Ewe peoples"
+    ],
+    [
+     1580,
+     "Kingdom of Whydah"
+    ],
+    [
+     1727,
+     "Dahomey"
+    ]
+   ],
+   "provinces": [
+    "Benin/Whydah"
+   ]
+  },
+  {
+   "name": "Porto-Novo",
+   "until": 1893,
+   "timeline": [
+    [
+     1000,
+     "Ewe peoples"
+    ],
+    [
+     1688,
+     "Kingdom of Porto-Novo"
+    ]
+   ],
+   "provinces": [
+    "Benin/Ajase"
+   ]
+  },
+  {
+   "name": "Borgu",
+   "until": 1879,
+   "timeline": [
+    [
+     1450,
+     "Borgu Kingdoms"
+    ]
+   ],
+   "provinces": [
+    "Benin/Borgu"
+   ]
+  },
+  {
+   "name": "Kano",
+   "until": 1806,
+   "timeline": [
+    [
+     1000,
+     "Kano Sultanate"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Kano"
+   ]
+  },
+  {
+   "name": "Katsina",
+   "until": 1806,
+   "timeline": [
+    [
+     1100,
+     "Katsina Sultanate"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Katsina"
+   ]
+  },
+  {
+   "name": "Gobir",
+   "until": 1808,
+   "timeline": [
+    [
+     1000,
+     "Kingdom of Gobir"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Sokoto"
+   ]
+  },
+  {
+   "name": "Zamfara",
+   "until": 1805,
+   "timeline": [
+    [
+     1000,
+     "Kingdom of Zamfara"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Zamfara"
+   ]
+  },
+  {
+   "name": "Kebbi",
+   "until": 1805,
+   "timeline": [
+    [
+     1516,
+     "Kingdom of Kebbi"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Kebbi"
+   ]
+  },
+  {
+   "name": "Nupe",
+   "until": 1805,
+   "timeline": [
+    [
+     1531,
+     "Nupe Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Nupe"
+   ]
+  },
+  {
+   "name": "Kwararafa",
+   "until": 1799,
+   "timeline": [
+    [
+     1500,
+     "Kwararafa"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Jukun"
+   ]
+  },
+  {
+   "name": "Nri",
+   "until": 1910,
+   "timeline": [
+    [
+     948,
+     "Kingdom of Nri"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Igboland"
+   ]
+  },
+  {
+   "name": "Old Oyo",
+   "until": 1835,
+   "timeline": [
+    [
+     1300,
+     "Oyo"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Ilorin"
+   ]
+  },
+  {
+   "name": "Ife",
+   "until": 1835,
+   "timeline": [
+    [
+     1000,
+     "Kingdom of Ife"
+    ],
+    [
+     1500,
+     "Oyo"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Ife"
+   ]
+  },
+  {
+   "name": "Ijebu",
+   "until": 1879,
+   "timeline": [
+    [
+     1400,
+     "Ijebu Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Ijebu"
+   ]
+  },
+  {
+   "name": "Calabar",
+   "until": 1879,
+   "timeline": [
+    [
+     1600,
+     "Efik Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Calabar"
+   ]
+  },
+  {
+   "name": "Axum in Himyar",
+   "until": 570,
+   "timeline": [
+    [
+     525,
+     "Axum"
+    ]
+   ],
+   "provinces": [
+    "Yemen/Tihamah",
+    "Yemen/Hajjah",
+    "Yemen/Sanaa",
+    "Yemen/Ibb",
+    "Yemen/Taiz",
+    "Yemen/Aden",
+    "Yemen/Abyan",
+    "Yemen/Bayda",
+    "Yemen/Marib",
+    "Yemen/Saada",
+    "Yemen/Jawf"
+   ]
+  },
+  {
+   "name": "Zagwe dynasty",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "Axum"
+    ],
+    [
+     1137,
+     "Zagwe dynasty"
+    ],
+    [
+     1270,
+     "Ethiopia"
+    ]
+   ],
+   "provinces": [
+    "Ethiopia/Axum",
+    "Ethiopia/Tigray",
+    "Ethiopia/Begemder",
+    "Ethiopia/Lasta",
+    "Ethiopia/Gojjam",
+    "Ethiopia/Wollo",
+    "Ethiopia/Benishangul",
+    "Ethiopia/Wollega",
+    "Eritrea/Massawa",
+    "Eritrea/Hamasien",
+    "Eritrea/Gash-Barka",
+    "Eritrea/Keren"
+   ]
+  },
+  {
+   "name": "Awsa",
+   "until": 1649,
+   "timeline": [
+    [
+     1285,
+     "Ifat"
+    ],
+    [
+     1415,
+     "Adal"
+    ],
+    [
+     1577,
+     "Awsa"
+    ]
+   ],
+   "provinces": [
+    "Ethiopia/Afar"
+   ]
+  },
+  {
+   "name": "Harar plateau",
+   "until": 1874,
+   "timeline": [
+    [
+     1285,
+     "Ifat"
+    ],
+    [
+     1415,
+     "Adal"
+    ],
+    [
+     1647,
+     "Emirate of Harar"
+    ]
+   ],
+   "provinces": [
+    "Ethiopia/Harar",
+    "Ethiopia/Jijiga",
+    "Ethiopia/Dire Dawa"
+   ]
+  },
+  {
+   "name": "Zeila coast",
+   "until": 1879,
+   "timeline": [
+    [
+     900,
+     "Sultanate of Zeila"
+    ],
+    [
+     1285,
+     "Ifat"
+    ],
+    [
+     1415,
+     "Adal"
+    ],
+    [
+     1577,
+     "Somali clans"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Zeila",
+    "Somalia/Awdal",
+    "Djibouti/Djibouti"
+   ]
+  },
+  {
+   "name": "Isaaq coast",
+   "until": 1879,
+   "timeline": [
+    [
+     1415,
+     "Adal"
+    ],
+    [
+     1578,
+     "Somali clans"
+    ],
+    [
+     1750,
+     "Isaaq Sultanate"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Berbera",
+    "Somalia/Somaliland",
+    "Somalia/Togdheer"
+   ]
+  },
+  {
+   "name": "Adal conquest of Ethiopia",
+   "until": 1576,
+   "timeline": [
+    [
+     1531,
+     "Adal"
+    ],
+    [
+     1543,
+     "Ethiopia"
+    ]
+   ],
+   "provinces": [
+    "Ethiopia/Shewa",
+    "Ethiopia/Wollo",
+    "Ethiopia/Lasta",
+    "Ethiopia/Begemder"
+   ]
+  },
+  {
+   "name": "Adal south",
+   "until": 1576,
+   "timeline": [
+    [
+     1415,
+     "Adal"
+    ]
+   ],
+   "provinces": [
+    "Ethiopia/Bale",
+    "Ethiopia/Sidamo",
+    "Ethiopia/Arsi",
+    "Somalia/Sool"
+   ]
+  },
+  {
+   "name": "Warsangali",
+   "until": 1884,
+   "timeline": [
+    [
+     1218,
+     "Warsangali Sultanate"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Sanaag"
+   ]
+  },
+  {
+   "name": "Majeerteen",
+   "until": 1879,
+   "timeline": [
+    [
+     1750,
+     "Majeerteen Sultanate"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Bari",
+    "Somalia/Nugal"
+   ]
+  },
+  {
+   "name": "Mogadishu",
+   "until": 1839,
+   "timeline": [
+    [
+     900,
+     "Sultanate of Mogadishu"
+    ],
+    [
+     1500,
+     "Ajuran Sultanate"
+    ],
+    [
+     1700,
+     "Sultanate of Geledi"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Benadir"
+   ]
+  },
+  {
+   "name": "Lower Shabelle",
+   "until": 1839,
+   "timeline": [
+    [
+     1300,
+     "Ajuran Sultanate"
+    ],
+    [
+     1700,
+     "Sultanate of Geledi"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Lower Shabelle",
+    "Somalia/Middle Shabelle",
+    "Somalia/Barawa"
+   ]
+  },
+  {
+   "name": "Ajuran",
+   "until": 1699,
+   "timeline": [
+    [
+     1300,
+     "Ajuran Sultanate"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Hiraan",
+    "Somalia/Bay",
+    "Somalia/Jubaland",
+    "Somalia/Gedo"
+   ]
+  },
+  {
+   "name": "Marehan",
+   "until": 1879,
+   "timeline": [
+    [
+     1300,
+     "Ajuran Sultanate"
+    ],
+    [
+     1700,
+     "Marehan"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Galgaduud"
+   ]
+  },
+  {
+   "name": "Marehan Gedo",
+   "until": 1814,
+   "timeline": [
+    [
+     1700,
+     "Marehan"
+    ]
+   ],
+   "provinces": [
+    "Somalia/Gedo"
+   ]
+  },
+  {
+   "name": "Ogaden clan",
+   "until": 1879,
+   "timeline": [
+    [
+     1650,
+     "Ogaden clan"
+    ]
+   ],
+   "provinces": [
+    "Ethiopia/Ogaden"
+   ]
+  },
+  {
+   "name": "Kongo heartland",
+   "until": 1913,
+   "timeline": [
+    [
+     1000,
+     "Mpemba"
+    ],
+    [
+     1390,
+     "Kingdom of Kongo"
+    ],
+    [
+     1858,
+     "Kongo (Portugal)"
+    ]
+   ],
+   "provinces": [
+    "Angola/Mbanza Kongo"
+   ]
+  },
+  {
+   "name": "Soyo",
+   "until": 1913,
+   "timeline": [
+    [
+     1000,
+     "Soyo"
+    ],
+    [
+     1390,
+     "Kingdom of Kongo"
+    ],
+    [
+     1636,
+     "Soyo"
+    ],
+    [
+     1858,
+     "Kongo (Portugal)"
+    ]
+   ],
+   "provinces": [
+    "Angola/Soyo"
+   ]
+  },
+  {
+   "name": "Ngoyo",
+   "until": 1884,
+   "timeline": [
+    [
+     800,
+     "Ngoyo"
+    ]
+   ],
+   "provinces": [
+    "Angola/Cabinda"
+   ]
+  },
+  {
+   "name": "Loango",
+   "until": 1883,
+   "timeline": [
+    [
+     1500,
+     "Kingdom of Loango"
+    ]
+   ],
+   "provinces": [
+    "Republic of the Congo/Loango",
+    "Republic of the Congo/Niari",
+    "Gabon/Orungu"
+   ]
+  },
+  {
+   "name": "Teke",
+   "until": 1879,
+   "timeline": [
+    [
+     1400,
+     "Teke"
+    ]
+   ],
+   "provinces": [
+    "Republic of the Congo/Brazzaville"
+   ]
+  },
+  {
+   "name": "Luanda",
+   "until": 1879,
+   "timeline": [
+    [
+     1390,
+     "Kingdom of Kongo"
+    ],
+    [
+     1575,
+     "Angola (Portugal)"
+    ]
+   ],
+   "provinces": [
+    "Angola/Luanda"
+   ]
+  },
+  {
+   "name": "Ndongo and Matamba",
+   "until": 1879,
+   "timeline": [
+    [
+     1515,
+     "Kingdom of Ndongo"
+    ],
+    [
+     1672,
+     "Kingdom of Matamba"
+    ],
+    [
+     1741,
+     "Angola (Portugal)"
+    ]
+   ],
+   "provinces": [
+    "Angola/Malanje"
+   ]
+  },
+  {
+   "name": "Benguela",
+   "until": 1879,
+   "timeline": [
+    [
+     1617,
+     "Angola (Portugal)"
+    ]
+   ],
+   "provinces": [
+    "Angola/Benguela"
+   ]
+  },
+  {
+   "name": "Lunda",
+   "until": 1879,
+   "timeline": [
+    [
+     1665,
+     "Lunda"
+    ]
+   ],
+   "provinces": [
+    "Angola/Saurimo",
+    "Angola/Luau"
+   ]
+  },
+  {
+   "name": "Kuba",
+   "until": 1879,
+   "timeline": [
+    [
+     1625,
+     "Kuba Kingdom"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Democratic Republic of the Congo",
+     "box": [
+      20,
+      22,
+      -5,
+      -3.5
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Kinshasa Teke",
+   "until": 1879,
+   "timeline": [
+    [
+     1400,
+     "Teke"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Democratic Republic of the Congo",
+     "box": [
+      14,
+      16,
+      -6,
+      -4
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Zimbabwe plateau",
+   "until": 1893,
+   "timeline": [
+    [
+     1220,
+     "Kingdom of Zimbabwe"
+    ],
+    [
+     1450,
+     "Kingdom of Butua"
+    ],
+    [
+     1684,
+     "Rozwi"
+    ],
+    [
+     1835,
+     "Ndebele Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Zimbabwe/Great Zimbabwe",
+    "Zimbabwe/Bulawayo"
+   ]
+  },
+  {
+   "name": "Mutapa",
+   "until": 1879,
+   "timeline": [
+    [
+     1220,
+     "Kingdom of Zimbabwe"
+    ],
+    [
+     1430,
+     "Mwenemutapa"
+    ],
+    [
+     1760,
+     "Rozwi"
+    ]
+   ],
+   "provinces": [
+    "Zimbabwe/Harare"
+   ]
+  },
+  {
+   "name": "Manica",
+   "until": 1879,
+   "timeline": [
+    [
+     1430,
+     "Mwenemutapa"
+    ],
+    [
+     1760,
+     "Manyika"
+    ]
+   ],
+   "provinces": [
+    "Zimbabwe/Manicaland"
+   ]
+  },
+  {
+   "name": "Sofala",
+   "until": 1699,
+   "timeline": [
+    [
+     900,
+     "Sultanate of Sofala"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ]
+   ],
+   "provinces": [
+    "Mozambique/Sofala"
+   ]
+  },
+  {
+   "name": "Angoche",
+   "until": 1879,
+   "timeline": [
+    [
+     1485,
+     "Sultanate of Angoche"
+    ]
+   ],
+   "provinces": [
+    "Mozambique/Angoche"
+   ]
+  },
+  {
+   "name": "Kilwa",
+   "until": 1839,
+   "timeline": [
+    [
+     957,
+     "Sultanate of Kilwa"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ]
+   ],
+   "provinces": [
+    "United Republic of Tanzania/Kilwa",
+    "United Republic of Tanzania/Lindi",
+    "United Republic of Tanzania/Mtwara",
+    "United Republic of Tanzania/Mafia",
+    "Mozambique/Mocímboa",
+    "Mozambique/Cabo Delgado"
+   ]
+  },
+  {
+   "name": "Mombasa",
+   "until": 1839,
+   "timeline": [
+    [
+     900,
+     "Kingdom of Mombasa"
+    ],
+    [
+     1593,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ]
+   ],
+   "provinces": [
+    "Kenya/Mombasa"
+   ]
+  },
+  {
+   "name": "Malindi",
+   "until": 1839,
+   "timeline": [
+    [
+     1100,
+     "Sultanate of Malindi"
+    ],
+    [
+     1593,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ]
+   ],
+   "provinces": [
+    "Kenya/Malindi"
+   ]
+  },
+  {
+   "name": "Lamu",
+   "until": 1839,
+   "timeline": [
+    [
+     1100,
+     "Pate Sultanate"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ]
+   ],
+   "provinces": [
+    "Kenya/Lamu"
+   ]
+  },
+  {
+   "name": "Tanga",
+   "until": 1839,
+   "timeline": [
+    [
+     900,
+     "Tongoni"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ]
+   ],
+   "provinces": [
+    "United Republic of Tanzania/Tanga"
+   ]
+  },
+  {
+   "name": "Dar es Salaam",
+   "until": 1839,
+   "timeline": [
+    [
+     900,
+     "Kunduchi"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ]
+   ],
+   "provinces": [
+    "United Republic of Tanzania/Dar es Salaam"
+   ]
+  },
+  {
+   "name": "Bagamoyo",
+   "until": 1839,
+   "timeline": [
+    [
+     900,
+     "Kaole"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ]
+   ],
+   "provinces": [
+    "United Republic of Tanzania/Bagamoyo"
+   ]
+  },
+  {
+   "name": "Zanzibar",
+   "until": 1879,
+   "timeline": [
+    [
+     900,
+     "Kingdom of Unguja"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ],
+    [
+     1840,
+     "Sultanate of Zanzibar"
+    ]
+   ],
+   "provinces": [
+    "United Republic of Tanzania/Zanzibar"
+   ]
+  },
+  {
+   "name": "Pemba",
+   "until": 1879,
+   "timeline": [
+    [
+     900,
+     "Kingdom of Pemba"
+    ],
+    [
+     1505,
+     "Portuguese East Africa"
+    ],
+    [
+     1698,
+     "Oman"
+    ],
+    [
+     1840,
+     "Sultanate of Zanzibar"
+    ]
+   ],
+   "provinces": [
+    "United Republic of Tanzania/Pemba"
+   ]
+  },
+  {
+   "name": "Shewa under the Zagwe",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "Ethiopian highland farmers"
+    ],
+    [
+     1137,
+     "Zagwe dynasty"
+    ],
+    [
+     1270,
+     "Ethiopia"
+    ]
+   ],
+   "provinces": [
+    "Ethiopia/Shewa"
+   ]
+  },
+  {
+   "name": "Ibadan",
+   "until": 1893,
+   "timeline": [
+    [
+     1300,
+     "Oyo"
+    ],
+    [
+     1836,
+     "Ibadan Empire"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Oyo"
+   ]
+  },
+  {
+   "name": "Egba",
+   "until": 1893,
+   "timeline": [
+    [
+     1300,
+     "Oyo"
+    ],
+    [
+     1836,
+     "Egba United Government"
+    ]
+   ],
+   "provinces": [
+    "Nigeria/Egba"
+   ]
+  }
+ ]
+}

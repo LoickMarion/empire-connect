@@ -1,0 +1,1943 @@
+{
+ "_comment": "The Second World War between the 1938 and 1945 snapshots (the 1938 snapshot is held unchanged through 1944). Same format as napoleonic-conquests.json: groups of provinces (selected by country, regions, polygon...) with a timeline of [year, occupier]; '@1945' restores the 1945 holder. Years are whole years, so a change in November 1942 shows from 1942 or 1943, whichever is closer.",
+ "until": 1944,
+ "groups": [
+  {
+   "name": "Sudetenland (Oct 1938)",
+   "timeline": [
+    [
+     1938,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Czechia",
+     "regions": [
+      "Egerland",
+      "North Bohemia",
+      "Liberec"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Protectorate of Bohemia and Moravia (Mar 1939)",
+   "timeline": [
+    [
+     1938,
+     "Czechoslovakia"
+    ],
+    [
+     1939,
+     "Protectorate of Bohemia and Moravia"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Czechia",
+     "regions": [
+      "Prague",
+      "West Bohemia",
+      "South Bohemia",
+      "East Bohemia",
+      "Highlands",
+      "South Moravia",
+      "Olomouc",
+      "Moravian Slovakia",
+      "Silesia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Slovak Republic (Mar 1939)",
+   "timeline": [
+    [
+     1938,
+     "Czechoslovakia"
+    ],
+    [
+     1939,
+     "Slovak Republic"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Slovakia",
+     "regions": [
+      "Bratislava",
+      "Trnava",
+      "Nitra",
+      "Trenčín",
+      "Žilina",
+      "Banská Bystrica",
+      "Prešov"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Southern Slovakia (Vienna Award, 1938)",
+   "timeline": [
+    [
+     1938,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Slovakia",
+     "regions": [
+      "Košice"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Carpathian Ruthenia (Mar 1939)",
+   "timeline": [
+    [
+     1939,
+     "Hungary"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Transcarpathia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Poland: annexed to Germany (1939)",
+   "timeline": [
+    [
+     1939,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Poland",
+     "regions": [
+      "Greater Poland",
+      "Kalisz",
+      "Łódź",
+      "Kuyavia",
+      "Chełmno",
+      "Pomerelia",
+      "Płock",
+      "Upper Silesia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "General Government (1939)",
+   "timeline": [
+    [
+     1939,
+     "General Government"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Poland",
+     "regions": [
+      "Masovia",
+      "Radom",
+      "Lublin",
+      "Lesser Poland",
+      "Świętokrzyskie",
+      "Częstochowa",
+      "Subcarpathia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Poland liberated east of the Vistula (1944)",
+   "timeline": [
+    [
+     1939,
+     "General Government"
+    ],
+    [
+     1944,
+     "Poland"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Poland",
+     "regions": [
+      "Lublin",
+      "Subcarpathia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Białystok",
+   "timeline": [
+    [
+     1939,
+     "USSR"
+    ],
+    [
+     1941,
+     "Germany"
+    ],
+    [
+     1944,
+     "Poland"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Poland",
+     "regions": [
+      "Podlasie"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Vilnius",
+   "timeline": [
+    [
+     1939,
+     "Lithuania"
+    ],
+    [
+     1940,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ostland"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Lithuania",
+     "regions": [
+      "Vilnius"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Memel (Mar 1939)",
+   "timeline": [
+    [
+     1939,
+     "Germany"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Lithuania",
+     "regions": [
+      "Lithuania Minor"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Lithuania",
+   "timeline": [
+    [
+     1940,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ostland"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Lithuania",
+     "except": [
+      "Vilnius",
+      "Lithuania Minor"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Latvia",
+   "timeline": [
+    [
+     1940,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ostland"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Latvia",
+     "except": [
+      "Courland"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Courland pocket (held to 1945)",
+   "timeline": [
+    [
+     1940,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ostland"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Latvia",
+     "regions": [
+      "Courland"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Estonia",
+   "timeline": [
+    [
+     1940,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ostland"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Estonia"
+    }
+   ]
+  },
+  {
+   "name": "Denmark (Apr 1940)",
+   "timeline": [
+    [
+     1940,
+     "Denmark (German-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Denmark"
+    }
+   ]
+  },
+  {
+   "name": "Norway (Apr 1940)",
+   "timeline": [
+    [
+     1940,
+     "Norway (German-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Norway"
+    }
+   ]
+  },
+  {
+   "name": "Netherlands (May 1940)",
+   "timeline": [
+    [
+     1940,
+     "Netherlands (German-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Netherlands"
+    }
+   ]
+  },
+  {
+   "name": "Southern Netherlands liberated (Sep 1944)",
+   "timeline": [
+    [
+     1940,
+     "Netherlands (German-occupied)"
+    ],
+    [
+     1944,
+     "Netherlands"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Netherlands",
+     "regions": [
+      "Limburg",
+      "Noord-Brabant",
+      "Zeeland"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Belgium and Luxembourg (May 1940)",
+   "timeline": [
+    [
+     1940,
+     "Belgium (German-occupied)"
+    ],
+    [
+     1944,
+     "Belgium"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Belgium"
+    }
+   ]
+  },
+  {
+   "name": "France: occupied zone (June 1940)",
+   "timeline": [
+    [
+     1940,
+     "France (German-occupied)"
+    ],
+    [
+     1944,
+     "France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "France",
+     "except": [
+      "Bas-Rhin",
+      "Haute-Rhin",
+      "Moselle"
+     ],
+     "notPolygon": [
+      [
+       6.3,
+       46.4
+      ],
+      [
+       5.5,
+       47.1
+      ],
+      [
+       4.85,
+       46.8
+      ],
+      [
+       4.1,
+       46.45
+      ],
+      [
+       3.33,
+       46.57
+      ],
+      [
+       2.4,
+       47.1
+      ],
+      [
+       2.07,
+       47.2
+      ],
+      [
+       1.37,
+       47.27
+      ],
+      [
+       1.0,
+       47.13
+      ],
+      [
+       0.65,
+       46.57
+      ],
+      [
+       0.38,
+       45.74
+      ],
+      [
+       -0.25,
+       44.9
+      ],
+      [
+       -0.5,
+       43.9
+      ],
+      [
+       -0.77,
+       43.49
+      ],
+      [
+       -1.3,
+       43.2
+      ],
+      [
+       0,
+       41.8
+      ],
+      [
+       10.5,
+       41.0
+      ],
+      [
+       10.5,
+       46.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "name": "France: Vichy zone",
+   "timeline": [
+    [
+     1940,
+     "Vichy France"
+    ],
+    [
+     1943,
+     "France (German-occupied)"
+    ],
+    [
+     1944,
+     "France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "France",
+     "polygon": [
+      [
+       6.3,
+       46.4
+      ],
+      [
+       5.5,
+       47.1
+      ],
+      [
+       4.85,
+       46.8
+      ],
+      [
+       4.1,
+       46.45
+      ],
+      [
+       3.33,
+       46.57
+      ],
+      [
+       2.4,
+       47.1
+      ],
+      [
+       2.07,
+       47.2
+      ],
+      [
+       1.37,
+       47.27
+      ],
+      [
+       1.0,
+       47.13
+      ],
+      [
+       0.65,
+       46.57
+      ],
+      [
+       0.38,
+       45.74
+      ],
+      [
+       -0.25,
+       44.9
+      ],
+      [
+       -0.5,
+       43.9
+      ],
+      [
+       -0.77,
+       43.49
+      ],
+      [
+       -1.3,
+       43.2
+      ],
+      [
+       0,
+       41.8
+      ],
+      [
+       10.5,
+       41.0
+      ],
+      [
+       10.5,
+       46.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "name": "France: Italian zone (Nov 1942 - Sep 1943)",
+   "timeline": [
+    [
+     1940,
+     "Vichy France"
+    ],
+    [
+     1943,
+     "Italy"
+    ],
+    [
+     1944,
+     "France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "France",
+     "polygon": [
+      [
+       6.3,
+       46.4
+      ],
+      [
+       5.5,
+       47.1
+      ],
+      [
+       4.85,
+       46.8
+      ],
+      [
+       4.1,
+       46.45
+      ],
+      [
+       3.33,
+       46.57
+      ],
+      [
+       2.4,
+       47.1
+      ],
+      [
+       2.07,
+       47.2
+      ],
+      [
+       1.37,
+       47.27
+      ],
+      [
+       1.0,
+       47.13
+      ],
+      [
+       0.65,
+       46.57
+      ],
+      [
+       0.38,
+       45.74
+      ],
+      [
+       -0.25,
+       44.9
+      ],
+      [
+       -0.5,
+       43.9
+      ],
+      [
+       -0.77,
+       43.49
+      ],
+      [
+       -1.3,
+       43.2
+      ],
+      [
+       0,
+       41.8
+      ],
+      [
+       10.5,
+       41.0
+      ],
+      [
+       10.5,
+       46.0
+      ]
+     ],
+     "box": [
+      5.6,
+      6.5,
+      43.0,
+      46.5
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Corsica",
+   "timeline": [
+    [
+     1940,
+     "Vichy France"
+    ],
+    [
+     1943,
+     "France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "France",
+     "regions": [
+      "Corse-du-Sud",
+      "Haute-Corse"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Alsace-Lorraine (1940)",
+   "timeline": [
+    [
+     1940,
+     "Germany"
+    ],
+    [
+     1944,
+     "France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "France",
+     "regions": [
+      "Bas-Rhin",
+      "Haute-Rhin",
+      "Moselle"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Albania",
+   "timeline": [
+    [
+     1939,
+     "Italy"
+    ],
+    [
+     1943,
+     "Albania (German-occupied)"
+    ],
+    [
+     1944,
+     "Albania"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Albania"
+    }
+   ]
+  },
+  {
+   "name": "Italian Social Republic: north",
+   "timeline": [
+    [
+     1943,
+     "Italian Social Republic"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Italy",
+     "regions": [
+      "Forlì-Cesena",
+      "Ferrara",
+      "Modena",
+      "Parma",
+      "Piacenza",
+      "Milano",
+      "Brescia",
+      "Mantova",
+      "Vercelli",
+      "Turin",
+      "Cuneo",
+      "Alessandria",
+      "Venezia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Italian Social Republic: centre (liberated 1944)",
+   "timeline": [
+    [
+     1943,
+     "Italian Social Republic"
+    ],
+    [
+     1944,
+     "Italy"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Italy",
+     "regions": [
+      "Roma",
+      "Perugia",
+      "Grosseto",
+      "Firenze",
+      "L'Aquila",
+      "Macerata"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Alpine and Adriatic zones (Sep 1943)",
+   "timeline": [
+    [
+     1943,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Italy",
+     "regions": [
+      "Udine",
+      "Trento",
+      "Bozen"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Lower Styria",
+   "timeline": [
+    [
+     1941,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Slovenia",
+     "regions": [
+      "Lower Styria"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ljubljana province",
+   "timeline": [
+    [
+     1941,
+     "Italy"
+    ],
+    [
+     1943,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Slovenia",
+     "regions": [
+      "Carniola",
+      "Lower Carniola"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Slovene Littoral",
+   "timeline": [
+    [
+     1943,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Slovenia",
+     "regions": [
+      "Gorizia",
+      "Littoral"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Independent State of Croatia (Apr 1941)",
+   "timeline": [
+    [
+     1941,
+     "Independent State of Croatia"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Zagreb",
+      "Zagorje",
+      "Slavonia",
+      "Banovina",
+      "Pokuplje",
+      "Lika"
+     ]
+    },
+    {
+     "country": "Bosnia and Herzegovina"
+    },
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Srem"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Dalmatia",
+   "timeline": [
+    [
+     1941,
+     "Italy"
+    ],
+    [
+     1943,
+     "Independent State of Croatia"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Dalmatia",
+      "Ragusa"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Istria, Kvarner and Zadar",
+   "timeline": [
+    [
+     1943,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Croatia",
+     "regions": [
+      "Kvarner",
+      "Istria",
+      "Zadar"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Serbia",
+   "timeline": [
+    [
+     1941,
+     "Serbia (German-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "except": [
+      "Srem",
+      "Bačka",
+      "Pčinja"
+     ]
+    },
+    {
+     "country": "Kosovo",
+     "regions": [
+      "Mitrovica"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bačka",
+   "timeline": [
+    [
+     1941,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Bačka"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Pčinja",
+   "timeline": [
+    [
+     1941,
+     "Bulgaria"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Republic of Serbia",
+     "regions": [
+      "Pčinja"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Kosovo and western Macedonia (Italian Albania)",
+   "timeline": [
+    [
+     1941,
+     "Italy"
+    ],
+    [
+     1943,
+     "Albania (German-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Kosovo",
+     "regions": [
+      "Kosovo",
+      "Prizren"
+     ]
+    },
+    {
+     "country": "North Macedonia",
+     "regions": [
+      "Polog",
+      "Ohrid"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Vardar Macedonia",
+   "timeline": [
+    [
+     1941,
+     "Bulgaria"
+    ]
+   ],
+   "select": [
+    {
+     "country": "North Macedonia",
+     "regions": [
+      "Skopje",
+      "Pelagonia",
+      "Ovče Pole"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Montenegro",
+   "timeline": [
+    [
+     1941,
+     "Italy"
+    ],
+    [
+     1943,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Montenegro"
+    }
+   ]
+  },
+  {
+   "name": "Greece: German zone",
+   "timeline": [
+    [
+     1941,
+     "Germany"
+    ],
+    [
+     1944,
+     "Greece"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Attica",
+      "Macedonia",
+      "West Macedonia",
+      "Crete",
+      "West Crete",
+      "Lesbos",
+      "Chios"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Greece: Bulgarian zone",
+   "timeline": [
+    [
+     1941,
+     "Bulgaria"
+    ],
+    [
+     1944,
+     "Greece"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "East Macedonia",
+      "Thrace"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Greece: Italian zone, German from 1943",
+   "timeline": [
+    [
+     1941,
+     "Italy"
+    ],
+    [
+     1943,
+     "Germany"
+    ],
+    [
+     1944,
+     "Greece"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "except": [
+      "Attica",
+      "Macedonia",
+      "West Macedonia",
+      "Crete",
+      "West Crete",
+      "Lesbos",
+      "Chios",
+      "East Macedonia",
+      "Thrace",
+      "Dodecanese"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Dodecanese",
+   "timeline": [
+    [
+     1943,
+     "Germany"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Greece",
+     "regions": [
+      "Dodecanese"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Southern Dobruja (Sep 1940)",
+   "timeline": [
+    [
+     1938,
+     "Romania"
+    ],
+    [
+     1940,
+     "Bulgaria"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Bulgaria",
+     "regions": [
+      "Dobruja"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Northern Transylvania (Aug 1940)",
+   "timeline": [
+    [
+     1940,
+     "Hungary"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Romania",
+     "regions": [
+      "Satmar",
+      "Maramureș",
+      "Crișana",
+      "Transylvania",
+      "Mureș",
+      "Szeklerland"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Hungary (German occupation, Mar 1944)",
+   "timeline": [
+    [
+     1944,
+     "Hungary (German-occupied)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Hungary"
+    }
+   ]
+  },
+  {
+   "name": "Bessarabia and Northern Bukovina",
+   "timeline": [
+    [
+     1940,
+     "USSR"
+    ],
+    [
+     1941,
+     "Romania"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Moldova",
+     "regions": [
+      "Chișinău",
+      "Bălți",
+      "South Moldova"
+     ]
+    },
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Bukovina",
+      "Budjak"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Transnistria",
+   "timeline": [
+    [
+     1941,
+     "Romania"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Moldova",
+     "regions": [
+      "Transnistria"
+     ]
+    },
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Odesa"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ukraine: eastern (liberated 1943)",
+   "timeline": [
+    [
+     1941,
+     "Reichskommissariat Ukraine"
+    ],
+    [
+     1943,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Chernihiv",
+      "Sumy",
+      "Poltava",
+      "Kharkiv",
+      "Donetsk",
+      "Luhansk",
+      "Azov",
+      "Zaporizhzhia",
+      "Dnipro"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ukraine: central, southern and Crimea (liberated 1944)",
+   "timeline": [
+    [
+     1941,
+     "Reichskommissariat Ukraine"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Kyiv",
+      "Cherkasy",
+      "Zhytomyr",
+      "Podolia",
+      "Khmelnytskyi",
+      "Kirovohrad",
+      "Kherson",
+      "Mykolaiv",
+      "Crimea"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Western Ukraine: Volhynia",
+   "timeline": [
+    [
+     1939,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ukraine"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Volhynia",
+      "Rivne"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Western Ukraine: Galicia",
+   "timeline": [
+    [
+     1939,
+     "USSR"
+    ],
+    [
+     1941,
+     "General Government"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Ukraine",
+     "regions": [
+      "Galicia",
+      "Ternopil",
+      "Ivano-Frankivsk"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Belarus: west (1939)",
+   "timeline": [
+    [
+     1939,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ostland"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Belarus",
+     "regions": [
+      "Grodno",
+      "Novogrudok"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Belarus: southwest (1939)",
+   "timeline": [
+    [
+     1939,
+     "USSR"
+    ],
+    [
+     1941,
+     "Reichskommissariat Ukraine"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Belarus",
+     "regions": [
+      "Brest",
+      "Polesia",
+      "Mozyr"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Belarus: east",
+   "timeline": [
+    [
+     1941,
+     "Reichskommissariat Ostland"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Belarus",
+     "regions": [
+      "Minsk",
+      "Vitebsk",
+      "Polotsk",
+      "Mogilev",
+      "Bobruisk",
+      "Gomel"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Russia: occupied to 1944",
+   "timeline": [
+    [
+     1941,
+     "Germany"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Russia",
+     "regions": [
+      "Novgorod",
+      "Pskov"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Russia: occupied to 1943",
+   "timeline": [
+    [
+     1941,
+     "Germany"
+    ],
+    [
+     1943,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Russia",
+     "regions": [
+      "Smolensk",
+      "Bryansk",
+      "Kursk",
+      "Belgorod"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Russia: Moscow front (Oct 1941 - 1942)",
+   "timeline": [
+    [
+     1941,
+     "Germany"
+    ],
+    [
+     1942,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Russia",
+     "regions": [
+      "Kaluga",
+      "Tver"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Russia: 1942 offensive",
+   "timeline": [
+    [
+     1942,
+     "Germany"
+    ],
+    [
+     1943,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Russia",
+     "regions": [
+      "Voronezh",
+      "Don",
+      "Kuban",
+      "Stavropol",
+      "Kalmykia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "East Karelia (Finnish occupation)",
+   "timeline": [
+    [
+     1941,
+     "Finland"
+    ],
+    [
+     1944,
+     "USSR"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Russia",
+     "regions": [
+      "Karelia"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ethiopia (liberated 1941)",
+   "timeline": [
+    [
+     1941,
+     "Ethiopia"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Ethiopia"
+    }
+   ]
+  },
+  {
+   "name": "Eritrea (British administration, 1941)",
+   "timeline": [
+    [
+     1941,
+     "Eritrea (UK)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Eritrea"
+    }
+   ]
+  },
+  {
+   "name": "British Somaliland",
+   "timeline": [
+    [
+     1940,
+     "Italy"
+    ],
+    [
+     1941,
+     "British Somaliland"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Somalia",
+     "regions": [
+      "Awdal",
+      "Somaliland",
+      "Berbera",
+      "Togdheer",
+      "Sool"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Italian Somaliland (British administration, 1941)",
+   "timeline": [
+    [
+     1941,
+     "Somalia (UK)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Somalia",
+     "except": [
+      "Awdal",
+      "Somaliland",
+      "Berbera",
+      "Togdheer",
+      "Sool"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cyrenaica (British, 1943)",
+   "timeline": [
+    [
+     1943,
+     "Cyrenaica (UK)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Libya",
+     "regions": [
+      "Ajdabiya",
+      "Benghazi",
+      "Jebel Akhdar",
+      "Derna",
+      "Tobruk",
+      "Awjila"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tripolitania (British, 1943)",
+   "timeline": [
+    [
+     1943,
+     "Tripolitania (UK)"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Libya",
+     "regions": [
+      "Zuwara",
+      "Zawiya",
+      "Tripoli",
+      "Jebel Nafusa",
+      "Nalut",
+      "Ghadames",
+      "Misrata",
+      "Sirte",
+      "Jufra"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Fezzan (Free French, 1943)",
+   "timeline": [
+    [
+     1943,
+     "Free France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Libya",
+     "regions": [
+      "Fezzan",
+      "Ubari",
+      "Murzuq",
+      "Ghat"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Kufra (Free French, 1941)",
+   "timeline": [
+    [
+     1941,
+     "Free France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Libya",
+     "regions": [
+      "Kufra"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Vichy North and West Africa (Operation Torch, Nov 1942)",
+   "timeline": [
+    [
+     1940,
+     "Vichy France"
+    ],
+    [
+     1943,
+     "Free France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Algeria"
+    },
+    {
+     "country": "Morocco",
+     "except": [
+      "Tingitana",
+      "Habt",
+      "Rif",
+      "Saguia el-Hamra",
+      "Smara",
+      "Río de Oro"
+     ]
+    },
+    {
+     "country": "Senegal"
+    },
+    {
+     "country": "Mali"
+    },
+    {
+     "country": "Mauritania"
+    },
+    {
+     "country": "Burkina Faso"
+    },
+    {
+     "country": "Niger"
+    },
+    {
+     "country": "Ivory Coast"
+    },
+    {
+     "country": "Guinea"
+    },
+    {
+     "country": "Benin"
+    },
+    {
+     "country": "Togo"
+    },
+    {
+     "country": "Djibouti"
+    }
+   ]
+  },
+  {
+   "name": "Tunisia",
+   "timeline": [
+    [
+     1940,
+     "Vichy France"
+    ],
+    [
+     1942,
+     "Tunisia (Axis-occupied)"
+    ],
+    [
+     1943,
+     "Free France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Tunisia"
+    }
+   ]
+  },
+  {
+   "name": "Madagascar",
+   "timeline": [
+    [
+     1940,
+     "Vichy France"
+    ],
+    [
+     1942,
+     "United Kingdom"
+    ],
+    [
+     1943,
+     "Free France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Madagascar"
+    }
+   ]
+  },
+  {
+   "name": "Free French Equatorial Africa (Aug 1940)",
+   "timeline": [
+    [
+     1940,
+     "Free France"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Chad"
+    },
+    {
+     "country": "Central African Republic"
+    },
+    {
+     "country": "Gabon"
+    },
+    {
+     "country": "Republic of the Congo"
+    },
+    {
+     "country": "Cameroon",
+     "except": [
+      "Bamenda",
+      "Grassfields"
+     ]
+    }
+   ]
+  }
+ ]
+}
