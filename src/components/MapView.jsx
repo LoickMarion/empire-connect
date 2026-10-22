@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { MapContainer, Marker, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { MapContainer, Marker, Polyline, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import ProvinceLayer from './ProvinceLayer.jsx'
 import ReliefLayer, { OCEAN } from './ReliefLayer.jsx'
@@ -33,7 +33,7 @@ function useZoom() {
   return zoom
 }
 
-function CityMarkers({ cities, startCity, targetCity, pathIds, selectedCityId, onCityClick }) {
+function CityMarkers({ showCities, cities, startCity, targetCity, pathIds, selectedCityId, onCityClick }) {
   const zoomedIn = useZoom() >= MIN_DOT_ZOOM
   return cities.map((city) => {
     const kind =
@@ -46,7 +46,7 @@ function CityMarkers({ cities, startCity, targetCity, pathIds, selectedCityId, o
             : city.id === selectedCityId
               ? 'selected'
               : 'default'
-    if (kind === 'default' && !zoomedIn) return null
+    if (kind === 'default' && (!showCities || !zoomedIn)) return null
     return (
       <Marker
         key={city.id}
@@ -76,7 +76,11 @@ export default function MapView({
   paintYear,
   holdings,
   colorAt,
+  showCities,
+  historyByCity,
+  won,
 }) {
+  const route = pathIds.map((id) => cities.find((c) => c.id === id)).filter(Boolean).map((c) => [c.lat, c.lon])
   return (
     <MapContainer
       center={[45, 15]}
@@ -100,10 +104,15 @@ export default function MapView({
         holdings={holdings}
         cities={cities}
         colorAt={colorAt}
+        historyByCity={historyByCity}
         onProvinceClick={paintMode ? undefined : onCityClick}
       />
+      {route.length > 1 && (
+        <Polyline positions={route} interactive={false} pathOptions={{ color: won ? '#2e7d32' : '#6a1b9a', weight: won ? 5 : 3, dashArray: won ? undefined : '6 6' }} />
+      )}
       {!paintMode && (
         <CityMarkers
+          showCities={showCities}
           cities={cities}
           startCity={startCity}
           targetCity={targetCity}

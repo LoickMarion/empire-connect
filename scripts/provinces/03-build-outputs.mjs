@@ -105,7 +105,12 @@ function buildRealmLinks(config, occupierIds) {
     const b = byLower.get(overlord.toLowerCase())
     if (!a) missing.add(colony)
     else if (!b) missing.add(`${overlord} (overlord)`)
-    else push(a, b, from, to, kind ?? 'subject')
+    else if (overlord === 'Spain' && from < 1530) {
+      // Spain only formed in 1530: before that the overlord is Castile
+      const castile = byLower.get('castile')
+      if (castile) push(a, castile, from, Math.min(to, 1529), kind ?? 'subject')
+      if (to >= 1530) push(a, b, 1530, to, kind ?? 'subject')
+    } else push(a, b, from, to, kind ?? 'subject')
   }
   if (missing.size) console.log(`overlords.json: not in the data (no spans): ${[...missing].join(', ')}`)
   for (let round = 0; round < 5; round += 1) {

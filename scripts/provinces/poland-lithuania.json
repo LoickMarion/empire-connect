@@ -1,0 +1,338 @@
+{
+ "_comment": "Poland, Lithuania and the Kalmar Union. The Lithuanian lands of Belarus the source labels Ryazan are given to Lithuania when it took them, Masovia becomes a duchy until Poland absorbed it in 1526, and the Kalmar Union (just Denmark ruling Sweden and Norway) is relabelled as the kingdoms themselves; their subjecthood to Denmark is in overlords.json. The Polish-Lithuanian Commonwealth only formed in 1569 (see splitCommonwealth in 02-assign-cities-and-occupation.mjs): before that the source's Poland-Lithuania spans become Poland, Lithuania or the Livonian Order.",
+ "groups": [
+  {
+   "name": "Grodno",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Grodno"
+   ]
+  },
+  {
+   "name": "Brest",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Galicia-Volhynia"
+    ],
+    [
+     1320,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Brest"
+   ]
+  },
+  {
+   "name": "Polotsk",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Polotsk"
+    ],
+    [
+     1307,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Polotsk"
+   ]
+  },
+  {
+   "name": "Vitebsk",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Polotsk"
+    ],
+    [
+     1320,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Vitebsk"
+   ]
+  },
+  {
+   "name": "Minsk",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Polotsk"
+    ],
+    [
+     1326,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Minsk"
+   ]
+  },
+  {
+   "name": "Mogilev",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Smolensk"
+    ],
+    [
+     1360,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Mogilev"
+   ]
+  },
+  {
+   "name": "Turov lands",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Turov"
+    ],
+    [
+     1320,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Bobruisk",
+    "Belarus/Polesia"
+   ]
+  },
+  {
+   "name": "Mozyr",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Turov"
+    ],
+    [
+     1360,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Mozyr"
+   ]
+  },
+  {
+   "name": "Gomel",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Chernigov"
+    ],
+    [
+     1360,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Gomel"
+   ]
+  },
+  {
+   "name": "Smolensk",
+   "until": 1568,
+   "timeline": [
+    [
+     1279,
+     "Principality of Smolensk"
+    ],
+    [
+     1404,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Russia/Smolensk"
+   ]
+  },
+  {
+   "name": "Golden Horde label",
+   "relabel": {
+    "from": "Ryazan",
+    "to": "Golden Horde"
+   },
+   "select": [
+    {
+     "country": "Ukraine"
+    },
+    {
+     "country": "Moldova"
+    },
+    {
+     "country": "Russia",
+     "regions": [
+      "Bryansk",
+      "Kursk",
+      "Belgorod",
+      "Rzhev"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Masovia",
+   "until": 1525,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Masovia"
+    ]
+   ],
+   "provinces": [
+    "Poland/Masovia",
+    "Poland/Płock"
+   ]
+  },
+  {
+   "name": "Masovia reunited",
+   "until": 1568,
+   "timeline": [
+    [
+     1526,
+     "Poland"
+    ]
+   ],
+   "provinces": [
+    "Poland/Masovia",
+    "Poland/Płock"
+   ]
+  },
+  {
+   "name": "Kalmar Norway",
+   "relabel": {
+    "from": "Kalmar Union",
+    "to": "Norway"
+   },
+   "select": [
+    {
+     "country": "Norway"
+    },
+    {
+     "country": "Iceland"
+    },
+    {
+     "country": "Greenland"
+    }
+   ],
+   "provinces": [
+    "Sweden/Bohuslän"
+   ]
+  },
+  {
+   "name": "Kalmar Sweden",
+   "relabel": {
+    "from": "Kalmar Union",
+    "to": "Sweden"
+   },
+   "select": [
+    {
+     "country": "Sweden",
+     "except": [
+      "Bohuslän",
+      "Gotland",
+      "Skåne",
+      "Halland",
+      "Blekinge"
+     ]
+    },
+    {
+     "country": "Finland",
+     "except": [
+      "Pohjois-Karjala"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Kalmar Denmark",
+   "relabel": {
+    "from": "Kalmar Union",
+    "to": "Denmark"
+   },
+   "select": [
+    {
+     "country": "Denmark"
+    },
+    {
+     "country": "Germany",
+     "regions": [
+      "Schleswig"
+     ]
+    }
+   ],
+   "provinces": [
+    "Sweden/Gotland",
+    "Sweden/Skåne",
+    "Sweden/Halland",
+    "Sweden/Blekinge"
+   ]
+  },
+  {
+   "name": "Kalmar Muscovy",
+   "relabel": {
+    "from": "Kalmar Union",
+    "to": "Grand Duchy of Moscow"
+   },
+   "select": [
+    {
+     "country": "Estonia",
+     "regions": [
+      "Ida-Viru"
+     ]
+    },
+    {
+     "country": "Russia",
+     "regions": [
+      "Ingria"
+     ]
+    },
+    {
+     "country": "Finland",
+     "regions": [
+      "Pohjois-Karjala"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Kalmar Northern Isles",
+   "until": 1529,
+   "timeline": [
+    [
+     1400,
+     "Norway"
+    ],
+    [
+     1469,
+     "Scotland"
+    ]
+   ],
+   "provinces": [
+    "Scotland/Northern Isles"
+   ]
+  }
+ ]
+}

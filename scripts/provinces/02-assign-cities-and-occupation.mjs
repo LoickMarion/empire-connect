@@ -133,7 +133,7 @@ function applyTimelineGroups(occupations, provinces, config, label) {
       }
       if (!any) missing.add(`${sel.country} ${JSON.stringify(sel.regions ?? sel.polygon ?? '').slice(0, 40)}`)
     }
-    const until = group.until ?? config.until ?? 1814
+    const until = group.until === 'present' ? Infinity : (group.until ?? config.until ?? 1814) // 'present': an open-ended last span
     for (const p of chosen.values()) {
       const id = p.id
       if (group.relabel) {
@@ -165,7 +165,7 @@ function applyTimelineGroups(occupations, provinces, config, label) {
         if (span.start < start) kept.push({ ...span, end: start - 1 })
         if (end > windowEnd) kept.push({ ...span, start: windowEnd + 1 })
       }
-      for (const seg of segments) kept.push({ province: id, occupier: seg.occupier, start: seg.from, end: seg.to })
+      for (const seg of segments) kept.push({ province: id, occupier: seg.occupier, start: seg.from, end: Number.isFinite(seg.to) ? seg.to : null })
       for (let i = occupations.length - 1; i >= 0; i -= 1) if (occupations[i].province === id) occupations.splice(i, 1)
       occupations.push(...kept)
       changed += 1
@@ -194,6 +194,130 @@ function carryPeoplesThroughGaps(occupations, provinces, nonNations) {
     }
   }
   console.log(`people labels carried through ${carried} gaps`)
+}
+
+// The source draws the Polish-Lithuanian Commonwealth from 1400 (the personal union), but the
+// Commonwealth only formed at the Union of Lublin in 1569. Before then each of its spans is whichever
+// state held the province: Poland (the Crown), Lithuania (the Grand Duchy), the Livonian Order (to 1560)
+// or Prussia. Spans from 1569 stay Poland-Lithuania.
+const COMMONWEALTH = 1569
+function splitCommonwealth(occupations, provinces, aliases) {
+  const byId = new Map(provinces.map((p) => [p.id, p]))
+  const crownUkraine = ['Galicia', 'Ternopil', 'Ivano-Frankivsk']
+  // [from, to, occupier] pieces of a pre-1569 span, in order, for one province
+  const holders = (p) => {
+    if (p.country === 'Latvia' || p.country === 'Estonia') return [[-Infinity, 1560, 'Teutonic Knights'], [1561, 1568, 'Lithuania']]
+    if (p.country === 'Poland') {
+      if (p.region === 'Podlasie') return [[-Infinity, 1568, 'Lithuania']]
+      if (p.region === 'Masuria') return [[-Infinity, 1525, 'Teutonic Knights'], [1526, 1568, 'Prussia']]
+      if (p.region === 'Lithuania Minor') return [[-Infinity, 1568, 'Prussia']]
+      return [[-Infinity, 1568, 'Poland']]
+    }
+    if (p.country === 'Ukraine' && crownUkraine.includes(p.region)) return [[-Infinity, 1568, 'Poland']]
+    if (p.country === 'Ukraine' && ['Podolia', 'Khmelnytskyi'].includes(p.region)) return [[-Infinity, 1433, 'Lithuania'], [1434, 1568, 'Poland']]
+    return [[-Infinity, 1568, 'Lithuania']]
+  }
+  let split = 0
+  for (const span of [...occupations]) {
+    const end = span.end ?? Infinity
+    if ((aliases[span.occupier] ?? span.occupier) !== 'Poland-Lithuania' || span.start >= COMMONWEALTH) continue
+    const p = byId.get(span.province)
+    if (!p) continue
+    occupations.splice(occupations.indexOf(span), 1)
+    for (const [from, to, occupier] of holders(p)) {
+      const start = Math.max(from, span.start)
+      const last = Math.min(to, end)
+      if (start <= last) occupations.push({ province: span.province, occupier, start, end: last })
+    }
+    if (end >= COMMONWEALTH) occupations.push({ ...span, start: COMMONWEALTH })
+    split += 1
+  }
+  console.log(`Poland-Lithuania before 1569 split into its states for ${split} spans`)
+}
+
+// A province whose own sample points miss every border snapshot (Ceuta is 42 km2) has no record at
+// all; it copies the one of the province it was split from, and a timeline then dates what differs.
+function inheritRecords(occupations, provinces, inherit) {
+  const byKey = new Map(provinces.map((p) => [`${p.country}/${p.region}`, p]))
+  for (const { province, from } of inherit) {
+    const to = byKey.get(province)
+    const source = byKey.get(from)
+    if (!to || !source) {
+      console.warn(`enclaves.json: no province ${!to ? province : from}`)
+      continue
+    }
+    if (occupations.some((o) => o.province === to.id)) continue
+    for (const o of occupations.filter((o) => o.province === source.id)) occupations.push({ ...o, province: to.id })
+  }
+}
+
+// Spans that touch, with the same occupier, are one span.
+function mergeTouching(occupations) {
+  occupations.sort((a, b) => (a.province < b.province ? -1 : a.province > b.province ? 1 : a.start - b.start))
+  for (let i = occupations.length - 1; i > 0; i -= 1) {
+    const prev = occupations[i - 1]
+    const o = occupations[i]
+    if (prev.province === o.province && prev.occupier === o.occupier && prev.end !== null && prev.end + 1 >= o.start) {
+      prev.end = o.end
+      occupations.splice(i, 1)
+    }
+  }
+}
+
+// Spain only existed from 1530; what the source labels Spain before that (the Canary Islands, the
+// North African presidios) was held by Castile.
+function spainFromCastile(occupations) {
+  let moved = 0
+  for (const o of [...occupations]) {
+    if (o.occupier !== 'Spain' || o.start >= 1530) continue
+    moved += 1
+    if (o.end === null || o.end >= 1530) {
+      occupations.push({ ...o, start: 1530 })
+      o.end = 1529
+    }
+    o.occupier = 'Castile'
+  }
+  console.log(`${moved} Spain spans before 1530 are Castile`)
+}
+
+// The source leaves Brazil to its peoples or to nobody until the Viceroyalty of Brazil (1715 on the
+// coast, 1783 inland). Portugal claimed the coast from 1500, the middle of the country from 1650
+// and the Amazon from the Treaty of Madrid (1750). Wherever a province holds only a people or a gap
+// before the Viceroyalty, 'Portuguese Brazil' fills it; nations already recorded (Dutch Brazil,
+// the Viceroyalty of Peru) stay.
+function claimBrazil(occupations, provinces, nonNations) {
+  const patterns = nonNations.patterns.map((p) => new RegExp(p, 'i'))
+  const names = new Set(nonNations.names.map((n) => n.toLowerCase()))
+  const isPeople = (name) => names.has(name.toLowerCase()) || patterns.some((r) => r.test(name))
+  let filled = 0
+  for (const p of provinces.filter((p) => p.country === 'Brazil')) {
+    const from = p.seed[0] >= -48 ? 1500 : p.seed[0] >= -56 ? 1650 : 1750
+    const to = 1782
+    const mine = occupations.filter((o) => o.province === p.id)
+    // drop the peoples' spans in the window (trimming those that straddle it)
+    for (const o of mine) {
+      const end = o.end ?? Infinity
+      if (!isPeople(o.occupier) || end < from || o.start > to) continue
+      if (o.start < from) {
+        if (end > to) occupations.push({ ...o, start: to + 1 })
+        o.end = from - 1
+      } else if (end > to) o.start = to + 1
+      else o.occupier = null
+    }
+    for (let i = occupations.length - 1; i >= 0; i -= 1) if (occupations[i].occupier === null) occupations.splice(i, 1)
+    // fill what no nation covers
+    const nations = occupations.filter((o) => o.province === p.id && o.start <= to && (o.end ?? Infinity) >= from).sort((a, b) => a.start - b.start)
+    let cursor = from
+    const gaps = []
+    for (const o of nations) {
+      if (o.start > cursor) gaps.push([cursor, o.start - 1])
+      cursor = Math.max(cursor, (o.end ?? Infinity) + 1)
+    }
+    if (cursor <= to) gaps.push([cursor, to])
+    for (const [start, end] of gaps) occupations.push({ province: p.id, occupier: 'Portuguese Brazil', start, end })
+    filled += gaps.length
+  }
+  console.log(`Portuguese Brazil fills ${filled} gaps`)
 }
 
 // Hand corrections (occupation-overrides.json): for one province, replace whatever overlapped
@@ -290,6 +414,8 @@ async function run() {
     lon: f.geometry.coordinates[0],
     lat: f.geometry.coordinates[1],
   }))
+  // Natural Earth puts a second "Natal" (pop. 980,588) deep in Amazonas; the real city is on the northeast coast
+  places.splice(0, places.length, ...places.filter((p) => !(p.name === 'Natal' && p.lon < -50)))
   const existingQids = new Set(existing.map((c) => c.qid))
   const norm = (n) => n.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
   for (const p of places) p.historic = existingQids.has(p.qid)
@@ -335,6 +461,11 @@ async function run() {
   for (const [country, seeds] of Object.entries(await readJson(new URL('./seed-regions.json', import.meta.url).pathname))) {
     LISTED_COUNTRIES.add(country)
     for (const g of seeds) listedCities[`${country}/${g.region}`] = [g.city, g.lat, g.lon]
+  }
+  const enclaveConfig = await readJson(new URL('./enclaves.json', import.meta.url).pathname)
+  for (const e of enclaveConfig.enclaves) {
+    LISTED_COUNTRIES.add(e.country)
+    listedCities[`${e.country}/${e.region}`] = e.city
   }
   const groups = await readJson(new URL('./county-groups.json', import.meta.url).pathname)
   const listedCityOf = (p) => {
@@ -451,6 +582,7 @@ async function run() {
       }
     }
   })
+  inheritRecords(occupations, out, enclaveConfig.inherit)
   applyTimelineGroups(occupations, out, await readJson(new URL('./napoleonic-conquests.json', import.meta.url).pathname), 'Napoleonic')
   applyTimelineGroups(occupations, out, await readJson(new URL('./ww2-conquests.json', import.meta.url).pathname), 'WW2')
   applyTimelineGroups(occupations, out, await readJson(new URL('./late-medieval-timelines.json', import.meta.url).pathname), 'Byzantine/Ottoman/Timurid')
@@ -465,14 +597,27 @@ async function run() {
   applyTimelineGroups(occupations, out, await readJson(new URL('./south-asia.json', import.meta.url).pathname), 'South Asia')
   applyTimelineGroups(occupations, out, await readJson(new URL('./ww2-pacific.json', import.meta.url).pathname), 'Pacific War')
   applyTimelineGroups(occupations, out, await readJson(new URL('./spanish-south-america.json', import.meta.url).pathname), 'Spanish South America')
+  applyTimelineGroups(occupations, out, await readJson(new URL('./french-vassals.json', import.meta.url).pathname), 'French vassal')
+  applyTimelineGroups(occupations, out, await readJson(new URL('./poland-lithuania.json', import.meta.url).pathname), 'Poland/Lithuania/Kalmar')
   applyOverrides(occupations, out, (await readJson(new URL('./occupation-overrides.json', import.meta.url).pathname)).overrides)
+  applyTimelineGroups(occupations, out, await readJson(new URL('./piast-poland.json', import.meta.url).pathname), 'Piast Poland')
+  applyTimelineGroups(occupations, out, await readJson(new URL('./golden-horde-successors.json', import.meta.url).pathname), 'Golden Horde successor')
+  applyTimelineGroups(occupations, out, await readJson(new URL('./jalayirids.json', import.meta.url).pathname), 'Jalayirid')
+  applyTimelineGroups(occupations, out, await readJson(new URL('./ceuta-gibraltar.json', import.meta.url).pathname), 'Ceuta and Gibraltar')
+  applyTimelineGroups(occupations, out, await readJson(new URL('./turkey-republic.json', import.meta.url).pathname), 'Republic of Turkey')
+  applyTimelineGroups(occupations, out, await readJson(new URL('./sierra-leone-liberia.json', import.meta.url).pathname), 'Sierra Leone/Liberia')
   const aliasConfig = await readJson(new URL('./occupier-aliases.json', import.meta.url).pathname)
   const { aliases } = aliasConfig
+  splitCommonwealth(occupations, out, aliases)
   const split = splitHolyRomanEmpire(occupations, out, await readJson(new URL('./hre-constituents.json', import.meta.url).pathname), aliases, aliasConfig.repairs ?? [])
   console.log(`${split.occupations.length} occupation spans over ${eras.length} snapshots (Holy Roman Empire split into ${split.constituents} constituents` + (split.unmapped.length ? `; unmapped: ${split.unmapped.join(', ')}` : '') + ')')
   occupations.length = 0
   occupations.push(...split.occupations)
+  spainFromCastile(occupations)
+  claimBrazil(occupations, out, await readJson(new URL('./non-nations.json', import.meta.url).pathname))
+  mergeTouching(occupations)
   carryPeoplesThroughGaps(occupations, out, await readJson(new URL('./non-nations.json', import.meta.url).pathname))
+  mergeTouching(occupations)
   await fs.writeFile(path.join(RAW, 'province-data.json'), JSON.stringify({ provinces: out, occupations }))
 }
 

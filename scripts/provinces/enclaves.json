@@ -1,0 +1,204 @@
+{
+ "_comment": "Provinces carved out of their neighbours after the divisions are drawn. 'polygon' is cut out of the provinces named in 'from' (so it follows their coastlines and borders) and becomes a province of its own in 'country'; 'samples' are the points looked up in the border snapshots. 'inherit' copies the occupation record of another province for a province whose own sample points miss every snapshot (Ceuta is too small to be hit); ceuta-gibraltar.json then dates what happened to each place. An enclave names its host provinces either by 'from' (Country/Region) or, where several provinces share a region name (Brazil), by 'fromAt' points inside them.",
+ "enclaves": [
+  {
+   "country": "Spain",
+   "region": "Gibraltar",
+   "city": [
+    "Gibraltar",
+    36.1408,
+    -5.3536
+   ],
+   "from": [
+    "Spain/Cádiz",
+    "Spain/Málaga"
+   ],
+   "polygon": [
+    [
+     [
+      -5.55,
+      35.9
+     ],
+     [
+      -5.1,
+      35.9
+     ],
+     [
+      -5.1,
+      36.55
+     ],
+     [
+      -5.55,
+      36.55
+     ],
+     [
+      -5.55,
+      35.9
+     ]
+    ]
+   ],
+   "samples": [
+    [
+     -5.35,
+     36.14
+    ],
+    [
+     -5.45,
+     36.13
+    ],
+    [
+     -5.38,
+     36.21
+    ],
+    [
+     -5.25,
+     36.42
+    ],
+    [
+     -5.15,
+     36.43
+    ]
+   ]
+  },
+  {
+   "country": "Brazil",
+   "region": "Rio Grande do Norte",
+   "city": [
+    "Natal",
+    -5.7945,
+    -35.211
+   ],
+   "fromAt": [
+    [
+     -35.24,
+     -5.78
+    ],
+    [
+     -38.0,
+     -5.5
+    ],
+    [
+     -37.0,
+     -6.5
+    ]
+   ],
+   "polygon": [
+    [
+     [
+      -38.0,
+      -7.2
+     ],
+     [
+      -34.7,
+      -7.2
+     ],
+     [
+      -34.7,
+      -4.8
+     ],
+     [
+      -38.0,
+      -4.8
+     ],
+     [
+      -38.0,
+      -7.2
+     ]
+    ]
+   ],
+   "samples": [
+    [
+     -35.24,
+     -5.78
+    ],
+    [
+     -36.5,
+     -5.5
+    ],
+    [
+     -37.3,
+     -5.9
+    ],
+    [
+     -36.0,
+     -6.8
+    ],
+    [
+     -35.4,
+     -6.2
+    ]
+   ]
+  },
+  {
+   "country": "Brazil",
+   "region": "Pernambuco",
+   "city": [
+    "Recife",
+    -8.0476,
+    -34.877
+   ],
+   "fromAt": [
+    [
+     -35.24,
+     -8.5
+    ],
+    [
+     -36.5,
+     -8.0
+    ]
+   ],
+   "polygon": [
+    [
+     [
+      -37.8,
+      -9.0
+     ],
+     [
+      -34.7,
+      -9.0
+     ],
+     [
+      -34.7,
+      -7.2
+     ],
+     [
+      -37.8,
+      -7.2
+     ],
+     [
+      -37.8,
+      -9.0
+     ]
+    ]
+   ],
+   "samples": [
+    [
+     -34.91,
+     -8.06
+    ],
+    [
+     -35.9,
+     -8.3
+    ],
+    [
+     -36.8,
+     -8.4
+    ],
+    [
+     -35.5,
+     -7.7
+    ]
+   ]
+  }
+ ],
+ "inherit": [
+  {
+   "province": "Spain/Ceuta",
+   "from": "Morocco/Tingitana"
+  },
+  {
+   "province": "Spain/Gibraltar",
+   "from": "Spain/Cádiz"
+  }
+ ]
+}

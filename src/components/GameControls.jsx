@@ -11,6 +11,9 @@ export default function GameControls({
   solutions,
   showSolutions,
   onToggleSolutions,
+  easyMode,
+  onEasyModeChange,
+  onUndo,
 }) {
   return (
     <div className="controls">
@@ -19,9 +22,19 @@ export default function GameControls({
         <button onClick={onNewGame}>New Game</button>
       </div>
 
+      <label className="easy-toggle">
+        <input type="checkbox" checked={easyMode} onChange={(e) => onEasyModeChange(e.target.checked)} /> Easy mode (undo guesses, hover a
+        province to see who held it)
+      </label>
+      {easyMode && (
+        <button onClick={onUndo} disabled={path.length <= 1}>
+          Undo last guess
+        </button>
+      )}
+
       {status === 'won' && (
         <div className="banner won">
-          You connected {cityById[path[0]]?.name} to {cityById[targetCity]?.name}!
+          ✓ You connected {cityById[path[0]]?.name} to {cityById[targetCity]?.name} in {path.length - 1} {path.length - 1 === 1 ? 'step' : 'steps'}!
         </div>
       )}
 

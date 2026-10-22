@@ -1,0 +1,379 @@
+{
+ "_comment": "Poland from its founding to the reunification of 1320: the Duchy of Poland until the kingdom of 1025, the partition of 1138 into Greater Poland, Lesser Poland, Sandomierz, Silesia, Masovia (with Kuyavia, Chełmno and Podlasie) and a Pomeranian vassal, the near-reunion of 1295-1296 and 1300-1305, and the Kingdom of Poland reunified in 1320. Also takes back the Bohemian, Moravian, Slovak and Passau provinces the 1100 snapshot gives to Poland. Same format as napoleonic-conquests.json.",
+ "groups": [
+  {
+   "name": "Duchy of Poland",
+   "until": 1137,
+   "timeline": [
+    [
+     1000,
+     "Duchy of Poland"
+    ],
+    [
+     1025,
+     "Poland"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Poland"
+    }
+   ],
+   "when": {
+    "year": 1000,
+    "occupier": "Poland"
+   }
+  },
+  {
+   "name": "Greater Poland",
+   "until": 1319,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Greater Poland"
+    ],
+    [
+     1295,
+     "Poland"
+    ],
+    [
+     1297,
+     "Duchy of Greater Poland"
+    ],
+    [
+     1300,
+     "Poland"
+    ],
+    [
+     1306,
+     "Duchy of Greater Poland"
+    ]
+   ],
+   "provinces": [
+    "Poland/Greater Poland",
+    "Poland/Kalisz",
+    "Poland/Łódź"
+   ]
+  },
+  {
+   "name": "Lesser Poland",
+   "until": 1319,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Lesser Poland"
+    ],
+    [
+     1300,
+     "Poland"
+    ],
+    [
+     1306,
+     "Duchy of Lesser Poland"
+    ]
+   ],
+   "provinces": [
+    "Poland/Lesser Poland",
+    "Poland/Częstochowa"
+   ]
+  },
+  {
+   "name": "Sandomierz",
+   "until": 1399,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Sandomierz"
+    ],
+    [
+     1194,
+     "Duchy of Lesser Poland"
+    ],
+    [
+     1300,
+     "Poland"
+    ],
+    [
+     1306,
+     "Duchy of Lesser Poland"
+    ],
+    [
+     1320,
+     "Poland"
+    ]
+   ],
+   "provinces": [
+    "Poland/Świętokrzyskie",
+    "Poland/Radom",
+    "Poland/Lublin",
+    "Poland/Subcarpathia"
+   ]
+  },
+  {
+   "name": "Upper Silesia",
+   "until": 1399,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Lesser Poland"
+    ],
+    [
+     1177,
+     "Duchy of Silesia"
+    ]
+   ],
+   "provinces": [
+    "Poland/Upper Silesia"
+   ]
+  },
+  {
+   "name": "Silesia",
+   "until": 1299,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Silesia"
+    ]
+   ],
+   "provinces": [
+    "Poland/Legnica",
+    "Poland/Lower Silesia",
+    "Poland/Opole"
+   ]
+  },
+  {
+   "name": "Mazovia (Podlasie)",
+   "until": 1278,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Masovia"
+    ],
+    [
+     1253,
+     "Principality of Galicia-Volhynia"
+    ]
+   ],
+   "provinces": [
+    "Poland/Podlasie"
+   ]
+  },
+  {
+   "name": "Kuyavia",
+   "until": 1319,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Masovia"
+    ],
+    [
+     1233,
+     "Duchy of Kuyavia"
+    ]
+   ],
+   "provinces": [
+    "Poland/Kuyavia"
+   ]
+  },
+  {
+   "name": "Chełmno",
+   "until": 1465,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Masovia"
+    ],
+    [
+     1231,
+     "Teutonic Knights"
+    ]
+   ],
+   "provinces": [
+    "Poland/Chełmno"
+   ]
+  },
+  {
+   "name": "Pomerania",
+   "until": 1278,
+   "timeline": [
+    [
+     1121,
+     "Pomerania"
+    ]
+   ],
+   "provinces": [
+    "Poland/Western Pomerania",
+    "Poland/Farther Pomerania"
+   ]
+  },
+  {
+   "name": "Pomerelia",
+   "until": 1307,
+   "timeline": [
+    [
+     1121,
+     "Pomerania"
+    ],
+    [
+     1227,
+     "Duchy of Pomerelia"
+    ],
+    [
+     1295,
+     "Duchy of Greater Poland"
+    ]
+   ],
+   "provinces": [
+    "Poland/Pomerelia"
+   ]
+  },
+  {
+   "name": "Prussian lands",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "Prussians"
+    ]
+   ],
+   "provinces": [
+    "Poland/Masuria",
+    "Poland/Warmia"
+   ]
+  },
+  {
+   "name": "Lubusz",
+   "until": 1278,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Greater Poland"
+    ],
+    [
+     1249,
+     "Brandenburg"
+    ]
+   ],
+   "provinces": [
+    "Poland/Lubusz"
+   ]
+  },
+  {
+   "name": "Neumark",
+   "until": 1278,
+   "timeline": [
+    [
+     1138,
+     "Duchy of Greater Poland"
+    ],
+    [
+     1250,
+     "Brandenburg"
+    ]
+   ],
+   "provinces": [
+    "Germany/Neumark"
+   ]
+  },
+  {
+   "name": "Uckermark",
+   "until": 1099,
+   "timeline": [
+    [
+     1000,
+     "Slavic tribes"
+    ]
+   ],
+   "provinces": [
+    "Germany/Uckermark"
+   ]
+  },
+  {
+   "name": "Brest",
+   "until": 1199,
+   "timeline": [
+    [
+     1031,
+     "Kievan Rus"
+    ]
+   ],
+   "provinces": [
+    "Belarus/Brest"
+   ]
+  },
+  {
+   "name": "Dzūkija",
+   "until": 1278,
+   "timeline": [
+    [
+     1100,
+     "Baltic tribes"
+    ]
+   ],
+   "provinces": [
+    "Lithuania/Dzūkija"
+   ]
+  },
+  {
+   "name": "Bohemia",
+   "until": 1278,
+   "timeline": [
+    [
+     1100,
+     "Kingdom of Bohemia"
+    ]
+   ],
+   "provinces": [
+    "Czechia/Liberec",
+    "Czechia/Egerland",
+    "Czechia/East Bohemia",
+    "Czechia/Prague",
+    "Czechia/West Bohemia",
+    "Czechia/Highlands",
+    "Czechia/South Bohemia"
+   ]
+  },
+  {
+   "name": "Moravia",
+   "until": 1278,
+   "timeline": [
+    [
+     1100,
+     "Margraviate of Moravia"
+    ]
+   ],
+   "provinces": [
+    "Czechia/Olomouc",
+    "Czechia/Moravian Slovakia",
+    "Czechia/South Moravia",
+    "Czechia/Silesia"
+   ]
+  },
+  {
+   "name": "Trenčín",
+   "until": 1278,
+   "timeline": [
+    [
+     1100,
+     "Hungary"
+    ]
+   ],
+   "provinces": [
+    "Slovakia/Trenčín"
+   ]
+  },
+  {
+   "name": "Passau",
+   "until": 1278,
+   "timeline": [
+    [
+     1100,
+     "Prince-Bishopric of Passau"
+    ]
+   ],
+   "provinces": [
+    "Germany/Passau"
+   ]
+  }
+ ]
+}

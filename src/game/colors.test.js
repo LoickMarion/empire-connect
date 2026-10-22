@@ -17,9 +17,10 @@ describe('colors', () => {
     expect(colorAt(2, 1950)).toBe('#ff0000')
     expect(colorAt(3, 1850)).toBe('#0000ff')
   })
-  it('keeps the realm colour for a member link', () => {
+  it('takes the realm colour for a member link, only while linked', () => {
     const colorAt = createColorResolver(empires, [{ occupierId: 2, overlordId: 3, start: 1800, end: 1900, kind: 'member' }])
-    expect(colorAt(2, 1850)).toBe('#ff0000')
+    expect(colorAt(2, 1850)).toBe('#0000ff')
+    expect(colorAt(2, 1950)).toBe('#ff0000')
   })
   it('uses the top overlord of a chain', () => {
     const colorAt = createColorResolver(empires, [

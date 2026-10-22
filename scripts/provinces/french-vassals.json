@@ -1,0 +1,224 @@
+{
+ "_comment": "The Norman, Angevin and French vassal states the border snapshots fold into 'France' and 'England': Anglo-Saxon England until the Norman conquest of 1066 (England forms then), the Duchy of Normandy, the Angevin lands of Normandy, Anjou, Poitou and Aquitaine, and the counties of Toulouse, Provence, Flanders and Champagne and the Dauphiné. Same format as napoleonic-conquests.json. Overlordship of these is in overlords.json.",
+ "groups": [
+  {
+   "name": "Anglo-Saxon England before the Norman conquest",
+   "until": 1066,
+   "when": {
+    "year": 1000,
+    "occupier": "England"
+   },
+   "timeline": [
+    [
+     1000,
+     "Anglo-Saxon England"
+    ],
+    [
+     1066,
+     "England"
+    ]
+   ],
+   "select": [
+    {
+     "country": "England"
+    }
+   ]
+  },
+  {
+   "name": "Normandy",
+   "until": 1278,
+   "timeline": [
+    [
+     911,
+     "Duchy of Normandy"
+    ],
+    [
+     1154,
+     "Angevin Empire"
+    ],
+    [
+     1204,
+     "France"
+    ]
+   ],
+   "provinces": [
+    "France/Seine-Maritime",
+    "France/Eure",
+    "France/Calvados",
+    "France/Manche",
+    "France/Orne"
+   ]
+  },
+  {
+   "name": "Anjou, Maine and Touraine",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "County of Anjou"
+    ],
+    [
+     1154,
+     "Angevin Empire"
+    ],
+    [
+     1204,
+     "France"
+    ]
+   ],
+   "provinces": [
+    "France/Maine-et-Loire",
+    "France/Sarthe",
+    "France/Mayenne",
+    "France/Indre-et-Loire"
+   ]
+  },
+  {
+   "name": "Poitou",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "Duchy of Aquitaine"
+    ],
+    [
+     1154,
+     "Angevin Empire"
+    ],
+    [
+     1204,
+     "France"
+    ]
+   ],
+   "provinces": [
+    "France/Vienne",
+    "France/Deux-Sèvres",
+    "France/Vendée",
+    "France/Haute-Vienne"
+   ]
+  },
+  {
+   "name": "Gascony and Guyenne",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "Duchy of Aquitaine"
+    ],
+    [
+     1154,
+     "Angevin Empire"
+    ],
+    [
+     1259,
+     "England"
+    ]
+   ],
+   "provinces": [
+    "France/Charente",
+    "France/Charente-Maritime",
+    "France/Dordogne",
+    "France/Gironde",
+    "France/Lot-et-Garonne",
+    "France/Landes",
+    "France/Pyrénées-Atlantiques",
+    "France/Hautes-Pyrénées"
+   ]
+  },
+  {
+   "name": "Toulouse and Languedoc",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "County of Toulouse"
+    ],
+    [
+     1229,
+     "France"
+    ]
+   ],
+   "provinces": [
+    "France/Haute-Garonne",
+    "France/Tarn-et-Garonne",
+    "France/Tarn",
+    "France/Gers",
+    "France/Aveyron",
+    "France/Lot",
+    "France/Ariège",
+    "France/Aude",
+    "France/Lozère",
+    "France/Gard",
+    "France/Hérault"
+   ]
+  },
+  {
+   "name": "Provence",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "County of Provence"
+    ],
+    [
+     1246,
+     "France"
+    ]
+   ],
+   "provinces": [
+    "France/Bouches-du-Rhône",
+    "France/Var",
+    "France/Alpes-de-Haute-Provence",
+    "France/Alpes-Maritimes",
+    "France/Vaucluse"
+   ]
+  },
+  {
+   "name": "Dauphiné",
+   "until": 1348,
+   "timeline": [
+    [
+     1000,
+     "Dauphiné of Viennois"
+    ]
+   ],
+   "provinces": [
+    "France/Isère",
+    "France/Hautes-Alpes"
+   ]
+  },
+  {
+   "name": "Flanders",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "County of Flanders"
+    ]
+   ],
+   "provinces": [
+    "France/Pas-de-Calais",
+    "France/Nord"
+   ]
+  },
+  {
+   "name": "Champagne",
+   "until": 1278,
+   "timeline": [
+    [
+     1000,
+     "County of Champagne"
+    ],
+    [
+     1285,
+     "France"
+    ]
+   ],
+   "provinces": [
+    "France/Aube",
+    "France/Marne",
+    "France/Haute-Marne"
+   ]
+  }
+ ]
+}

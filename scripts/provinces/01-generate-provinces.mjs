@@ -515,6 +515,41 @@ async function main() {
     console.log(`reassigned ${moved} stranded fragments`)
   }
 
+  // Hand-drawn enclaves (enclaves.json): a piece cut out of the provinces around it becomes a province.
+  for (const e of JSON.parse(readFileSync(new URL('./enclaves.json', import.meta.url), 'utf8')).enclaves) {
+    let piece = []
+    const hosts = [
+      ...(e.from ?? []).map((key) => {
+        const host = provinces.find((p) => `${p.country}/${p.region}` === key)
+        if (!host) throw new Error(`enclaves.json: no province ${key}`)
+        return host
+      }),
+      ...(e.fromAt ?? []).map(([x, y]) => {
+        const host = provinces.find((p) => p.geometry.some((poly) => inPolygon(x, y, poly, ringBBox(poly[0]))))
+        if (!host) throw new Error(`enclaves.json: no province at ${x},${y}`)
+        return host
+      }),
+    ]
+    for (const host of new Set(hosts)) {
+      const cut = polygonClipping.intersection(host.geometry, e.polygon)
+      if (!cut.length) continue
+      piece = piece.length ? polygonClipping.union(piece, cut) : cut
+      host.geometry = polygonClipping.difference(host.geometry, e.polygon)
+      host.areaKm2 = Math.round(polygonsKm2(host.geometry))
+    }
+    if (!piece.length) throw new Error(`enclaves.json: ${e.region} overlaps none of its host provinces`)
+    provinces.push({
+      country: e.country,
+      region: e.region,
+      qid: null,
+      seeded: true,
+      seed: [e.city[2], e.city[1]],
+      members: e.samples.map(([lon, lat]) => ({ lon, lat })),
+      areaKm2: Math.round(polygonsKm2(piece)),
+      geometry: piece,
+    })
+  }
+
   // simplify + round the finished geometry
   for (const p of provinces) {
     p.geometry = p.geometry

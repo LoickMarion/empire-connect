@@ -11,9 +11,9 @@ import { createGraph, describePaths, diversePaths, pickGamePair, shortestPaths }
 
 const MODES = ['game', 'explore', 'paint']
 
-// A start and target 3 to 7 steps apart by the shortest route.
+// A start and target 2 to 7 steps apart (so at least one intermediate province) by the shortest route.
 function newGameState(playable, graph) {
-  const pair = pickGamePair(graph, playable, { min: 3, max: 7 })
+  const pair = pickGamePair(graph, playable, { min: 2, max: 7 })
   const [start, target] = pair ? [pair.start, pair.target] : [playable[0].id, playable[1].id]
   return {
     startCity: start,
@@ -33,6 +33,9 @@ export default function App() {
   const [mode, setMode] = useState('game')
   const [exploreCityId, setExploreCityId] = useState(null)
   const [paintYear, setPaintYear] = useState(1500)
+  const [showCities, setShowCities] = useState(false)
+  const [easyMode, setEasyMode] = useState(false)
+  const [winDismissed, setWinDismissed] = useState(false)
 
   useEffect(() => {
     Promise.all([getProvinces(), getOccupations(), getOccupiers(), getRealmLinks()]).then(([cities, holdings, empires, realmLinks]) => {
@@ -54,8 +57,31 @@ export default function App() {
 
   const pathIds = useMemo(() => game?.path ?? [], [game])
 
+  // Everyone who has held each province, oldest first, for the easy-mode hover list.
+  const historyByCity = useMemo(() => {
+    if (!data) return null
+    const map = new Map()
+    for (const h of data.holdings) {
+      if (h.synthetic) continue
+      if (!map.has(h.city)) map.set(h.city, [])
+      map.get(h.city).push(h)
+    }
+    for (const list of map.values()) list.sort((a, b) => a.start - b.start)
+    return map
+  }, [data])
+
+  function handleUndo() {
+    setGame((g) =>
+      g.path.length <= 1
+        ? g
+        : { ...g, path: g.path.slice(0, -1), connections: g.connections.slice(0, -1), status: 'in-progress', lastError: null },
+    )
+    setWinDismissed(false)
+  }
+
   function handleNewGame() {
     setGame(newGameState(data.playable, data.graph))
+    setWinDismissed(false)
   }
 
   // Reveal up to 3 of the shortest routes, chosen to be as different from each other as possible.
@@ -69,10 +95,6 @@ export default function App() {
     const chosen = diversePaths(result.paths, 3, data.graph, (id) => data.cityById[id]?.country)
     const items = describePaths(data.graph, chosen)
     setGame((g) => ({ ...g, showSolutions: true, solutions: { distance: result.distance, total: result.total, items } }))
-  }
-
-  function handleCycleMode() {
-    setMode((m) => MODES[(MODES.indexOf(m) + 1) % MODES.length])
   }
 
   function handleGameCityClick(cityId) {
@@ -125,9 +147,14 @@ export default function App() {
     <div className="app">
       <div className="map-pane">
         <div className="mode-toggle">
-          <button onClick={handleCycleMode}>
-            {modeLabel[mode]} Mode — switch to {modeLabel[MODES[(MODES.indexOf(mode) + 1) % MODES.length]]}
-          </button>
+          {MODES.map((m) => (
+            <button key={m} className={m === mode ? 'active' : ''} onClick={() => setMode(m)}>
+              {modeLabel[m]}
+            </button>
+          ))}
+          <label>
+            <input type="checkbox" checked={showCities} onChange={(e) => setShowCities(e.target.checked)} /> Cities
+          </label>
         </div>
         <MapView
           cities={data.cities}
@@ -140,7 +167,23 @@ export default function App() {
           paintYear={paintYear}
           holdings={data.holdings}
           colorAt={data.colorAt}
+          showCities={showCities}
+          historyByCity={mode === 'game' && easyMode ? historyByCity : null}
+          won={mode === 'game' && game.status === 'won'}
         />
+        {mode === 'game' && game.status === 'won' && !winDismissed && (
+          <div className="win-card" role="status">
+            <div className="win-title">Connected!</div>
+            <div>
+              {data.cityById[game.startCity]?.name} → {data.cityById[game.targetCity]?.name} in {game.path.length - 1}{' '}
+              {game.path.length - 1 === 1 ? 'step' : 'steps'}
+            </div>
+            <div className="win-actions">
+              <button onClick={handleNewGame}>New Game</button>
+              <button onClick={() => setWinDismissed(true)}>Close</button>
+            </div>
+          </div>
+        )}
       </div>
       {mode === 'game' && (
         <GameControls
@@ -154,6 +197,9 @@ export default function App() {
           solutions={game.solutions}
           showSolutions={game.showSolutions}
           onToggleSolutions={handleToggleSolutions}
+          easyMode={easyMode}
+          onEasyModeChange={setEasyMode}
+          onUndo={handleUndo}
         />
       )}
       {mode === 'explore' && <ExplorePanel city={exploreCity} holdings={exploreHoldings} />}

@@ -9,21 +9,26 @@ export function lighten(hex, amount = 0.5) {
   return `#${out.map((c) => c.toString(16).padStart(2, '0')).join('')}`
 }
 
+// A 'member' link means the occupier is the same state under another name (England -> United Kingdom,
+// Angevin Empire -> United Kingdom), so it takes the realm's own colour for as long as the link applies.
 // Returns colorAt(empireId, year). `empires`: [{ id, color }]; `realmLinks`: [{ occupierId, overlordId, start, end, kind }].
 export function createColorResolver(empires, realmLinks) {
   const own = new Map(empires.map((e) => [e.id, e.color]))
   const subjectLinks = new Map()
+  const memberLinks = new Map()
   for (const l of realmLinks) {
-    if (l.kind !== 'subject') continue
-    if (!subjectLinks.has(l.occupierId)) subjectLinks.set(l.occupierId, [])
-    subjectLinks.get(l.occupierId).push(l)
+    const byOccupier = l.kind === 'subject' ? subjectLinks : memberLinks
+    if (!byOccupier.has(l.occupierId)) byOccupier.set(l.occupierId, [])
+    byOccupier.get(l.occupierId).push(l)
   }
-  const active = (id, year) => (subjectLinks.get(id) ?? []).filter((l) => l.start <= year && year <= l.end)
+  const active = (links, id, year) => (links.get(id) ?? []).filter((l) => l.start <= year && year <= l.end)
+  // the colour of the realm an occupier is a name of (links are closed transitively, so one hop reaches it)
+  const realmColor = (id, year) => own.get(active(memberLinks, id, year)[0]?.overlordId ?? id)
   return (empireId, year) => {
-    const links = active(empireId, year)
-    if (!links.length) return own.get(empireId)
+    const links = active(subjectLinks, empireId, year)
+    if (!links.length) return realmColor(empireId, year)
     // links are closed transitively, so prefer the top overlord: the one that is not itself a subject
-    const top = links.find((l) => !active(l.overlordId, year).length) ?? links[0]
-    return lighten(own.get(top.overlordId) ?? own.get(empireId))
+    const top = links.find((l) => !active(subjectLinks, l.overlordId, year).length) ?? links[0]
+    return lighten(realmColor(top.overlordId, year) ?? own.get(empireId))
   }
 }

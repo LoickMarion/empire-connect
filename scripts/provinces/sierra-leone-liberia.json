@@ -1,0 +1,90 @@
+{
+ "_comment": "Sierra Leone and Liberia. The source has Liberia holding two Sierra Leonean provinces in 1880-1913 and the rest of the country only from 1880 or 1914. Here Sierra Leone is the British colony of Freetown from 1808 and the interior protectorate from 1896; Liberia is the American Colonization Society's settlements from 1822 (Monrovia), 1834 (Maryland in Africa) and 1835 (Grand Bassa), and the hinterland from 1900. Same format as napoleonic-conquests.json.",
+ "groups": [
+  {
+   "name": "Freetown",
+   "until": 1814,
+   "timeline": [
+    [
+     1808,
+     "Sierra Leone"
+    ]
+   ],
+   "provinces": [
+    "Sierra Leone/Freetown"
+   ]
+  },
+  {
+   "name": "Sierra Leone Protectorate",
+   "until": 1913,
+   "timeline": [
+    [
+     1815,
+     "Mande peoples"
+    ],
+    [
+     1896,
+     "Sierra Leone"
+    ]
+   ],
+   "provinces": [
+    "Sierra Leone/Makeni",
+    "Sierra Leone/Mende Country",
+    "Sierra Leone/Kenema"
+   ]
+  },
+  {
+   "name": "Monrovia",
+   "until": 1879,
+   "timeline": [
+    [
+     1822,
+     "Liberia"
+    ]
+   ],
+   "provinces": [
+    "Liberia/Montserrado"
+   ]
+  },
+  {
+   "name": "Maryland in Africa",
+   "until": 1913,
+   "timeline": [
+    [
+     1834,
+     "Liberia"
+    ]
+   ],
+   "provinces": [
+    "Liberia/Maryland"
+   ]
+  },
+  {
+   "name": "Grand Bassa",
+   "until": 1879,
+   "timeline": [
+    [
+     1835,
+     "Liberia"
+    ]
+   ],
+   "provinces": [
+    "Liberia/Grand Bassa"
+   ]
+  },
+  {
+   "name": "Liberian hinterland",
+   "until": 1913,
+   "timeline": [
+    [
+     1900,
+     "Liberia"
+    ]
+   ],
+   "provinces": [
+    "Liberia/Lofa",
+    "Liberia/Grand Gedeh"
+   ]
+  }
+ ]
+}

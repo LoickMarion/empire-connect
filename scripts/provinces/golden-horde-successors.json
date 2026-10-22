@@ -1,0 +1,557 @@
+{
+ "_comment": "Russia and the steppe from the Mongol conquest to the 1600s: the Rus principalities that outlived the conquest (Kyiv, Chernigov, Galicia-Volhynia, Vladimir, Moscow, Tver, Ryazan, Nizhny Novgorod, Yaroslavl) and the Golden Horde's successors (Nogai Horde from 1390, Kazan 1438, Great Horde and Astrakhan 1466, Sibir 1468, the Uzbek Khanate of Abu'l-Khayr from 1428 and the Kazakh Khanate from 1466). Same format as napoleonic-conquests.json. The source's Kazan and Sibir spans only started in the 1500s.",
+ "groups": [
+  {
+   "name": "Kyiv",
+   "until": 1399,
+   "timeline": [
+    [
+     1240,
+     "Principality of Kyiv"
+    ],
+    [
+     1362,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Ukraine/Kyiv",
+    "Ukraine/Zhytomyr",
+    "Ukraine/Cherkasy"
+   ]
+  },
+  {
+   "name": "Chernigov",
+   "until": 1399,
+   "timeline": [
+    [
+     1240,
+     "Principality of Chernigov"
+    ],
+    [
+     1357,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Ukraine/Chernihiv"
+   ]
+  },
+  {
+   "name": "Volhynia",
+   "until": 1399,
+   "timeline": [
+    [
+     1241,
+     "Principality of Galicia-Volhynia"
+    ],
+    [
+     1349,
+     "Lithuania"
+    ]
+   ],
+   "provinces": [
+    "Ukraine/Volhynia",
+    "Ukraine/Rivne"
+   ]
+  },
+  {
+   "name": "Galicia",
+   "until": 1399,
+   "timeline": [
+    [
+     1241,
+     "Principality of Galicia-Volhynia"
+    ],
+    [
+     1349,
+     "Poland"
+    ]
+   ],
+   "provinces": [
+    "Ukraine/Galicia",
+    "Ukraine/Ternopil",
+    "Ukraine/Ivano-Frankivsk"
+   ]
+  },
+  {
+   "name": "Moscow",
+   "until": 1491,
+   "timeline": [
+    [
+     1237,
+     "Principality of Vladimir-Suzdal"
+    ],
+    [
+     1263,
+     "Grand Duchy of Moscow"
+    ]
+   ],
+   "provinces": [
+    "Russia/Moscow"
+   ]
+  },
+  {
+   "name": "Vladimir",
+   "until": 1491,
+   "timeline": [
+    [
+     1237,
+     "Principality of Vladimir-Suzdal"
+    ],
+    [
+     1389,
+     "Grand Duchy of Moscow"
+    ]
+   ],
+   "provinces": [
+    "Russia/Vladimir",
+    "Russia/Kostroma"
+   ]
+  },
+  {
+   "name": "Yaroslavl",
+   "until": 1491,
+   "timeline": [
+    [
+     1240,
+     "Principality of Yaroslavl"
+    ],
+    [
+     1463,
+     "Grand Duchy of Moscow"
+    ]
+   ],
+   "provinces": [
+    "Russia/Yaroslavl"
+   ]
+  },
+  {
+   "name": "Nizhny Novgorod",
+   "until": 1491,
+   "timeline": [
+    [
+     1237,
+     "Principality of Vladimir-Suzdal"
+    ],
+    [
+     1341,
+     "Principality of Nizhny Novgorod-Suzdal"
+    ],
+    [
+     1393,
+     "Grand Duchy of Moscow"
+    ]
+   ],
+   "provinces": [
+    "Russia/Nizhny Novgorod"
+   ]
+  },
+  {
+   "name": "Vologda",
+   "until": 1491,
+   "timeline": [
+    [
+     1240,
+     "Principality of Vladimir-Suzdal"
+    ],
+    [
+     1397,
+     "Grand Duchy of Moscow"
+    ]
+   ],
+   "provinces": [
+    "Russia/Vologda"
+   ]
+  },
+  {
+   "name": "Kaluga",
+   "until": 1491,
+   "timeline": [
+    [
+     1240,
+     "Mongol Empire"
+    ],
+    [
+     1279,
+     "Golden Horde"
+    ],
+    [
+     1389,
+     "Grand Duchy of Moscow"
+    ]
+   ],
+   "provinces": [
+    "Russia/Kaluga"
+   ]
+  },
+  {
+   "name": "Tver",
+   "until": 1485,
+   "timeline": [
+    [
+     1246,
+     "Principality of Tver"
+    ]
+   ],
+   "provinces": [
+    "Russia/Tver"
+   ]
+  },
+  {
+   "name": "Smolensk",
+   "until": 1652,
+   "timeline": [
+    [
+     1404,
+     "Lithuania"
+    ],
+    [
+     1514,
+     "Grand Duchy of Moscow"
+    ],
+    [
+     1547,
+     "Tsardom of Muscovy"
+    ],
+    [
+     1611,
+     "Poland-Lithuania"
+    ],
+    [
+     1654,
+     "Tsardom of Muscovy"
+    ]
+   ],
+   "provinces": [
+    "Russia/Smolensk"
+   ]
+  },
+  {
+   "name": "Nogai Horde",
+   "until": 1529,
+   "timeline": [
+    [
+     1390,
+     "Nogai Horde"
+    ]
+   ],
+   "provinces": [
+    "Russia/Orenburg",
+    "Russia/Samara"
+   ]
+  },
+  {
+   "name": "Great Horde (Volga)",
+   "until": 1529,
+   "timeline": [
+    [
+     1466,
+     "Great Horde"
+    ],
+    [
+     1503,
+     "Nogai Horde"
+    ]
+   ],
+   "provinces": [
+    "Russia/Saratov",
+    "Russia/Volgograd",
+    "Russia/Voronezh"
+   ]
+  },
+  {
+   "name": "Great Horde (Don)",
+   "until": 1529,
+   "timeline": [
+    [
+     1466,
+     "Great Horde"
+    ],
+    [
+     1503,
+     "Crimean Khanate"
+    ]
+   ],
+   "provinces": [
+    "Russia/Don"
+   ]
+  },
+  {
+   "name": "Great Horde (Donbas)",
+   "until": 1529,
+   "timeline": [
+    [
+     1466,
+     "Great Horde"
+    ],
+    [
+     1503,
+     "Crimean Khanate"
+    ]
+   ],
+   "provinces": [
+    "Ukraine/Luhansk",
+    "Ukraine/Donetsk",
+    "Ukraine/Azov"
+   ]
+  },
+  {
+   "name": "Astrakhan",
+   "until": 1599,
+   "timeline": [
+    [
+     1466,
+     "Astrakhan Khanate"
+    ],
+    [
+     1557,
+     "Tsardom of Muscovy"
+    ]
+   ],
+   "provinces": [
+    "Russia/Astrakhan"
+   ]
+  },
+  {
+   "name": "Astrakhan lands",
+   "until": 1599,
+   "timeline": [
+    [
+     1466,
+     "Astrakhan Khanate"
+    ],
+    [
+     1557,
+     "Nogai Horde"
+    ]
+   ],
+   "provinces": [
+    "Russia/Kalmykia",
+    "Russia/Stavropol",
+    "Russia/Chechnya"
+   ]
+  },
+  {
+   "name": "Kazan",
+   "until": 1599,
+   "timeline": [
+    [
+     1438,
+     "Kazan Khanate"
+    ],
+    [
+     1553,
+     "Tsardom of Muscovy"
+    ]
+   ],
+   "provinces": [
+    "Russia/Tatarstan",
+    "Russia/Simbirsk",
+    "Russia/Mari El",
+    "Russia/Chuvashia",
+    "Russia/Udmurtia",
+    "Russia/Mordovia",
+    "Russia/Penza",
+    "Russia/Bashkortostan"
+   ]
+  },
+  {
+   "name": "Sibir",
+   "until": 1599,
+   "timeline": [
+    [
+     1468,
+     "Khanate of Sibir"
+    ]
+   ],
+   "provinces": [
+    "Russia/Tyumen",
+    "Russia/Kurgan",
+    "Russia/Omsk",
+    "Russia/Tomsk",
+    "Russia/Novosibirsk",
+    "Russia/Khanty-Mansi",
+    "Russia/Yekaterinburg",
+    "Russia/Chelyabinsk"
+   ]
+  },
+  {
+   "name": "Nogai steppe",
+   "until": 1782,
+   "timeline": [
+    [
+     1390,
+     "Nogai Horde"
+    ],
+    [
+     1635,
+     "Kazakh Khanate"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Kazakhstan",
+     "box": [
+      40,
+      59.9,
+      40,
+      56
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Uzbek steppe",
+   "until": 1529,
+   "timeline": [
+    [
+     1428,
+     "Uzbek Khanate"
+    ],
+    [
+     1466,
+     "Kazakh Khanate"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Kazakhstan",
+     "box": [
+      60,
+      78,
+      44,
+      55
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Zhetysu",
+   "until": 1529,
+   "timeline": [
+    [
+     1466,
+     "Kazakh Khanate"
+    ]
+   ],
+   "select": [
+    {
+     "country": "Kazakhstan",
+     "box": [
+      78,
+      90,
+      42,
+      55
+     ]
+    },
+    {
+     "country": "Kazakhstan",
+     "box": [
+      60,
+      78,
+      42,
+      43.99
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ryazan",
+   "until": 1599,
+   "timeline": [
+    [
+     1237,
+     "Ryazan"
+    ],
+    [
+     1522,
+     "Grand Duchy of Moscow"
+    ],
+    [
+     1547,
+     "Tsardom of Muscovy"
+    ]
+   ],
+   "provinces": [
+    "Russia/Ryazan"
+   ]
+  },
+  {
+   "name": "Muscovite Oka and Upper Volga",
+   "until": 1599,
+   "timeline": [
+    [
+     1530,
+     "Grand Duchy of Moscow"
+    ],
+    [
+     1547,
+     "Tsardom of Muscovy"
+    ]
+   ],
+   "provinces": [
+    "Russia/Rzhev",
+    "Russia/Bryansk",
+    "Russia/Tula",
+    "Russia/Kursk",
+    "Russia/Tambov",
+    "Ukraine/Sumy"
+   ]
+  },
+  {
+   "name": "Wild Fields",
+   "until": 1599,
+   "timeline": [
+    [
+     1530,
+     "Crimean Khanate"
+    ]
+   ],
+   "provinces": [
+    "Ukraine/Kharkiv",
+    "Ukraine/Luhansk",
+    "Russia/Belgorod"
+   ]
+  },
+  {
+   "name": "Voronezh",
+   "until": 1599,
+   "timeline": [
+    [
+     1530,
+     "Nogai Horde"
+    ],
+    [
+     1586,
+     "Tsardom of Muscovy"
+    ]
+   ],
+   "provinces": [
+    "Russia/Voronezh"
+   ]
+  },
+  {
+   "name": "Grand Duchy of Moscow",
+   "until": 1546,
+   "timeline": [
+    [
+     1530,
+     "Grand Duchy of Moscow"
+    ]
+   ],
+   "when": {
+    "year": 1530,
+    "occupier": "Tsardom of Muscovy"
+   },
+   "select": [
+    {
+     "country": "Russia"
+    },
+    {
+     "country": "Ukraine"
+    }
+   ]
+  }
+ ]
+}

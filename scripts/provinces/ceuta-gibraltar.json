@@ -1,0 +1,115 @@
+{
+ "_comment": "Ceuta (Almohads and Marinids, briefly Granada in 1306-1309, Portugal from the conquest of 1415, Spain from 1580) and Gibraltar (Castile 1309-1333, Marinids 1333-1374, Granada 1374-1462, Castile 1462, England from the 1704 capture). Same format as napoleonic-conquests.json; the provinces come from enclaves.json.",
+ "groups": [
+  {
+   "name": "Ceuta",
+   "until": "present",
+   "timeline": [
+    [
+     700,
+     "Umayyad Caliphate"
+    ],
+    [
+     800,
+     "Idrisid Caliphate"
+    ],
+    [
+     1000,
+     "Caliphate of Córdoba"
+    ],
+    [
+     1100,
+     "Almoravid dynasty"
+    ],
+    [
+     1200,
+     "Almohad Caliphate"
+    ],
+    [
+     1279,
+     "Merinides"
+    ],
+    [
+     1306,
+     "Granada"
+    ],
+    [
+     1310,
+     "Merinides"
+    ],
+    [
+     1415,
+     "Portugal"
+    ],
+    [
+     1580,
+     "Spain"
+    ]
+   ],
+   "provinces": [
+    "Spain/Ceuta"
+   ]
+  },
+  {
+   "name": "Gibraltar",
+   "until": "present",
+   "timeline": [
+    [
+     700,
+     "Umayyad Caliphate"
+    ],
+    [
+     800,
+     "Emirate of Córdoba"
+    ],
+    [
+     1000,
+     "Caliphate of Córdoba"
+    ],
+    [
+     1100,
+     "Almoravid dynasty"
+    ],
+    [
+     1200,
+     "Almohad Caliphate"
+    ],
+    [
+     1279,
+     "Merinides"
+    ],
+    [
+     1309,
+     "Castile"
+    ],
+    [
+     1333,
+     "Merinides"
+    ],
+    [
+     1374,
+     "Granada"
+    ],
+    [
+     1462,
+     "Castile"
+    ],
+    [
+     1530,
+     "Spain"
+    ],
+    [
+     1704,
+     "England"
+    ],
+    [
+     1715,
+     "United Kingdom"
+    ]
+   ],
+   "provinces": [
+    "Spain/Gibraltar"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "_comment": "The source keeps the Ottoman Empire on the map until its 1938 snapshot. The empire was abolished in 1922 and the Republic of Turkey proclaimed in 1923, so the provinces of present-day Turkey that it still holds in 1923 pass to Turkey then. Same format as napoleonic-conquests.json.",
+ "groups": [
+  {
+   "name": "Republic of Turkey",
+   "until": 1937,
+   "when": { "year": 1923, "occupier": "Ottoman Sultanate" },
+   "timeline": [[1923, "Turkey"]],
+   "select": [{ "country": "Turkey" }]
+  }
+ ]
+}

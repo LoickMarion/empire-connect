@@ -10,7 +10,7 @@ const OUTLINE = { color: '#888', weight: BORDER_WEIGHT, fillOpacity: 0 }
 
 // Province boundaries. In paint mode each province is filled with the colour of whoever
 // occupied it in `year`; otherwise they are plain outlines. Clicking a province selects it.
-export default function ProvinceLayer({ paint, year, holdings, cities, colorAt, onProvinceClick }) {
+export default function ProvinceLayer({ paint, year, holdings, cities, colorAt, historyByCity, onProvinceClick }) {
   const [boundaries, setBoundaries] = useState(null)
   const layerRef = useRef(null)
   const clickRef = useRef(onProvinceClick)
@@ -27,7 +27,23 @@ export default function ProvinceLayer({ paint, year, holdings, cities, colorAt, 
   // handlers attached once to each province always see the current year.
   const tipRef = useRef(() => null)
   tipRef.current = (id) => {
-    if (!ownership) return null
+    if (!ownership) {
+      if (!historyByCity) return null
+      const list = historyByCity.get(id) ?? []
+      const box = document.createElement('div')
+      const name = document.createElement('strong')
+      name.textContent = cityNameById[id] ?? id
+      box.append(name)
+      const title = document.createElement('div')
+      title.textContent = list.length ? 'Held by:' : 'No recorded occupiers'
+      box.append(title)
+      for (const h of list) {
+        const row = document.createElement('div')
+        row.textContent = `${h.nation} · ${formatYear(h.start)}–${h.end >= PRESENT_YEAR ? 'present' : formatYear(h.end)}`
+        box.append(row)
+      }
+      return box
+    }
     const holding = ownership.get(id)
     const box = document.createElement('div')
     const title = document.createElement('strong')

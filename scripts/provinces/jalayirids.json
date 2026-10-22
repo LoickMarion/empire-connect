@@ -1,0 +1,290 @@
+{
+ "_comment": "The Jalayirid Sultanate and its rivals, 1336-1466. The Ilkhanate provinces the source leaves in eastern Anatolia pass to the Jalayirids when the Ilkhanate falls; the Jalayirids then lose and regain Iraq, western Iran and Azerbaijan to the Timurids (1386, 1388, 1393, 1401) and Qara Qoyunlu (1408-1410), surviving in the south until 1432. Timurid provinces cut off by Qara Qoyunlu go to the White Sheep Turks from 1467. Same format as napoleonic-conquests.json.",
+ "groups": [
+  {
+   "name": "Armenian Highland",
+   "until": 1491,
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1386,
+     "Timurid Empire"
+    ],
+    [
+     1405,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1408,
+     "Qara Qoyunlu"
+    ],
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Ağrı",
+    "Turkey/Muş",
+    "Turkey/Van",
+    "Turkey/Kars",
+    "Turkey/Artvin",
+    "Turkey/Hakkari",
+    "Turkey/Bitlis",
+    "Turkey/Siirt"
+   ]
+  },
+  {
+   "name": "Upper Mesopotamia",
+   "until": 1491,
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1386,
+     "Timurid Empire"
+    ],
+    [
+     1401,
+     "Emirate of the White Sheep Turks"
+    ]
+   ],
+   "provinces": [
+    "Turkey/Elazığ",
+    "Turkey/Diyarbakır",
+    "Turkey/Urfa"
+   ]
+  },
+  {
+   "name": "Georgia",
+   "until": 1385,
+   "timeline": [
+    [
+     1336,
+     "Georgia"
+    ]
+   ],
+   "provinces": [
+    "Georgia/Kakheti",
+    "Georgia/Kartli",
+    "Georgia/Samtskhe"
+   ]
+  },
+  {
+   "name": "Azerbaijan",
+   "until": 1466,
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1386,
+     "Timurid Empire"
+    ],
+    [
+     1405,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1408,
+     "Qara Qoyunlu"
+    ]
+   ],
+   "provinces": [
+    "Iran/Khoy",
+    "Iran/Qaradagh",
+    "Iran/Talysh",
+    "Iran/Ardabil",
+    "Iran/Tabriz",
+    "Iran/Urmia",
+    "Iran/Maragheh",
+    "Iran/Gilan",
+    "Iran/Mukriyan",
+    "Iran/Zanjan",
+    "Azerbaijan/Shaki",
+    "Azerbaijan/Ganja",
+    "Azerbaijan/Shirvan",
+    "Azerbaijan/Baku",
+    "Azerbaijan/Karabakh",
+    "Azerbaijan/Nakhchivan",
+    "Azerbaijan/Lankaran",
+    "Armenia/Lori",
+    "Armenia/Shirak",
+    "Armenia/Ararat",
+    "Armenia/Syunik"
+   ]
+  },
+  {
+   "name": "Western Iran",
+   "until": 1466,
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1388,
+     "Timurid Empire"
+    ],
+    [
+     1396,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1401,
+     "Timurid Empire"
+    ],
+    [
+     1405,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1410,
+     "Qara Qoyunlu"
+    ]
+   ],
+   "provinces": [
+    "Iran/Hamadan",
+    "Iran/Kermanshah",
+    "Iran/Kurdistan",
+    "Iran/Saqqez",
+    "Iran/Borujerd",
+    "Iran/Ilam",
+    "Iran/Luristan"
+   ]
+  },
+  {
+   "name": "Northern and central Iraq",
+   "until": 1466,
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1393,
+     "Timurid Empire"
+    ],
+    [
+     1396,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1401,
+     "Timurid Empire"
+    ],
+    [
+     1405,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1410,
+     "Qara Qoyunlu"
+    ]
+   ],
+   "provinces": [
+    "Iraq/Duhok",
+    "Iraq/Mosul",
+    "Iraq/Erbil",
+    "Iraq/Sulaymaniyah",
+    "Iraq/Kirkuk",
+    "Iraq/Salahuddin",
+    "Iraq/Diyala",
+    "Iraq/Anbar",
+    "Iraq/Baghdad",
+    "Iraq/Western Desert",
+    "Iraq/Karbala",
+    "Iraq/Wasit",
+    "Iraq/Babylon",
+    "Iraq/Najaf"
+   ]
+  },
+  {
+   "name": "Southern Iraq and Khuzestan",
+   "until": 1466,
+   "timeline": [
+    [
+     1336,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1393,
+     "Timurid Empire"
+    ],
+    [
+     1396,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1401,
+     "Timurid Empire"
+    ],
+    [
+     1405,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1433,
+     "Qara Qoyunlu"
+    ]
+   ],
+   "provinces": [
+    "Iraq/Maysan",
+    "Iraq/Muthanna",
+    "Iraq/Dhi Qar",
+    "Iraq/Basra",
+    "Iran/Dezful",
+    "Iran/Khuzestan",
+    "Iran/Abadan",
+    "Kuwait/Kuwait"
+   ]
+  },
+  {
+   "name": "Gulf coast",
+   "until": 1491,
+   "timeline": [
+    [
+     1400,
+     "Timurid Empire"
+    ],
+    [
+     1405,
+     "Jalayirid Sultanate"
+    ],
+    [
+     1410,
+     "Qara Qoyunlu"
+    ],
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ]
+   ],
+   "provinces": [
+    "Saudi Arabia/Qatif",
+    "Saudi Arabia/Hasa",
+    "Saudi Arabia/Hafar al-Batin",
+    "Qatar/Qatar"
+   ]
+  },
+  {
+   "name": "Caucasus coast",
+   "until": 1491,
+   "timeline": [
+    [
+     1467,
+     "Emirate of the White Sheep Turks"
+    ]
+   ],
+   "provinces": [
+    "Russia/Dagestan"
+   ]
+  }
+ ]
+}
